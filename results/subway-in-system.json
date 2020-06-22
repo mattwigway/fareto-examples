@@ -1,1 +1,787 @@
-{"request":{"fromLat":40.60039879034164,"fromLon":-73.95044619591759,"toLat":40.781581302919285,"toLon":-73.95731787223617,"fromTime":25200,"toTime":25260,"walkSpeed":1.3888888,"bikeSpeed":4.1666665,"bikeTrafficStress":4,"carSpeed":20,"streetTime":90,"maxWalkTime":20,"maxBikeTime":20,"maxCarTime":45,"minBikeTime":10,"minCarTime":10,"date":"2019-12-16","limit":0,"accessModes":"WALK","egressModes":"WALK","directModes":"WALK","transitModes":"TRAM,SUBWAY,RAIL,BUS,FERRY,CABLE_CAR,GONDOLA,FUNICULAR","suboptimalMinutes":5,"maxTripDurationMinutes":120,"maxRides":4,"scenario":null,"scenarioId":null,"zoneId":"Z","wheelchair":false,"maxFare":200000,"inRoutingFareCalculator":{"type":"nyc","gtfsFares":null},"monteCarloDraws":1},"trips":[{"durationSeconds":3934,"departureTime":25255,"fare":275,"legs":[{"originLat":40.5993,"originLon":-73.955929,"destLat":40.7357359,"destLon":-73.990568,"geom":{"type":"LineString","coordinates":[[-73.955929,40.5993],[-73.957734,40.60867],[-73.957734,40.60867],[-73.959399,40.617618],[-73.959399,40.617618],[-73.960803,40.625039],[-73.960803,40.625039],[-73.961639,40.62927],[-73.961639,40.62927],[-73.962793,40.635082],[-73.962793,40.635082],[-73.963891,40.640927],[-73.963891,40.640927],[-73.964492,40.644031],[-73.964492,40.644031],[-73.962982,40.650527],[-73.962982,40.650527],[-73.961495,40.6552919],[-73.961495,40.6552919],[-73.9622459,40.661614],[-73.9622459,40.661614],[-73.972367,40.67705],[-73.972367,40.67705],[-73.97689,40.6844599],[-73.97689,40.6844599],[-73.981824,40.690635],[-73.981824,40.690635],[-74.00046,40.718383],[-74.00046,40.718383],[-73.990568,40.7357359]]},"originTime":25800,"destTime":28080,"originStopId":"east_of_hudson:nyct_subway_D37N","originStopName":"Avenue U","destStopId":"east_of_hudson:nyct_subway_R20N","destStopName":"14 St - Union Sq","cumulativeFare":275,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_SUBWAY","metrocardTransferExpiry":32455,"inSubwayPaidArea":true,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"nyct_subway_MTA NYCT","agency_name":"MTA New York City Transit","route_id":"nyct_subway_Q","route_short_name":"Q","route_long_name":"Broadway Express","route_type":1,"color":"FCCC0A","agency_url":"http://web.mta.info/nyct/service/pdf/tqcur.pdf"},"type":"transit"},{"originLat":40.7357359,"originLon":-73.990568,"destLat":40.734673,"destLon":-73.989951,"geom":{"type":"LineString","coordinates":[[-73.990568,40.7357359],[-73.989951,40.734673]]},"originTime":28080,"destTime":28195,"originStopId":"east_of_hudson:nyct_subway_R20N","originStopName":"14 St - Union Sq","destStopId":"east_of_hudson:nyct_subway_635N","destStopName":"14 St - Union Sq","cumulativeFare":275,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_SUBWAY","metrocardTransferExpiry":32455,"inSubwayPaidArea":true,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.734673,"originLon":-73.989951,"destLat":40.779492,"destLon":-73.955589,"geom":{"type":"LineString","coordinates":[[-73.989951,40.734673],[-73.976848,40.751776],[-73.976848,40.751776],[-73.967967,40.762526],[-73.967967,40.762526],[-73.955589,40.779492]]},"originTime":28260,"destTime":28860,"originStopId":"east_of_hudson:nyct_subway_635N","originStopName":"14 St - Union Sq","destStopId":"east_of_hudson:nyct_subway_626N","destStopName":"86 St","cumulativeFare":275,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_SUBWAY","metrocardTransferExpiry":32455,"inSubwayPaidArea":true,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"nyct_subway_MTA NYCT","agency_name":"MTA New York City Transit","route_id":"nyct_subway_4","route_short_name":"4","route_long_name":"Lexington Avenue Express","route_type":1,"color":"00933C","agency_url":"http://web.mta.info/nyct/service/pdf/t4cur.pdf"},"type":"transit"}],"tripIndex":0,"optimal":true},{"durationSeconds":4537,"departureTime":25255,"fare":550,"legs":[{"originLat":40.5993,"originLon":-73.955929,"destLat":40.7357359,"destLon":-73.990568,"geom":{"type":"LineString","coordinates":[[-73.955929,40.5993],[-73.957734,40.60867],[-73.957734,40.60867],[-73.959399,40.617618],[-73.959399,40.617618],[-73.960803,40.625039],[-73.960803,40.625039],[-73.961639,40.62927],[-73.961639,40.62927],[-73.962793,40.635082],[-73.962793,40.635082],[-73.963891,40.640927],[-73.963891,40.640927],[-73.964492,40.644031],[-73.964492,40.644031],[-73.962982,40.650527],[-73.962982,40.650527],[-73.961495,40.6552919],[-73.961495,40.6552919],[-73.9622459,40.661614],[-73.9622459,40.661614],[-73.972367,40.67705],[-73.972367,40.67705],[-73.97689,40.6844599],[-73.97689,40.6844599],[-73.981824,40.690635],[-73.981824,40.690635],[-74.00046,40.718383],[-74.00046,40.718383],[-73.990568,40.7357359]]},"originTime":25800,"destTime":28080,"originStopId":"east_of_hudson:nyct_subway_D37N","originStopName":"Avenue U","destStopId":"east_of_hudson:nyct_subway_R20N","destStopName":"14 St - Union Sq","cumulativeFare":275,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_SUBWAY","metrocardTransferExpiry":32455,"inSubwayPaidArea":true,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"nyct_subway_MTA NYCT","agency_name":"MTA New York City Transit","route_id":"nyct_subway_Q","route_short_name":"Q","route_long_name":"Broadway Express","route_type":1,"color":"FCCC0A","agency_url":"http://web.mta.info/nyct/service/pdf/tqcur.pdf"},"type":"transit"},{"originLat":40.7357359,"originLon":-73.990568,"destLat":40.734673,"destLon":-73.989951,"geom":{"type":"LineString","coordinates":[[-73.990568,40.7357359],[-73.989951,40.734673]]},"originTime":28080,"destTime":28195,"originStopId":"east_of_hudson:nyct_subway_R20N","originStopName":"14 St - Union Sq","destStopId":"east_of_hudson:nyct_subway_635N","destStopName":"14 St - Union Sq","cumulativeFare":275,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_SUBWAY","metrocardTransferExpiry":32455,"inSubwayPaidArea":true,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.734673,"originLon":-73.989951,"destLat":40.779492,"destLon":-73.955589,"geom":{"type":"LineString","coordinates":[[-73.989951,40.734673],[-73.976848,40.751776],[-73.976848,40.751776],[-73.967967,40.762526],[-73.967967,40.762526],[-73.955589,40.779492]]},"originTime":28260,"destTime":28860,"originStopId":"east_of_hudson:nyct_subway_635N","originStopName":"14 St - Union Sq","destStopId":"east_of_hudson:nyct_subway_626N","destStopName":"86 St","cumulativeFare":275,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_SUBWAY","metrocardTransferExpiry":32455,"inSubwayPaidArea":true,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"nyct_subway_MTA NYCT","agency_name":"MTA New York City Transit","route_id":"nyct_subway_4","route_short_name":"4","route_long_name":"Lexington Avenue Express","route_type":1,"color":"00933C","agency_url":"http://web.mta.info/nyct/service/pdf/t4cur.pdf"},"type":"transit"},{"originLat":40.779492,"originLon":-73.955589,"destLat":40.779177,"destLon":-73.954877,"geom":{"type":"LineString","coordinates":[[-73.955589,40.779492],[-73.954877,40.779177]]},"originTime":28860,"destTime":28913,"originStopId":"east_of_hudson:nyct_subway_626N","originStopName":"86 St","destStopId":"east_of_hudson:bus-manhattan_401905","destStopName":"E 86 ST/LEXINGTON  AV","cumulativeFare":275,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_SUBWAY","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.779177,"originLon":-73.954877,"destLat":40.778463,"destLon":-73.953302,"geom":{"type":"LineString","coordinates":[[-73.954877,40.779177],[-73.953302,40.778463]]},"originTime":29157,"destTime":29230,"originStopId":"east_of_hudson:bus-manhattan_401905","originStopName":"E 86 ST/LEXINGTON  AV","destStopId":"east_of_hudson:bus-manhattan_401906","destStopName":"E 86 ST/3 AV","cumulativeFare":275,"transferAllowance":{"value":0,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"bus-manhattan_MTA NYCT","agency_name":"MTA New York City Transit","route_id":"bus-manhattan_M86+","route_short_name":"M86-SBS","route_long_name":"Yorkville - West Side","route_type":3,"color":"FAA61A","agency_url":null},"type":"transit"},{"originLat":40.778463,"originLon":-73.953302,"destLat":40.778999,"destLon":-73.954184,"geom":{"type":"LineString","coordinates":[[-73.953302,40.778463],[-73.954184,40.778999]]},"originTime":29230,"destTime":29305,"originStopId":"east_of_hudson:bus-manhattan_401906","originStopName":"E 86 ST/3 AV","destStopId":"east_of_hudson:bus-manhattan_401921","destStopName":"E 86 ST/3 AV","cumulativeFare":275,"transferAllowance":{"value":0,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.778999,"originLon":-73.954184,"destLat":40.779905,"destLon":-73.956476,"geom":{"type":"LineString","coordinates":[[-73.954184,40.778999],[-73.956476,40.779905]]},"originTime":29422,"destTime":29525,"originStopId":"east_of_hudson:bus-manhattan_401921","originStopName":"E 86 ST/3 AV","destStopId":"east_of_hudson:bus-manhattan_401922","destStopName":"E 86 ST/LEXINGTON AV","cumulativeFare":550,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_LOCAL_BUS","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"bus-manhattan_MTA NYCT","agency_name":"MTA New York City Transit","route_id":"bus-manhattan_M86+","route_short_name":"M86-SBS","route_long_name":"Yorkville - West Side","route_type":3,"color":"FAA61A","agency_url":null},"type":"transit"}],"tripIndex":1,"optimal":false}],"computeTimeMillis":2962}
+{
+  "request": {
+    "fromLat": 40.60039879034164,
+    "fromLon": -73.95044619591759,
+    "toLat": 40.781581302919285,
+    "toLon": -73.95731787223617,
+    "fromTime": 25200,
+    "toTime": 25260,
+    "walkSpeed": 1.3888888,
+    "bikeSpeed": 4.1666665,
+    "bikeTrafficStress": 4,
+    "carSpeed": 20.0,
+    "streetTime": 90,
+    "maxWalkTime": 20,
+    "maxBikeTime": 20,
+    "maxCarTime": 45,
+    "minBikeTime": 10,
+    "minCarTime": 10,
+    "date": "2019-12-16",
+    "limit": 0,
+    "accessModes": "WALK",
+    "egressModes": "WALK",
+    "directModes": "WALK",
+    "transitModes": "TRAM,SUBWAY,RAIL,BUS,FERRY,CABLE_CAR,GONDOLA,FUNICULAR",
+    "suboptimalMinutes": 5,
+    "maxTripDurationMinutes": 120,
+    "maxRides": 4,
+    "scenario": null,
+    "scenarioId": null,
+    "zoneId": "Z",
+    "wheelchair": false,
+    "maxFare": 200000,
+    "inRoutingFareCalculator": {
+      "type": "nyc",
+      "gtfsFares": null,
+      "toLirrDiscounts": null,
+      "toMetroNorthDiscounts": null,
+      "lirrMetrocardTransferSource": null,
+      "metroNorthMetrocardTransferSource": null,
+      "lirrFareOverrides": null,
+      "metroNorthFareOverrides": null
+    },
+    "monteCarloDraws": 1
+  },
+  "trips": [
+    {
+      "durationSeconds": 3934,
+      "departureTime": 25255,
+      "fare": 275,
+      "legs": [
+        {
+          "originLat": 40.5993,
+          "originLon": -73.955929,
+          "destLat": 40.7357359,
+          "destLon": -73.990568,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.955929,
+                40.5993
+              ],
+              [
+                -73.957734,
+                40.60867
+              ],
+              [
+                -73.957734,
+                40.60867
+              ],
+              [
+                -73.959399,
+                40.617618
+              ],
+              [
+                -73.959399,
+                40.617618
+              ],
+              [
+                -73.960803,
+                40.625039
+              ],
+              [
+                -73.960803,
+                40.625039
+              ],
+              [
+                -73.961639,
+                40.62927
+              ],
+              [
+                -73.961639,
+                40.62927
+              ],
+              [
+                -73.962793,
+                40.635082
+              ],
+              [
+                -73.962793,
+                40.635082
+              ],
+              [
+                -73.963891,
+                40.640927
+              ],
+              [
+                -73.963891,
+                40.640927
+              ],
+              [
+                -73.964492,
+                40.644031
+              ],
+              [
+                -73.964492,
+                40.644031
+              ],
+              [
+                -73.962982,
+                40.650527
+              ],
+              [
+                -73.962982,
+                40.650527
+              ],
+              [
+                -73.961495,
+                40.6552919
+              ],
+              [
+                -73.961495,
+                40.6552919
+              ],
+              [
+                -73.9622459,
+                40.661614
+              ],
+              [
+                -73.9622459,
+                40.661614
+              ],
+              [
+                -73.972367,
+                40.67705
+              ],
+              [
+                -73.972367,
+                40.67705
+              ],
+              [
+                -73.97689,
+                40.6844599
+              ],
+              [
+                -73.97689,
+                40.6844599
+              ],
+              [
+                -73.981824,
+                40.690635
+              ],
+              [
+                -73.981824,
+                40.690635
+              ],
+              [
+                -74.00046,
+                40.718383
+              ],
+              [
+                -74.00046,
+                40.718383
+              ],
+              [
+                -73.990568,
+                40.7357359
+              ]
+            ]
+          },
+          "originTime": 25800,
+          "destTime": 28080,
+          "originStopId": "east_of_hudson:nyct_subway_D37N",
+          "originStopName": "Avenue U",
+          "destStopId": "east_of_hudson:nyct_subway_R20N",
+          "destStopName": "14 St - Union Sq",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": true,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nyct_subway_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "nyct_subway_Q",
+            "route_short_name": "Q",
+            "route_long_name": "Broadway Express",
+            "route_type": 1,
+            "color": "FCCC0A",
+            "agency_url": "http://web.mta.info/nyct/service/pdf/tqcur.pdf"
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.7357359,
+          "originLon": -73.990568,
+          "destLat": 40.734673,
+          "destLon": -73.989951,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.990568,
+                40.7357359
+              ],
+              [
+                -73.989951,
+                40.734673
+              ]
+            ]
+          },
+          "originTime": 28080,
+          "destTime": 28195,
+          "originStopId": "east_of_hudson:nyct_subway_R20N",
+          "originStopName": "14 St - Union Sq",
+          "destStopId": "east_of_hudson:nyct_subway_635N",
+          "destStopName": "14 St - Union Sq",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": true,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.734673,
+          "originLon": -73.989951,
+          "destLat": 40.779492,
+          "destLon": -73.955589,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.989951,
+                40.734673
+              ],
+              [
+                -73.976848,
+                40.751776
+              ],
+              [
+                -73.976848,
+                40.751776
+              ],
+              [
+                -73.967967,
+                40.762526
+              ],
+              [
+                -73.967967,
+                40.762526
+              ],
+              [
+                -73.955589,
+                40.779492
+              ]
+            ]
+          },
+          "originTime": 28260,
+          "destTime": 28860,
+          "originStopId": "east_of_hudson:nyct_subway_635N",
+          "originStopName": "14 St - Union Sq",
+          "destStopId": "east_of_hudson:nyct_subway_626N",
+          "destStopName": "86 St",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": true,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nyct_subway_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "nyct_subway_4",
+            "route_short_name": "4",
+            "route_long_name": "Lexington Avenue Express",
+            "route_type": 1,
+            "color": "00933C",
+            "agency_url": "http://web.mta.info/nyct/service/pdf/t4cur.pdf"
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 4537,
+      "departureTime": 25255,
+      "fare": 550,
+      "legs": [
+        {
+          "originLat": 40.5993,
+          "originLon": -73.955929,
+          "destLat": 40.7357359,
+          "destLon": -73.990568,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.955929,
+                40.5993
+              ],
+              [
+                -73.957734,
+                40.60867
+              ],
+              [
+                -73.957734,
+                40.60867
+              ],
+              [
+                -73.959399,
+                40.617618
+              ],
+              [
+                -73.959399,
+                40.617618
+              ],
+              [
+                -73.960803,
+                40.625039
+              ],
+              [
+                -73.960803,
+                40.625039
+              ],
+              [
+                -73.961639,
+                40.62927
+              ],
+              [
+                -73.961639,
+                40.62927
+              ],
+              [
+                -73.962793,
+                40.635082
+              ],
+              [
+                -73.962793,
+                40.635082
+              ],
+              [
+                -73.963891,
+                40.640927
+              ],
+              [
+                -73.963891,
+                40.640927
+              ],
+              [
+                -73.964492,
+                40.644031
+              ],
+              [
+                -73.964492,
+                40.644031
+              ],
+              [
+                -73.962982,
+                40.650527
+              ],
+              [
+                -73.962982,
+                40.650527
+              ],
+              [
+                -73.961495,
+                40.6552919
+              ],
+              [
+                -73.961495,
+                40.6552919
+              ],
+              [
+                -73.9622459,
+                40.661614
+              ],
+              [
+                -73.9622459,
+                40.661614
+              ],
+              [
+                -73.972367,
+                40.67705
+              ],
+              [
+                -73.972367,
+                40.67705
+              ],
+              [
+                -73.97689,
+                40.6844599
+              ],
+              [
+                -73.97689,
+                40.6844599
+              ],
+              [
+                -73.981824,
+                40.690635
+              ],
+              [
+                -73.981824,
+                40.690635
+              ],
+              [
+                -74.00046,
+                40.718383
+              ],
+              [
+                -74.00046,
+                40.718383
+              ],
+              [
+                -73.990568,
+                40.7357359
+              ]
+            ]
+          },
+          "originTime": 25800,
+          "destTime": 28080,
+          "originStopId": "east_of_hudson:nyct_subway_D37N",
+          "originStopName": "Avenue U",
+          "destStopId": "east_of_hudson:nyct_subway_R20N",
+          "destStopName": "14 St - Union Sq",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": true,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nyct_subway_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "nyct_subway_Q",
+            "route_short_name": "Q",
+            "route_long_name": "Broadway Express",
+            "route_type": 1,
+            "color": "FCCC0A",
+            "agency_url": "http://web.mta.info/nyct/service/pdf/tqcur.pdf"
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.7357359,
+          "originLon": -73.990568,
+          "destLat": 40.734673,
+          "destLon": -73.989951,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.990568,
+                40.7357359
+              ],
+              [
+                -73.989951,
+                40.734673
+              ]
+            ]
+          },
+          "originTime": 28080,
+          "destTime": 28195,
+          "originStopId": "east_of_hudson:nyct_subway_R20N",
+          "originStopName": "14 St - Union Sq",
+          "destStopId": "east_of_hudson:nyct_subway_635N",
+          "destStopName": "14 St - Union Sq",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": true,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.734673,
+          "originLon": -73.989951,
+          "destLat": 40.779492,
+          "destLon": -73.955589,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.989951,
+                40.734673
+              ],
+              [
+                -73.976848,
+                40.751776
+              ],
+              [
+                -73.976848,
+                40.751776
+              ],
+              [
+                -73.967967,
+                40.762526
+              ],
+              [
+                -73.967967,
+                40.762526
+              ],
+              [
+                -73.955589,
+                40.779492
+              ]
+            ]
+          },
+          "originTime": 28260,
+          "destTime": 28860,
+          "originStopId": "east_of_hudson:nyct_subway_635N",
+          "originStopName": "14 St - Union Sq",
+          "destStopId": "east_of_hudson:nyct_subway_626N",
+          "destStopName": "86 St",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": true,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nyct_subway_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "nyct_subway_4",
+            "route_short_name": "4",
+            "route_long_name": "Lexington Avenue Express",
+            "route_type": 1,
+            "color": "00933C",
+            "agency_url": "http://web.mta.info/nyct/service/pdf/t4cur.pdf"
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.779492,
+          "originLon": -73.955589,
+          "destLat": 40.779177,
+          "destLon": -73.954877,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.955589,
+                40.779492
+              ],
+              [
+                -73.954877,
+                40.779177
+              ]
+            ]
+          },
+          "originTime": 28860,
+          "destTime": 28913,
+          "originStopId": "east_of_hudson:nyct_subway_626N",
+          "originStopName": "86 St",
+          "destStopId": "east_of_hudson:bus-manhattan_401905",
+          "destStopName": "E 86 ST/LEXINGTON  AV",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.779177,
+          "originLon": -73.954877,
+          "destLat": 40.778463,
+          "destLon": -73.953302,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.954877,
+                40.779177
+              ],
+              [
+                -73.953302,
+                40.778463
+              ]
+            ]
+          },
+          "originTime": 29157,
+          "destTime": 29230,
+          "originStopId": "east_of_hudson:bus-manhattan_401905",
+          "originStopName": "E 86 ST/LEXINGTON  AV",
+          "destStopId": "east_of_hudson:bus-manhattan_401906",
+          "destStopName": "E 86 ST/3 AV",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 0,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-manhattan_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "bus-manhattan_M86+",
+            "route_short_name": "M86-SBS",
+            "route_long_name": "Yorkville - West Side",
+            "route_type": 3,
+            "color": "FAA61A",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.778463,
+          "originLon": -73.953302,
+          "destLat": 40.778999,
+          "destLon": -73.954184,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.953302,
+                40.778463
+              ],
+              [
+                -73.954184,
+                40.778999
+              ]
+            ]
+          },
+          "originTime": 29230,
+          "destTime": 29305,
+          "originStopId": "east_of_hudson:bus-manhattan_401906",
+          "originStopName": "E 86 ST/3 AV",
+          "destStopId": "east_of_hudson:bus-manhattan_401921",
+          "destStopName": "E 86 ST/3 AV",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 0,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.778999,
+          "originLon": -73.954184,
+          "destLat": 40.779905,
+          "destLon": -73.956476,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.954184,
+                40.778999
+              ],
+              [
+                -73.956476,
+                40.779905
+              ]
+            ]
+          },
+          "originTime": 29422,
+          "destTime": 29525,
+          "originStopId": "east_of_hudson:bus-manhattan_401921",
+          "originStopName": "E 86 ST/3 AV",
+          "destStopId": "east_of_hudson:bus-manhattan_401922",
+          "destStopName": "E 86 ST/LEXINGTON AV",
+          "cumulativeFare": 550,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_LOCAL_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-manhattan_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "bus-manhattan_M86+",
+            "route_short_name": "M86-SBS",
+            "route_long_name": "Yorkville - West Side",
+            "route_type": 3,
+            "color": "FAA61A",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    }
+  ],
+  "computeTimeMillis": 1832,
+  "backendVersion": {
+    "version": "UNKNOWN",
+    "commit": "UNKNOWN",
+    "describe": "UNKNOWN",
+    "branch": "UNKNOWN",
+    "buildHost": "UNKNOWN",
+    "buildTime": "UNKNOWN"
+  },
+  "generationTime": "2020-06-21T23:17:01.844297"
+}

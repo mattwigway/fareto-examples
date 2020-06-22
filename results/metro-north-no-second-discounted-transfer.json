@@ -1,1 +1,408 @@
-{"request":{"fromLat":41.04388642845254,"fromLon":-73.74193458726417,"toLat":40.70562793820592,"toLon":-74.01283854387341,"fromTime":25200,"toTime":25260,"walkSpeed":1.3888888,"bikeSpeed":4.1666665,"bikeTrafficStress":4,"carSpeed":20,"streetTime":90,"maxWalkTime":20,"maxBikeTime":20,"maxCarTime":45,"minBikeTime":10,"minCarTime":10,"date":"2019-12-16","limit":0,"accessModes":"WALK","egressModes":"WALK","directModes":"WALK","transitModes":"TRAM,SUBWAY,RAIL,BUS,FERRY,CABLE_CAR,GONDOLA,FUNICULAR","suboptimalMinutes":5,"maxTripDurationMinutes":120,"maxRides":4,"scenario":null,"scenarioId":null,"zoneId":"Z","wheelchair":false,"maxFare":200000,"inRoutingFareCalculator":{"type":"nyc","gtfsFares":null,"toLirrDiscounts":null,"toMetroNorthDiscounts":{"METROCARD_LOCAL_BUS":275},"lirrMetrocardTransferSource":null,"metroNorthMetrocardTransferSource":"METROCARD_LOCAL_BUS","lirrFareOverrides":null,"metroNorthFareOverrides":null},"monteCarloDraws":1},"trips":[{"durationSeconds":6988,"departureTime":25255,"fare":1550,"legs":[{"originLat":41.037612,"originLon":-73.750289,"destLat":41.032453,"destLon":-73.769799,"geom":{"type":"LineString","coordinates":[[-73.750289,41.037612],[-73.749245,41.041754],[-73.749245,41.041754],[-73.755184,41.040744],[-73.755184,41.040744],[-73.757827,41.03901],[-73.757827,41.03901],[-73.760229,41.0378369],[-73.760229,41.0378369],[-73.761948,41.037123],[-73.761948,41.037123],[-73.763099,41.036636],[-73.763099,41.036636],[-73.763459,41.034022],[-73.763459,41.034022],[-73.767999,41.0311479],[-73.767999,41.0311479],[-73.769799,41.032453]]},"originTime":26775,"destTime":27469,"originStopId":"east_of_hudson:westchester_544","originStopName":"UNDERHILL AVE @ MAIN ST","destStopId":"east_of_hudson:westchester_33","destStopName":"MARTIN LUTHER KING BLVD @ MAIN ST","cumulativeFare":275,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_LOCAL_BUS","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"westchester_WCDOT","agency_name":"Bee-Line Bus","route_id":"westchester_17170","route_short_name":"5","route_long_name":"5 - YONKERS-WHITE PLAINS-HARRISON","route_type":3,"color":"0080C0","agency_url":null},"type":"transit"},{"originLat":41.032453,"originLon":-73.769799,"destLat":41.032589,"destLon":-73.7752079,"geom":{"type":"LineString","coordinates":[[-73.769799,41.032453],[-73.7752079,41.032589]]},"originTime":27469,"destTime":27941,"originStopId":"east_of_hudson:westchester_33","originStopName":"MARTIN LUTHER KING BLVD @ MAIN ST","destStopId":"east_of_hudson:mnr_74","destStopName":"White Plains","cumulativeFare":275,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_LOCAL_BUS","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":41.032589,"originLon":-73.7752079,"destLat":40.805157,"destLon":-73.939149,"geom":{"type":"LineString","coordinates":[[-73.7752079,41.032589],[-73.939149,40.805157]]},"originTime":28260,"destTime":29940,"originStopId":"east_of_hudson:mnr_74","originStopName":"White Plains","destStopId":"east_of_hudson:mnr_4","destStopName":"Harlem-125th St.","cumulativeFare":1275,"transferAllowance":{"value":0,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"mnr_1","agency_name":"Metro-North Railroad","route_id":"mnr_2_peak","route_short_name":null,"route_long_name":"Harlem","route_type":2,"color":"0039A6","agency_url":null},"type":"transit"},{"originLat":40.805157,"originLon":-73.939149,"destLat":40.804138,"destLon":-73.9375939,"geom":{"type":"LineString","coordinates":[[-73.939149,40.805157],[-73.9375939,40.804138]]},"originTime":29940,"destTime":30089,"originStopId":"east_of_hudson:mnr_4","originStopName":"Harlem-125th St.","destStopId":"east_of_hudson:nyct_subway_621S","destStopName":"125 St","cumulativeFare":1275,"transferAllowance":{"value":0,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.804138,"originLon":-73.9375939,"destLat":40.707557,"destLon":-74.0118619,"geom":{"type":"LineString","coordinates":[[-73.9375939,40.804138],[-73.955589,40.779492],[-73.955589,40.779492],[-73.967967,40.762526],[-73.967967,40.762526],[-73.976848,40.751776],[-73.976848,40.751776],[-73.989951,40.734673],[-73.989951,40.734673],[-74.004131,40.713065],[-74.004131,40.713065],[-74.009509,40.710368],[-74.009509,40.710368],[-74.0118619,40.707557]]},"originTime":30150,"destTime":32040,"originStopId":"east_of_hudson:nyct_subway_621S","originStopName":"125 St","destStopId":"east_of_hudson:nyct_subway_419S","destStopName":"Wall St","cumulativeFare":1550,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_SUBWAY","metrocardTransferExpiry":32455,"inSubwayPaidArea":true,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"nyct_subway_MTA NYCT","agency_name":"MTA New York City Transit","route_id":"nyct_subway_4","route_short_name":"4","route_long_name":"Lexington Avenue Express","route_type":1,"color":"00933C","agency_url":"http://web.mta.info/nyct/service/pdf/t4cur.pdf"},"type":"transit"}],"tripIndex":0,"optimal":true}],"computeTimeMillis":225}
+{
+  "request": {
+    "fromLat": 41.04388642845254,
+    "fromLon": -73.74193458726417,
+    "toLat": 40.70562793820592,
+    "toLon": -74.01283854387341,
+    "fromTime": 25200,
+    "toTime": 25260,
+    "walkSpeed": 1.3888888,
+    "bikeSpeed": 4.1666665,
+    "bikeTrafficStress": 4,
+    "carSpeed": 20.0,
+    "streetTime": 90,
+    "maxWalkTime": 20,
+    "maxBikeTime": 20,
+    "maxCarTime": 45,
+    "minBikeTime": 10,
+    "minCarTime": 10,
+    "date": "2019-12-16",
+    "limit": 0,
+    "accessModes": "WALK",
+    "egressModes": "WALK",
+    "directModes": "WALK",
+    "transitModes": "TRAM,SUBWAY,RAIL,BUS,FERRY,CABLE_CAR,GONDOLA,FUNICULAR",
+    "suboptimalMinutes": 5,
+    "maxTripDurationMinutes": 120,
+    "maxRides": 4,
+    "scenario": null,
+    "scenarioId": null,
+    "zoneId": "Z",
+    "wheelchair": false,
+    "maxFare": 200000,
+    "inRoutingFareCalculator": {
+      "type": "nyc",
+      "gtfsFares": null,
+      "toLirrDiscounts": null,
+      "toMetroNorthDiscounts": {
+        "METROCARD_LOCAL_BUS": 275
+      },
+      "lirrMetrocardTransferSource": null,
+      "metroNorthMetrocardTransferSource": "METROCARD_LOCAL_BUS",
+      "lirrFareOverrides": null,
+      "metroNorthFareOverrides": null
+    },
+    "monteCarloDraws": 1
+  },
+  "trips": [
+    {
+      "durationSeconds": 6988,
+      "departureTime": 25255,
+      "fare": 1550,
+      "legs": [
+        {
+          "originLat": 41.037612,
+          "originLon": -73.750289,
+          "destLat": 41.032453,
+          "destLon": -73.769799,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.750289,
+                41.037612
+              ],
+              [
+                -73.749245,
+                41.041754
+              ],
+              [
+                -73.749245,
+                41.041754
+              ],
+              [
+                -73.755184,
+                41.040744
+              ],
+              [
+                -73.755184,
+                41.040744
+              ],
+              [
+                -73.757827,
+                41.03901
+              ],
+              [
+                -73.757827,
+                41.03901
+              ],
+              [
+                -73.760229,
+                41.0378369
+              ],
+              [
+                -73.760229,
+                41.0378369
+              ],
+              [
+                -73.761948,
+                41.037123
+              ],
+              [
+                -73.761948,
+                41.037123
+              ],
+              [
+                -73.763099,
+                41.036636
+              ],
+              [
+                -73.763099,
+                41.036636
+              ],
+              [
+                -73.763459,
+                41.034022
+              ],
+              [
+                -73.763459,
+                41.034022
+              ],
+              [
+                -73.767999,
+                41.0311479
+              ],
+              [
+                -73.767999,
+                41.0311479
+              ],
+              [
+                -73.769799,
+                41.032453
+              ]
+            ]
+          },
+          "originTime": 26775,
+          "destTime": 27469,
+          "originStopId": "east_of_hudson:westchester_544",
+          "originStopName": "UNDERHILL AVE @ MAIN ST",
+          "destStopId": "east_of_hudson:westchester_33",
+          "destStopName": "MARTIN LUTHER KING BLVD @ MAIN ST",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_LOCAL_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "westchester_WCDOT",
+            "agency_name": "Bee-Line Bus",
+            "route_id": "westchester_17170",
+            "route_short_name": "5",
+            "route_long_name": "5 - YONKERS-WHITE PLAINS-HARRISON",
+            "route_type": 3,
+            "color": "0080C0",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 41.032453,
+          "originLon": -73.769799,
+          "destLat": 41.032589,
+          "destLon": -73.7752079,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.769799,
+                41.032453
+              ],
+              [
+                -73.7752079,
+                41.032589
+              ]
+            ]
+          },
+          "originTime": 27469,
+          "destTime": 27941,
+          "originStopId": "east_of_hudson:westchester_33",
+          "originStopName": "MARTIN LUTHER KING BLVD @ MAIN ST",
+          "destStopId": "east_of_hudson:mnr_74",
+          "destStopName": "White Plains",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_LOCAL_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 41.032589,
+          "originLon": -73.7752079,
+          "destLat": 40.805157,
+          "destLon": -73.939149,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.7752079,
+                41.032589
+              ],
+              [
+                -73.939149,
+                40.805157
+              ]
+            ]
+          },
+          "originTime": 28260,
+          "destTime": 29940,
+          "originStopId": "east_of_hudson:mnr_74",
+          "originStopName": "White Plains",
+          "destStopId": "east_of_hudson:mnr_4",
+          "destStopName": "Harlem-125th St.",
+          "cumulativeFare": 1275,
+          "transferAllowance": {
+            "value": 2725,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": 16652,
+            "metroNorthDirection": 1,
+            "metroNorthPeak": true,
+            "metroNorthLine": "HARLEM"
+          },
+          "route": {
+            "agency_id": "mnr_1",
+            "agency_name": "Metro-North Railroad",
+            "route_id": "mnr_2_peak",
+            "route_short_name": null,
+            "route_long_name": "Harlem",
+            "route_type": 2,
+            "color": "0039A6",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.805157,
+          "originLon": -73.939149,
+          "destLat": 40.804138,
+          "destLon": -73.9375939,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.939149,
+                40.805157
+              ],
+              [
+                -73.9375939,
+                40.804138
+              ]
+            ]
+          },
+          "originTime": 29940,
+          "destTime": 30089,
+          "originStopId": "east_of_hudson:mnr_4",
+          "originStopName": "Harlem-125th St.",
+          "destStopId": "east_of_hudson:nyct_subway_621S",
+          "destStopName": "125 St",
+          "cumulativeFare": 1275,
+          "transferAllowance": {
+            "value": 0,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.804138,
+          "originLon": -73.9375939,
+          "destLat": 40.707557,
+          "destLon": -74.0118619,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.9375939,
+                40.804138
+              ],
+              [
+                -73.955589,
+                40.779492
+              ],
+              [
+                -73.955589,
+                40.779492
+              ],
+              [
+                -73.967967,
+                40.762526
+              ],
+              [
+                -73.967967,
+                40.762526
+              ],
+              [
+                -73.976848,
+                40.751776
+              ],
+              [
+                -73.976848,
+                40.751776
+              ],
+              [
+                -73.989951,
+                40.734673
+              ],
+              [
+                -73.989951,
+                40.734673
+              ],
+              [
+                -74.004131,
+                40.713065
+              ],
+              [
+                -74.004131,
+                40.713065
+              ],
+              [
+                -74.009509,
+                40.710368
+              ],
+              [
+                -74.009509,
+                40.710368
+              ],
+              [
+                -74.0118619,
+                40.707557
+              ]
+            ]
+          },
+          "originTime": 30150,
+          "destTime": 32040,
+          "originStopId": "east_of_hudson:nyct_subway_621S",
+          "originStopName": "125 St",
+          "destStopId": "east_of_hudson:nyct_subway_419S",
+          "destStopName": "Wall St",
+          "cumulativeFare": 1550,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": true,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nyct_subway_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "nyct_subway_4",
+            "route_short_name": "4",
+            "route_long_name": "Lexington Avenue Express",
+            "route_type": 1,
+            "color": "00933C",
+            "agency_url": "http://web.mta.info/nyct/service/pdf/t4cur.pdf"
+          },
+          "type": "transit"
+        }
+      ]
+    }
+  ],
+  "computeTimeMillis": 258,
+  "backendVersion": {
+    "version": "UNKNOWN",
+    "commit": "UNKNOWN",
+    "describe": "UNKNOWN",
+    "branch": "UNKNOWN",
+    "buildHost": "UNKNOWN",
+    "buildTime": "UNKNOWN"
+  },
+  "generationTime": "2020-06-21T23:17:29.436922"
+}

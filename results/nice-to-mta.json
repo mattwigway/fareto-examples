@@ -1,1 +1,2335 @@
-{"request":{"fromLat":40.66319159533881,"fromLon":-73.69694903427937,"toLat":40.78470081841747,"toLon":-73.84976097355191,"fromTime":25200,"toTime":25260,"walkSpeed":1.3888888,"bikeSpeed":4.1666665,"bikeTrafficStress":4,"carSpeed":20,"streetTime":90,"maxWalkTime":20,"maxBikeTime":20,"maxCarTime":45,"minBikeTime":10,"minCarTime":10,"date":"2019-12-16","limit":0,"accessModes":"WALK","egressModes":"WALK","directModes":"WALK","transitModes":"TRAM,SUBWAY,RAIL,BUS,FERRY,CABLE_CAR,GONDOLA,FUNICULAR","suboptimalMinutes":5,"maxTripDurationMinutes":120,"maxRides":4,"scenario":null,"scenarioId":null,"zoneId":"Z","wheelchair":false,"maxFare":200000,"inRoutingFareCalculator":{"type":"nyc","gtfsFares":null},"monteCarloDraws":1},"trips":[{"durationSeconds":5847,"departureTime":25255,"fare":1375,"legs":[{"originLat":40.6615176,"originLon":-73.7047587,"destLat":40.6996081,"destLon":-73.8085298,"geom":{"type":"LineString","coordinates":[[-73.7047587,40.6615176],[-73.7355481,40.6659493],[-73.7355481,40.6659493],[-73.7517468,40.668483],[-73.7517468,40.668483],[-73.765043,40.675139],[-73.765043,40.675139],[-73.8085298,40.6996081]]},"originTime":26100,"destTime":26940,"originStopId":"east_of_hudson:lirr211","originStopName":"Valley Stream","destStopId":"east_of_hudson:lirr102","destStopName":"Jamaica","cumulativeFare":825,"transferAllowance":{"value":4350,"number":2147483647,"expirationTime":2147483647,"lirr":{"value":0,"number":0,"expirationTime":0,"cumulativeFare":825,"boardStop":"LIRR211","viaStop":null,"alightStop":"LIRR102","initialDirection":"INBOUND","peakBeforeDirectionChange":true,"peakAfterDirectionChange":false,"maxTransferAllowance":4350},"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"default","agency_name":"default","route_id":"lirr6_peak","route_short_name":null,"route_long_name":"Long Beach (peak)","route_type":2,"color":"FF6319","agency_url":null},"type":"transit"},{"originLat":40.6996081,"originLon":-73.8085298,"destLat":40.701989,"destLon":-73.807903,"geom":{"type":"LineString","coordinates":[[-73.8085298,40.6996081],[-73.807903,40.701989]]},"originTime":26940,"destTime":27195,"originStopId":"east_of_hudson:lirr102","originStopName":"Jamaica","destStopId":"east_of_hudson:bus-queens_502030","destStopName":"SUTPHIN BL/JAMAICA AV","cumulativeFare":825,"transferAllowance":{"value":0,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.701989,"originLon":-73.807903,"destLat":40.75812,"destLon":-73.829348,"geom":{"type":"LineString","coordinates":[[-73.807903,40.701989],[-73.809531,40.705602],[-73.809531,40.705602],[-73.818898,40.709951],[-73.818898,40.709951],[-73.817128,40.717975],[-73.817128,40.717975],[-73.82075,40.725011],[-73.82075,40.725011],[-73.823284,40.729937],[-73.823284,40.729937],[-73.825189,40.733963],[-73.825189,40.733963],[-73.824891,40.740119],[-73.824891,40.740119],[-73.825468,40.74304],[-73.825468,40.74304],[-73.826131,40.74711],[-73.826131,40.74711],[-73.8258989,40.751385],[-73.8258989,40.751385],[-73.829348,40.75812]]},"originTime":27373,"destTime":29389,"originStopId":"east_of_hudson:bus-queens_502030","originStopName":"SUTPHIN BL/JAMAICA AV","destStopId":"east_of_hudson:bus-queens_502184","destStopName":"MAIN ST/KISSENA BL","cumulativeFare":1100,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_LOCAL_BUS","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"bus-queens_MTA NYCT","agency_name":"MTA New York City Transit","route_id":"bus-queens_Q44+","route_short_name":"Q44-SBS","route_long_name":"Bronx Zoo - Jamaica","route_type":3,"color":"EE352E","agency_url":null},"type":"transit"},{"originLat":40.75812,"originLon":-73.829348,"destLat":40.759377,"destLon":-73.829892,"geom":{"type":"LineString","coordinates":[[-73.829348,40.75812],[-73.829892,40.759377]]},"originTime":29389,"destTime":29507,"originStopId":"east_of_hudson:bus-queens_502184","originStopName":"MAIN ST/KISSENA BL","destStopId":"east_of_hudson:bus-busco_551051","destStopName":"MAIN ST/ROOSEVELT AV","cumulativeFare":1100,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_LOCAL_BUS","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.759377,"originLon":-73.829892,"destLat":40.7816349,"destLon":-73.8413219,"geom":{"type":"LineString","coordinates":[[-73.829892,40.759377],[-73.830625,40.764914],[-73.830625,40.764914],[-73.832551,40.76956],[-73.832551,40.76956],[-73.833642,40.7721109],[-73.833642,40.7721109],[-73.837008,40.7728929],[-73.837008,40.7728929],[-73.838855,40.77644],[-73.838855,40.77644],[-73.839999,40.778713],[-73.839999,40.778713],[-73.841476,40.778815],[-73.841476,40.778815],[-73.841398,40.780356],[-73.841398,40.780356],[-73.8413219,40.7816349]]},"originTime":29640,"destTime":30368,"originStopId":"east_of_hudson:bus-busco_551051","originStopName":"MAIN ST/ROOSEVELT AV","destStopId":"east_of_hudson:bus-busco_551025","destStopName":"127 ST/20 AV","cumulativeFare":1100,"transferAllowance":{"value":0,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"bus-busco_MTABC","agency_name":"MTA Bus Company","route_id":"bus-busco_Q25","route_short_name":"Q25","route_long_name":"127 Street - Kissena Bl - Parsons Bl","route_type":3,"color":"00AEEF","agency_url":"http://web.mta.info/busco/schedules/q025cur.pdf"},"type":"transit"},{"originLat":40.7816349,"originLon":-73.8413219,"destLat":40.781737,"destLon":-73.841288,"geom":{"type":"LineString","coordinates":[[-73.8413219,40.7816349],[-73.841288,40.781737]]},"originTime":30368,"destTime":30387,"originStopId":"east_of_hudson:bus-busco_551025","originStopName":"127 ST/20 AV","destStopId":"east_of_hudson:bus-queens_505017","destStopName":"20 AV/127 ST","cumulativeFare":1100,"transferAllowance":{"value":0,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.781737,"originLon":-73.841288,"destLat":40.784153,"destLon":-73.845512,"geom":{"type":"LineString","coordinates":[[-73.841288,40.781737],[-73.844523,40.781733],[-73.844523,40.781733],[-73.845855,40.781979],[-73.845855,40.781979],[-73.845765,40.783519],[-73.845765,40.783519],[-73.845512,40.784153]]},"originTime":30600,"destTime":30780,"originStopId":"east_of_hudson:bus-queens_505017","originStopName":"20 AV/127 ST","destStopId":"east_of_hudson:bus-queens_505021","destStopName":"15 AV/COLLEGE PT BL","cumulativeFare":1375,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_LOCAL_BUS","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"bus-queens_MTA NYCT","agency_name":"MTA New York City Transit","route_id":"bus-queens_Q20A","route_short_name":"Q20A","route_long_name":"College Point - Jamaica","route_type":3,"color":"006CB7","agency_url":null},"type":"transit"}]},{"durationSeconds":6725,"departureTime":25255,"fare":275,"legs":[{"originLat":40.664813,"originLon":-73.698047,"destLat":40.70248,"destLon":-73.799953,"geom":{"type":"LineString","coordinates":[[-73.698047,40.664813],[-73.708878,40.667969],[-73.708878,40.667969],[-73.716871,40.670213],[-73.716871,40.670213],[-73.727343,40.6742],[-73.727343,40.6742],[-73.7616719,40.679885],[-73.7616719,40.679885],[-73.799953,40.70248]]},"originTime":25860,"destTime":27960,"originStopId":"east_of_hudson:nice_26","originStopName":"Merrick Rd + Rockaway Ave","destStopId":"east_of_hudson:nice_28","destStopName":"Archer Ave + Parsons Blvd","cumulativeFare":275,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_NICE","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"nice_LIBUS","agency_name":"Nassau Inter-County Express","route_id":"nice_n4X","route_short_name":"n4X","route_long_name":"Freeport-Jamaica Express","route_type":3,"color":"00FFFF","agency_url":null},"type":"transit"},{"originLat":40.70248,"originLon":-73.799953,"destLat":40.7036159,"destLon":-73.800218,"geom":{"type":"LineString","coordinates":[[-73.799953,40.70248],[-73.800218,40.7036159]]},"originTime":27960,"destTime":28055,"originStopId":"east_of_hudson:nice_28","originStopName":"Archer Ave + Parsons Blvd","destStopId":"east_of_hudson:bus-busco_553126","destStopName":"PARSONS BL/JAMAICA AV","cumulativeFare":275,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_NICE","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.7036159,"originLon":-73.800218,"destLat":40.785992,"destLon":-73.848809,"geom":{"type":"LineString","coordinates":[[-73.800218,40.7036159],[-73.801503,40.705744],[-73.801503,40.705744],[-73.802415,40.707284],[-73.802415,40.707284],[-73.7990109,40.709071],[-73.7990109,40.709071],[-73.79984,40.710442],[-73.79984,40.710442],[-73.80126,40.712699],[-73.80126,40.712699],[-73.8026589,40.715004],[-73.8026589,40.715004],[-73.8034349,40.71801],[-73.8034349,40.71801],[-73.8039359,40.719728],[-73.8039359,40.719728],[-73.804362,40.721771],[-73.804362,40.721771],[-73.804496,40.723098],[-73.804496,40.723098],[-73.804629,40.724556],[-73.804629,40.724556],[-73.804777,40.72593],[-73.804777,40.72593],[-73.804918,40.7272729],[-73.804918,40.7272729],[-73.805052,40.728689],[-73.805052,40.728689],[-73.804914,40.732032],[-73.804914,40.732032],[-73.80469,40.73513],[-73.80469,40.73513],[-73.804535,40.73694],[-73.804535,40.73694],[-73.804509,40.73888],[-73.804509,40.73888],[-73.804282,40.742121],[-73.804282,40.742121],[-73.802813,40.747382],[-73.802813,40.747382],[-73.8026709,40.749259],[-73.8026709,40.749259],[-73.803001,40.750758],[-73.803001,40.750758],[-73.804241,40.7534469],[-73.804241,40.7534469],[-73.804723,40.756513],[-73.804723,40.756513],[-73.8084459,40.756805],[-73.8084459,40.756805],[-73.810034,40.756917],[-73.810034,40.756917],[-73.81329,40.756087],[-73.81329,40.756087],[-73.815863,40.7555989],[-73.815863,40.7555989],[-73.818479,40.754026],[-73.818479,40.754026],[-73.820364,40.7557039],[-73.820364,40.7557039],[-73.823399,40.758229],[-73.823399,40.758229],[-73.827269,40.757362],[-73.827269,40.757362],[-73.829892,40.759377],[-73.829892,40.759377],[-73.831742,40.762739],[-73.831742,40.762739],[-73.8350969,40.7630429],[-73.8350969,40.7630429],[-73.839153,40.767115],[-73.839153,40.767115],[-73.8416709,40.7694989],[-73.8416709,40.7694989],[-73.843757,40.771498],[-73.843757,40.771498],[-73.845946,40.773561],[-73.845946,40.773561],[-73.846502,40.774645],[-73.846502,40.774645],[-73.846165,40.775874],[-73.846165,40.775874],[-73.846001,40.778783],[-73.846001,40.778783],[-73.845853,40.7818289],[-73.845853,40.7818289],[-73.8457569,40.78335],[-73.8457569,40.78335],[-73.846036,40.786083],[-73.846036,40.786083],[-73.848809,40.785992]]},"originTime":28116,"destTime":31816,"originStopId":"east_of_hudson:bus-busco_553126","originStopName":"PARSONS BL/JAMAICA AV","destStopId":"east_of_hudson:bus-busco_982079","destStopName":"14 AVE/119 ST","cumulativeFare":275,"transferAllowance":{"value":0,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"bus-busco_MTABC","agency_name":"MTA Bus Company","route_id":"bus-busco_Q65","route_short_name":"Q65","route_long_name":"College Point Bl - 164 St","route_type":3,"color":"00AEEF","agency_url":"http://web.mta.info/busco/schedules/q065cur.pdf"},"type":"transit"}]},{"durationSeconds":6185,"departureTime":25255,"fare":1100,"legs":[{"originLat":40.6615176,"originLon":-73.7047587,"destLat":40.6996081,"destLon":-73.8085298,"geom":{"type":"LineString","coordinates":[[-73.7047587,40.6615176],[-73.7355481,40.6659493],[-73.7355481,40.6659493],[-73.7517468,40.668483],[-73.7517468,40.668483],[-73.765043,40.675139],[-73.765043,40.675139],[-73.8085298,40.6996081]]},"originTime":26100,"destTime":26940,"originStopId":"east_of_hudson:lirr211","originStopName":"Valley Stream","destStopId":"east_of_hudson:lirr102","destStopName":"Jamaica","cumulativeFare":825,"transferAllowance":{"value":4350,"number":2147483647,"expirationTime":2147483647,"lirr":{"value":0,"number":0,"expirationTime":0,"cumulativeFare":825,"boardStop":"LIRR211","viaStop":null,"alightStop":"LIRR102","initialDirection":"INBOUND","peakBeforeDirectionChange":true,"peakAfterDirectionChange":false,"maxTransferAllowance":4350},"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"default","agency_name":"default","route_id":"lirr6_peak","route_short_name":null,"route_long_name":"Long Beach (peak)","route_type":2,"color":"FF6319","agency_url":null},"type":"transit"},{"originLat":40.6996081,"originLon":-73.8085298,"destLat":40.69914,"destLon":-73.807077,"geom":{"type":"LineString","coordinates":[[-73.8085298,40.6996081],[-73.807077,40.69914]]},"originTime":26940,"destTime":27195,"originStopId":"east_of_hudson:lirr102","originStopName":"Jamaica","destStopId":"east_of_hudson:bus-busco_553139","destStopName":"SUTPHIN BL/94 AV","cumulativeFare":825,"transferAllowance":{"value":0,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.69914,"originLon":-73.807077,"destLat":40.785992,"destLon":-73.848809,"geom":{"type":"LineString","coordinates":[[-73.807077,40.69914],[-73.80338,40.701625],[-73.80338,40.701625],[-73.800218,40.7036159],[-73.800218,40.7036159],[-73.802415,40.707284],[-73.802415,40.707284],[-73.7990109,40.709071],[-73.7990109,40.709071],[-73.8034349,40.71801],[-73.8034349,40.71801],[-73.804362,40.721771],[-73.804362,40.721771],[-73.804918,40.7272729],[-73.804918,40.7272729],[-73.804914,40.732032],[-73.804914,40.732032],[-73.804509,40.73888],[-73.804509,40.73888],[-73.804241,40.7534469],[-73.804241,40.7534469],[-73.804723,40.756513],[-73.804723,40.756513],[-73.815863,40.7555989],[-73.815863,40.7555989],[-73.823399,40.758229],[-73.823399,40.758229],[-73.827269,40.757362],[-73.827269,40.757362],[-73.829892,40.759377],[-73.829892,40.759377],[-73.8416709,40.7694989],[-73.8416709,40.7694989],[-73.843757,40.771498],[-73.843757,40.771498],[-73.845946,40.773561],[-73.845946,40.773561],[-73.846165,40.775874],[-73.846165,40.775874],[-73.846001,40.778783],[-73.846001,40.778783],[-73.845853,40.7818289],[-73.845853,40.7818289],[-73.8457569,40.78335],[-73.8457569,40.78335],[-73.846036,40.786083],[-73.846036,40.786083],[-73.848809,40.785992]]},"originTime":27420,"destTime":31276,"originStopId":"east_of_hudson:bus-busco_553139","originStopName":"SUTPHIN BL/94 AV","destStopId":"east_of_hudson:bus-busco_982079","destStopName":"14 AVE/119 ST","cumulativeFare":1100,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_LOCAL_BUS","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"bus-busco_MTABC","agency_name":"MTA Bus Company","route_id":"bus-busco_Q65","route_short_name":"Q65","route_long_name":"College Point Bl - 164 St","route_type":3,"color":"00AEEF","agency_url":"http://web.mta.info/busco/schedules/q065cur.pdf"},"type":"transit"}]},{"durationSeconds":6725,"departureTime":25255,"fare":550,"legs":[{"originLat":40.664813,"originLon":-73.698047,"destLat":40.70248,"destLon":-73.799953,"geom":{"type":"LineString","coordinates":[[-73.698047,40.664813],[-73.708878,40.667969],[-73.708878,40.667969],[-73.716871,40.670213],[-73.716871,40.670213],[-73.727343,40.6742],[-73.727343,40.6742],[-73.7616719,40.679885],[-73.7616719,40.679885],[-73.799953,40.70248]]},"originTime":25860,"destTime":27960,"originStopId":"east_of_hudson:nice_26","originStopName":"Merrick Rd + Rockaway Ave","destStopId":"east_of_hudson:nice_28","destStopName":"Archer Ave + Parsons Blvd","cumulativeFare":275,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_NICE","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"nice_LIBUS","agency_name":"Nassau Inter-County Express","route_id":"nice_n4X","route_short_name":"n4X","route_long_name":"Freeport-Jamaica Express","route_type":3,"color":"00FFFF","agency_url":null},"type":"transit"},{"originLat":40.70248,"originLon":-73.799953,"destLat":40.7036159,"destLon":-73.800218,"geom":{"type":"LineString","coordinates":[[-73.799953,40.70248],[-73.800218,40.7036159]]},"originTime":27960,"destTime":28055,"originStopId":"east_of_hudson:nice_28","originStopName":"Archer Ave + Parsons Blvd","destStopId":"east_of_hudson:bus-busco_553126","destStopName":"PARSONS BL/JAMAICA AV","cumulativeFare":275,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_NICE","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.7036159,"originLon":-73.800218,"destLat":40.757362,"destLon":-73.827269,"geom":{"type":"LineString","coordinates":[[-73.800218,40.7036159],[-73.802415,40.707284],[-73.802415,40.707284],[-73.8069199,40.713828],[-73.8069199,40.713828],[-73.808035,40.716994],[-73.808035,40.716994],[-73.8090189,40.720209],[-73.8090189,40.720209],[-73.811264,40.7266659],[-73.811264,40.7266659],[-73.814763,40.732447],[-73.814763,40.732447],[-73.81451,40.736375],[-73.81451,40.736375],[-73.815089,40.739698],[-73.815089,40.739698],[-73.814245,40.7463539],[-73.814245,40.7463539],[-73.819213,40.750855],[-73.819213,40.750855],[-73.822881,40.754087],[-73.822881,40.754087],[-73.827269,40.757362]]},"originTime":28433,"destTime":30494,"originStopId":"east_of_hudson:bus-busco_553126","originStopName":"PARSONS BL/JAMAICA AV","destStopId":"east_of_hudson:bus-busco_501365","destStopName":"KISSENA BL/SANFORD AV","cumulativeFare":275,"transferAllowance":{"value":0,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"bus-busco_MTABC","agency_name":"MTA Bus Company","route_id":"bus-busco_Q25","route_short_name":"Q25","route_long_name":"127 Street - Kissena Bl - Parsons Bl","route_type":3,"color":"00AEEF","agency_url":"http://web.mta.info/busco/schedules/q025cur.pdf"},"type":"transit"},{"originLat":40.757362,"originLon":-73.827269,"destLat":40.785992,"destLon":-73.848809,"geom":{"type":"LineString","coordinates":[[-73.827269,40.757362],[-73.829892,40.759377],[-73.829892,40.759377],[-73.831742,40.762739],[-73.831742,40.762739],[-73.8350969,40.7630429],[-73.8350969,40.7630429],[-73.839153,40.767115],[-73.839153,40.767115],[-73.8416709,40.7694989],[-73.8416709,40.7694989],[-73.843757,40.771498],[-73.843757,40.771498],[-73.845946,40.773561],[-73.845946,40.773561],[-73.846502,40.774645],[-73.846502,40.774645],[-73.846165,40.775874],[-73.846165,40.775874],[-73.846001,40.778783],[-73.846001,40.778783],[-73.845853,40.7818289],[-73.845853,40.7818289],[-73.8457569,40.78335],[-73.8457569,40.78335],[-73.846036,40.786083],[-73.846036,40.786083],[-73.848809,40.785992]]},"originTime":30689,"destTime":31816,"originStopId":"east_of_hudson:bus-busco_501365","originStopName":"KISSENA BL/SANFORD AV","destStopId":"east_of_hudson:bus-busco_982079","destStopName":"14 AVE/119 ST","cumulativeFare":550,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_LOCAL_BUS","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"bus-busco_MTABC","agency_name":"MTA Bus Company","route_id":"bus-busco_Q65","route_short_name":"Q65","route_long_name":"College Point Bl - 164 St","route_type":3,"color":"00AEEF","agency_url":"http://web.mta.info/busco/schedules/q065cur.pdf"},"type":"transit"}]},{"durationSeconds":5465,"departureTime":25255,"fare":1100,"legs":[{"originLat":40.6615176,"originLon":-73.7047587,"destLat":40.6996081,"destLon":-73.8085298,"geom":{"type":"LineString","coordinates":[[-73.7047587,40.6615176],[-73.7355481,40.6659493],[-73.7355481,40.6659493],[-73.7517468,40.668483],[-73.7517468,40.668483],[-73.765043,40.675139],[-73.765043,40.675139],[-73.8085298,40.6996081]]},"originTime":26100,"destTime":26940,"originStopId":"east_of_hudson:lirr211","originStopName":"Valley Stream","destStopId":"east_of_hudson:lirr102","destStopName":"Jamaica","cumulativeFare":825,"transferAllowance":{"value":4350,"number":2147483647,"expirationTime":2147483647,"lirr":{"value":0,"number":0,"expirationTime":0,"cumulativeFare":825,"boardStop":"LIRR211","viaStop":null,"alightStop":"LIRR102","initialDirection":"INBOUND","peakBeforeDirectionChange":true,"peakAfterDirectionChange":false,"maxTransferAllowance":4350},"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"default","agency_name":"default","route_id":"lirr6_peak","route_short_name":null,"route_long_name":"Long Beach (peak)","route_type":2,"color":"FF6319","agency_url":null},"type":"transit"},{"originLat":40.6996081,"originLon":-73.8085298,"destLat":40.701989,"destLon":-73.807903,"geom":{"type":"LineString","coordinates":[[-73.8085298,40.6996081],[-73.807903,40.701989]]},"originTime":26940,"destTime":27195,"originStopId":"east_of_hudson:lirr102","originStopName":"Jamaica","destStopId":"east_of_hudson:bus-queens_502030","destStopName":"SUTPHIN BL/JAMAICA AV","cumulativeFare":825,"transferAllowance":{"value":0,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.701989,"originLon":-73.807903,"destLat":40.75812,"destLon":-73.829348,"geom":{"type":"LineString","coordinates":[[-73.807903,40.701989],[-73.809531,40.705602],[-73.809531,40.705602],[-73.818898,40.709951],[-73.818898,40.709951],[-73.817128,40.717975],[-73.817128,40.717975],[-73.82075,40.725011],[-73.82075,40.725011],[-73.823284,40.729937],[-73.823284,40.729937],[-73.825189,40.733963],[-73.825189,40.733963],[-73.824891,40.740119],[-73.824891,40.740119],[-73.825468,40.74304],[-73.825468,40.74304],[-73.826131,40.74711],[-73.826131,40.74711],[-73.8258989,40.751385],[-73.8258989,40.751385],[-73.829348,40.75812]]},"originTime":27373,"destTime":29389,"originStopId":"east_of_hudson:bus-queens_502030","originStopName":"SUTPHIN BL/JAMAICA AV","destStopId":"east_of_hudson:bus-queens_502184","destStopName":"MAIN ST/KISSENA BL","cumulativeFare":1100,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_LOCAL_BUS","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"bus-queens_MTA NYCT","agency_name":"MTA New York City Transit","route_id":"bus-queens_Q44+","route_short_name":"Q44-SBS","route_long_name":"Bronx Zoo - Jamaica","route_type":3,"color":"EE352E","agency_url":null},"type":"transit"},{"originLat":40.75812,"originLon":-73.829348,"destLat":40.759377,"destLon":-73.829892,"geom":{"type":"LineString","coordinates":[[-73.829348,40.75812],[-73.829892,40.759377]]},"originTime":29389,"destTime":29507,"originStopId":"east_of_hudson:bus-queens_502184","originStopName":"MAIN ST/KISSENA BL","destStopId":"east_of_hudson:bus-busco_551051","destStopName":"MAIN ST/ROOSEVELT AV","cumulativeFare":1100,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_LOCAL_BUS","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.759377,"originLon":-73.829892,"destLat":40.785992,"destLon":-73.848809,"geom":{"type":"LineString","coordinates":[[-73.829892,40.759377],[-73.8416709,40.7694989],[-73.8416709,40.7694989],[-73.843757,40.771498],[-73.843757,40.771498],[-73.845946,40.773561],[-73.845946,40.773561],[-73.846165,40.775874],[-73.846165,40.775874],[-73.846001,40.778783],[-73.846001,40.778783],[-73.845853,40.7818289],[-73.845853,40.7818289],[-73.8457569,40.78335],[-73.8457569,40.78335],[-73.846036,40.786083],[-73.846036,40.786083],[-73.848809,40.785992]]},"originTime":29580,"destTime":30556,"originStopId":"east_of_hudson:bus-busco_551051","originStopName":"MAIN ST/ROOSEVELT AV","destStopId":"east_of_hudson:bus-busco_982079","destStopName":"14 AVE/119 ST","cumulativeFare":1100,"transferAllowance":{"value":0,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"bus-busco_MTABC","agency_name":"MTA Bus Company","route_id":"bus-busco_Q65","route_short_name":"Q65","route_long_name":"College Point Bl - 164 St","route_type":3,"color":"00AEEF","agency_url":"http://web.mta.info/busco/schedules/q065cur.pdf"},"type":"transit"}]}],"computeTimeMillis":3051}
+{
+  "request": {
+    "fromLat": 40.66319159533881,
+    "fromLon": -73.69694903427937,
+    "toLat": 40.78470081841747,
+    "toLon": -73.84976097355191,
+    "fromTime": 25200,
+    "toTime": 25260,
+    "walkSpeed": 1.3888888,
+    "bikeSpeed": 4.1666665,
+    "bikeTrafficStress": 4,
+    "carSpeed": 20.0,
+    "streetTime": 90,
+    "maxWalkTime": 20,
+    "maxBikeTime": 20,
+    "maxCarTime": 45,
+    "minBikeTime": 10,
+    "minCarTime": 10,
+    "date": "2019-12-16",
+    "limit": 0,
+    "accessModes": "WALK",
+    "egressModes": "WALK",
+    "directModes": "WALK",
+    "transitModes": "TRAM,SUBWAY,RAIL,BUS,FERRY,CABLE_CAR,GONDOLA,FUNICULAR",
+    "suboptimalMinutes": 5,
+    "maxTripDurationMinutes": 120,
+    "maxRides": 4,
+    "scenario": null,
+    "scenarioId": null,
+    "zoneId": "Z",
+    "wheelchair": false,
+    "maxFare": 200000,
+    "inRoutingFareCalculator": {
+      "type": "nyc",
+      "gtfsFares": null,
+      "toLirrDiscounts": null,
+      "toMetroNorthDiscounts": null,
+      "lirrMetrocardTransferSource": null,
+      "metroNorthMetrocardTransferSource": null,
+      "lirrFareOverrides": null,
+      "metroNorthFareOverrides": null
+    },
+    "monteCarloDraws": 1
+  },
+  "trips": [
+    {
+      "durationSeconds": 5847,
+      "departureTime": 25255,
+      "fare": 1375,
+      "legs": [
+        {
+          "originLat": 40.6615176,
+          "originLon": -73.7047587,
+          "destLat": 40.6996081,
+          "destLon": -73.8085298,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.7047587,
+                40.6615176
+              ],
+              [
+                -73.7355481,
+                40.6659493
+              ],
+              [
+                -73.7355481,
+                40.6659493
+              ],
+              [
+                -73.7517468,
+                40.668483
+              ],
+              [
+                -73.7517468,
+                40.668483
+              ],
+              [
+                -73.765043,
+                40.675139
+              ],
+              [
+                -73.765043,
+                40.675139
+              ],
+              [
+                -73.8085298,
+                40.6996081
+              ]
+            ]
+          },
+          "originTime": 26100,
+          "destTime": 26940,
+          "originStopId": "east_of_hudson:lirr211",
+          "originStopName": "Valley Stream",
+          "destStopId": "east_of_hudson:lirr102",
+          "destStopName": "Jamaica",
+          "cumulativeFare": 825,
+          "transferAllowance": {
+            "value": 4350,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": {
+              "value": 0,
+              "number": 0,
+              "expirationTime": 0,
+              "cumulativeFare": 825,
+              "boardStop": "LIRR211",
+              "viaStop": null,
+              "alightStop": "LIRR102",
+              "initialDirection": "INBOUND",
+              "peakBeforeDirectionChange": true,
+              "peakAfterDirectionChange": false,
+              "mostRecentTicketPurchaseTime": 26100,
+              "maxTransferAllowance": 4350
+            },
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "default",
+            "agency_name": "default",
+            "route_id": "lirr6_peak",
+            "route_short_name": null,
+            "route_long_name": "Long Beach (peak)",
+            "route_type": 2,
+            "color": "FF6319",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.6996081,
+          "originLon": -73.8085298,
+          "destLat": 40.701989,
+          "destLon": -73.807903,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.8085298,
+                40.6996081
+              ],
+              [
+                -73.807903,
+                40.701989
+              ]
+            ]
+          },
+          "originTime": 26940,
+          "destTime": 27195,
+          "originStopId": "east_of_hudson:lirr102",
+          "originStopName": "Jamaica",
+          "destStopId": "east_of_hudson:bus-queens_502030",
+          "destStopName": "SUTPHIN BL/JAMAICA AV",
+          "cumulativeFare": 825,
+          "transferAllowance": {
+            "value": 0,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.701989,
+          "originLon": -73.807903,
+          "destLat": 40.75812,
+          "destLon": -73.829348,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.807903,
+                40.701989
+              ],
+              [
+                -73.809531,
+                40.705602
+              ],
+              [
+                -73.809531,
+                40.705602
+              ],
+              [
+                -73.818898,
+                40.709951
+              ],
+              [
+                -73.818898,
+                40.709951
+              ],
+              [
+                -73.817128,
+                40.717975
+              ],
+              [
+                -73.817128,
+                40.717975
+              ],
+              [
+                -73.82075,
+                40.725011
+              ],
+              [
+                -73.82075,
+                40.725011
+              ],
+              [
+                -73.823284,
+                40.729937
+              ],
+              [
+                -73.823284,
+                40.729937
+              ],
+              [
+                -73.825189,
+                40.733963
+              ],
+              [
+                -73.825189,
+                40.733963
+              ],
+              [
+                -73.824891,
+                40.740119
+              ],
+              [
+                -73.824891,
+                40.740119
+              ],
+              [
+                -73.825468,
+                40.74304
+              ],
+              [
+                -73.825468,
+                40.74304
+              ],
+              [
+                -73.826131,
+                40.74711
+              ],
+              [
+                -73.826131,
+                40.74711
+              ],
+              [
+                -73.8258989,
+                40.751385
+              ],
+              [
+                -73.8258989,
+                40.751385
+              ],
+              [
+                -73.829348,
+                40.75812
+              ]
+            ]
+          },
+          "originTime": 27373,
+          "destTime": 29389,
+          "originStopId": "east_of_hudson:bus-queens_502030",
+          "originStopName": "SUTPHIN BL/JAMAICA AV",
+          "destStopId": "east_of_hudson:bus-queens_502184",
+          "destStopName": "MAIN ST/KISSENA BL",
+          "cumulativeFare": 1100,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_LOCAL_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-queens_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "bus-queens_Q44+",
+            "route_short_name": "Q44-SBS",
+            "route_long_name": "Bronx Zoo - Jamaica",
+            "route_type": 3,
+            "color": "EE352E",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.75812,
+          "originLon": -73.829348,
+          "destLat": 40.759377,
+          "destLon": -73.829892,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.829348,
+                40.75812
+              ],
+              [
+                -73.829892,
+                40.759377
+              ]
+            ]
+          },
+          "originTime": 29389,
+          "destTime": 29507,
+          "originStopId": "east_of_hudson:bus-queens_502184",
+          "originStopName": "MAIN ST/KISSENA BL",
+          "destStopId": "east_of_hudson:bus-busco_551051",
+          "destStopName": "MAIN ST/ROOSEVELT AV",
+          "cumulativeFare": 1100,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_LOCAL_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.759377,
+          "originLon": -73.829892,
+          "destLat": 40.7816349,
+          "destLon": -73.8413219,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.829892,
+                40.759377
+              ],
+              [
+                -73.830625,
+                40.764914
+              ],
+              [
+                -73.830625,
+                40.764914
+              ],
+              [
+                -73.832551,
+                40.76956
+              ],
+              [
+                -73.832551,
+                40.76956
+              ],
+              [
+                -73.833642,
+                40.7721109
+              ],
+              [
+                -73.833642,
+                40.7721109
+              ],
+              [
+                -73.837008,
+                40.7728929
+              ],
+              [
+                -73.837008,
+                40.7728929
+              ],
+              [
+                -73.838855,
+                40.77644
+              ],
+              [
+                -73.838855,
+                40.77644
+              ],
+              [
+                -73.839999,
+                40.778713
+              ],
+              [
+                -73.839999,
+                40.778713
+              ],
+              [
+                -73.841476,
+                40.778815
+              ],
+              [
+                -73.841476,
+                40.778815
+              ],
+              [
+                -73.841398,
+                40.780356
+              ],
+              [
+                -73.841398,
+                40.780356
+              ],
+              [
+                -73.8413219,
+                40.7816349
+              ]
+            ]
+          },
+          "originTime": 29640,
+          "destTime": 30368,
+          "originStopId": "east_of_hudson:bus-busco_551051",
+          "originStopName": "MAIN ST/ROOSEVELT AV",
+          "destStopId": "east_of_hudson:bus-busco_551025",
+          "destStopName": "127 ST/20 AV",
+          "cumulativeFare": 1100,
+          "transferAllowance": {
+            "value": 0,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-busco_MTABC",
+            "agency_name": "MTA Bus Company",
+            "route_id": "bus-busco_Q25",
+            "route_short_name": "Q25",
+            "route_long_name": "127 Street - Kissena Bl - Parsons Bl",
+            "route_type": 3,
+            "color": "00AEEF",
+            "agency_url": "http://web.mta.info/busco/schedules/q025cur.pdf"
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.7816349,
+          "originLon": -73.8413219,
+          "destLat": 40.781737,
+          "destLon": -73.841288,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.8413219,
+                40.7816349
+              ],
+              [
+                -73.841288,
+                40.781737
+              ]
+            ]
+          },
+          "originTime": 30368,
+          "destTime": 30387,
+          "originStopId": "east_of_hudson:bus-busco_551025",
+          "originStopName": "127 ST/20 AV",
+          "destStopId": "east_of_hudson:bus-queens_505017",
+          "destStopName": "20 AV/127 ST",
+          "cumulativeFare": 1100,
+          "transferAllowance": {
+            "value": 0,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.781737,
+          "originLon": -73.841288,
+          "destLat": 40.784153,
+          "destLon": -73.845512,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.841288,
+                40.781737
+              ],
+              [
+                -73.844523,
+                40.781733
+              ],
+              [
+                -73.844523,
+                40.781733
+              ],
+              [
+                -73.845855,
+                40.781979
+              ],
+              [
+                -73.845855,
+                40.781979
+              ],
+              [
+                -73.845765,
+                40.783519
+              ],
+              [
+                -73.845765,
+                40.783519
+              ],
+              [
+                -73.845512,
+                40.784153
+              ]
+            ]
+          },
+          "originTime": 30600,
+          "destTime": 30780,
+          "originStopId": "east_of_hudson:bus-queens_505017",
+          "originStopName": "20 AV/127 ST",
+          "destStopId": "east_of_hudson:bus-queens_505021",
+          "destStopName": "15 AV/COLLEGE PT BL",
+          "cumulativeFare": 1375,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_LOCAL_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-queens_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "bus-queens_Q20A",
+            "route_short_name": "Q20A",
+            "route_long_name": "College Point - Jamaica",
+            "route_type": 3,
+            "color": "006CB7",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 6725,
+      "departureTime": 25255,
+      "fare": 275,
+      "legs": [
+        {
+          "originLat": 40.664813,
+          "originLon": -73.698047,
+          "destLat": 40.70248,
+          "destLon": -73.799953,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.698047,
+                40.664813
+              ],
+              [
+                -73.708878,
+                40.667969
+              ],
+              [
+                -73.708878,
+                40.667969
+              ],
+              [
+                -73.716871,
+                40.670213
+              ],
+              [
+                -73.716871,
+                40.670213
+              ],
+              [
+                -73.727343,
+                40.6742
+              ],
+              [
+                -73.727343,
+                40.6742
+              ],
+              [
+                -73.7616719,
+                40.679885
+              ],
+              [
+                -73.7616719,
+                40.679885
+              ],
+              [
+                -73.799953,
+                40.70248
+              ]
+            ]
+          },
+          "originTime": 25860,
+          "destTime": 27960,
+          "originStopId": "east_of_hudson:nice_26",
+          "originStopName": "Merrick Rd + Rockaway Ave",
+          "destStopId": "east_of_hudson:nice_28",
+          "destStopName": "Archer Ave + Parsons Blvd",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_NICE",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nice_LIBUS",
+            "agency_name": "Nassau Inter-County Express",
+            "route_id": "nice_n4X",
+            "route_short_name": "n4X",
+            "route_long_name": "Freeport-Jamaica Express",
+            "route_type": 3,
+            "color": "00FFFF",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.70248,
+          "originLon": -73.799953,
+          "destLat": 40.7036159,
+          "destLon": -73.800218,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.799953,
+                40.70248
+              ],
+              [
+                -73.800218,
+                40.7036159
+              ]
+            ]
+          },
+          "originTime": 27960,
+          "destTime": 28055,
+          "originStopId": "east_of_hudson:nice_28",
+          "originStopName": "Archer Ave + Parsons Blvd",
+          "destStopId": "east_of_hudson:bus-busco_553126",
+          "destStopName": "PARSONS BL/JAMAICA AV",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_NICE",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.7036159,
+          "originLon": -73.800218,
+          "destLat": 40.785992,
+          "destLon": -73.848809,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.800218,
+                40.7036159
+              ],
+              [
+                -73.801503,
+                40.705744
+              ],
+              [
+                -73.801503,
+                40.705744
+              ],
+              [
+                -73.802415,
+                40.707284
+              ],
+              [
+                -73.802415,
+                40.707284
+              ],
+              [
+                -73.7990109,
+                40.709071
+              ],
+              [
+                -73.7990109,
+                40.709071
+              ],
+              [
+                -73.79984,
+                40.710442
+              ],
+              [
+                -73.79984,
+                40.710442
+              ],
+              [
+                -73.80126,
+                40.712699
+              ],
+              [
+                -73.80126,
+                40.712699
+              ],
+              [
+                -73.8026589,
+                40.715004
+              ],
+              [
+                -73.8026589,
+                40.715004
+              ],
+              [
+                -73.8034349,
+                40.71801
+              ],
+              [
+                -73.8034349,
+                40.71801
+              ],
+              [
+                -73.8039359,
+                40.719728
+              ],
+              [
+                -73.8039359,
+                40.719728
+              ],
+              [
+                -73.804362,
+                40.721771
+              ],
+              [
+                -73.804362,
+                40.721771
+              ],
+              [
+                -73.804496,
+                40.723098
+              ],
+              [
+                -73.804496,
+                40.723098
+              ],
+              [
+                -73.804629,
+                40.724556
+              ],
+              [
+                -73.804629,
+                40.724556
+              ],
+              [
+                -73.804777,
+                40.72593
+              ],
+              [
+                -73.804777,
+                40.72593
+              ],
+              [
+                -73.804918,
+                40.7272729
+              ],
+              [
+                -73.804918,
+                40.7272729
+              ],
+              [
+                -73.805052,
+                40.728689
+              ],
+              [
+                -73.805052,
+                40.728689
+              ],
+              [
+                -73.804914,
+                40.732032
+              ],
+              [
+                -73.804914,
+                40.732032
+              ],
+              [
+                -73.80469,
+                40.73513
+              ],
+              [
+                -73.80469,
+                40.73513
+              ],
+              [
+                -73.804535,
+                40.73694
+              ],
+              [
+                -73.804535,
+                40.73694
+              ],
+              [
+                -73.804509,
+                40.73888
+              ],
+              [
+                -73.804509,
+                40.73888
+              ],
+              [
+                -73.804282,
+                40.742121
+              ],
+              [
+                -73.804282,
+                40.742121
+              ],
+              [
+                -73.802813,
+                40.747382
+              ],
+              [
+                -73.802813,
+                40.747382
+              ],
+              [
+                -73.8026709,
+                40.749259
+              ],
+              [
+                -73.8026709,
+                40.749259
+              ],
+              [
+                -73.803001,
+                40.750758
+              ],
+              [
+                -73.803001,
+                40.750758
+              ],
+              [
+                -73.804241,
+                40.7534469
+              ],
+              [
+                -73.804241,
+                40.7534469
+              ],
+              [
+                -73.804723,
+                40.756513
+              ],
+              [
+                -73.804723,
+                40.756513
+              ],
+              [
+                -73.8084459,
+                40.756805
+              ],
+              [
+                -73.8084459,
+                40.756805
+              ],
+              [
+                -73.810034,
+                40.756917
+              ],
+              [
+                -73.810034,
+                40.756917
+              ],
+              [
+                -73.81329,
+                40.756087
+              ],
+              [
+                -73.81329,
+                40.756087
+              ],
+              [
+                -73.815863,
+                40.7555989
+              ],
+              [
+                -73.815863,
+                40.7555989
+              ],
+              [
+                -73.818479,
+                40.754026
+              ],
+              [
+                -73.818479,
+                40.754026
+              ],
+              [
+                -73.820364,
+                40.7557039
+              ],
+              [
+                -73.820364,
+                40.7557039
+              ],
+              [
+                -73.823399,
+                40.758229
+              ],
+              [
+                -73.823399,
+                40.758229
+              ],
+              [
+                -73.827269,
+                40.757362
+              ],
+              [
+                -73.827269,
+                40.757362
+              ],
+              [
+                -73.829892,
+                40.759377
+              ],
+              [
+                -73.829892,
+                40.759377
+              ],
+              [
+                -73.831742,
+                40.762739
+              ],
+              [
+                -73.831742,
+                40.762739
+              ],
+              [
+                -73.8350969,
+                40.7630429
+              ],
+              [
+                -73.8350969,
+                40.7630429
+              ],
+              [
+                -73.839153,
+                40.767115
+              ],
+              [
+                -73.839153,
+                40.767115
+              ],
+              [
+                -73.8416709,
+                40.7694989
+              ],
+              [
+                -73.8416709,
+                40.7694989
+              ],
+              [
+                -73.843757,
+                40.771498
+              ],
+              [
+                -73.843757,
+                40.771498
+              ],
+              [
+                -73.845946,
+                40.773561
+              ],
+              [
+                -73.845946,
+                40.773561
+              ],
+              [
+                -73.846502,
+                40.774645
+              ],
+              [
+                -73.846502,
+                40.774645
+              ],
+              [
+                -73.846165,
+                40.775874
+              ],
+              [
+                -73.846165,
+                40.775874
+              ],
+              [
+                -73.846001,
+                40.778783
+              ],
+              [
+                -73.846001,
+                40.778783
+              ],
+              [
+                -73.845853,
+                40.7818289
+              ],
+              [
+                -73.845853,
+                40.7818289
+              ],
+              [
+                -73.8457569,
+                40.78335
+              ],
+              [
+                -73.8457569,
+                40.78335
+              ],
+              [
+                -73.846036,
+                40.786083
+              ],
+              [
+                -73.846036,
+                40.786083
+              ],
+              [
+                -73.848809,
+                40.785992
+              ]
+            ]
+          },
+          "originTime": 28116,
+          "destTime": 31816,
+          "originStopId": "east_of_hudson:bus-busco_553126",
+          "originStopName": "PARSONS BL/JAMAICA AV",
+          "destStopId": "east_of_hudson:bus-busco_982079",
+          "destStopName": "14 AVE/119 ST",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 0,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-busco_MTABC",
+            "agency_name": "MTA Bus Company",
+            "route_id": "bus-busco_Q65",
+            "route_short_name": "Q65",
+            "route_long_name": "College Point Bl - 164 St",
+            "route_type": 3,
+            "color": "00AEEF",
+            "agency_url": "http://web.mta.info/busco/schedules/q065cur.pdf"
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 6185,
+      "departureTime": 25255,
+      "fare": 1100,
+      "legs": [
+        {
+          "originLat": 40.6615176,
+          "originLon": -73.7047587,
+          "destLat": 40.6996081,
+          "destLon": -73.8085298,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.7047587,
+                40.6615176
+              ],
+              [
+                -73.7355481,
+                40.6659493
+              ],
+              [
+                -73.7355481,
+                40.6659493
+              ],
+              [
+                -73.7517468,
+                40.668483
+              ],
+              [
+                -73.7517468,
+                40.668483
+              ],
+              [
+                -73.765043,
+                40.675139
+              ],
+              [
+                -73.765043,
+                40.675139
+              ],
+              [
+                -73.8085298,
+                40.6996081
+              ]
+            ]
+          },
+          "originTime": 26100,
+          "destTime": 26940,
+          "originStopId": "east_of_hudson:lirr211",
+          "originStopName": "Valley Stream",
+          "destStopId": "east_of_hudson:lirr102",
+          "destStopName": "Jamaica",
+          "cumulativeFare": 825,
+          "transferAllowance": {
+            "value": 4350,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": {
+              "value": 0,
+              "number": 0,
+              "expirationTime": 0,
+              "cumulativeFare": 825,
+              "boardStop": "LIRR211",
+              "viaStop": null,
+              "alightStop": "LIRR102",
+              "initialDirection": "INBOUND",
+              "peakBeforeDirectionChange": true,
+              "peakAfterDirectionChange": false,
+              "mostRecentTicketPurchaseTime": 26100,
+              "maxTransferAllowance": 4350
+            },
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "default",
+            "agency_name": "default",
+            "route_id": "lirr6_peak",
+            "route_short_name": null,
+            "route_long_name": "Long Beach (peak)",
+            "route_type": 2,
+            "color": "FF6319",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.6996081,
+          "originLon": -73.8085298,
+          "destLat": 40.69914,
+          "destLon": -73.807077,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.8085298,
+                40.6996081
+              ],
+              [
+                -73.807077,
+                40.69914
+              ]
+            ]
+          },
+          "originTime": 26940,
+          "destTime": 27195,
+          "originStopId": "east_of_hudson:lirr102",
+          "originStopName": "Jamaica",
+          "destStopId": "east_of_hudson:bus-busco_553139",
+          "destStopName": "SUTPHIN BL/94 AV",
+          "cumulativeFare": 825,
+          "transferAllowance": {
+            "value": 0,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.69914,
+          "originLon": -73.807077,
+          "destLat": 40.785992,
+          "destLon": -73.848809,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.807077,
+                40.69914
+              ],
+              [
+                -73.80338,
+                40.701625
+              ],
+              [
+                -73.80338,
+                40.701625
+              ],
+              [
+                -73.800218,
+                40.7036159
+              ],
+              [
+                -73.800218,
+                40.7036159
+              ],
+              [
+                -73.802415,
+                40.707284
+              ],
+              [
+                -73.802415,
+                40.707284
+              ],
+              [
+                -73.7990109,
+                40.709071
+              ],
+              [
+                -73.7990109,
+                40.709071
+              ],
+              [
+                -73.8034349,
+                40.71801
+              ],
+              [
+                -73.8034349,
+                40.71801
+              ],
+              [
+                -73.804362,
+                40.721771
+              ],
+              [
+                -73.804362,
+                40.721771
+              ],
+              [
+                -73.804918,
+                40.7272729
+              ],
+              [
+                -73.804918,
+                40.7272729
+              ],
+              [
+                -73.804914,
+                40.732032
+              ],
+              [
+                -73.804914,
+                40.732032
+              ],
+              [
+                -73.804509,
+                40.73888
+              ],
+              [
+                -73.804509,
+                40.73888
+              ],
+              [
+                -73.804241,
+                40.7534469
+              ],
+              [
+                -73.804241,
+                40.7534469
+              ],
+              [
+                -73.804723,
+                40.756513
+              ],
+              [
+                -73.804723,
+                40.756513
+              ],
+              [
+                -73.815863,
+                40.7555989
+              ],
+              [
+                -73.815863,
+                40.7555989
+              ],
+              [
+                -73.823399,
+                40.758229
+              ],
+              [
+                -73.823399,
+                40.758229
+              ],
+              [
+                -73.827269,
+                40.757362
+              ],
+              [
+                -73.827269,
+                40.757362
+              ],
+              [
+                -73.829892,
+                40.759377
+              ],
+              [
+                -73.829892,
+                40.759377
+              ],
+              [
+                -73.8416709,
+                40.7694989
+              ],
+              [
+                -73.8416709,
+                40.7694989
+              ],
+              [
+                -73.843757,
+                40.771498
+              ],
+              [
+                -73.843757,
+                40.771498
+              ],
+              [
+                -73.845946,
+                40.773561
+              ],
+              [
+                -73.845946,
+                40.773561
+              ],
+              [
+                -73.846165,
+                40.775874
+              ],
+              [
+                -73.846165,
+                40.775874
+              ],
+              [
+                -73.846001,
+                40.778783
+              ],
+              [
+                -73.846001,
+                40.778783
+              ],
+              [
+                -73.845853,
+                40.7818289
+              ],
+              [
+                -73.845853,
+                40.7818289
+              ],
+              [
+                -73.8457569,
+                40.78335
+              ],
+              [
+                -73.8457569,
+                40.78335
+              ],
+              [
+                -73.846036,
+                40.786083
+              ],
+              [
+                -73.846036,
+                40.786083
+              ],
+              [
+                -73.848809,
+                40.785992
+              ]
+            ]
+          },
+          "originTime": 27420,
+          "destTime": 31276,
+          "originStopId": "east_of_hudson:bus-busco_553139",
+          "originStopName": "SUTPHIN BL/94 AV",
+          "destStopId": "east_of_hudson:bus-busco_982079",
+          "destStopName": "14 AVE/119 ST",
+          "cumulativeFare": 1100,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_LOCAL_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-busco_MTABC",
+            "agency_name": "MTA Bus Company",
+            "route_id": "bus-busco_Q65",
+            "route_short_name": "Q65",
+            "route_long_name": "College Point Bl - 164 St",
+            "route_type": 3,
+            "color": "00AEEF",
+            "agency_url": "http://web.mta.info/busco/schedules/q065cur.pdf"
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 6725,
+      "departureTime": 25255,
+      "fare": 550,
+      "legs": [
+        {
+          "originLat": 40.664813,
+          "originLon": -73.698047,
+          "destLat": 40.70248,
+          "destLon": -73.799953,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.698047,
+                40.664813
+              ],
+              [
+                -73.708878,
+                40.667969
+              ],
+              [
+                -73.708878,
+                40.667969
+              ],
+              [
+                -73.716871,
+                40.670213
+              ],
+              [
+                -73.716871,
+                40.670213
+              ],
+              [
+                -73.727343,
+                40.6742
+              ],
+              [
+                -73.727343,
+                40.6742
+              ],
+              [
+                -73.7616719,
+                40.679885
+              ],
+              [
+                -73.7616719,
+                40.679885
+              ],
+              [
+                -73.799953,
+                40.70248
+              ]
+            ]
+          },
+          "originTime": 25860,
+          "destTime": 27960,
+          "originStopId": "east_of_hudson:nice_26",
+          "originStopName": "Merrick Rd + Rockaway Ave",
+          "destStopId": "east_of_hudson:nice_28",
+          "destStopName": "Archer Ave + Parsons Blvd",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_NICE",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nice_LIBUS",
+            "agency_name": "Nassau Inter-County Express",
+            "route_id": "nice_n4X",
+            "route_short_name": "n4X",
+            "route_long_name": "Freeport-Jamaica Express",
+            "route_type": 3,
+            "color": "00FFFF",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.70248,
+          "originLon": -73.799953,
+          "destLat": 40.7036159,
+          "destLon": -73.800218,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.799953,
+                40.70248
+              ],
+              [
+                -73.800218,
+                40.7036159
+              ]
+            ]
+          },
+          "originTime": 27960,
+          "destTime": 28055,
+          "originStopId": "east_of_hudson:nice_28",
+          "originStopName": "Archer Ave + Parsons Blvd",
+          "destStopId": "east_of_hudson:bus-busco_553126",
+          "destStopName": "PARSONS BL/JAMAICA AV",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_NICE",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.7036159,
+          "originLon": -73.800218,
+          "destLat": 40.757362,
+          "destLon": -73.827269,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.800218,
+                40.7036159
+              ],
+              [
+                -73.802415,
+                40.707284
+              ],
+              [
+                -73.802415,
+                40.707284
+              ],
+              [
+                -73.8069199,
+                40.713828
+              ],
+              [
+                -73.8069199,
+                40.713828
+              ],
+              [
+                -73.808035,
+                40.716994
+              ],
+              [
+                -73.808035,
+                40.716994
+              ],
+              [
+                -73.8090189,
+                40.720209
+              ],
+              [
+                -73.8090189,
+                40.720209
+              ],
+              [
+                -73.811264,
+                40.7266659
+              ],
+              [
+                -73.811264,
+                40.7266659
+              ],
+              [
+                -73.814763,
+                40.732447
+              ],
+              [
+                -73.814763,
+                40.732447
+              ],
+              [
+                -73.81451,
+                40.736375
+              ],
+              [
+                -73.81451,
+                40.736375
+              ],
+              [
+                -73.815089,
+                40.739698
+              ],
+              [
+                -73.815089,
+                40.739698
+              ],
+              [
+                -73.814245,
+                40.7463539
+              ],
+              [
+                -73.814245,
+                40.7463539
+              ],
+              [
+                -73.819213,
+                40.750855
+              ],
+              [
+                -73.819213,
+                40.750855
+              ],
+              [
+                -73.822881,
+                40.754087
+              ],
+              [
+                -73.822881,
+                40.754087
+              ],
+              [
+                -73.827269,
+                40.757362
+              ]
+            ]
+          },
+          "originTime": 28433,
+          "destTime": 30494,
+          "originStopId": "east_of_hudson:bus-busco_553126",
+          "originStopName": "PARSONS BL/JAMAICA AV",
+          "destStopId": "east_of_hudson:bus-busco_501365",
+          "destStopName": "KISSENA BL/SANFORD AV",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 0,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-busco_MTABC",
+            "agency_name": "MTA Bus Company",
+            "route_id": "bus-busco_Q25",
+            "route_short_name": "Q25",
+            "route_long_name": "127 Street - Kissena Bl - Parsons Bl",
+            "route_type": 3,
+            "color": "00AEEF",
+            "agency_url": "http://web.mta.info/busco/schedules/q025cur.pdf"
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.757362,
+          "originLon": -73.827269,
+          "destLat": 40.785992,
+          "destLon": -73.848809,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.827269,
+                40.757362
+              ],
+              [
+                -73.829892,
+                40.759377
+              ],
+              [
+                -73.829892,
+                40.759377
+              ],
+              [
+                -73.831742,
+                40.762739
+              ],
+              [
+                -73.831742,
+                40.762739
+              ],
+              [
+                -73.8350969,
+                40.7630429
+              ],
+              [
+                -73.8350969,
+                40.7630429
+              ],
+              [
+                -73.839153,
+                40.767115
+              ],
+              [
+                -73.839153,
+                40.767115
+              ],
+              [
+                -73.8416709,
+                40.7694989
+              ],
+              [
+                -73.8416709,
+                40.7694989
+              ],
+              [
+                -73.843757,
+                40.771498
+              ],
+              [
+                -73.843757,
+                40.771498
+              ],
+              [
+                -73.845946,
+                40.773561
+              ],
+              [
+                -73.845946,
+                40.773561
+              ],
+              [
+                -73.846502,
+                40.774645
+              ],
+              [
+                -73.846502,
+                40.774645
+              ],
+              [
+                -73.846165,
+                40.775874
+              ],
+              [
+                -73.846165,
+                40.775874
+              ],
+              [
+                -73.846001,
+                40.778783
+              ],
+              [
+                -73.846001,
+                40.778783
+              ],
+              [
+                -73.845853,
+                40.7818289
+              ],
+              [
+                -73.845853,
+                40.7818289
+              ],
+              [
+                -73.8457569,
+                40.78335
+              ],
+              [
+                -73.8457569,
+                40.78335
+              ],
+              [
+                -73.846036,
+                40.786083
+              ],
+              [
+                -73.846036,
+                40.786083
+              ],
+              [
+                -73.848809,
+                40.785992
+              ]
+            ]
+          },
+          "originTime": 30689,
+          "destTime": 31816,
+          "originStopId": "east_of_hudson:bus-busco_501365",
+          "originStopName": "KISSENA BL/SANFORD AV",
+          "destStopId": "east_of_hudson:bus-busco_982079",
+          "destStopName": "14 AVE/119 ST",
+          "cumulativeFare": 550,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_LOCAL_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-busco_MTABC",
+            "agency_name": "MTA Bus Company",
+            "route_id": "bus-busco_Q65",
+            "route_short_name": "Q65",
+            "route_long_name": "College Point Bl - 164 St",
+            "route_type": 3,
+            "color": "00AEEF",
+            "agency_url": "http://web.mta.info/busco/schedules/q065cur.pdf"
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 5465,
+      "departureTime": 25255,
+      "fare": 1100,
+      "legs": [
+        {
+          "originLat": 40.6615176,
+          "originLon": -73.7047587,
+          "destLat": 40.6996081,
+          "destLon": -73.8085298,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.7047587,
+                40.6615176
+              ],
+              [
+                -73.7355481,
+                40.6659493
+              ],
+              [
+                -73.7355481,
+                40.6659493
+              ],
+              [
+                -73.7517468,
+                40.668483
+              ],
+              [
+                -73.7517468,
+                40.668483
+              ],
+              [
+                -73.765043,
+                40.675139
+              ],
+              [
+                -73.765043,
+                40.675139
+              ],
+              [
+                -73.8085298,
+                40.6996081
+              ]
+            ]
+          },
+          "originTime": 26100,
+          "destTime": 26940,
+          "originStopId": "east_of_hudson:lirr211",
+          "originStopName": "Valley Stream",
+          "destStopId": "east_of_hudson:lirr102",
+          "destStopName": "Jamaica",
+          "cumulativeFare": 825,
+          "transferAllowance": {
+            "value": 4350,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": {
+              "value": 0,
+              "number": 0,
+              "expirationTime": 0,
+              "cumulativeFare": 825,
+              "boardStop": "LIRR211",
+              "viaStop": null,
+              "alightStop": "LIRR102",
+              "initialDirection": "INBOUND",
+              "peakBeforeDirectionChange": true,
+              "peakAfterDirectionChange": false,
+              "mostRecentTicketPurchaseTime": 26100,
+              "maxTransferAllowance": 4350
+            },
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "default",
+            "agency_name": "default",
+            "route_id": "lirr6_peak",
+            "route_short_name": null,
+            "route_long_name": "Long Beach (peak)",
+            "route_type": 2,
+            "color": "FF6319",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.6996081,
+          "originLon": -73.8085298,
+          "destLat": 40.701989,
+          "destLon": -73.807903,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.8085298,
+                40.6996081
+              ],
+              [
+                -73.807903,
+                40.701989
+              ]
+            ]
+          },
+          "originTime": 26940,
+          "destTime": 27195,
+          "originStopId": "east_of_hudson:lirr102",
+          "originStopName": "Jamaica",
+          "destStopId": "east_of_hudson:bus-queens_502030",
+          "destStopName": "SUTPHIN BL/JAMAICA AV",
+          "cumulativeFare": 825,
+          "transferAllowance": {
+            "value": 0,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.701989,
+          "originLon": -73.807903,
+          "destLat": 40.75812,
+          "destLon": -73.829348,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.807903,
+                40.701989
+              ],
+              [
+                -73.809531,
+                40.705602
+              ],
+              [
+                -73.809531,
+                40.705602
+              ],
+              [
+                -73.818898,
+                40.709951
+              ],
+              [
+                -73.818898,
+                40.709951
+              ],
+              [
+                -73.817128,
+                40.717975
+              ],
+              [
+                -73.817128,
+                40.717975
+              ],
+              [
+                -73.82075,
+                40.725011
+              ],
+              [
+                -73.82075,
+                40.725011
+              ],
+              [
+                -73.823284,
+                40.729937
+              ],
+              [
+                -73.823284,
+                40.729937
+              ],
+              [
+                -73.825189,
+                40.733963
+              ],
+              [
+                -73.825189,
+                40.733963
+              ],
+              [
+                -73.824891,
+                40.740119
+              ],
+              [
+                -73.824891,
+                40.740119
+              ],
+              [
+                -73.825468,
+                40.74304
+              ],
+              [
+                -73.825468,
+                40.74304
+              ],
+              [
+                -73.826131,
+                40.74711
+              ],
+              [
+                -73.826131,
+                40.74711
+              ],
+              [
+                -73.8258989,
+                40.751385
+              ],
+              [
+                -73.8258989,
+                40.751385
+              ],
+              [
+                -73.829348,
+                40.75812
+              ]
+            ]
+          },
+          "originTime": 27373,
+          "destTime": 29389,
+          "originStopId": "east_of_hudson:bus-queens_502030",
+          "originStopName": "SUTPHIN BL/JAMAICA AV",
+          "destStopId": "east_of_hudson:bus-queens_502184",
+          "destStopName": "MAIN ST/KISSENA BL",
+          "cumulativeFare": 1100,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_LOCAL_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-queens_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "bus-queens_Q44+",
+            "route_short_name": "Q44-SBS",
+            "route_long_name": "Bronx Zoo - Jamaica",
+            "route_type": 3,
+            "color": "EE352E",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.75812,
+          "originLon": -73.829348,
+          "destLat": 40.759377,
+          "destLon": -73.829892,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.829348,
+                40.75812
+              ],
+              [
+                -73.829892,
+                40.759377
+              ]
+            ]
+          },
+          "originTime": 29389,
+          "destTime": 29507,
+          "originStopId": "east_of_hudson:bus-queens_502184",
+          "originStopName": "MAIN ST/KISSENA BL",
+          "destStopId": "east_of_hudson:bus-busco_551051",
+          "destStopName": "MAIN ST/ROOSEVELT AV",
+          "cumulativeFare": 1100,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_LOCAL_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.759377,
+          "originLon": -73.829892,
+          "destLat": 40.785992,
+          "destLon": -73.848809,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.829892,
+                40.759377
+              ],
+              [
+                -73.8416709,
+                40.7694989
+              ],
+              [
+                -73.8416709,
+                40.7694989
+              ],
+              [
+                -73.843757,
+                40.771498
+              ],
+              [
+                -73.843757,
+                40.771498
+              ],
+              [
+                -73.845946,
+                40.773561
+              ],
+              [
+                -73.845946,
+                40.773561
+              ],
+              [
+                -73.846165,
+                40.775874
+              ],
+              [
+                -73.846165,
+                40.775874
+              ],
+              [
+                -73.846001,
+                40.778783
+              ],
+              [
+                -73.846001,
+                40.778783
+              ],
+              [
+                -73.845853,
+                40.7818289
+              ],
+              [
+                -73.845853,
+                40.7818289
+              ],
+              [
+                -73.8457569,
+                40.78335
+              ],
+              [
+                -73.8457569,
+                40.78335
+              ],
+              [
+                -73.846036,
+                40.786083
+              ],
+              [
+                -73.846036,
+                40.786083
+              ],
+              [
+                -73.848809,
+                40.785992
+              ]
+            ]
+          },
+          "originTime": 29580,
+          "destTime": 30556,
+          "originStopId": "east_of_hudson:bus-busco_551051",
+          "originStopName": "MAIN ST/ROOSEVELT AV",
+          "destStopId": "east_of_hudson:bus-busco_982079",
+          "destStopName": "14 AVE/119 ST",
+          "cumulativeFare": 1100,
+          "transferAllowance": {
+            "value": 0,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-busco_MTABC",
+            "agency_name": "MTA Bus Company",
+            "route_id": "bus-busco_Q65",
+            "route_short_name": "Q65",
+            "route_long_name": "College Point Bl - 164 St",
+            "route_type": 3,
+            "color": "00AEEF",
+            "agency_url": "http://web.mta.info/busco/schedules/q065cur.pdf"
+          },
+          "type": "transit"
+        }
+      ]
+    }
+  ],
+  "computeTimeMillis": 2698,
+  "backendVersion": {
+    "version": "UNKNOWN",
+    "commit": "UNKNOWN",
+    "describe": "UNKNOWN",
+    "branch": "UNKNOWN",
+    "buildHost": "UNKNOWN",
+    "buildTime": "UNKNOWN"
+  },
+  "generationTime": "2020-06-21T23:17:21.694121"
+}

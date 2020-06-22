@@ -1,1 +1,1270 @@
-{"request":{"fromLat":40.64274482191706,"fromLon":-74.09712359892602,"toLat":40.55339586915004,"toLon":-74.18517237818091,"fromTime":25200,"toTime":25260,"walkSpeed":1.3888888,"bikeSpeed":4.1666665,"bikeTrafficStress":4,"carSpeed":20,"streetTime":90,"maxWalkTime":20,"maxBikeTime":20,"maxCarTime":45,"minBikeTime":10,"minCarTime":10,"date":"2019-12-16","limit":0,"accessModes":"WALK","egressModes":"WALK","directModes":"WALK","transitModes":"TRAM,SUBWAY,RAIL,BUS,FERRY,CABLE_CAR,GONDOLA,FUNICULAR","suboptimalMinutes":5,"maxTripDurationMinutes":120,"maxRides":4,"scenario":null,"scenarioId":null,"zoneId":"Z","wheelchair":false,"maxFare":200000,"inRoutingFareCalculator":{"type":"nyc","gtfsFares":null},"monteCarloDraws":1},"trips":[{"durationSeconds":4791,"departureTime":25255,"fare":550,"legs":[{"originLat":40.6447409,"originLon":-74.096086,"destLat":40.643732,"destLon":-74.073092,"geom":{"type":"LineString","coordinates":[[-74.096086,40.6447409],[-74.088536,40.646853],[-74.088536,40.646853],[-74.073092,40.643732]]},"originTime":25800,"destTime":26220,"originStopId":"east_of_hudson:bus-si_202995","originStopName":"RICHMOND TER/LAFAYETTE AV","destStopId":"east_of_hudson:bus-si_805006","destStopName":"ST GEORGE FERRY /ST GEORGE FERRY","cumulativeFare":275,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_LOCAL_BUS","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"bus-si_MTA NYCT","agency_name":"MTA New York City Transit","route_id":"bus-si_S90","route_short_name":"S90","route_long_name":"St. George - Goethals Rd North LTD","route_type":3,"color":"B933AD","agency_url":null},"type":"transit"},{"originLat":40.643732,"originLon":-74.073092,"destLat":40.6437479,"destLon":-74.073643,"geom":{"type":"LineString","coordinates":[[-74.073092,40.643732],[-74.073643,40.6437479]]},"originTime":26220,"destTime":26291,"originStopId":"east_of_hudson:bus-si_805006","originStopName":"ST GEORGE FERRY /ST GEORGE FERRY","destStopId":"east_of_hudson:nyct_subway_S31S","destStopName":"St George","cumulativeFare":275,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_LOCAL_BUS","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.6437479,"originLon":-74.073643,"destLat":40.5404599,"destLon":-74.178217,"geom":{"type":"LineString","coordinates":[[-74.073643,40.6437479],[-74.151399,40.551231],[-74.151399,40.551231],[-74.16457,40.544601],[-74.16457,40.544601],[-74.178217,40.5404599]]},"originTime":27060,"destTime":28380,"originStopId":"east_of_hudson:nyct_subway_S31S","originStopName":"St George","destStopId":"east_of_hudson:nyct_subway_S17S","destStopName":"Annadale","cumulativeFare":275,"transferAllowance":{"value":275,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"LOCAL_BUS_TO_SIR","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"nyct_subway_MTA NYCT","agency_name":"MTA New York City Transit","route_id":"nyct_subway_SI","route_short_name":"SIR","route_long_name":"Staten Island Railway","route_type":2,"color":null,"agency_url":"http://web.mta.info/nyct/service/pdf/sircur.pdf"},"type":"transit"},{"originLat":40.5404599,"originLon":-74.178217,"destLat":40.539914,"destLon":-74.177138,"geom":{"type":"LineString","coordinates":[[-74.178217,40.5404599],[-74.177138,40.539914]]},"originTime":28380,"destTime":28550,"originStopId":"east_of_hudson:nyct_subway_S17S","originStopName":"Annadale","destStopId":"east_of_hudson:bus-si_202334","destStopName":"ANNADALE RD/SOUTH RAILROAD ST","cumulativeFare":275,"transferAllowance":{"value":275,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"LOCAL_BUS_TO_SIR","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.539914,"originLon":-74.177138,"destLat":40.544777,"destLon":-74.1761689,"geom":{"type":"LineString","coordinates":[[-74.177138,40.539914],[-74.1761689,40.544777]]},"originTime":28800,"destTime":28881,"originStopId":"east_of_hudson:bus-si_202334","originStopName":"ANNADALE RD/SOUTH RAILROAD ST","destStopId":"east_of_hudson:bus-si_202335","destStopName":"ANNADALE RD/ARDEN AV","cumulativeFare":550,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_LOCAL_BUS","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"bus-si_MTA NYCT","agency_name":"MTA New York City Transit","route_id":"bus-si_S55","route_short_name":"S55","route_long_name":"Rossville - Staten Island Mall","route_type":3,"color":"FAA61A","agency_url":null},"type":"transit"}],"tripIndex":0,"optimal":true},{"durationSeconds":4311,"departureTime":25255,"fare":950,"legs":[{"originLat":40.6447409,"originLon":-74.096086,"destLat":40.643732,"destLon":-74.073092,"geom":{"type":"LineString","coordinates":[[-74.096086,40.6447409],[-74.088536,40.646853],[-74.088536,40.646853],[-74.073092,40.643732]]},"originTime":25800,"destTime":26220,"originStopId":"east_of_hudson:bus-si_202995","originStopName":"RICHMOND TER/LAFAYETTE AV","destStopId":"east_of_hudson:bus-si_805006","destStopName":"ST GEORGE FERRY /ST GEORGE FERRY","cumulativeFare":275,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_LOCAL_BUS","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"bus-si_MTA NYCT","agency_name":"MTA New York City Transit","route_id":"bus-si_S90","route_short_name":"S90","route_long_name":"St. George - Goethals Rd North LTD","route_type":3,"color":"B933AD","agency_url":null},"type":"transit"},{"originLat":40.643732,"originLon":-74.073092,"destLat":40.6437479,"destLon":-74.073643,"geom":{"type":"LineString","coordinates":[[-74.073092,40.643732],[-74.073643,40.6437479]]},"originTime":26220,"destTime":26291,"originStopId":"east_of_hudson:bus-si_805006","originStopName":"ST GEORGE FERRY /ST GEORGE FERRY","destStopId":"east_of_hudson:nyct_subway_S31S","destStopName":"St George","cumulativeFare":275,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_LOCAL_BUS","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.6437479,"originLon":-74.073643,"destLat":40.533674,"destLon":-74.1917939,"geom":{"type":"LineString","coordinates":[[-74.073643,40.6437479],[-74.151399,40.551231],[-74.151399,40.551231],[-74.16457,40.544601],[-74.16457,40.544601],[-74.178217,40.5404599],[-74.178217,40.5404599],[-74.1917939,40.533674]]},"originTime":27060,"destTime":28500,"originStopId":"east_of_hudson:nyct_subway_S31S","originStopName":"St George","destStopId":"east_of_hudson:nyct_subway_S16S","destStopName":"Huguenot","cumulativeFare":275,"transferAllowance":{"value":275,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"LOCAL_BUS_TO_SIR","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"nyct_subway_MTA NYCT","agency_name":"MTA New York City Transit","route_id":"nyct_subway_SI","route_short_name":"SIR","route_long_name":"Staten Island Railway","route_type":2,"color":null,"agency_url":"http://web.mta.info/nyct/service/pdf/sircur.pdf"},"type":"transit"},{"originLat":40.533674,"originLon":-74.1917939,"destLat":40.534125,"destLon":-74.192808,"geom":{"type":"LineString","coordinates":[[-74.1917939,40.533674],[-74.192808,40.534125]]},"originTime":28500,"destTime":28645,"originStopId":"east_of_hudson:nyct_subway_S16S","originStopName":"Huguenot","destStopId":"east_of_hudson:bus-si_250057","destStopName":"HUGUENOT AV/DRUMGOOLE RD E","cumulativeFare":275,"transferAllowance":{"value":275,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"LOCAL_BUS_TO_SIR","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.534125,"originLon":-74.192808,"destLat":40.5502229,"destLon":-74.187657,"geom":{"type":"LineString","coordinates":[[-74.192808,40.534125],[-74.195464,40.5393909],[-74.195464,40.5393909],[-74.196718,40.5436429],[-74.196718,40.5436429],[-74.1904069,40.547543],[-74.1904069,40.547543],[-74.187657,40.5502229]]},"originTime":28792,"destTime":29246,"originStopId":"east_of_hudson:bus-si_250057","originStopName":"HUGUENOT AV/DRUMGOOLE RD E","destStopId":"east_of_hudson:bus-si_203586","destStopName":"ARDEN AV/WOODROW RD","cumulativeFare":950,"transferAllowance":{"value":275,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_EXPRESS_BUS","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"bus-si_MTA NYCT","agency_name":"MTA New York City Transit","route_id":"bus-si_SIM2","route_short_name":"SIM2","route_long_name":"Staten Island - Lower Manhattan Express","route_type":3,"color":"00933C","agency_url":null},"type":"transit"}],"tripIndex":1,"optimal":true},{"durationSeconds":5234,"departureTime":25255,"fare":275,"legs":[{"originLat":40.644492,"originLon":-74.095956,"destLat":40.584949,"destLon":-74.166914,"geom":{"type":"LineString","coordinates":[[-74.095956,40.644492],[-74.09567,40.643507],[-74.09567,40.643507],[-74.095308,40.642305],[-74.095308,40.642305],[-74.0949459,40.641114],[-74.0949459,40.641114],[-74.09831,40.64034],[-74.09831,40.64034],[-74.100994,40.639956],[-74.100994,40.639956],[-74.103703,40.639303],[-74.103703,40.639303],[-74.107024,40.638762],[-74.107024,40.638762],[-74.110467,40.637834],[-74.110467,40.637834],[-74.112337,40.637634],[-74.112337,40.637634],[-74.112417,40.634886],[-74.112417,40.634886],[-74.112052,40.633363],[-74.112052,40.633363],[-74.114051,40.63306],[-74.114051,40.63306],[-74.116922,40.632686],[-74.116922,40.632686],[-74.119076,40.632453],[-74.119076,40.632453],[-74.120654,40.632282],[-74.120654,40.632282],[-74.122703,40.63203],[-74.122703,40.63203],[-74.1247959,40.631778],[-74.1247959,40.631778],[-74.127832,40.631201],[-74.127832,40.631201],[-74.130383,40.630918],[-74.130383,40.630918],[-74.133124,40.6323469],[-74.133124,40.6323469],[-74.1359689,40.633936],[-74.1359689,40.633936],[-74.137624,40.6324169],[-74.137624,40.6324169],[-74.1398849,40.630349],[-74.1398849,40.630349],[-74.143881,40.6306049],[-74.143881,40.6306049],[-74.147063,40.631046],[-74.147063,40.631046],[-74.147521,40.629588],[-74.147521,40.629588],[-74.147891,40.628412],[-74.147891,40.628412],[-74.149036,40.624336],[-74.149036,40.624336],[-74.150328,40.6222239],[-74.150328,40.6222239],[-74.153328,40.620134],[-74.153328,40.620134],[-74.155597,40.618288],[-74.155597,40.618288],[-74.156788,40.616452],[-74.156788,40.616452],[-74.157657,40.614569],[-74.157657,40.614569],[-74.159036,40.61279],[-74.159036,40.61279],[-74.160418,40.609936],[-74.160418,40.609936],[-74.1625349,40.607025],[-74.1625349,40.607025],[-74.162449,40.605719],[-74.162449,40.605719],[-74.162796,40.604121],[-74.162796,40.604121],[-74.163365,40.601378],[-74.163365,40.601378],[-74.1630819,40.600133],[-74.1630819,40.600133],[-74.1625119,40.5969989],[-74.1625119,40.5969989],[-74.162115,40.595207],[-74.162115,40.595207],[-74.162856,40.59314],[-74.162856,40.59314],[-74.166212,40.590584],[-74.166212,40.590584],[-74.168058,40.588623],[-74.168058,40.588623],[-74.166914,40.584949]]},"originTime":25620,"destTime":28200,"originStopId":"east_of_hudson:bus-si_200878","originStopName":"LAFAYETTE AV/RICHMOND TER","destStopId":"east_of_hudson:bus-si_200454","destStopName":"RING RD/MACYS PLATINUM AV","cumulativeFare":275,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_LOCAL_BUS","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"bus-si_MTA NYCT","agency_name":"MTA New York City Transit","route_id":"bus-si_S44","route_short_name":"S44","route_long_name":"St. George - Staten Island Mall","route_type":3,"color":"FAA61A","agency_url":null},"type":"transit"},{"originLat":40.584949,"originLon":-74.166914,"destLat":40.58372,"destLon":-74.161424,"geom":{"type":"LineString","coordinates":[[-74.166914,40.584949],[-74.161424,40.58372]]},"originTime":28200,"destTime":28651,"originStopId":"east_of_hudson:bus-si_200454","originStopName":"RING RD/MACYS PLATINUM AV","destStopId":"east_of_hudson:bus-si_905161","destStopName":"MARSH AV/RING RD","cumulativeFare":275,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_LOCAL_BUS","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.58372,"originLon":-74.161424,"destLat":40.549655,"destLon":-74.188078,"geom":{"type":"LineString","coordinates":[[-74.161424,40.58372],[-74.163077,40.580847],[-74.163077,40.580847],[-74.1637689,40.577857],[-74.1637689,40.577857],[-74.166551,40.578047],[-74.166551,40.578047],[-74.169751,40.579056],[-74.169751,40.579056],[-74.1699819,40.576378],[-74.1699819,40.576378],[-74.170027,40.570434],[-74.170027,40.570434],[-74.171275,40.560645],[-74.171275,40.560645],[-74.172438,40.5618969],[-74.172438,40.5618969],[-74.17567,40.563064],[-74.17567,40.563064],[-74.177486,40.563775],[-74.177486,40.563775],[-74.181085,40.56518],[-74.181085,40.56518],[-74.1837819,40.5653919],[-74.1837819,40.5653919],[-74.186377,40.5643559],[-74.186377,40.5643559],[-74.191986,40.562649],[-74.191986,40.562649],[-74.197503,40.558516],[-74.197503,40.558516],[-74.1965209,40.557631],[-74.1965209,40.557631],[-74.194644,40.555754],[-74.194644,40.555754],[-74.1937569,40.554943],[-74.1937569,40.554943],[-74.190513,40.551792],[-74.190513,40.551792],[-74.188078,40.549655]]},"originTime":28800,"destTime":30120,"originStopId":"east_of_hudson:bus-si_905161","originStopName":"MARSH AV/RING RD","destStopId":"east_of_hudson:bus-si_202913","destStopName":"WOODROW RD/ALMOND ST","cumulativeFare":275,"transferAllowance":{"value":0,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"bus-si_MTA NYCT","agency_name":"MTA New York City Transit","route_id":"bus-si_S56","route_short_name":"S56","route_long_name":"Huguenot - Staten Island Mall","route_type":3,"color":"6CBE45","agency_url":null},"type":"transit"}],"tripIndex":2,"optimal":true}],"computeTimeMillis":1149}
+{
+  "request": {
+    "fromLat": 40.64274482191706,
+    "fromLon": -74.09712359892602,
+    "toLat": 40.55339586915004,
+    "toLon": -74.18517237818091,
+    "fromTime": 25200,
+    "toTime": 25260,
+    "walkSpeed": 1.3888888,
+    "bikeSpeed": 4.1666665,
+    "bikeTrafficStress": 4,
+    "carSpeed": 20.0,
+    "streetTime": 90,
+    "maxWalkTime": 20,
+    "maxBikeTime": 20,
+    "maxCarTime": 45,
+    "minBikeTime": 10,
+    "minCarTime": 10,
+    "date": "2019-12-16",
+    "limit": 0,
+    "accessModes": "WALK",
+    "egressModes": "WALK",
+    "directModes": "WALK",
+    "transitModes": "TRAM,SUBWAY,RAIL,BUS,FERRY,CABLE_CAR,GONDOLA,FUNICULAR",
+    "suboptimalMinutes": 5,
+    "maxTripDurationMinutes": 120,
+    "maxRides": 4,
+    "scenario": null,
+    "scenarioId": null,
+    "zoneId": "Z",
+    "wheelchair": false,
+    "maxFare": 200000,
+    "inRoutingFareCalculator": {
+      "type": "nyc",
+      "gtfsFares": null,
+      "toLirrDiscounts": null,
+      "toMetroNorthDiscounts": null,
+      "lirrMetrocardTransferSource": null,
+      "metroNorthMetrocardTransferSource": null,
+      "lirrFareOverrides": null,
+      "metroNorthFareOverrides": null
+    },
+    "monteCarloDraws": 1
+  },
+  "trips": [
+    {
+      "durationSeconds": 4791,
+      "departureTime": 25255,
+      "fare": 550,
+      "legs": [
+        {
+          "originLat": 40.6447409,
+          "originLon": -74.096086,
+          "destLat": 40.643732,
+          "destLon": -74.073092,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.096086,
+                40.6447409
+              ],
+              [
+                -74.088536,
+                40.646853
+              ],
+              [
+                -74.088536,
+                40.646853
+              ],
+              [
+                -74.073092,
+                40.643732
+              ]
+            ]
+          },
+          "originTime": 25800,
+          "destTime": 26220,
+          "originStopId": "east_of_hudson:bus-si_202995",
+          "originStopName": "RICHMOND TER/LAFAYETTE AV",
+          "destStopId": "east_of_hudson:bus-si_805006",
+          "destStopName": "ST GEORGE FERRY /ST GEORGE FERRY",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_LOCAL_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-si_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "bus-si_S90",
+            "route_short_name": "S90",
+            "route_long_name": "St. George - Goethals Rd North LTD",
+            "route_type": 3,
+            "color": "B933AD",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.643732,
+          "originLon": -74.073092,
+          "destLat": 40.6437479,
+          "destLon": -74.073643,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.073092,
+                40.643732
+              ],
+              [
+                -74.073643,
+                40.6437479
+              ]
+            ]
+          },
+          "originTime": 26220,
+          "destTime": 26291,
+          "originStopId": "east_of_hudson:bus-si_805006",
+          "originStopName": "ST GEORGE FERRY /ST GEORGE FERRY",
+          "destStopId": "east_of_hudson:nyct_subway_S31S",
+          "destStopName": "St George",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_LOCAL_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.6437479,
+          "originLon": -74.073643,
+          "destLat": 40.5404599,
+          "destLon": -74.178217,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.073643,
+                40.6437479
+              ],
+              [
+                -74.151399,
+                40.551231
+              ],
+              [
+                -74.151399,
+                40.551231
+              ],
+              [
+                -74.16457,
+                40.544601
+              ],
+              [
+                -74.16457,
+                40.544601
+              ],
+              [
+                -74.178217,
+                40.5404599
+              ]
+            ]
+          },
+          "originTime": 27060,
+          "destTime": 28380,
+          "originStopId": "east_of_hudson:nyct_subway_S31S",
+          "originStopName": "St George",
+          "destStopId": "east_of_hudson:nyct_subway_S17S",
+          "destStopName": "Annadale",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 275,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "LOCAL_BUS_TO_SIR",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nyct_subway_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "nyct_subway_SI",
+            "route_short_name": "SIR",
+            "route_long_name": "Staten Island Railway",
+            "route_type": 2,
+            "color": null,
+            "agency_url": "http://web.mta.info/nyct/service/pdf/sircur.pdf"
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.5404599,
+          "originLon": -74.178217,
+          "destLat": 40.539914,
+          "destLon": -74.177138,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.178217,
+                40.5404599
+              ],
+              [
+                -74.177138,
+                40.539914
+              ]
+            ]
+          },
+          "originTime": 28380,
+          "destTime": 28550,
+          "originStopId": "east_of_hudson:nyct_subway_S17S",
+          "originStopName": "Annadale",
+          "destStopId": "east_of_hudson:bus-si_202334",
+          "destStopName": "ANNADALE RD/SOUTH RAILROAD ST",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 275,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "LOCAL_BUS_TO_SIR",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.539914,
+          "originLon": -74.177138,
+          "destLat": 40.544777,
+          "destLon": -74.1761689,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.177138,
+                40.539914
+              ],
+              [
+                -74.1761689,
+                40.544777
+              ]
+            ]
+          },
+          "originTime": 28800,
+          "destTime": 28881,
+          "originStopId": "east_of_hudson:bus-si_202334",
+          "originStopName": "ANNADALE RD/SOUTH RAILROAD ST",
+          "destStopId": "east_of_hudson:bus-si_202335",
+          "destStopName": "ANNADALE RD/ARDEN AV",
+          "cumulativeFare": 550,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_LOCAL_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-si_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "bus-si_S55",
+            "route_short_name": "S55",
+            "route_long_name": "Rossville - Staten Island Mall",
+            "route_type": 3,
+            "color": "FAA61A",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 4311,
+      "departureTime": 25255,
+      "fare": 950,
+      "legs": [
+        {
+          "originLat": 40.6447409,
+          "originLon": -74.096086,
+          "destLat": 40.643732,
+          "destLon": -74.073092,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.096086,
+                40.6447409
+              ],
+              [
+                -74.088536,
+                40.646853
+              ],
+              [
+                -74.088536,
+                40.646853
+              ],
+              [
+                -74.073092,
+                40.643732
+              ]
+            ]
+          },
+          "originTime": 25800,
+          "destTime": 26220,
+          "originStopId": "east_of_hudson:bus-si_202995",
+          "originStopName": "RICHMOND TER/LAFAYETTE AV",
+          "destStopId": "east_of_hudson:bus-si_805006",
+          "destStopName": "ST GEORGE FERRY /ST GEORGE FERRY",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_LOCAL_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-si_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "bus-si_S90",
+            "route_short_name": "S90",
+            "route_long_name": "St. George - Goethals Rd North LTD",
+            "route_type": 3,
+            "color": "B933AD",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.643732,
+          "originLon": -74.073092,
+          "destLat": 40.6437479,
+          "destLon": -74.073643,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.073092,
+                40.643732
+              ],
+              [
+                -74.073643,
+                40.6437479
+              ]
+            ]
+          },
+          "originTime": 26220,
+          "destTime": 26291,
+          "originStopId": "east_of_hudson:bus-si_805006",
+          "originStopName": "ST GEORGE FERRY /ST GEORGE FERRY",
+          "destStopId": "east_of_hudson:nyct_subway_S31S",
+          "destStopName": "St George",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_LOCAL_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.6437479,
+          "originLon": -74.073643,
+          "destLat": 40.533674,
+          "destLon": -74.1917939,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.073643,
+                40.6437479
+              ],
+              [
+                -74.151399,
+                40.551231
+              ],
+              [
+                -74.151399,
+                40.551231
+              ],
+              [
+                -74.16457,
+                40.544601
+              ],
+              [
+                -74.16457,
+                40.544601
+              ],
+              [
+                -74.178217,
+                40.5404599
+              ],
+              [
+                -74.178217,
+                40.5404599
+              ],
+              [
+                -74.1917939,
+                40.533674
+              ]
+            ]
+          },
+          "originTime": 27060,
+          "destTime": 28500,
+          "originStopId": "east_of_hudson:nyct_subway_S31S",
+          "originStopName": "St George",
+          "destStopId": "east_of_hudson:nyct_subway_S16S",
+          "destStopName": "Huguenot",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 275,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "LOCAL_BUS_TO_SIR",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nyct_subway_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "nyct_subway_SI",
+            "route_short_name": "SIR",
+            "route_long_name": "Staten Island Railway",
+            "route_type": 2,
+            "color": null,
+            "agency_url": "http://web.mta.info/nyct/service/pdf/sircur.pdf"
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.533674,
+          "originLon": -74.1917939,
+          "destLat": 40.534125,
+          "destLon": -74.192808,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.1917939,
+                40.533674
+              ],
+              [
+                -74.192808,
+                40.534125
+              ]
+            ]
+          },
+          "originTime": 28500,
+          "destTime": 28645,
+          "originStopId": "east_of_hudson:nyct_subway_S16S",
+          "originStopName": "Huguenot",
+          "destStopId": "east_of_hudson:bus-si_250057",
+          "destStopName": "HUGUENOT AV/DRUMGOOLE RD E",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 275,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "LOCAL_BUS_TO_SIR",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.534125,
+          "originLon": -74.192808,
+          "destLat": 40.5502229,
+          "destLon": -74.187657,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.192808,
+                40.534125
+              ],
+              [
+                -74.195464,
+                40.5393909
+              ],
+              [
+                -74.195464,
+                40.5393909
+              ],
+              [
+                -74.196718,
+                40.5436429
+              ],
+              [
+                -74.196718,
+                40.5436429
+              ],
+              [
+                -74.1904069,
+                40.547543
+              ],
+              [
+                -74.1904069,
+                40.547543
+              ],
+              [
+                -74.187657,
+                40.5502229
+              ]
+            ]
+          },
+          "originTime": 28792,
+          "destTime": 29246,
+          "originStopId": "east_of_hudson:bus-si_250057",
+          "originStopName": "HUGUENOT AV/DRUMGOOLE RD E",
+          "destStopId": "east_of_hudson:bus-si_203586",
+          "destStopName": "ARDEN AV/WOODROW RD",
+          "cumulativeFare": 950,
+          "transferAllowance": {
+            "value": 275,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_EXPRESS_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-si_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "bus-si_SIM2",
+            "route_short_name": "SIM2",
+            "route_long_name": "Staten Island - Lower Manhattan Express",
+            "route_type": 3,
+            "color": "00933C",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 5234,
+      "departureTime": 25255,
+      "fare": 275,
+      "legs": [
+        {
+          "originLat": 40.644492,
+          "originLon": -74.095956,
+          "destLat": 40.584949,
+          "destLon": -74.166914,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.095956,
+                40.644492
+              ],
+              [
+                -74.09567,
+                40.643507
+              ],
+              [
+                -74.09567,
+                40.643507
+              ],
+              [
+                -74.095308,
+                40.642305
+              ],
+              [
+                -74.095308,
+                40.642305
+              ],
+              [
+                -74.0949459,
+                40.641114
+              ],
+              [
+                -74.0949459,
+                40.641114
+              ],
+              [
+                -74.09831,
+                40.64034
+              ],
+              [
+                -74.09831,
+                40.64034
+              ],
+              [
+                -74.100994,
+                40.639956
+              ],
+              [
+                -74.100994,
+                40.639956
+              ],
+              [
+                -74.103703,
+                40.639303
+              ],
+              [
+                -74.103703,
+                40.639303
+              ],
+              [
+                -74.107024,
+                40.638762
+              ],
+              [
+                -74.107024,
+                40.638762
+              ],
+              [
+                -74.110467,
+                40.637834
+              ],
+              [
+                -74.110467,
+                40.637834
+              ],
+              [
+                -74.112337,
+                40.637634
+              ],
+              [
+                -74.112337,
+                40.637634
+              ],
+              [
+                -74.112417,
+                40.634886
+              ],
+              [
+                -74.112417,
+                40.634886
+              ],
+              [
+                -74.112052,
+                40.633363
+              ],
+              [
+                -74.112052,
+                40.633363
+              ],
+              [
+                -74.114051,
+                40.63306
+              ],
+              [
+                -74.114051,
+                40.63306
+              ],
+              [
+                -74.116922,
+                40.632686
+              ],
+              [
+                -74.116922,
+                40.632686
+              ],
+              [
+                -74.119076,
+                40.632453
+              ],
+              [
+                -74.119076,
+                40.632453
+              ],
+              [
+                -74.120654,
+                40.632282
+              ],
+              [
+                -74.120654,
+                40.632282
+              ],
+              [
+                -74.122703,
+                40.63203
+              ],
+              [
+                -74.122703,
+                40.63203
+              ],
+              [
+                -74.1247959,
+                40.631778
+              ],
+              [
+                -74.1247959,
+                40.631778
+              ],
+              [
+                -74.127832,
+                40.631201
+              ],
+              [
+                -74.127832,
+                40.631201
+              ],
+              [
+                -74.130383,
+                40.630918
+              ],
+              [
+                -74.130383,
+                40.630918
+              ],
+              [
+                -74.133124,
+                40.6323469
+              ],
+              [
+                -74.133124,
+                40.6323469
+              ],
+              [
+                -74.1359689,
+                40.633936
+              ],
+              [
+                -74.1359689,
+                40.633936
+              ],
+              [
+                -74.137624,
+                40.6324169
+              ],
+              [
+                -74.137624,
+                40.6324169
+              ],
+              [
+                -74.1398849,
+                40.630349
+              ],
+              [
+                -74.1398849,
+                40.630349
+              ],
+              [
+                -74.143881,
+                40.6306049
+              ],
+              [
+                -74.143881,
+                40.6306049
+              ],
+              [
+                -74.147063,
+                40.631046
+              ],
+              [
+                -74.147063,
+                40.631046
+              ],
+              [
+                -74.147521,
+                40.629588
+              ],
+              [
+                -74.147521,
+                40.629588
+              ],
+              [
+                -74.147891,
+                40.628412
+              ],
+              [
+                -74.147891,
+                40.628412
+              ],
+              [
+                -74.149036,
+                40.624336
+              ],
+              [
+                -74.149036,
+                40.624336
+              ],
+              [
+                -74.150328,
+                40.6222239
+              ],
+              [
+                -74.150328,
+                40.6222239
+              ],
+              [
+                -74.153328,
+                40.620134
+              ],
+              [
+                -74.153328,
+                40.620134
+              ],
+              [
+                -74.155597,
+                40.618288
+              ],
+              [
+                -74.155597,
+                40.618288
+              ],
+              [
+                -74.156788,
+                40.616452
+              ],
+              [
+                -74.156788,
+                40.616452
+              ],
+              [
+                -74.157657,
+                40.614569
+              ],
+              [
+                -74.157657,
+                40.614569
+              ],
+              [
+                -74.159036,
+                40.61279
+              ],
+              [
+                -74.159036,
+                40.61279
+              ],
+              [
+                -74.160418,
+                40.609936
+              ],
+              [
+                -74.160418,
+                40.609936
+              ],
+              [
+                -74.1625349,
+                40.607025
+              ],
+              [
+                -74.1625349,
+                40.607025
+              ],
+              [
+                -74.162449,
+                40.605719
+              ],
+              [
+                -74.162449,
+                40.605719
+              ],
+              [
+                -74.162796,
+                40.604121
+              ],
+              [
+                -74.162796,
+                40.604121
+              ],
+              [
+                -74.163365,
+                40.601378
+              ],
+              [
+                -74.163365,
+                40.601378
+              ],
+              [
+                -74.1630819,
+                40.600133
+              ],
+              [
+                -74.1630819,
+                40.600133
+              ],
+              [
+                -74.1625119,
+                40.5969989
+              ],
+              [
+                -74.1625119,
+                40.5969989
+              ],
+              [
+                -74.162115,
+                40.595207
+              ],
+              [
+                -74.162115,
+                40.595207
+              ],
+              [
+                -74.162856,
+                40.59314
+              ],
+              [
+                -74.162856,
+                40.59314
+              ],
+              [
+                -74.166212,
+                40.590584
+              ],
+              [
+                -74.166212,
+                40.590584
+              ],
+              [
+                -74.168058,
+                40.588623
+              ],
+              [
+                -74.168058,
+                40.588623
+              ],
+              [
+                -74.166914,
+                40.584949
+              ]
+            ]
+          },
+          "originTime": 25620,
+          "destTime": 28200,
+          "originStopId": "east_of_hudson:bus-si_200878",
+          "originStopName": "LAFAYETTE AV/RICHMOND TER",
+          "destStopId": "east_of_hudson:bus-si_200454",
+          "destStopName": "RING RD/MACYS PLATINUM AV",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_LOCAL_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-si_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "bus-si_S44",
+            "route_short_name": "S44",
+            "route_long_name": "St. George - Staten Island Mall",
+            "route_type": 3,
+            "color": "FAA61A",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.584949,
+          "originLon": -74.166914,
+          "destLat": 40.58372,
+          "destLon": -74.161424,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.166914,
+                40.584949
+              ],
+              [
+                -74.161424,
+                40.58372
+              ]
+            ]
+          },
+          "originTime": 28200,
+          "destTime": 28651,
+          "originStopId": "east_of_hudson:bus-si_200454",
+          "originStopName": "RING RD/MACYS PLATINUM AV",
+          "destStopId": "east_of_hudson:bus-si_905161",
+          "destStopName": "MARSH AV/RING RD",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_LOCAL_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.58372,
+          "originLon": -74.161424,
+          "destLat": 40.549655,
+          "destLon": -74.188078,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.161424,
+                40.58372
+              ],
+              [
+                -74.163077,
+                40.580847
+              ],
+              [
+                -74.163077,
+                40.580847
+              ],
+              [
+                -74.1637689,
+                40.577857
+              ],
+              [
+                -74.1637689,
+                40.577857
+              ],
+              [
+                -74.166551,
+                40.578047
+              ],
+              [
+                -74.166551,
+                40.578047
+              ],
+              [
+                -74.169751,
+                40.579056
+              ],
+              [
+                -74.169751,
+                40.579056
+              ],
+              [
+                -74.1699819,
+                40.576378
+              ],
+              [
+                -74.1699819,
+                40.576378
+              ],
+              [
+                -74.170027,
+                40.570434
+              ],
+              [
+                -74.170027,
+                40.570434
+              ],
+              [
+                -74.171275,
+                40.560645
+              ],
+              [
+                -74.171275,
+                40.560645
+              ],
+              [
+                -74.172438,
+                40.5618969
+              ],
+              [
+                -74.172438,
+                40.5618969
+              ],
+              [
+                -74.17567,
+                40.563064
+              ],
+              [
+                -74.17567,
+                40.563064
+              ],
+              [
+                -74.177486,
+                40.563775
+              ],
+              [
+                -74.177486,
+                40.563775
+              ],
+              [
+                -74.181085,
+                40.56518
+              ],
+              [
+                -74.181085,
+                40.56518
+              ],
+              [
+                -74.1837819,
+                40.5653919
+              ],
+              [
+                -74.1837819,
+                40.5653919
+              ],
+              [
+                -74.186377,
+                40.5643559
+              ],
+              [
+                -74.186377,
+                40.5643559
+              ],
+              [
+                -74.191986,
+                40.562649
+              ],
+              [
+                -74.191986,
+                40.562649
+              ],
+              [
+                -74.197503,
+                40.558516
+              ],
+              [
+                -74.197503,
+                40.558516
+              ],
+              [
+                -74.1965209,
+                40.557631
+              ],
+              [
+                -74.1965209,
+                40.557631
+              ],
+              [
+                -74.194644,
+                40.555754
+              ],
+              [
+                -74.194644,
+                40.555754
+              ],
+              [
+                -74.1937569,
+                40.554943
+              ],
+              [
+                -74.1937569,
+                40.554943
+              ],
+              [
+                -74.190513,
+                40.551792
+              ],
+              [
+                -74.190513,
+                40.551792
+              ],
+              [
+                -74.188078,
+                40.549655
+              ]
+            ]
+          },
+          "originTime": 28800,
+          "destTime": 30120,
+          "originStopId": "east_of_hudson:bus-si_905161",
+          "originStopName": "MARSH AV/RING RD",
+          "destStopId": "east_of_hudson:bus-si_202913",
+          "destStopName": "WOODROW RD/ALMOND ST",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 0,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-si_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "bus-si_S56",
+            "route_short_name": "S56",
+            "route_long_name": "Huguenot - Staten Island Mall",
+            "route_type": 3,
+            "color": "6CBE45",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    }
+  ],
+  "computeTimeMillis": 342,
+  "backendVersion": {
+    "version": "UNKNOWN",
+    "commit": "UNKNOWN",
+    "describe": "UNKNOWN",
+    "branch": "UNKNOWN",
+    "buildHost": "UNKNOWN",
+    "buildTime": "UNKNOWN"
+  },
+  "generationTime": "2020-06-21T23:17:16.030218"
+}

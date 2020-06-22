@@ -1,1 +1,505 @@
-{"request":{"fromLat":40.74010382743943,"fromLon":-73.98647039945799,"toLat":40.75909046091092,"toLon":-73.95310356287858,"fromTime":25200,"toTime":25260,"walkSpeed":1.3888888,"bikeSpeed":4.1666665,"bikeTrafficStress":4,"carSpeed":20.0,"streetTime":90,"maxWalkTime":20,"maxBikeTime":20,"maxCarTime":45,"minBikeTime":10,"minCarTime":10,"date":"2019-12-16","limit":0,"accessModes":"WALK","egressModes":"WALK","directModes":"WALK","transitModes":"TRAM,SUBWAY,RAIL,BUS,FERRY,CABLE_CAR,GONDOLA,FUNICULAR","suboptimalMinutes":5,"maxTripDurationMinutes":120,"maxRides":4,"scenario":null,"scenarioId":null,"zoneId":"Z","wheelchair":false,"maxFare":200000,"inRoutingFareCalculator":{"type":"nyc","gtfsFares":null,"type":"nyc"},"monteCarloDraws":1},"trips":[{"durationSeconds":1314,"departureTime":25255,"fare":275,"legs":[{"originLat":40.739864,"originLon":-73.986599,"destLat":40.762526,"destLon":-73.967967,"geom":{"type":"LineString","coordinates":[[-73.986599,40.739864],[-73.984264,40.74307],[-73.984264,40.74307],[-73.982076,40.7460809],[-73.982076,40.7460809],[-73.976848,40.751776],[-73.976848,40.751776],[-73.97192,40.757107],[-73.97192,40.757107],[-73.967967,40.762526]]},"originTime":25530,"destTime":25980,"originStopId":"east_of_hudson:nyct_subway_634N","originStopName":"23 St","destStopId":"east_of_hudson:nyct_subway_629N","destStopName":"59 St","cumulativeFare":275,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_SUBWAY","metrocardTransferExpiry":32455,"inSubwayPaidArea":true,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"nyct_subway_MTA NYCT","agency_name":"MTA New York City Transit","route_id":"nyct_subway_6","route_short_name":"6","route_long_name":"Lexington Avenue Local","route_type":1,"color":"00933C","agency_url":"http://web.mta.info/nyct/service/pdf/t6cur.pdf"},"type":"transit"},{"originLat":40.762526,"originLon":-73.967967,"destLat":40.764629,"destLon":-73.966113,"geom":{"type":"LineString","coordinates":[[-73.967967,40.762526],[-73.966113,40.764629]]},"originTime":25980,"destTime":26198,"originStopId":"east_of_hudson:nyct_subway_629N","originStopName":"59 St","destStopId":"east_of_hudson:nyct_subway_B08N","destStopName":"Lexington Av/63 St","cumulativeFare":275,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_SUBWAY","metrocardTransferExpiry":32455,"inSubwayPaidArea":true,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.764629,"originLon":-73.966113,"destLat":40.759145,"destLon":-73.95326,"geom":{"type":"LineString","coordinates":[[-73.966113,40.764629],[-73.95326,40.759145]]},"originTime":26340,"destTime":26490,"originStopId":"east_of_hudson:nyct_subway_B08N","originStopName":"Lexington Av/63 St","destStopId":"east_of_hudson:nyct_subway_B06N","destStopName":"Roosevelt Island","cumulativeFare":275,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_SUBWAY","metrocardTransferExpiry":32455,"inSubwayPaidArea":true,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"nyct_subway_MTA NYCT","agency_name":"MTA New York City Transit","route_id":"nyct_subway_F","route_short_name":"F","route_long_name":"Queens Blvd Express/ 6 Av Local","route_type":1,"color":"FF6319","agency_url":"http://web.mta.info/nyct/service/pdf/tfcur.pdf"},"type":"transit"}]},{"durationSeconds":3085,"departureTime":25255,"fare":550,"legs":[{"originLat":40.742878,"originLon":-73.9928209,"destLat":40.759145,"destLon":-73.95326,"geom":{"type":"LineString","coordinates":[[-73.9928209,40.742878],[-73.9878229,40.749719],[-73.9878229,40.749719],[-73.9845689,40.754222],[-73.9845689,40.754222],[-73.981329,40.758663],[-73.981329,40.758663],[-73.97745,40.7639719],[-73.97745,40.7639719],[-73.966113,40.764629],[-73.966113,40.764629],[-73.95326,40.759145]]},"originTime":26130,"destTime":26910,"originStopId":"east_of_hudson:nyct_subway_D18N","originStopName":"23 St","destStopId":"east_of_hudson:nyct_subway_B06N","destStopName":"Roosevelt Island","cumulativeFare":275,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_SUBWAY","metrocardTransferExpiry":32455,"inSubwayPaidArea":true,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"nyct_subway_MTA NYCT","agency_name":"MTA New York City Transit","route_id":"nyct_subway_F","route_short_name":"F","route_long_name":"Queens Blvd Express/ 6 Av Local","route_type":1,"color":"FF6319","agency_url":"http://web.mta.info/nyct/service/pdf/tfcur.pdf"},"type":"transit"},{"originLat":40.759145,"originLon":-73.95326,"destLat":40.7584669,"destLon":-73.952743,"geom":{"type":"LineString","coordinates":[[-73.95326,40.759145],[-73.952743,40.7584669]]},"originTime":26910,"destTime":27034,"originStopId":"east_of_hudson:nyct_subway_B06N","originStopName":"Roosevelt Island","destStopId":"east_of_hudson:bus-busco_450151","destStopName":"MAIN ST/F SUBWAY (450 MAIN ST)","cumulativeFare":275,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_SUBWAY","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.7584669,"originLon":-73.952743,"destLat":40.756495,"destLon":-73.955868,"geom":{"type":"LineString","coordinates":[[-73.952743,40.7584669],[-73.953689,40.757319],[-73.953689,40.757319],[-73.9548339,40.755451],[-73.9548339,40.755451],[-73.958359,40.753415],[-73.958359,40.753415],[-73.955868,40.756495]]},"originTime":27253,"destTime":27480,"originStopId":"east_of_hudson:bus-busco_450151","originStopName":"MAIN ST/F SUBWAY (450 MAIN ST)","destStopId":"east_of_hudson:bus-busco_450145","destStopName":"W LOOP RD/N LOOP RD","cumulativeFare":275,"transferAllowance":{"value":0,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"bus-busco_MTABC","agency_name":"MTA Bus Company","route_id":"bus-busco_Q102","route_short_name":"Q102","route_long_name":"31 St - Roosevelt Island","route_type":3,"color":"006CB7","agency_url":"http://web.mta.info/busco/schedules/q102cur.pdf"},"type":"transit"},{"originLat":40.756495,"originLon":-73.955868,"destLat":40.759133,"destLon":-73.953438,"geom":{"type":"LineString","coordinates":[[-73.955868,40.756495],[-73.95495,40.757596],[-73.95495,40.757596],[-73.953438,40.759133]]},"originTime":28200,"destTime":28269,"originStopId":"east_of_hudson:bus-busco_450145","originStopName":"W LOOP RD/N LOOP RD","destStopId":"east_of_hudson:bus-busco_450142","destStopName":"WEST RD/F SUBWAY (452 MAIN ST)","cumulativeFare":550,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_LOCAL_BUS","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"bus-busco_MTABC","agency_name":"MTA Bus Company","route_id":"bus-busco_Q102","route_short_name":"Q102","route_long_name":"31 St - Roosevelt Island","route_type":3,"color":"006CB7","agency_url":"http://web.mta.info/busco/schedules/q102cur.pdf"},"type":"transit"}]}],"computeTimeMillis":803}
+{
+  "request": {
+    "fromLat": 40.74010382743943,
+    "fromLon": -73.98647039945799,
+    "toLat": 40.75909046091092,
+    "toLon": -73.95310356287858,
+    "fromTime": 25200,
+    "toTime": 25260,
+    "walkSpeed": 1.3888888,
+    "bikeSpeed": 4.1666665,
+    "bikeTrafficStress": 4,
+    "carSpeed": 20.0,
+    "streetTime": 90,
+    "maxWalkTime": 20,
+    "maxBikeTime": 20,
+    "maxCarTime": 45,
+    "minBikeTime": 10,
+    "minCarTime": 10,
+    "date": "2019-12-16",
+    "limit": 0,
+    "accessModes": "WALK",
+    "egressModes": "WALK",
+    "directModes": "WALK",
+    "transitModes": "TRAM,SUBWAY,RAIL,BUS,FERRY,CABLE_CAR,GONDOLA,FUNICULAR",
+    "suboptimalMinutes": 5,
+    "maxTripDurationMinutes": 120,
+    "maxRides": 4,
+    "scenario": null,
+    "scenarioId": null,
+    "zoneId": "Z",
+    "wheelchair": false,
+    "maxFare": 200000,
+    "inRoutingFareCalculator": {
+      "type": "nyc",
+      "gtfsFares": null,
+      "toLirrDiscounts": null,
+      "toMetroNorthDiscounts": null,
+      "lirrMetrocardTransferSource": null,
+      "metroNorthMetrocardTransferSource": null,
+      "lirrFareOverrides": null,
+      "metroNorthFareOverrides": null
+    },
+    "monteCarloDraws": 1
+  },
+  "trips": [
+    {
+      "durationSeconds": 1314,
+      "departureTime": 25255,
+      "fare": 275,
+      "legs": [
+        {
+          "originLat": 40.739864,
+          "originLon": -73.986599,
+          "destLat": 40.762526,
+          "destLon": -73.967967,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.986599,
+                40.739864
+              ],
+              [
+                -73.984264,
+                40.74307
+              ],
+              [
+                -73.984264,
+                40.74307
+              ],
+              [
+                -73.982076,
+                40.7460809
+              ],
+              [
+                -73.982076,
+                40.7460809
+              ],
+              [
+                -73.976848,
+                40.751776
+              ],
+              [
+                -73.976848,
+                40.751776
+              ],
+              [
+                -73.97192,
+                40.757107
+              ],
+              [
+                -73.97192,
+                40.757107
+              ],
+              [
+                -73.967967,
+                40.762526
+              ]
+            ]
+          },
+          "originTime": 25530,
+          "destTime": 25980,
+          "originStopId": "east_of_hudson:nyct_subway_634N",
+          "originStopName": "23 St",
+          "destStopId": "east_of_hudson:nyct_subway_629N",
+          "destStopName": "59 St",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": true,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nyct_subway_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "nyct_subway_6",
+            "route_short_name": "6",
+            "route_long_name": "Lexington Avenue Local",
+            "route_type": 1,
+            "color": "00933C",
+            "agency_url": "http://web.mta.info/nyct/service/pdf/t6cur.pdf"
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.762526,
+          "originLon": -73.967967,
+          "destLat": 40.764629,
+          "destLon": -73.966113,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.967967,
+                40.762526
+              ],
+              [
+                -73.966113,
+                40.764629
+              ]
+            ]
+          },
+          "originTime": 25980,
+          "destTime": 26198,
+          "originStopId": "east_of_hudson:nyct_subway_629N",
+          "originStopName": "59 St",
+          "destStopId": "east_of_hudson:nyct_subway_B08N",
+          "destStopName": "Lexington Av/63 St",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": true,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.764629,
+          "originLon": -73.966113,
+          "destLat": 40.759145,
+          "destLon": -73.95326,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.966113,
+                40.764629
+              ],
+              [
+                -73.95326,
+                40.759145
+              ]
+            ]
+          },
+          "originTime": 26340,
+          "destTime": 26490,
+          "originStopId": "east_of_hudson:nyct_subway_B08N",
+          "originStopName": "Lexington Av/63 St",
+          "destStopId": "east_of_hudson:nyct_subway_B06N",
+          "destStopName": "Roosevelt Island",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": true,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nyct_subway_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "nyct_subway_F",
+            "route_short_name": "F",
+            "route_long_name": "Queens Blvd Express/ 6 Av Local",
+            "route_type": 1,
+            "color": "FF6319",
+            "agency_url": "http://web.mta.info/nyct/service/pdf/tfcur.pdf"
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 3085,
+      "departureTime": 25255,
+      "fare": 550,
+      "legs": [
+        {
+          "originLat": 40.742878,
+          "originLon": -73.9928209,
+          "destLat": 40.759145,
+          "destLon": -73.95326,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.9928209,
+                40.742878
+              ],
+              [
+                -73.9878229,
+                40.749719
+              ],
+              [
+                -73.9878229,
+                40.749719
+              ],
+              [
+                -73.9845689,
+                40.754222
+              ],
+              [
+                -73.9845689,
+                40.754222
+              ],
+              [
+                -73.981329,
+                40.758663
+              ],
+              [
+                -73.981329,
+                40.758663
+              ],
+              [
+                -73.97745,
+                40.7639719
+              ],
+              [
+                -73.97745,
+                40.7639719
+              ],
+              [
+                -73.966113,
+                40.764629
+              ],
+              [
+                -73.966113,
+                40.764629
+              ],
+              [
+                -73.95326,
+                40.759145
+              ]
+            ]
+          },
+          "originTime": 26130,
+          "destTime": 26910,
+          "originStopId": "east_of_hudson:nyct_subway_D18N",
+          "originStopName": "23 St",
+          "destStopId": "east_of_hudson:nyct_subway_B06N",
+          "destStopName": "Roosevelt Island",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": true,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nyct_subway_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "nyct_subway_F",
+            "route_short_name": "F",
+            "route_long_name": "Queens Blvd Express/ 6 Av Local",
+            "route_type": 1,
+            "color": "FF6319",
+            "agency_url": "http://web.mta.info/nyct/service/pdf/tfcur.pdf"
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.759145,
+          "originLon": -73.95326,
+          "destLat": 40.7584669,
+          "destLon": -73.952743,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.95326,
+                40.759145
+              ],
+              [
+                -73.952743,
+                40.7584669
+              ]
+            ]
+          },
+          "originTime": 26910,
+          "destTime": 27034,
+          "originStopId": "east_of_hudson:nyct_subway_B06N",
+          "originStopName": "Roosevelt Island",
+          "destStopId": "east_of_hudson:bus-busco_450151",
+          "destStopName": "MAIN ST/F SUBWAY (450 MAIN ST)",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.7584669,
+          "originLon": -73.952743,
+          "destLat": 40.756495,
+          "destLon": -73.955868,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.952743,
+                40.7584669
+              ],
+              [
+                -73.953689,
+                40.757319
+              ],
+              [
+                -73.953689,
+                40.757319
+              ],
+              [
+                -73.9548339,
+                40.755451
+              ],
+              [
+                -73.9548339,
+                40.755451
+              ],
+              [
+                -73.958359,
+                40.753415
+              ],
+              [
+                -73.958359,
+                40.753415
+              ],
+              [
+                -73.955868,
+                40.756495
+              ]
+            ]
+          },
+          "originTime": 27253,
+          "destTime": 27480,
+          "originStopId": "east_of_hudson:bus-busco_450151",
+          "originStopName": "MAIN ST/F SUBWAY (450 MAIN ST)",
+          "destStopId": "east_of_hudson:bus-busco_450145",
+          "destStopName": "W LOOP RD/N LOOP RD",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 0,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-busco_MTABC",
+            "agency_name": "MTA Bus Company",
+            "route_id": "bus-busco_Q102",
+            "route_short_name": "Q102",
+            "route_long_name": "31 St - Roosevelt Island",
+            "route_type": 3,
+            "color": "006CB7",
+            "agency_url": "http://web.mta.info/busco/schedules/q102cur.pdf"
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.756495,
+          "originLon": -73.955868,
+          "destLat": 40.759133,
+          "destLon": -73.953438,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.955868,
+                40.756495
+              ],
+              [
+                -73.95495,
+                40.757596
+              ],
+              [
+                -73.95495,
+                40.757596
+              ],
+              [
+                -73.953438,
+                40.759133
+              ]
+            ]
+          },
+          "originTime": 28200,
+          "destTime": 28269,
+          "originStopId": "east_of_hudson:bus-busco_450145",
+          "originStopName": "W LOOP RD/N LOOP RD",
+          "destStopId": "east_of_hudson:bus-busco_450142",
+          "destStopName": "WEST RD/F SUBWAY (452 MAIN ST)",
+          "cumulativeFare": 550,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_LOCAL_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-busco_MTABC",
+            "agency_name": "MTA Bus Company",
+            "route_id": "bus-busco_Q102",
+            "route_short_name": "Q102",
+            "route_long_name": "31 St - Roosevelt Island",
+            "route_type": 3,
+            "color": "006CB7",
+            "agency_url": "http://web.mta.info/busco/schedules/q102cur.pdf"
+          },
+          "type": "transit"
+        }
+      ]
+    }
+  ],
+  "computeTimeMillis": 2776,
+  "backendVersion": {
+    "version": "UNKNOWN",
+    "commit": "UNKNOWN",
+    "describe": "UNKNOWN",
+    "branch": "UNKNOWN",
+    "buildHost": "UNKNOWN",
+    "buildTime": "UNKNOWN"
+  },
+  "generationTime": "2020-06-21T23:17:09.437746"
+}

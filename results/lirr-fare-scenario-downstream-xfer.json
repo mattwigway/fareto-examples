@@ -1,1 +1,1241 @@
-{"request":{"fromLat":40.73164913442654,"fromLon":-73.67946570286891,"toLat":40.65778748415535,"toLon":-73.58247758747136,"fromTime":25200,"toTime":25260,"walkSpeed":1.3888888,"bikeSpeed":4.1666665,"bikeTrafficStress":4,"carSpeed":20,"streetTime":90,"maxWalkTime":20,"maxBikeTime":20,"maxCarTime":45,"minBikeTime":10,"minCarTime":10,"date":"2019-12-16","limit":0,"accessModes":"WALK","egressModes":"WALK","directModes":"WALK","transitModes":"TRAM,SUBWAY,RAIL,BUS,FERRY,CABLE_CAR,GONDOLA,FUNICULAR","suboptimalMinutes":5,"maxTripDurationMinutes":120,"maxRides":4,"scenario":null,"scenarioId":null,"zoneId":"Z","wheelchair":false,"maxFare":200000,"inRoutingFareCalculator":{"type":"nyc","gtfsFares":null,"toLirrDiscounts":null,"toMetroNorthDiscounts":null,"lirrMetrocardTransferSource":null,"metroNorthMetrocardTransferSource":null,"lirrFareOverrides":[{"fromStopId":"east_of_hudson:lirr152","toStopId":"east_of_hudson:lirr64","viaStopId":"east_of_hudson:lirr237","peakFare":275,"offPeakFare":275}],"metroNorthFareOverrides":null},"monteCarloDraws":1},"trips":[{"durationSeconds":3023,"departureTime":25255,"fare":275,"legs":[{"originLat":40.730757,"originLon":-73.6809588,"destLat":40.6996081,"destLon":-73.8085298,"geom":{"type":"LineString","coordinates":[[-73.6809588,40.730757],[-73.8085298,40.6996081]]},"originTime":25740,"destTime":26460,"originStopId":"east_of_hudson:lirr152","originStopName":"New Hyde Park","destStopId":"east_of_hudson:lirr102","destStopName":"Jamaica","cumulativeFare":825,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":{"value":0,"number":0,"expirationTime":0,"cumulativeFare":825,"boardStop":"LIRR152","viaStop":null,"alightStop":"LIRR102","initialDirection":"INBOUND","peakBeforeDirectionChange":true,"peakAfterDirectionChange":false,"mostRecentTicketPurchaseTime":25740,"maxTransferAllowance":4350},"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"default","agency_name":"default","route_id":"lirr10_peak","route_short_name":null,"route_long_name":"Port Jefferson (peak)","route_type":2,"color":"0039A6","agency_url":null},"type":"transit"},{"originLat":40.6996081,"originLon":-73.8085298,"destLat":40.6574579,"destLon":-73.582324,"geom":{"type":"LineString","coordinates":[[-73.8085298,40.6996081],[-73.582324,40.6574579]]},"originTime":27060,"destTime":28200,"originStopId":"east_of_hudson:lirr102","originStopName":"Jamaica","destStopId":"east_of_hudson:lirr64","destStopName":"Freeport","cumulativeFare":275,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":{"value":0,"number":0,"expirationTime":0,"cumulativeFare":275,"boardStop":"LIRR152","viaStop":"LIRR102","alightStop":"LIRR64","initialDirection":"INBOUND","peakBeforeDirectionChange":true,"peakAfterDirectionChange":false,"mostRecentTicketPurchaseTime":25740,"maxTransferAllowance":4350},"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"default","agency_name":"default","route_id":"lirr1_offpeak","route_short_name":null,"route_long_name":"Babylon (offpeak)","route_type":2,"color":"00985F","agency_url":null},"type":"transit"}]},{"durationSeconds":3023,"departureTime":25255,"fare":1825,"legs":[{"originLat":40.730757,"originLon":-73.6809588,"destLat":40.6996081,"destLon":-73.8085298,"geom":{"type":"LineString","coordinates":[[-73.6809588,40.730757],[-73.8085298,40.6996081]]},"originTime":25740,"destTime":26460,"originStopId":"east_of_hudson:lirr152","originStopName":"New Hyde Park","destStopId":"east_of_hudson:lirr102","destStopName":"Jamaica","cumulativeFare":825,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":{"value":0,"number":0,"expirationTime":0,"cumulativeFare":825,"boardStop":"LIRR152","viaStop":null,"alightStop":"LIRR102","initialDirection":"INBOUND","peakBeforeDirectionChange":true,"peakAfterDirectionChange":false,"mostRecentTicketPurchaseTime":25740,"maxTransferAllowance":4350},"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"default","agency_name":"default","route_id":"lirr10_peak","route_short_name":null,"route_long_name":"Port Jefferson (peak)","route_type":2,"color":"0039A6","agency_url":null},"type":"transit"},{"originLat":40.6996081,"originLon":-73.8085298,"destLat":40.7018429,"destLon":-73.808029,"geom":{"type":"LineString","coordinates":[[-73.8085298,40.6996081],[-73.808029,40.7018429]]},"originTime":26460,"destTime":26697,"originStopId":"east_of_hudson:lirr102","originStopName":"Jamaica","destStopId":"east_of_hudson:bus-queens_502139","destStopName":"SUTPHIN BL/JAMAICA AV","cumulativeFare":825,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.7018429,"originLon":-73.808029,"destLat":40.700637,"destLon":-73.807238,"geom":{"type":"LineString","coordinates":[[-73.808029,40.7018429],[-73.807238,40.700637]]},"originTime":26769,"destTime":26820,"originStopId":"east_of_hudson:bus-queens_502139","originStopName":"SUTPHIN BL/JAMAICA AV","destStopId":"east_of_hudson:bus-queens_504559","destStopName":"ARCHER AV/SUTPHIN BL","cumulativeFare":1100,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_LOCAL_BUS","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"bus-queens_MTA NYCT","agency_name":"MTA New York City Transit","route_id":"bus-queens_Q20A","route_short_name":"Q20A","route_long_name":"College Point - Jamaica","route_type":3,"color":"006CB7","agency_url":null},"type":"transit"},{"originLat":40.700637,"originLon":-73.807238,"destLat":40.6996081,"destLon":-73.8085298,"geom":{"type":"LineString","coordinates":[[-73.807238,40.700637],[-73.8085298,40.6996081]]},"originTime":26820,"destTime":26985,"originStopId":"east_of_hudson:bus-queens_504559","originStopName":"ARCHER AV/SUTPHIN BL","destStopId":"east_of_hudson:lirr102","destStopName":"Jamaica","cumulativeFare":1100,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_LOCAL_BUS","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.6996081,"originLon":-73.8085298,"destLat":40.6574579,"destLon":-73.582324,"geom":{"type":"LineString","coordinates":[[-73.8085298,40.6996081],[-73.582324,40.6574579]]},"originTime":27060,"destTime":28200,"originStopId":"east_of_hudson:lirr102","originStopName":"Jamaica","destStopId":"east_of_hudson:lirr64","destStopName":"Freeport","cumulativeFare":1825,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":{"value":0,"number":0,"expirationTime":0,"cumulativeFare":725,"boardStop":"LIRR102","viaStop":null,"alightStop":"LIRR64","initialDirection":"OUTBOUND","peakBeforeDirectionChange":false,"peakAfterDirectionChange":false,"mostRecentTicketPurchaseTime":27060,"maxTransferAllowance":4350},"metrocardTransferSource":"METROCARD_LOCAL_BUS","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"default","agency_name":"default","route_id":"lirr1_offpeak","route_short_name":null,"route_long_name":"Babylon (offpeak)","route_type":2,"color":"00985F","agency_url":null},"type":"transit"}]},{"durationSeconds":4463,"departureTime":25255,"fare":1825,"legs":[{"originLat":40.730757,"originLon":-73.6809588,"destLat":40.6996081,"destLon":-73.8085298,"geom":{"type":"LineString","coordinates":[[-73.6809588,40.730757],[-73.8085298,40.6996081]]},"originTime":25740,"destTime":26460,"originStopId":"east_of_hudson:lirr152","originStopName":"New Hyde Park","destStopId":"east_of_hudson:lirr102","destStopName":"Jamaica","cumulativeFare":825,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":{"value":0,"number":0,"expirationTime":0,"cumulativeFare":825,"boardStop":"LIRR152","viaStop":null,"alightStop":"LIRR102","initialDirection":"INBOUND","peakBeforeDirectionChange":true,"peakAfterDirectionChange":false,"mostRecentTicketPurchaseTime":25740,"maxTransferAllowance":4350},"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"default","agency_name":"default","route_id":"lirr10_peak","route_short_name":null,"route_long_name":"Port Jefferson (peak)","route_type":2,"color":"0039A6","agency_url":null},"type":"transit"},{"originLat":40.6996081,"originLon":-73.8085298,"destLat":40.700486,"destLon":-73.807969,"geom":{"type":"LineString","coordinates":[[-73.8085298,40.6996081],[-73.807969,40.700486]]},"originTime":26460,"destTime":26575,"originStopId":"east_of_hudson:lirr102","originStopName":"Jamaica","destStopId":"east_of_hudson:nyct_subway_G06N","destStopName":"Sutphin Blvd - Archer Av - JFK Airport","cumulativeFare":825,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.700486,"originLon":-73.807969,"destLat":40.7021469,"destLon":-73.801109,"geom":{"type":"LineString","coordinates":[[-73.807969,40.700486],[-73.801109,40.7021469]]},"originTime":26850,"destTime":26970,"originStopId":"east_of_hudson:nyct_subway_G06N","originStopName":"Sutphin Blvd - Archer Av - JFK Airport","destStopId":"east_of_hudson:nyct_subway_G05N","destStopName":"Jamaica Center - Parsons/Archer","cumulativeFare":1100,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_SUBWAY","metrocardTransferExpiry":32455,"inSubwayPaidArea":true,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"nyct_subway_MTA NYCT","agency_name":"MTA New York City Transit","route_id":"nyct_subway_E","route_short_name":"E","route_long_name":"8 Avenue Local","route_type":1,"color":"2850AD","agency_url":"http://web.mta.info/nyct/service/pdf/tecur.pdf"},"type":"transit"},{"originLat":40.7021469,"originLon":-73.801109,"destLat":40.6996081,"destLon":-73.8085298,"geom":{"type":"LineString","coordinates":[[-73.801109,40.7021469],[-73.8085298,40.6996081]]},"originTime":26970,"destTime":27523,"originStopId":"east_of_hudson:nyct_subway_G05N","originStopName":"Jamaica Center - Parsons/Archer","destStopId":"east_of_hudson:lirr102","destStopName":"Jamaica","cumulativeFare":1100,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_SUBWAY","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.6996081,"originLon":-73.8085298,"destLat":40.6574579,"destLon":-73.582324,"geom":{"type":"LineString","coordinates":[[-73.8085298,40.6996081],[-73.6760708,40.6560581],[-73.6760708,40.6560581],[-73.6465493,40.6583181],[-73.6465493,40.6583181],[-73.6071624,40.6567322],[-73.6071624,40.6567322],[-73.582324,40.6574579]]},"originTime":28320,"destTime":29640,"originStopId":"east_of_hudson:lirr102","originStopName":"Jamaica","destStopId":"east_of_hudson:lirr64","destStopName":"Freeport","cumulativeFare":1825,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":{"value":0,"number":0,"expirationTime":0,"cumulativeFare":725,"boardStop":"LIRR102","viaStop":null,"alightStop":"LIRR64","initialDirection":"OUTBOUND","peakBeforeDirectionChange":false,"peakAfterDirectionChange":false,"mostRecentTicketPurchaseTime":28320,"maxTransferAllowance":4350},"metrocardTransferSource":"METROCARD_SUBWAY","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"default","agency_name":"default","route_id":"lirr1_offpeak","route_short_name":null,"route_long_name":"Babylon (offpeak)","route_type":2,"color":"00985F","agency_url":null},"type":"transit"}]},{"durationSeconds":5423,"departureTime":25255,"fare":1275,"legs":[{"originLat":40.733676,"originLon":-73.680234,"destLat":40.710734,"destLon":-73.7931569,"geom":{"type":"LineString","coordinates":[[-73.680234,40.733676],[-73.683176,40.7330599],[-73.683176,40.7330599],[-73.686726,40.7322879],[-73.686726,40.7322879],[-73.690335,40.7314979],[-73.690335,40.7314979],[-73.692229,40.7311289],[-73.692229,40.7311289],[-73.696005,40.730329],[-73.696005,40.730329],[-73.697053,40.730144],[-73.697053,40.730144],[-73.697839,40.729987],[-73.697839,40.729987],[-73.699876,40.729591],[-73.699876,40.729591],[-73.7025199,40.729021],[-73.7025199,40.729021],[-73.7052839,40.728423],[-73.7052839,40.728423],[-73.707666,40.727944],[-73.707666,40.727944],[-73.710513,40.7274169],[-73.710513,40.7274169],[-73.714864,40.7268539],[-73.714864,40.7268539],[-73.718414,40.726161],[-73.718414,40.726161],[-73.720485,40.725621],[-73.720485,40.725621],[-73.722211,40.725164],[-73.722211,40.725164],[-73.723949,40.724751],[-73.723949,40.724751],[-73.725626,40.724213],[-73.725626,40.724213],[-73.728277,40.723223],[-73.728277,40.723223],[-73.731231,40.7216499],[-73.731231,40.7216499],[-73.7324469,40.720446],[-73.7324469,40.720446],[-73.73523,40.718544],[-73.73523,40.718544],[-73.737025,40.7179159],[-73.737025,40.7179159],[-73.738966,40.71751],[-73.738966,40.71751],[-73.740859,40.717123],[-73.740859,40.717123],[-73.7431089,40.716626],[-73.7431089,40.716626],[-73.745752,40.716019],[-73.745752,40.716019],[-73.748502,40.71543],[-73.748502,40.71543],[-73.750823,40.714834],[-73.750823,40.714834],[-73.75406,40.713982],[-73.75406,40.713982],[-73.755793,40.716248],[-73.755793,40.716248],[-73.7572359,40.7181489],[-73.7572359,40.7181489],[-73.7581479,40.719536],[-73.7581479,40.719536],[-73.760211,40.720827],[-73.760211,40.720827],[-73.762473,40.719819],[-73.762473,40.719819],[-73.765606,40.718271],[-73.765606,40.718271],[-73.76937,40.716621],[-73.76937,40.716621],[-73.773578,40.715199],[-73.773578,40.715199],[-73.7841699,40.712671],[-73.7841699,40.712671],[-73.789842,40.7118909],[-73.789842,40.7118909],[-73.7931569,40.710734]]},"originTime":25620,"destTime":27660,"originStopId":"east_of_hudson:nice_272","originStopName":"Jericho Tpke + New Hyde Park Rd","destStopId":"east_of_hudson:nice_5599","destStopName":"Hillside Ave & Homelawn St 169 Subw","cumulativeFare":275,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_NICE","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"nice_LIBUS","agency_name":"Nassau Inter-County Express","route_id":"nice_n24","route_short_name":"n24","route_long_name":"Jamaica-Mineola- Roos. Field-EM","route_type":3,"color":"008B64","agency_url":null},"type":"transit"},{"originLat":40.710734,"originLon":-73.7931569,"destLat":40.71071,"destLon":-73.7931469,"geom":{"type":"LineString","coordinates":[[-73.7931569,40.710734],[-73.7931469,40.71071]]},"originTime":27660,"destTime":27682,"originStopId":"east_of_hudson:nice_5599","originStopName":"Hillside Ave & Homelawn St 169 Subw","destStopId":"east_of_hudson:bus-queens_501419","destStopName":"HILLSIDE AV/169 ST","cumulativeFare":275,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_NICE","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.71071,"originLon":-73.7931469,"destLat":40.7059099,"destLon":-73.794017,"geom":{"type":"LineString","coordinates":[[-73.7931469,40.71071],[-73.7949939,40.707237],[-73.7949939,40.707237],[-73.794017,40.7059099]]},"originTime":27755,"destTime":27960,"originStopId":"east_of_hudson:bus-queens_501419","originStopName":"HILLSIDE AV/169 ST","destStopId":"east_of_hudson:bus-queens_804177","destStopName":"MERRICK BL/JAMAICA AVE","cumulativeFare":275,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"bus-queens_MTA NYCT","agency_name":"MTA New York City Transit","route_id":"bus-queens_Q17","route_short_name":"Q17","route_long_name":"Flushing - Jamaica","route_type":3,"color":"EE352E","agency_url":null},"type":"transit"},{"originLat":40.7059099,"originLon":-73.794017,"destLat":40.705959,"destLon":-73.793867,"geom":{"type":"LineString","coordinates":[[-73.794017,40.7059099],[-73.793867,40.705959]]},"originTime":27960,"destTime":27971,"originStopId":"east_of_hudson:bus-queens_804177","originStopName":"MERRICK BL/JAMAICA AVE","destStopId":"east_of_hudson:bus-queens_504540","destStopName":"JAMAICA AV/MERRICK BL","cumulativeFare":275,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.705959,"originLon":-73.793867,"destLat":40.70049,"destLon":-73.807839,"geom":{"type":"LineString","coordinates":[[-73.793867,40.705959],[-73.798183,40.704244],[-73.798183,40.704244],[-73.800661,40.703254],[-73.800661,40.703254],[-73.804326,40.702228],[-73.804326,40.702228],[-73.808487,40.701836],[-73.808487,40.701836],[-73.807839,40.70049]]},"originTime":28080,"destTime":28440,"originStopId":"east_of_hudson:bus-queens_504540","originStopName":"JAMAICA AV/MERRICK BL","destStopId":"east_of_hudson:bus-queens_904095","destStopName":"ARCHER AV/SUTPHIN PL","cumulativeFare":550,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_LOCAL_BUS","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"bus-queens_MTA NYCT","agency_name":"MTA New York City Transit","route_id":"bus-queens_Q30","route_short_name":"Q30","route_long_name":"Little Neck or Queensborough Community College - Jamaica","route_type":3,"color":"FAA61A","agency_url":null},"type":"transit"},{"originLat":40.70049,"originLon":-73.807839,"destLat":40.6996081,"destLon":-73.8085298,"geom":{"type":"LineString","coordinates":[[-73.807839,40.70049],[-73.8085298,40.6996081]]},"originTime":28440,"destTime":28567,"originStopId":"east_of_hudson:bus-queens_904095","originStopName":"ARCHER AV/SUTPHIN PL","destStopId":"east_of_hudson:lirr102","destStopName":"Jamaica","cumulativeFare":550,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_LOCAL_BUS","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.6996081,"originLon":-73.8085298,"destLat":40.6574579,"destLon":-73.582324,"geom":{"type":"LineString","coordinates":[[-73.8085298,40.6996081],[-73.582324,40.6574579]]},"originTime":29460,"destTime":30600,"originStopId":"east_of_hudson:lirr102","originStopName":"Jamaica","destStopId":"east_of_hudson:lirr64","destStopName":"Freeport","cumulativeFare":1275,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":{"value":0,"number":0,"expirationTime":0,"cumulativeFare":725,"boardStop":"LIRR102","viaStop":null,"alightStop":"LIRR64","initialDirection":"OUTBOUND","peakBeforeDirectionChange":false,"peakAfterDirectionChange":false,"mostRecentTicketPurchaseTime":29460,"maxTransferAllowance":4350},"metrocardTransferSource":"METROCARD_LOCAL_BUS","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"default","agency_name":"default","route_id":"lirr1_offpeak","route_short_name":null,"route_long_name":"Babylon (offpeak)","route_type":2,"color":"00985F","agency_url":null},"type":"transit"}]},{"durationSeconds":5423,"departureTime":25255,"fare":1275,"legs":[{"originLat":40.733676,"originLon":-73.680234,"destLat":40.716019,"destLon":-73.745752,"geom":{"type":"LineString","coordinates":[[-73.680234,40.733676],[-73.683176,40.7330599],[-73.683176,40.7330599],[-73.686726,40.7322879],[-73.686726,40.7322879],[-73.690335,40.7314979],[-73.690335,40.7314979],[-73.692229,40.7311289],[-73.692229,40.7311289],[-73.696005,40.730329],[-73.696005,40.730329],[-73.697053,40.730144],[-73.697053,40.730144],[-73.697839,40.729987],[-73.697839,40.729987],[-73.699876,40.729591],[-73.699876,40.729591],[-73.7025199,40.729021],[-73.7025199,40.729021],[-73.7052839,40.728423],[-73.7052839,40.728423],[-73.707666,40.727944],[-73.707666,40.727944],[-73.710513,40.7274169],[-73.710513,40.7274169],[-73.714864,40.7268539],[-73.714864,40.7268539],[-73.718414,40.726161],[-73.718414,40.726161],[-73.720485,40.725621],[-73.720485,40.725621],[-73.722211,40.725164],[-73.722211,40.725164],[-73.723949,40.724751],[-73.723949,40.724751],[-73.725626,40.724213],[-73.725626,40.724213],[-73.728277,40.723223],[-73.728277,40.723223],[-73.731231,40.7216499],[-73.731231,40.7216499],[-73.7324469,40.720446],[-73.7324469,40.720446],[-73.73523,40.718544],[-73.73523,40.718544],[-73.737025,40.7179159],[-73.737025,40.7179159],[-73.738966,40.71751],[-73.738966,40.71751],[-73.740859,40.717123],[-73.740859,40.717123],[-73.7431089,40.716626],[-73.7431089,40.716626],[-73.745752,40.716019]]},"originTime":25620,"destTime":26760,"originStopId":"east_of_hudson:nice_272","originStopName":"Jericho Tpke + New Hyde Park Rd","destStopId":"east_of_hudson:nice_1952","destStopName":"Jamaica Ave + 212th Place","cumulativeFare":275,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_NICE","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"nice_LIBUS","agency_name":"Nassau Inter-County Express","route_id":"nice_n24","route_short_name":"n24","route_long_name":"Jamaica-Mineola- Roos. Field-EM","route_type":3,"color":"008B64","agency_url":null},"type":"transit"},{"originLat":40.716019,"originLon":-73.745752,"destLat":40.716152,"destLon":-73.745515,"geom":{"type":"LineString","coordinates":[[-73.745752,40.716019],[-73.745515,40.716152]]},"originTime":26760,"destTime":26783,"originStopId":"east_of_hudson:nice_1952","originStopName":"Jamaica Ave + 212th Place","destStopId":"east_of_hudson:bus-busco_501962","destStopName":"JAMAICA AV /212 PL","cumulativeFare":275,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_NICE","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.716152,"originLon":-73.745515,"destLat":40.702998,"destLon":-73.802273,"geom":{"type":"LineString","coordinates":[[-73.745515,40.716152],[-73.748773,40.715437],[-73.748773,40.715437],[-73.750753,40.714979],[-73.750753,40.714979],[-73.752625,40.7144369],[-73.752625,40.7144369],[-73.75448,40.71392],[-73.75448,40.71392],[-73.7564439,40.713663],[-73.7564439,40.713663],[-73.758531,40.713644],[-73.758531,40.713644],[-73.76084,40.713617],[-73.76084,40.713617],[-73.7630719,40.713528],[-73.7630719,40.713528],[-73.765216,40.713446],[-73.765216,40.713446],[-73.767349,40.71327],[-73.767349,40.71327],[-73.769042,40.712492],[-73.769042,40.712492],[-73.7709589,40.710825],[-73.7709589,40.710825],[-73.773473,40.709989],[-73.773473,40.709989],[-73.775244,40.709475],[-73.775244,40.709475],[-73.777725,40.709059],[-73.777725,40.709059],[-73.779985,40.708715],[-73.779985,40.708715],[-73.782611,40.708184],[-73.782611,40.708184],[-73.784725,40.708087],[-73.784725,40.708087],[-73.787,40.708007],[-73.787,40.708007],[-73.788549,40.70765],[-73.788549,40.70765],[-73.792264,40.706587],[-73.792264,40.706587],[-73.795158,40.705486],[-73.795158,40.705486],[-73.798487,40.704195],[-73.798487,40.704195],[-73.80055,40.703368],[-73.80055,40.703368],[-73.802273,40.702998]]},"originTime":27000,"destTime":28071,"originStopId":"east_of_hudson:bus-busco_501962","originStopName":"JAMAICA AV /212 PL","destStopId":"east_of_hudson:bus-busco_503789","destStopName":"153 ST /JAMAICA AV","cumulativeFare":275,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"bus-busco_MTABC","agency_name":"MTA Bus Company","route_id":"bus-busco_Q110","route_short_name":"Q110","route_long_name":"Jamaica Ave - Hempstead Ave","route_type":3,"color":"006CB7","agency_url":"http://web.mta.info/busco/schedules/q110cur.pdf"},"type":"transit"},{"originLat":40.702998,"originLon":-73.802273,"destLat":40.7021469,"destLon":-73.801109,"geom":{"type":"LineString","coordinates":[[-73.802273,40.702998],[-73.801109,40.7021469]]},"originTime":28071,"destTime":28201,"originStopId":"east_of_hudson:bus-busco_503789","originStopName":"153 ST /JAMAICA AV","destStopId":"east_of_hudson:nyct_subway_G05S","destStopName":"Jamaica Center - Parsons/Archer","cumulativeFare":275,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.7021469,"originLon":-73.801109,"destLat":40.700486,"destLon":-73.807969,"geom":{"type":"LineString","coordinates":[[-73.801109,40.7021469],[-73.807969,40.700486]]},"originTime":28350,"destTime":28410,"originStopId":"east_of_hudson:nyct_subway_G05S","originStopName":"Jamaica Center - Parsons/Archer","destStopId":"east_of_hudson:nyct_subway_G06S","destStopName":"Sutphin Blvd - Archer Av - JFK Airport","cumulativeFare":550,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_SUBWAY","metrocardTransferExpiry":32455,"inSubwayPaidArea":true,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"nyct_subway_MTA NYCT","agency_name":"MTA New York City Transit","route_id":"nyct_subway_Z","route_short_name":"Z","route_long_name":"Nassau St Express","route_type":1,"color":"996633","agency_url":"http://web.mta.info/nyct/service/pdf/tjcur.pdf"},"type":"transit"},{"originLat":40.700486,"originLon":-73.807969,"destLat":40.6996081,"destLon":-73.8085298,"geom":{"type":"LineString","coordinates":[[-73.807969,40.700486],[-73.8085298,40.6996081]]},"originTime":28410,"destTime":28525,"originStopId":"east_of_hudson:nyct_subway_G06S","originStopName":"Sutphin Blvd - Archer Av - JFK Airport","destStopId":"east_of_hudson:lirr102","destStopName":"Jamaica","cumulativeFare":550,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_SUBWAY","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.6996081,"originLon":-73.8085298,"destLat":40.6574579,"destLon":-73.582324,"geom":{"type":"LineString","coordinates":[[-73.8085298,40.6996081],[-73.582324,40.6574579]]},"originTime":29460,"destTime":30600,"originStopId":"east_of_hudson:lirr102","originStopName":"Jamaica","destStopId":"east_of_hudson:lirr64","destStopName":"Freeport","cumulativeFare":1275,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":{"value":0,"number":0,"expirationTime":0,"cumulativeFare":725,"boardStop":"LIRR102","viaStop":null,"alightStop":"LIRR64","initialDirection":"OUTBOUND","peakBeforeDirectionChange":false,"peakAfterDirectionChange":false,"mostRecentTicketPurchaseTime":29460,"maxTransferAllowance":4350},"metrocardTransferSource":"METROCARD_SUBWAY","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"default","agency_name":"default","route_id":"lirr1_offpeak","route_short_name":null,"route_long_name":"Babylon (offpeak)","route_type":2,"color":"00985F","agency_url":null},"type":"transit"}]},{"durationSeconds":6623,"departureTime":25255,"fare":1675,"legs":[{"originLat":40.733676,"originLon":-73.680234,"destLat":40.713982,"destLon":-73.75406,"geom":{"type":"LineString","coordinates":[[-73.680234,40.733676],[-73.683176,40.7330599],[-73.683176,40.7330599],[-73.686726,40.7322879],[-73.686726,40.7322879],[-73.690335,40.7314979],[-73.690335,40.7314979],[-73.692229,40.7311289],[-73.692229,40.7311289],[-73.696005,40.730329],[-73.696005,40.730329],[-73.697053,40.730144],[-73.697053,40.730144],[-73.697839,40.729987],[-73.697839,40.729987],[-73.699876,40.729591],[-73.699876,40.729591],[-73.7025199,40.729021],[-73.7025199,40.729021],[-73.7052839,40.728423],[-73.7052839,40.728423],[-73.707666,40.727944],[-73.707666,40.727944],[-73.710513,40.7274169],[-73.710513,40.7274169],[-73.714864,40.7268539],[-73.714864,40.7268539],[-73.718414,40.726161],[-73.718414,40.726161],[-73.720485,40.725621],[-73.720485,40.725621],[-73.722211,40.725164],[-73.722211,40.725164],[-73.723949,40.724751],[-73.723949,40.724751],[-73.725626,40.724213],[-73.725626,40.724213],[-73.728277,40.723223],[-73.728277,40.723223],[-73.731231,40.7216499],[-73.731231,40.7216499],[-73.7324469,40.720446],[-73.7324469,40.720446],[-73.73523,40.718544],[-73.73523,40.718544],[-73.737025,40.7179159],[-73.737025,40.7179159],[-73.738966,40.71751],[-73.738966,40.71751],[-73.740859,40.717123],[-73.740859,40.717123],[-73.7431089,40.716626],[-73.7431089,40.716626],[-73.745752,40.716019],[-73.745752,40.716019],[-73.748502,40.71543],[-73.748502,40.71543],[-73.750823,40.714834],[-73.750823,40.714834],[-73.75406,40.713982]]},"originTime":25620,"destTime":26880,"originStopId":"east_of_hudson:nice_272","originStopName":"Jericho Tpke + New Hyde Park Rd","destStopId":"east_of_hudson:nice_578","destStopName":"Francis Lewis Blvd & Jamaica Ave","cumulativeFare":275,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_NICE","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"nice_LIBUS","agency_name":"Nassau Inter-County Express","route_id":"nice_n24","route_short_name":"n24","route_long_name":"Jamaica-Mineola- Roos. Field-EM","route_type":3,"color":"008B64","agency_url":null},"type":"transit"},{"originLat":40.713982,"originLon":-73.75406,"destLat":40.713976,"destLon":-73.754288,"geom":{"type":"LineString","coordinates":[[-73.75406,40.713982],[-73.754288,40.713976]]},"originTime":26880,"destTime":26900,"originStopId":"east_of_hudson:nice_578","originStopName":"Francis Lewis Blvd & Jamaica Ave","destStopId":"east_of_hudson:bus-queens_502795","destStopName":"FRANCIS LEWIS BL/JAMAICA AV","cumulativeFare":275,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_NICE","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.713976,"originLon":-73.754288,"destLat":40.696201,"destLon":-73.746301,"geom":{"type":"LineString","coordinates":[[-73.754288,40.713976],[-73.753582,40.712722],[-73.753582,40.712722],[-73.753164,40.711692],[-73.753164,40.711692],[-73.752438,40.70997],[-73.752438,40.70997],[-73.75183,40.7084969],[-73.75183,40.7084969],[-73.75116,40.706984],[-73.75116,40.706984],[-73.750402,40.705341],[-73.750402,40.705341],[-73.749797,40.703973],[-73.749797,40.703973],[-73.749193,40.702608],[-73.749193,40.702608],[-73.748601,40.701211],[-73.748601,40.701211],[-73.747654,40.699222],[-73.747654,40.699222],[-73.746929,40.6975969],[-73.746929,40.6975969],[-73.746301,40.696201]]},"originTime":27112,"destTime":27780,"originStopId":"east_of_hudson:bus-queens_502795","originStopName":"FRANCIS LEWIS BL/JAMAICA AV","destStopId":"east_of_hudson:bus-queens_502808","destStopName":"FRANCIS LEWIS/LINDEN BL","cumulativeFare":275,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"bus-queens_MTA NYCT","agency_name":"MTA New York City Transit","route_id":"bus-queens_Q77","route_short_name":"Q77","route_long_name":"Laurelton - Jamaica","route_type":3,"color":"FAA61A","agency_url":null},"type":"transit"},{"originLat":40.696201,"originLon":-73.746301,"destLat":40.6960659,"destLon":-73.746528,"geom":{"type":"LineString","coordinates":[[-73.746301,40.696201],[-73.746528,40.6960659]]},"originTime":27780,"destTime":27806,"originStopId":"east_of_hudson:bus-queens_502808","originStopName":"FRANCIS LEWIS/LINDEN BL","destStopId":"east_of_hudson:bus-queens_500410","destStopName":"LINDEN BL/FRANCIS LEWIS BL","cumulativeFare":275,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.6960659,"originLon":-73.746528,"destLat":40.691988,"destLon":-73.762313,"geom":{"type":"LineString","coordinates":[[-73.746528,40.6960659],[-73.754979,40.69374],[-73.754979,40.69374],[-73.762313,40.691988]]},"originTime":28890,"destTime":29179,"originStopId":"east_of_hudson:bus-queens_500410","originStopName":"LINDEN BL/FRANCIS LEWIS BL","destStopId":"east_of_hudson:bus-queens_503890","destStopName":"FARMERS BL/LINDEN BL","cumulativeFare":950,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_EXPRESS_BUS","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"bus-queens_MTA NYCT","agency_name":"MTA New York City Transit","route_id":"bus-queens_X64","route_short_name":"X64","route_long_name":"Cambria Heights - Midtown Manhattan Express","route_type":3,"color":"00933C","agency_url":null},"type":"transit"},{"originLat":40.691988,"originLon":-73.762313,"destLat":40.6911834,"destLon":-73.7655093,"geom":{"type":"LineString","coordinates":[[-73.762313,40.691988],[-73.7655093,40.6911834]]},"originTime":29179,"destTime":29578,"originStopId":"east_of_hudson:bus-queens_503890","originStopName":"FARMERS BL/LINDEN BL","destStopId":"east_of_hudson:lirr184","destStopName":"St. Albans","cumulativeFare":950,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_EXPRESS_BUS","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.6911834,"originLon":-73.7655093,"destLat":40.6574579,"destLon":-73.582324,"geom":{"type":"LineString","coordinates":[[-73.7655093,40.6911834],[-73.6465493,40.6583181],[-73.6465493,40.6583181],[-73.6071624,40.6567322],[-73.6071624,40.6567322],[-73.582324,40.6574579]]},"originTime":30900,"destTime":31800,"originStopId":"east_of_hudson:lirr184","originStopName":"St. Albans","destStopId":"east_of_hudson:lirr64","destStopName":"Freeport","cumulativeFare":1675,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":{"value":0,"number":0,"expirationTime":0,"cumulativeFare":725,"boardStop":"LIRR184","viaStop":null,"alightStop":"LIRR64","initialDirection":"OUTBOUND","peakBeforeDirectionChange":false,"peakAfterDirectionChange":false,"mostRecentTicketPurchaseTime":30900,"maxTransferAllowance":4350},"metrocardTransferSource":"METROCARD_EXPRESS_BUS","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"default","agency_name":"default","route_id":"lirr1_offpeak","route_short_name":null,"route_long_name":"Babylon (offpeak)","route_type":2,"color":"00985F","agency_url":null},"type":"transit"}]},{"durationSeconds":6323,"departureTime":25255,"fare":1900,"legs":[{"originLat":40.730757,"originLon":-73.6809588,"destLat":40.6996081,"destLon":-73.8085298,"geom":{"type":"LineString","coordinates":[[-73.6809588,40.730757],[-73.8085298,40.6996081]]},"originTime":25740,"destTime":26460,"originStopId":"east_of_hudson:lirr152","originStopName":"New Hyde Park","destStopId":"east_of_hudson:lirr102","destStopName":"Jamaica","cumulativeFare":825,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":{"value":0,"number":0,"expirationTime":0,"cumulativeFare":825,"boardStop":"LIRR152","viaStop":null,"alightStop":"LIRR102","initialDirection":"INBOUND","peakBeforeDirectionChange":true,"peakAfterDirectionChange":false,"mostRecentTicketPurchaseTime":25740,"maxTransferAllowance":4350},"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"default","agency_name":"default","route_id":"lirr10_peak","route_short_name":null,"route_long_name":"Port Jefferson (peak)","route_type":2,"color":"0039A6","agency_url":null},"type":"transit"},{"originLat":40.6996081,"originLon":-73.8085298,"destLat":40.6802485,"destLon":-73.4203119,"geom":{"type":"LineString","coordinates":[[-73.8085298,40.6996081],[-73.582324,40.6574579],[-73.582324,40.6574579],[-73.4865684,40.6757239],[-73.4865684,40.6757239],[-73.4203119,40.6802485]]},"originTime":27060,"destTime":28920,"originStopId":"east_of_hudson:lirr102","originStopName":"Jamaica","destStopId":"east_of_hudson:lirr8","destStopName":"Amityville","cumulativeFare":1350,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":{"value":0,"number":0,"expirationTime":0,"cumulativeFare":1350,"boardStop":"LIRR152","viaStop":"LIRR102","alightStop":"LIRR8","initialDirection":"INBOUND","peakBeforeDirectionChange":true,"peakAfterDirectionChange":false,"mostRecentTicketPurchaseTime":25740,"maxTransferAllowance":4350},"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"default","agency_name":"default","route_id":"lirr1_offpeak","route_short_name":null,"route_long_name":"Babylon (offpeak)","route_type":2,"color":"00985F","agency_url":null},"type":"transit"},{"originLat":40.6802485,"originLon":-73.4203119,"destLat":40.680408,"destLon":-73.4201039,"geom":{"type":"LineString","coordinates":[[-73.4203119,40.6802485],[-73.4201039,40.680408]]},"originTime":28920,"destTime":29044,"originStopId":"east_of_hudson:lirr8","originStopName":"Amityville","destStopId":"east_of_hudson:suffolk_76:1","destStopName":"Amityville LIRR","cumulativeFare":1350,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.680408,"originLon":-73.4201039,"destLat":40.67917,"destLon":-73.418261,"geom":{"type":"LineString","coordinates":[[-73.4201039,40.680408],[-73.418261,40.67917]]},"originTime":29700,"destTime":29700,"originStopId":"east_of_hudson:suffolk_76:1","originStopName":"Amityville LIRR","destStopId":"east_of_hudson:suffolk_77:1","destStopName":"Oak St/NYS 110 (W)","cumulativeFare":1575,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"SUFFOLK","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"suffolk_SCT","agency_name":"Suffolk County Transit","route_id":"suffolk_S1","route_short_name":"S1","route_long_name":"Amityville RR - Halesite","route_type":3,"color":"0","agency_url":null},"type":"transit"},{"originLat":40.67917,"originLon":-73.418261,"destLat":40.6802485,"destLon":-73.4203119,"geom":{"type":"LineString","coordinates":[[-73.418261,40.67917],[-73.4203119,40.6802485]]},"originTime":29700,"destTime":29923,"originStopId":"east_of_hudson:suffolk_77:1","originStopName":"Oak St/NYS 110 (W)","destStopId":"east_of_hudson:lirr8","destStopName":"Amityville","cumulativeFare":1575,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"SUFFOLK","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.6802485,"originLon":-73.4203119,"destLat":40.6574579,"destLon":-73.582324,"geom":{"type":"LineString","coordinates":[[-73.4203119,40.6802485],[-73.4547372,40.677859],[-73.4547372,40.677859],[-73.4690555,40.6769301],[-73.4690555,40.6769301],[-73.4865684,40.6757239],[-73.4865684,40.6757239],[-73.5089648,40.6729901],[-73.5089648,40.6729901],[-73.5288601,40.6688004],[-73.5288601,40.6688004],[-73.550621,40.6638004],[-73.550621,40.6638004],[-73.582324,40.6574579]]},"originTime":30420,"destTime":31500,"originStopId":"east_of_hudson:lirr8","originStopName":"Amityville","destStopId":"east_of_hudson:lirr64","destStopName":"Freeport","cumulativeFare":1900,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":{"value":0,"number":0,"expirationTime":0,"cumulativeFare":325,"boardStop":"LIRR8","viaStop":null,"alightStop":"LIRR64","initialDirection":"INBOUND","peakBeforeDirectionChange":true,"peakAfterDirectionChange":false,"mostRecentTicketPurchaseTime":30420,"maxTransferAllowance":4350},"metrocardTransferSource":"SUFFOLK","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"default","agency_name":"default","route_id":"lirr1_peak","route_short_name":null,"route_long_name":"Babylon (peak)","route_type":2,"color":"00985F","agency_url":null},"type":"transit"}]},{"durationSeconds":3762,"departureTime":25255,"fare":275,"legs":[{"originLat":40.733001,"originLon":-73.682543,"destLat":40.739985,"destLon":-73.641712,"geom":{"type":"LineString","coordinates":[[-73.682543,40.733001],[-73.680137,40.7335159],[-73.680137,40.7335159],[-73.676553,40.734475],[-73.676553,40.734475],[-73.673025,40.736086],[-73.673025,40.736086],[-73.671089,40.737035],[-73.671089,40.737035],[-73.668974,40.738048],[-73.668974,40.738048],[-73.666623,40.739205],[-73.666623,40.739205],[-73.662906,40.741138],[-73.662906,40.741138],[-73.66041,40.742287],[-73.66041,40.742287],[-73.657156,40.743904],[-73.657156,40.743904],[-73.654703,40.744615],[-73.654703,40.744615],[-73.65218,40.745433],[-73.65218,40.745433],[-73.6510859,40.7457969],[-73.6510859,40.7457969],[-73.647813,40.746888],[-73.647813,40.746888],[-73.6460989,40.747451],[-73.6460989,40.747451],[-73.643569,40.747609],[-73.643569,40.747609],[-73.642852,40.746363],[-73.642852,40.746363],[-73.6417819,40.744485],[-73.6417819,40.744485],[-73.640378,40.741584],[-73.640378,40.741584],[-73.641712,40.739985]]},"originTime":25860,"destTime":26880,"originStopId":"east_of_hudson:nice_1911","originStopName":"Jericho Tpke + Miller La","destStopId":"east_of_hudson:nice_6039","destStopName":"Mineola Intermodal Center","cumulativeFare":275,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_NICE","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"nice_LIBUS","agency_name":"Nassau Inter-County Express","route_id":"nice_n24","route_short_name":"n24","route_long_name":"Jamaica-Mineola- Roos. Field-EM","route_type":3,"color":"008B64","agency_url":null},"type":"transit"},{"originLat":40.739985,"originLon":-73.641712,"destLat":40.657715,"destLon":-73.583344,"geom":{"type":"LineString","coordinates":[[-73.641712,40.739985],[-73.638637,40.737127],[-73.638637,40.737127],[-73.637401,40.733831],[-73.637401,40.733831],[-73.636164,40.730638],[-73.636164,40.730638],[-73.634975,40.727548],[-73.634975,40.727548],[-73.633987,40.724988],[-73.633987,40.724988],[-73.6332949,40.723165],[-73.6332949,40.723165],[-73.632536,40.721198],[-73.632536,40.721198],[-73.6310939,40.717438],[-73.6310939,40.717438],[-73.630137,40.714871],[-73.630137,40.714871],[-73.628067,40.7108289],[-73.628067,40.7108289],[-73.624752,40.7110969],[-73.624752,40.7110969],[-73.624591,40.7081159],[-73.624591,40.7081159],[-73.62375,40.706353],[-73.62375,40.706353],[-73.62092,40.703833],[-73.62092,40.703833],[-73.619038,40.701807],[-73.619038,40.701807],[-73.614923,40.699687],[-73.614923,40.699687],[-73.611706,40.69822],[-73.611706,40.69822],[-73.608003,40.696127],[-73.608003,40.696127],[-73.6043069,40.694142],[-73.6043069,40.694142],[-73.600083,40.6915539],[-73.600083,40.6915539],[-73.5965109,40.688699],[-73.5965109,40.688699],[-73.5932459,40.685421],[-73.5932459,40.685421],[-73.592113,40.682972],[-73.592113,40.682972],[-73.590453,40.680231],[-73.590453,40.680231],[-73.589015,40.6783549],[-73.589015,40.6783549],[-73.588377,40.675269],[-73.588377,40.675269],[-73.588433,40.672553],[-73.588433,40.672553],[-73.58776,40.6693159],[-73.58776,40.6693159],[-73.586872,40.665354],[-73.586872,40.665354],[-73.5858839,40.661703],[-73.5858839,40.661703],[-73.585166,40.660027],[-73.585166,40.660027],[-73.583344,40.657715]]},"originTime":27000,"destTime":28920,"originStopId":"east_of_hudson:nice_6039","originStopName":"Mineola Intermodal Center","destStopId":"east_of_hudson:nice_2604","destStopName":"Broadway + N Main St","cumulativeFare":275,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_NICE_ONE_TRANSFER","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"nice_LIBUS","agency_name":"Nassau Inter-County Express","route_id":"nice_n40/41","route_short_name":"n40/41","route_long_name":"Freeport- Mineola","route_type":3,"color":"199DD3","agency_url":null},"type":"transit"}]},{"durationSeconds":3462,"departureTime":25255,"fare":550,"legs":[{"originLat":40.730757,"originLon":-73.6809588,"destLat":40.6996081,"destLon":-73.8085298,"geom":{"type":"LineString","coordinates":[[-73.6809588,40.730757],[-73.8085298,40.6996081]]},"originTime":25740,"destTime":26460,"originStopId":"east_of_hudson:lirr152","originStopName":"New Hyde Park","destStopId":"east_of_hudson:lirr102","destStopName":"Jamaica","cumulativeFare":825,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":{"value":0,"number":0,"expirationTime":0,"cumulativeFare":825,"boardStop":"LIRR152","viaStop":null,"alightStop":"LIRR102","initialDirection":"INBOUND","peakBeforeDirectionChange":true,"peakAfterDirectionChange":false,"mostRecentTicketPurchaseTime":25740,"maxTransferAllowance":4350},"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"default","agency_name":"default","route_id":"lirr10_peak","route_short_name":null,"route_long_name":"Port Jefferson (peak)","route_type":2,"color":"0039A6","agency_url":null},"type":"transit"},{"originLat":40.6996081,"originLon":-73.8085298,"destLat":40.6574579,"destLon":-73.582324,"geom":{"type":"LineString","coordinates":[[-73.8085298,40.6996081],[-73.582324,40.6574579]]},"originTime":27060,"destTime":28200,"originStopId":"east_of_hudson:lirr102","originStopName":"Jamaica","destStopId":"east_of_hudson:lirr64","destStopName":"Freeport","cumulativeFare":275,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":{"value":0,"number":0,"expirationTime":0,"cumulativeFare":275,"boardStop":"LIRR152","viaStop":"LIRR102","alightStop":"LIRR64","initialDirection":"INBOUND","peakBeforeDirectionChange":true,"peakAfterDirectionChange":false,"mostRecentTicketPurchaseTime":25740,"maxTransferAllowance":4350},"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"default","agency_name":"default","route_id":"lirr1_offpeak","route_short_name":null,"route_long_name":"Babylon (offpeak)","route_type":2,"color":"00985F","agency_url":null},"type":"transit"},{"originLat":40.6574579,"originLon":-73.582324,"destLat":40.657577,"destLon":-73.580766,"geom":{"type":"LineString","coordinates":[[-73.582324,40.6574579],[-73.580766,40.657577]]},"originTime":28200,"destTime":28313,"originStopId":"east_of_hudson:lirr64","originStopName":"Freeport","destStopId":"east_of_hudson:nice_22","destStopName":"Freeport LIRR Station","cumulativeFare":275,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.657577,"originLon":-73.580766,"destLat":40.656007,"destLon":-73.58037,"geom":{"type":"LineString","coordinates":[[-73.580766,40.657577],[-73.58037,40.656007]]},"originTime":28440,"destTime":28500,"originStopId":"east_of_hudson:nice_22","originStopName":"Freeport LIRR Station","destStopId":"east_of_hudson:nice_4985","destStopName":"Henry St & Newton Blvd","cumulativeFare":550,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_NICE","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"nice_LIBUS","agency_name":"Nassau Inter-County Express","route_id":"nice_n4","route_short_name":"n4","route_long_name":"Freeport- Jamaica","route_type":3,"color":"F57F3B","agency_url":null},"type":"transit"}]},{"durationSeconds":3649,"departureTime":25255,"fare":550,"legs":[{"originLat":40.730757,"originLon":-73.6809588,"destLat":40.6996081,"destLon":-73.8085298,"geom":{"type":"LineString","coordinates":[[-73.6809588,40.730757],[-73.8085298,40.6996081]]},"originTime":25740,"destTime":26460,"originStopId":"east_of_hudson:lirr152","originStopName":"New Hyde Park","destStopId":"east_of_hudson:lirr102","destStopName":"Jamaica","cumulativeFare":825,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":{"value":0,"number":0,"expirationTime":0,"cumulativeFare":825,"boardStop":"LIRR152","viaStop":null,"alightStop":"LIRR102","initialDirection":"INBOUND","peakBeforeDirectionChange":true,"peakAfterDirectionChange":false,"mostRecentTicketPurchaseTime":25740,"maxTransferAllowance":4350},"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"default","agency_name":"default","route_id":"lirr10_peak","route_short_name":null,"route_long_name":"Port Jefferson (peak)","route_type":2,"color":"0039A6","agency_url":null},"type":"transit"},{"originLat":40.6996081,"originLon":-73.8085298,"destLat":40.6574579,"destLon":-73.582324,"geom":{"type":"LineString","coordinates":[[-73.8085298,40.6996081],[-73.582324,40.6574579]]},"originTime":27060,"destTime":28200,"originStopId":"east_of_hudson:lirr102","originStopName":"Jamaica","destStopId":"east_of_hudson:lirr64","destStopName":"Freeport","cumulativeFare":275,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":{"value":0,"number":0,"expirationTime":0,"cumulativeFare":275,"boardStop":"LIRR152","viaStop":"LIRR102","alightStop":"LIRR64","initialDirection":"INBOUND","peakBeforeDirectionChange":true,"peakAfterDirectionChange":false,"mostRecentTicketPurchaseTime":25740,"maxTransferAllowance":4350},"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"default","agency_name":"default","route_id":"lirr1_offpeak","route_short_name":null,"route_long_name":"Babylon (offpeak)","route_type":2,"color":"00985F","agency_url":null},"type":"transit"},{"originLat":40.6574579,"originLon":-73.582324,"destLat":40.657577,"destLon":-73.580766,"geom":{"type":"LineString","coordinates":[[-73.582324,40.6574579],[-73.580766,40.657577]]},"originTime":28200,"destTime":28313,"originStopId":"east_of_hudson:lirr64","originStopName":"Freeport","destStopId":"east_of_hudson:nice_22","destStopName":"Freeport LIRR Station","cumulativeFare":275,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.657577,"originLon":-73.580766,"destLat":40.654765,"destLon":-73.578986,"geom":{"type":"LineString","coordinates":[[-73.580766,40.657577],[-73.58037,40.656007],[-73.58037,40.656007],[-73.578986,40.654765]]},"originTime":28440,"destTime":28500,"originStopId":"east_of_hudson:nice_22","originStopName":"Freeport LIRR Station","destStopId":"east_of_hudson:nice_852","destStopName":"Merrick Rd & S Main Street","cumulativeFare":550,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_NICE","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"nice_LIBUS","agency_name":"Nassau Inter-County Express","route_id":"nice_n4","route_short_name":"n4","route_long_name":"Freeport- Jamaica","route_type":3,"color":"F57F3B","agency_url":null},"type":"transit"},{"originLat":40.654765,"originLon":-73.578986,"destLat":40.654827,"destLon":-73.578999,"geom":{"type":"LineString","coordinates":[[-73.578986,40.654765],[-73.578999,40.654827]]},"originTime":28500,"destTime":28513,"originStopId":"east_of_hudson:nice_852","originStopName":"Merrick Rd & S Main Street","destStopId":"east_of_hudson:nice_854","destStopName":"Henry St + Merrick Rd","cumulativeFare":550,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_NICE","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.654827,"originLon":-73.578999,"destLat":40.657841,"destLon":-73.581329,"geom":{"type":"LineString","coordinates":[[-73.578999,40.654827],[-73.581329,40.657841]]},"originTime":28740,"destTime":28800,"originStopId":"east_of_hudson:nice_854","originStopName":"Henry St + Merrick Rd","destStopId":"east_of_hudson:nice_245","destStopName":"Freeport LIRR Station","cumulativeFare":550,"transferAllowance":{"value":10000000,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_NICE_ONE_TRANSFER","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"nice_LIBUS","agency_name":"Nassau Inter-County Express","route_id":"nice_n19","route_short_name":"n19","route_long_name":"Freeport-Sunrise Mall","route_type":3,"color":"008B64","agency_url":null},"type":"transit"}]}],"computeTimeMillis":1494,"backendVersion":{"version":"UNKNOWN","commit":"UNKNOWN","describe":"UNKNOWN","branch":"UNKNOWN","buildHost":"UNKNOWN","buildTime":"UNKNOWN"},"generationTime":"2020-06-21T21:14:08.471872"}
+{
+  "request": {
+    "fromLat": 40.73164913442654,
+    "fromLon": -73.67946570286891,
+    "toLat": 40.65778748415535,
+    "toLon": -73.58247758747136,
+    "fromTime": 25200,
+    "toTime": 25260,
+    "walkSpeed": 1.3888888,
+    "bikeSpeed": 4.1666665,
+    "bikeTrafficStress": 4,
+    "carSpeed": 20.0,
+    "streetTime": 90,
+    "maxWalkTime": 20,
+    "maxBikeTime": 20,
+    "maxCarTime": 45,
+    "minBikeTime": 10,
+    "minCarTime": 10,
+    "date": "2019-12-16",
+    "limit": 0,
+    "accessModes": "WALK",
+    "egressModes": "WALK",
+    "directModes": "WALK",
+    "transitModes": "TRAM,SUBWAY,RAIL,BUS,FERRY,CABLE_CAR,GONDOLA,FUNICULAR",
+    "suboptimalMinutes": 5,
+    "maxTripDurationMinutes": 120,
+    "maxRides": 4,
+    "scenario": null,
+    "scenarioId": null,
+    "zoneId": "Z",
+    "wheelchair": false,
+    "maxFare": 200000,
+    "inRoutingFareCalculator": {
+      "type": "nyc",
+      "gtfsFares": null,
+      "toLirrDiscounts": null,
+      "toMetroNorthDiscounts": null,
+      "lirrMetrocardTransferSource": null,
+      "metroNorthMetrocardTransferSource": null,
+      "lirrFareOverrides": [
+        {
+          "fromStopId": "east_of_hudson:lirr152",
+          "toStopId": "east_of_hudson:lirr64",
+          "viaStopId": "east_of_hudson:lirr237",
+          "peakFare": 275,
+          "offPeakFare": 275
+        }
+      ],
+      "metroNorthFareOverrides": null
+    },
+    "monteCarloDraws": 1
+  },
+  "trips": [
+    {
+      "durationSeconds": 3023,
+      "departureTime": 25255,
+      "fare": 275,
+      "legs": [
+        {
+          "originLat": 40.730757,
+          "originLon": -73.6809588,
+          "destLat": 40.6996081,
+          "destLon": -73.8085298,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.6809588,
+                40.730757
+              ],
+              [
+                -73.8085298,
+                40.6996081
+              ]
+            ]
+          },
+          "originTime": 25740,
+          "destTime": 26460,
+          "originStopId": "east_of_hudson:lirr152",
+          "originStopName": "New Hyde Park",
+          "destStopId": "east_of_hudson:lirr102",
+          "destStopName": "Jamaica",
+          "cumulativeFare": 825,
+          "transferAllowance": {
+            "value": 4350,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": {
+              "value": 0,
+              "number": 0,
+              "expirationTime": 0,
+              "cumulativeFare": 825,
+              "boardStop": "LIRR152",
+              "viaStop": null,
+              "alightStop": "LIRR102",
+              "initialDirection": "INBOUND",
+              "peakBeforeDirectionChange": true,
+              "peakAfterDirectionChange": false,
+              "mostRecentTicketPurchaseTime": 25740,
+              "maxTransferAllowance": 4350
+            },
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "default",
+            "agency_name": "default",
+            "route_id": "lirr10_peak",
+            "route_short_name": null,
+            "route_long_name": "Port Jefferson (peak)",
+            "route_type": 2,
+            "color": "0039A6",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.6996081,
+          "originLon": -73.8085298,
+          "destLat": 40.6574579,
+          "destLon": -73.582324,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.8085298,
+                40.6996081
+              ],
+              [
+                -73.582324,
+                40.6574579
+              ]
+            ]
+          },
+          "originTime": 27060,
+          "destTime": 28200,
+          "originStopId": "east_of_hudson:lirr102",
+          "originStopName": "Jamaica",
+          "destStopId": "east_of_hudson:lirr64",
+          "destStopName": "Freeport",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 4350,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": {
+              "value": 0,
+              "number": 0,
+              "expirationTime": 0,
+              "cumulativeFare": 275,
+              "boardStop": "LIRR152",
+              "viaStop": "LIRR102",
+              "alightStop": "LIRR64",
+              "initialDirection": "INBOUND",
+              "peakBeforeDirectionChange": true,
+              "peakAfterDirectionChange": false,
+              "mostRecentTicketPurchaseTime": 25740,
+              "maxTransferAllowance": 4350
+            },
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "default",
+            "agency_name": "default",
+            "route_id": "lirr1_offpeak",
+            "route_short_name": null,
+            "route_long_name": "Babylon (offpeak)",
+            "route_type": 2,
+            "color": "00985F",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 3762,
+      "departureTime": 25255,
+      "fare": 275,
+      "legs": [
+        {
+          "originLat": 40.733001,
+          "originLon": -73.682543,
+          "destLat": 40.739985,
+          "destLon": -73.641712,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.682543,
+                40.733001
+              ],
+              [
+                -73.680137,
+                40.7335159
+              ],
+              [
+                -73.680137,
+                40.7335159
+              ],
+              [
+                -73.676553,
+                40.734475
+              ],
+              [
+                -73.676553,
+                40.734475
+              ],
+              [
+                -73.673025,
+                40.736086
+              ],
+              [
+                -73.673025,
+                40.736086
+              ],
+              [
+                -73.671089,
+                40.737035
+              ],
+              [
+                -73.671089,
+                40.737035
+              ],
+              [
+                -73.668974,
+                40.738048
+              ],
+              [
+                -73.668974,
+                40.738048
+              ],
+              [
+                -73.666623,
+                40.739205
+              ],
+              [
+                -73.666623,
+                40.739205
+              ],
+              [
+                -73.662906,
+                40.741138
+              ],
+              [
+                -73.662906,
+                40.741138
+              ],
+              [
+                -73.66041,
+                40.742287
+              ],
+              [
+                -73.66041,
+                40.742287
+              ],
+              [
+                -73.657156,
+                40.743904
+              ],
+              [
+                -73.657156,
+                40.743904
+              ],
+              [
+                -73.654703,
+                40.744615
+              ],
+              [
+                -73.654703,
+                40.744615
+              ],
+              [
+                -73.65218,
+                40.745433
+              ],
+              [
+                -73.65218,
+                40.745433
+              ],
+              [
+                -73.6510859,
+                40.7457969
+              ],
+              [
+                -73.6510859,
+                40.7457969
+              ],
+              [
+                -73.647813,
+                40.746888
+              ],
+              [
+                -73.647813,
+                40.746888
+              ],
+              [
+                -73.6460989,
+                40.747451
+              ],
+              [
+                -73.6460989,
+                40.747451
+              ],
+              [
+                -73.643569,
+                40.747609
+              ],
+              [
+                -73.643569,
+                40.747609
+              ],
+              [
+                -73.642852,
+                40.746363
+              ],
+              [
+                -73.642852,
+                40.746363
+              ],
+              [
+                -73.6417819,
+                40.744485
+              ],
+              [
+                -73.6417819,
+                40.744485
+              ],
+              [
+                -73.640378,
+                40.741584
+              ],
+              [
+                -73.640378,
+                40.741584
+              ],
+              [
+                -73.641712,
+                40.739985
+              ]
+            ]
+          },
+          "originTime": 25860,
+          "destTime": 26880,
+          "originStopId": "east_of_hudson:nice_1911",
+          "originStopName": "Jericho Tpke + Miller La",
+          "destStopId": "east_of_hudson:nice_6039",
+          "destStopName": "Mineola Intermodal Center",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_NICE",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nice_LIBUS",
+            "agency_name": "Nassau Inter-County Express",
+            "route_id": "nice_n24",
+            "route_short_name": "n24",
+            "route_long_name": "Jamaica-Mineola- Roos. Field-EM",
+            "route_type": 3,
+            "color": "008B64",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.739985,
+          "originLon": -73.641712,
+          "destLat": 40.657715,
+          "destLon": -73.583344,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.641712,
+                40.739985
+              ],
+              [
+                -73.638637,
+                40.737127
+              ],
+              [
+                -73.638637,
+                40.737127
+              ],
+              [
+                -73.637401,
+                40.733831
+              ],
+              [
+                -73.637401,
+                40.733831
+              ],
+              [
+                -73.636164,
+                40.730638
+              ],
+              [
+                -73.636164,
+                40.730638
+              ],
+              [
+                -73.634975,
+                40.727548
+              ],
+              [
+                -73.634975,
+                40.727548
+              ],
+              [
+                -73.633987,
+                40.724988
+              ],
+              [
+                -73.633987,
+                40.724988
+              ],
+              [
+                -73.6332949,
+                40.723165
+              ],
+              [
+                -73.6332949,
+                40.723165
+              ],
+              [
+                -73.632536,
+                40.721198
+              ],
+              [
+                -73.632536,
+                40.721198
+              ],
+              [
+                -73.6310939,
+                40.717438
+              ],
+              [
+                -73.6310939,
+                40.717438
+              ],
+              [
+                -73.630137,
+                40.714871
+              ],
+              [
+                -73.630137,
+                40.714871
+              ],
+              [
+                -73.628067,
+                40.7108289
+              ],
+              [
+                -73.628067,
+                40.7108289
+              ],
+              [
+                -73.624752,
+                40.7110969
+              ],
+              [
+                -73.624752,
+                40.7110969
+              ],
+              [
+                -73.624591,
+                40.7081159
+              ],
+              [
+                -73.624591,
+                40.7081159
+              ],
+              [
+                -73.62375,
+                40.706353
+              ],
+              [
+                -73.62375,
+                40.706353
+              ],
+              [
+                -73.62092,
+                40.703833
+              ],
+              [
+                -73.62092,
+                40.703833
+              ],
+              [
+                -73.619038,
+                40.701807
+              ],
+              [
+                -73.619038,
+                40.701807
+              ],
+              [
+                -73.614923,
+                40.699687
+              ],
+              [
+                -73.614923,
+                40.699687
+              ],
+              [
+                -73.611706,
+                40.69822
+              ],
+              [
+                -73.611706,
+                40.69822
+              ],
+              [
+                -73.608003,
+                40.696127
+              ],
+              [
+                -73.608003,
+                40.696127
+              ],
+              [
+                -73.6043069,
+                40.694142
+              ],
+              [
+                -73.6043069,
+                40.694142
+              ],
+              [
+                -73.600083,
+                40.6915539
+              ],
+              [
+                -73.600083,
+                40.6915539
+              ],
+              [
+                -73.5965109,
+                40.688699
+              ],
+              [
+                -73.5965109,
+                40.688699
+              ],
+              [
+                -73.5932459,
+                40.685421
+              ],
+              [
+                -73.5932459,
+                40.685421
+              ],
+              [
+                -73.592113,
+                40.682972
+              ],
+              [
+                -73.592113,
+                40.682972
+              ],
+              [
+                -73.590453,
+                40.680231
+              ],
+              [
+                -73.590453,
+                40.680231
+              ],
+              [
+                -73.589015,
+                40.6783549
+              ],
+              [
+                -73.589015,
+                40.6783549
+              ],
+              [
+                -73.588377,
+                40.675269
+              ],
+              [
+                -73.588377,
+                40.675269
+              ],
+              [
+                -73.588433,
+                40.672553
+              ],
+              [
+                -73.588433,
+                40.672553
+              ],
+              [
+                -73.58776,
+                40.6693159
+              ],
+              [
+                -73.58776,
+                40.6693159
+              ],
+              [
+                -73.586872,
+                40.665354
+              ],
+              [
+                -73.586872,
+                40.665354
+              ],
+              [
+                -73.5858839,
+                40.661703
+              ],
+              [
+                -73.5858839,
+                40.661703
+              ],
+              [
+                -73.585166,
+                40.660027
+              ],
+              [
+                -73.585166,
+                40.660027
+              ],
+              [
+                -73.583344,
+                40.657715
+              ]
+            ]
+          },
+          "originTime": 27000,
+          "destTime": 28920,
+          "originStopId": "east_of_hudson:nice_6039",
+          "originStopName": "Mineola Intermodal Center",
+          "destStopId": "east_of_hudson:nice_2604",
+          "destStopName": "Broadway + N Main St",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_NICE_ONE_TRANSFER",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nice_LIBUS",
+            "agency_name": "Nassau Inter-County Express",
+            "route_id": "nice_n40/41",
+            "route_short_name": "n40/41",
+            "route_long_name": "Freeport- Mineola",
+            "route_type": 3,
+            "color": "199DD3",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 3462,
+      "departureTime": 25255,
+      "fare": 550,
+      "legs": [
+        {
+          "originLat": 40.730757,
+          "originLon": -73.6809588,
+          "destLat": 40.6996081,
+          "destLon": -73.8085298,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.6809588,
+                40.730757
+              ],
+              [
+                -73.8085298,
+                40.6996081
+              ]
+            ]
+          },
+          "originTime": 25740,
+          "destTime": 26460,
+          "originStopId": "east_of_hudson:lirr152",
+          "originStopName": "New Hyde Park",
+          "destStopId": "east_of_hudson:lirr102",
+          "destStopName": "Jamaica",
+          "cumulativeFare": 825,
+          "transferAllowance": {
+            "value": 4350,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": {
+              "value": 0,
+              "number": 0,
+              "expirationTime": 0,
+              "cumulativeFare": 825,
+              "boardStop": "LIRR152",
+              "viaStop": null,
+              "alightStop": "LIRR102",
+              "initialDirection": "INBOUND",
+              "peakBeforeDirectionChange": true,
+              "peakAfterDirectionChange": false,
+              "mostRecentTicketPurchaseTime": 25740,
+              "maxTransferAllowance": 4350
+            },
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "default",
+            "agency_name": "default",
+            "route_id": "lirr10_peak",
+            "route_short_name": null,
+            "route_long_name": "Port Jefferson (peak)",
+            "route_type": 2,
+            "color": "0039A6",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.6996081,
+          "originLon": -73.8085298,
+          "destLat": 40.6574579,
+          "destLon": -73.582324,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.8085298,
+                40.6996081
+              ],
+              [
+                -73.582324,
+                40.6574579
+              ]
+            ]
+          },
+          "originTime": 27060,
+          "destTime": 28200,
+          "originStopId": "east_of_hudson:lirr102",
+          "originStopName": "Jamaica",
+          "destStopId": "east_of_hudson:lirr64",
+          "destStopName": "Freeport",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 4350,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": {
+              "value": 0,
+              "number": 0,
+              "expirationTime": 0,
+              "cumulativeFare": 275,
+              "boardStop": "LIRR152",
+              "viaStop": "LIRR102",
+              "alightStop": "LIRR64",
+              "initialDirection": "INBOUND",
+              "peakBeforeDirectionChange": true,
+              "peakAfterDirectionChange": false,
+              "mostRecentTicketPurchaseTime": 25740,
+              "maxTransferAllowance": 4350
+            },
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "default",
+            "agency_name": "default",
+            "route_id": "lirr1_offpeak",
+            "route_short_name": null,
+            "route_long_name": "Babylon (offpeak)",
+            "route_type": 2,
+            "color": "00985F",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.6574579,
+          "originLon": -73.582324,
+          "destLat": 40.657577,
+          "destLon": -73.580766,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.582324,
+                40.6574579
+              ],
+              [
+                -73.580766,
+                40.657577
+              ]
+            ]
+          },
+          "originTime": 28200,
+          "destTime": 28313,
+          "originStopId": "east_of_hudson:lirr64",
+          "originStopName": "Freeport",
+          "destStopId": "east_of_hudson:nice_22",
+          "destStopName": "Freeport LIRR Station",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 0,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.657577,
+          "originLon": -73.580766,
+          "destLat": 40.656007,
+          "destLon": -73.58037,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.580766,
+                40.657577
+              ],
+              [
+                -73.58037,
+                40.656007
+              ]
+            ]
+          },
+          "originTime": 28440,
+          "destTime": 28500,
+          "originStopId": "east_of_hudson:nice_22",
+          "originStopName": "Freeport LIRR Station",
+          "destStopId": "east_of_hudson:nice_4985",
+          "destStopName": "Henry St & Newton Blvd",
+          "cumulativeFare": 550,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_NICE",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nice_LIBUS",
+            "agency_name": "Nassau Inter-County Express",
+            "route_id": "nice_n4",
+            "route_short_name": "n4",
+            "route_long_name": "Freeport- Jamaica",
+            "route_type": 3,
+            "color": "F57F3B",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 3649,
+      "departureTime": 25255,
+      "fare": 550,
+      "legs": [
+        {
+          "originLat": 40.730757,
+          "originLon": -73.6809588,
+          "destLat": 40.6996081,
+          "destLon": -73.8085298,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.6809588,
+                40.730757
+              ],
+              [
+                -73.8085298,
+                40.6996081
+              ]
+            ]
+          },
+          "originTime": 25740,
+          "destTime": 26460,
+          "originStopId": "east_of_hudson:lirr152",
+          "originStopName": "New Hyde Park",
+          "destStopId": "east_of_hudson:lirr102",
+          "destStopName": "Jamaica",
+          "cumulativeFare": 825,
+          "transferAllowance": {
+            "value": 4350,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": {
+              "value": 0,
+              "number": 0,
+              "expirationTime": 0,
+              "cumulativeFare": 825,
+              "boardStop": "LIRR152",
+              "viaStop": null,
+              "alightStop": "LIRR102",
+              "initialDirection": "INBOUND",
+              "peakBeforeDirectionChange": true,
+              "peakAfterDirectionChange": false,
+              "mostRecentTicketPurchaseTime": 25740,
+              "maxTransferAllowance": 4350
+            },
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "default",
+            "agency_name": "default",
+            "route_id": "lirr10_peak",
+            "route_short_name": null,
+            "route_long_name": "Port Jefferson (peak)",
+            "route_type": 2,
+            "color": "0039A6",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.6996081,
+          "originLon": -73.8085298,
+          "destLat": 40.6574579,
+          "destLon": -73.582324,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.8085298,
+                40.6996081
+              ],
+              [
+                -73.582324,
+                40.6574579
+              ]
+            ]
+          },
+          "originTime": 27060,
+          "destTime": 28200,
+          "originStopId": "east_of_hudson:lirr102",
+          "originStopName": "Jamaica",
+          "destStopId": "east_of_hudson:lirr64",
+          "destStopName": "Freeport",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 4350,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": {
+              "value": 0,
+              "number": 0,
+              "expirationTime": 0,
+              "cumulativeFare": 275,
+              "boardStop": "LIRR152",
+              "viaStop": "LIRR102",
+              "alightStop": "LIRR64",
+              "initialDirection": "INBOUND",
+              "peakBeforeDirectionChange": true,
+              "peakAfterDirectionChange": false,
+              "mostRecentTicketPurchaseTime": 25740,
+              "maxTransferAllowance": 4350
+            },
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "default",
+            "agency_name": "default",
+            "route_id": "lirr1_offpeak",
+            "route_short_name": null,
+            "route_long_name": "Babylon (offpeak)",
+            "route_type": 2,
+            "color": "00985F",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.6574579,
+          "originLon": -73.582324,
+          "destLat": 40.657577,
+          "destLon": -73.580766,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.582324,
+                40.6574579
+              ],
+              [
+                -73.580766,
+                40.657577
+              ]
+            ]
+          },
+          "originTime": 28200,
+          "destTime": 28313,
+          "originStopId": "east_of_hudson:lirr64",
+          "originStopName": "Freeport",
+          "destStopId": "east_of_hudson:nice_22",
+          "destStopName": "Freeport LIRR Station",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 0,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.657577,
+          "originLon": -73.580766,
+          "destLat": 40.654765,
+          "destLon": -73.578986,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.580766,
+                40.657577
+              ],
+              [
+                -73.58037,
+                40.656007
+              ],
+              [
+                -73.58037,
+                40.656007
+              ],
+              [
+                -73.578986,
+                40.654765
+              ]
+            ]
+          },
+          "originTime": 28440,
+          "destTime": 28500,
+          "originStopId": "east_of_hudson:nice_22",
+          "originStopName": "Freeport LIRR Station",
+          "destStopId": "east_of_hudson:nice_852",
+          "destStopName": "Merrick Rd & S Main Street",
+          "cumulativeFare": 550,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_NICE",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nice_LIBUS",
+            "agency_name": "Nassau Inter-County Express",
+            "route_id": "nice_n4",
+            "route_short_name": "n4",
+            "route_long_name": "Freeport- Jamaica",
+            "route_type": 3,
+            "color": "F57F3B",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.654765,
+          "originLon": -73.578986,
+          "destLat": 40.654827,
+          "destLon": -73.578999,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.578986,
+                40.654765
+              ],
+              [
+                -73.578999,
+                40.654827
+              ]
+            ]
+          },
+          "originTime": 28500,
+          "destTime": 28513,
+          "originStopId": "east_of_hudson:nice_852",
+          "originStopName": "Merrick Rd & S Main Street",
+          "destStopId": "east_of_hudson:nice_854",
+          "destStopName": "Henry St + Merrick Rd",
+          "cumulativeFare": 550,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_NICE",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.654827,
+          "originLon": -73.578999,
+          "destLat": 40.657841,
+          "destLon": -73.581329,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.578999,
+                40.654827
+              ],
+              [
+                -73.581329,
+                40.657841
+              ]
+            ]
+          },
+          "originTime": 28740,
+          "destTime": 28800,
+          "originStopId": "east_of_hudson:nice_854",
+          "originStopName": "Henry St + Merrick Rd",
+          "destStopId": "east_of_hudson:nice_245",
+          "destStopName": "Freeport LIRR Station",
+          "cumulativeFare": 550,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_NICE_ONE_TRANSFER",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nice_LIBUS",
+            "agency_name": "Nassau Inter-County Express",
+            "route_id": "nice_n19",
+            "route_short_name": "n19",
+            "route_long_name": "Freeport-Sunrise Mall",
+            "route_type": 3,
+            "color": "008B64",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    }
+  ],
+  "computeTimeMillis": 1284,
+  "backendVersion": {
+    "version": "UNKNOWN",
+    "commit": "UNKNOWN",
+    "describe": "UNKNOWN",
+    "branch": "UNKNOWN",
+    "buildHost": "UNKNOWN",
+    "buildTime": "UNKNOWN"
+  },
+  "generationTime": "2020-06-21T23:17:38.489052"
+}

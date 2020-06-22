@@ -1,1 +1,495 @@
-{"request":{"fromLat":40.734770989672406,"fromLon":-73.52565941313962,"toLat":40.72982797782921,"toLon":-73.84904061699154,"fromTime":25200,"toTime":25260,"walkSpeed":1.3888888,"bikeSpeed":4.1666665,"bikeTrafficStress":4,"carSpeed":20,"streetTime":90,"maxWalkTime":20,"maxBikeTime":20,"maxCarTime":45,"minBikeTime":10,"minCarTime":10,"date":"2019-12-16","limit":0,"accessModes":"WALK","egressModes":"WALK","directModes":"WALK","transitModes":"TRAM,SUBWAY,RAIL,BUS,FERRY,CABLE_CAR,GONDOLA,FUNICULAR","suboptimalMinutes":5,"maxTripDurationMinutes":120,"maxRides":4,"scenario":null,"scenarioId":null,"zoneId":"Z","wheelchair":false,"maxFare":200000,"inRoutingFareCalculator":{"type":"nyc","gtfsFares":null,"toLirrDiscounts":{"METROCARD_NICE":275},"toMetroNorthDiscounts":null,"lirrMetrocardTransferSource":"METROCARD_LOCAL_BUS","metroNorthMetrocardTransferSource":null,"lirrFareOverrides":null,"metroNorthFareOverrides":null},"monteCarloDraws":1},"trips":[{"durationSeconds":6066,"departureTime":25255,"fare":1275,"legs":[{"originLat":40.73274,"originLon":-73.539057,"destLat":40.767201,"destLon":-73.5273579,"geom":{"type":"LineString","coordinates":[[-73.539057,40.73274],[-73.538934,40.733651],[-73.538934,40.733651],[-73.537508,40.7371229],[-73.537508,40.7371229],[-73.5366569,40.739511],[-73.5366569,40.739511],[-73.536004,40.741282],[-73.536004,40.741282],[-73.535329,40.743241],[-73.535329,40.743241],[-73.534629,40.74512],[-73.534629,40.74512],[-73.533787,40.7472039],[-73.533787,40.7472039],[-73.5328849,40.749119],[-73.5328849,40.749119],[-73.5313939,40.753413],[-73.5313939,40.753413],[-73.530447,40.755757],[-73.530447,40.755757],[-73.528997,40.759291],[-73.528997,40.759291],[-73.5286359,40.76032],[-73.5286359,40.76032],[-73.527992,40.761823],[-73.527992,40.761823],[-73.5272229,40.764014],[-73.5272229,40.764014],[-73.5273579,40.767201]]},"originTime":27360,"destTime":28020,"originStopId":"east_of_hudson:nice_2985","originStopName":"Newbridge Rd + Dogwood Lane","destStopId":"east_of_hudson:nice_110","destStopName":"Hicksville LIRR Station","cumulativeFare":275,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_NICE","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"nice_LIBUS","agency_name":"Nassau Inter-County Express","route_id":"nice_n49","route_short_name":"n49","route_long_name":"Hempstead- Hicksville","route_type":3,"color":"008B64","agency_url":null},"type":"transit"},{"originLat":40.767201,"originLon":-73.5273579,"destLat":40.7671749,"destLon":-73.5285332,"geom":{"type":"LineString","coordinates":[[-73.5273579,40.767201],[-73.5285332,40.7671749]]},"originTime":28020,"destTime":28147,"originStopId":"east_of_hudson:nice_110","originStopName":"Hicksville LIRR Station","destStopId":"east_of_hudson:lirr92","destStopName":"Hicksville","cumulativeFare":275,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_NICE","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.7671749,"originLon":-73.5285332,"destLat":40.6996081,"destLon":-73.8085298,"geom":{"type":"LineString","coordinates":[[-73.5285332,40.7671749],[-73.6408629,40.7403474],[-73.6408629,40.7403474],[-73.8085298,40.6996081]]},"originTime":28620,"destTime":29820,"originStopId":"east_of_hudson:lirr92","originStopName":"Hicksville","destStopId":"east_of_hudson:lirr102","destStopName":"Jamaica","cumulativeFare":1000,"transferAllowance":{"value":0,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"default","agency_name":"default","route_id":"lirr5_peak","route_short_name":null,"route_long_name":"Montauk (peak)","route_type":2,"color":"006983","agency_url":null},"type":"transit"},{"originLat":40.6996081,"originLon":-73.8085298,"destLat":40.700486,"destLon":-73.807969,"geom":{"type":"LineString","coordinates":[[-73.8085298,40.6996081],[-73.807969,40.700486]]},"originTime":29820,"destTime":29935,"originStopId":"east_of_hudson:lirr102","originStopName":"Jamaica","destStopId":"east_of_hudson:nyct_subway_G06S","destStopName":"Sutphin Blvd - Archer Av - JFK Airport","cumulativeFare":1000,"transferAllowance":{"value":0,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.700486,"originLon":-73.807969,"destLat":40.721691,"destLon":-73.844521,"geom":{"type":"LineString","coordinates":[[-73.807969,40.700486],[-73.8168589,40.702566],[-73.8168589,40.702566],[-73.831008,40.714441],[-73.831008,40.714441],[-73.844521,40.721691]]},"originTime":30030,"destTime":30540,"originStopId":"east_of_hudson:nyct_subway_G06S","originStopName":"Sutphin Blvd - Archer Av - JFK Airport","destStopId":"east_of_hudson:nyct_subway_G08S","destStopName":"Forest Hills - 71 Av","cumulativeFare":1275,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_SUBWAY","metrocardTransferExpiry":32455,"inSubwayPaidArea":true,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"nyct_subway_MTA NYCT","agency_name":"MTA New York City Transit","route_id":"nyct_subway_E","route_short_name":"E","route_long_name":"8 Avenue Local","route_type":1,"color":"2850AD","agency_url":"http://web.mta.info/nyct/service/pdf/tecur.pdf"},"type":"transit"},{"originLat":40.721691,"originLon":-73.844521,"destLat":40.726523,"destLon":-73.8527189,"geom":{"type":"LineString","coordinates":[[-73.844521,40.721691],[-73.8527189,40.726523]]},"originTime":30720,"destTime":30840,"originStopId":"east_of_hudson:nyct_subway_G08S","originStopName":"Forest Hills - 71 Av","destStopId":"east_of_hudson:nyct_subway_G09S","destStopName":"67 Av","cumulativeFare":1275,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_SUBWAY","metrocardTransferExpiry":32455,"inSubwayPaidArea":true,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"nyct_subway_MTA NYCT","agency_name":"MTA New York City Transit","route_id":"nyct_subway_M","route_short_name":"M","route_long_name":"Queens Blvd Local/6 Av Local","route_type":1,"color":"FF6319","agency_url":"http://web.mta.info/nyct/service/pdf/tmcur.pdf"},"type":"transit"}],"tripIndex":0,"optimal":true}],"computeTimeMillis":114}
+{
+  "request": {
+    "fromLat": 40.734770989672406,
+    "fromLon": -73.52565941313962,
+    "toLat": 40.72982797782921,
+    "toLon": -73.84904061699154,
+    "fromTime": 25200,
+    "toTime": 25260,
+    "walkSpeed": 1.3888888,
+    "bikeSpeed": 4.1666665,
+    "bikeTrafficStress": 4,
+    "carSpeed": 20.0,
+    "streetTime": 90,
+    "maxWalkTime": 20,
+    "maxBikeTime": 20,
+    "maxCarTime": 45,
+    "minBikeTime": 10,
+    "minCarTime": 10,
+    "date": "2019-12-16",
+    "limit": 0,
+    "accessModes": "WALK",
+    "egressModes": "WALK",
+    "directModes": "WALK",
+    "transitModes": "TRAM,SUBWAY,RAIL,BUS,FERRY,CABLE_CAR,GONDOLA,FUNICULAR",
+    "suboptimalMinutes": 5,
+    "maxTripDurationMinutes": 120,
+    "maxRides": 4,
+    "scenario": null,
+    "scenarioId": null,
+    "zoneId": "Z",
+    "wheelchair": false,
+    "maxFare": 200000,
+    "inRoutingFareCalculator": {
+      "type": "nyc",
+      "gtfsFares": null,
+      "toLirrDiscounts": {
+        "METROCARD_NICE": 275
+      },
+      "toMetroNorthDiscounts": null,
+      "lirrMetrocardTransferSource": "METROCARD_LOCAL_BUS",
+      "metroNorthMetrocardTransferSource": null,
+      "lirrFareOverrides": null,
+      "metroNorthFareOverrides": null
+    },
+    "monteCarloDraws": 1
+  },
+  "trips": [
+    {
+      "durationSeconds": 6066,
+      "departureTime": 25255,
+      "fare": 1275,
+      "legs": [
+        {
+          "originLat": 40.73274,
+          "originLon": -73.539057,
+          "destLat": 40.767201,
+          "destLon": -73.5273579,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.539057,
+                40.73274
+              ],
+              [
+                -73.538934,
+                40.733651
+              ],
+              [
+                -73.538934,
+                40.733651
+              ],
+              [
+                -73.537508,
+                40.7371229
+              ],
+              [
+                -73.537508,
+                40.7371229
+              ],
+              [
+                -73.5366569,
+                40.739511
+              ],
+              [
+                -73.5366569,
+                40.739511
+              ],
+              [
+                -73.536004,
+                40.741282
+              ],
+              [
+                -73.536004,
+                40.741282
+              ],
+              [
+                -73.535329,
+                40.743241
+              ],
+              [
+                -73.535329,
+                40.743241
+              ],
+              [
+                -73.534629,
+                40.74512
+              ],
+              [
+                -73.534629,
+                40.74512
+              ],
+              [
+                -73.533787,
+                40.7472039
+              ],
+              [
+                -73.533787,
+                40.7472039
+              ],
+              [
+                -73.5328849,
+                40.749119
+              ],
+              [
+                -73.5328849,
+                40.749119
+              ],
+              [
+                -73.5313939,
+                40.753413
+              ],
+              [
+                -73.5313939,
+                40.753413
+              ],
+              [
+                -73.530447,
+                40.755757
+              ],
+              [
+                -73.530447,
+                40.755757
+              ],
+              [
+                -73.528997,
+                40.759291
+              ],
+              [
+                -73.528997,
+                40.759291
+              ],
+              [
+                -73.5286359,
+                40.76032
+              ],
+              [
+                -73.5286359,
+                40.76032
+              ],
+              [
+                -73.527992,
+                40.761823
+              ],
+              [
+                -73.527992,
+                40.761823
+              ],
+              [
+                -73.5272229,
+                40.764014
+              ],
+              [
+                -73.5272229,
+                40.764014
+              ],
+              [
+                -73.5273579,
+                40.767201
+              ]
+            ]
+          },
+          "originTime": 27360,
+          "destTime": 28020,
+          "originStopId": "east_of_hudson:nice_2985",
+          "originStopName": "Newbridge Rd + Dogwood Lane",
+          "destStopId": "east_of_hudson:nice_110",
+          "destStopName": "Hicksville LIRR Station",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_NICE",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nice_LIBUS",
+            "agency_name": "Nassau Inter-County Express",
+            "route_id": "nice_n49",
+            "route_short_name": "n49",
+            "route_long_name": "Hempstead- Hicksville",
+            "route_type": 3,
+            "color": "008B64",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.767201,
+          "originLon": -73.5273579,
+          "destLat": 40.7671749,
+          "destLon": -73.5285332,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.5273579,
+                40.767201
+              ],
+              [
+                -73.5285332,
+                40.7671749
+              ]
+            ]
+          },
+          "originTime": 28020,
+          "destTime": 28147,
+          "originStopId": "east_of_hudson:nice_110",
+          "originStopName": "Hicksville LIRR Station",
+          "destStopId": "east_of_hudson:lirr92",
+          "destStopName": "Hicksville",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_NICE",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.7671749,
+          "originLon": -73.5285332,
+          "destLat": 40.6996081,
+          "destLon": -73.8085298,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.5285332,
+                40.7671749
+              ],
+              [
+                -73.6408629,
+                40.7403474
+              ],
+              [
+                -73.6408629,
+                40.7403474
+              ],
+              [
+                -73.8085298,
+                40.6996081
+              ]
+            ]
+          },
+          "originTime": 28620,
+          "destTime": 29820,
+          "originStopId": "east_of_hudson:lirr92",
+          "originStopName": "Hicksville",
+          "destStopId": "east_of_hudson:lirr102",
+          "destStopName": "Jamaica",
+          "cumulativeFare": 1000,
+          "transferAllowance": {
+            "value": 4350,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": {
+              "value": 0,
+              "number": 0,
+              "expirationTime": 0,
+              "cumulativeFare": 1000,
+              "boardStop": "LIRR92",
+              "viaStop": null,
+              "alightStop": "LIRR102",
+              "initialDirection": "INBOUND",
+              "peakBeforeDirectionChange": true,
+              "peakAfterDirectionChange": false,
+              "mostRecentTicketPurchaseTime": 28620,
+              "maxTransferAllowance": 4350
+            },
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "default",
+            "agency_name": "default",
+            "route_id": "lirr5_peak",
+            "route_short_name": null,
+            "route_long_name": "Montauk (peak)",
+            "route_type": 2,
+            "color": "006983",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.6996081,
+          "originLon": -73.8085298,
+          "destLat": 40.700486,
+          "destLon": -73.807969,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.8085298,
+                40.6996081
+              ],
+              [
+                -73.807969,
+                40.700486
+              ]
+            ]
+          },
+          "originTime": 29820,
+          "destTime": 29935,
+          "originStopId": "east_of_hudson:lirr102",
+          "originStopName": "Jamaica",
+          "destStopId": "east_of_hudson:nyct_subway_G06S",
+          "destStopName": "Sutphin Blvd - Archer Av - JFK Airport",
+          "cumulativeFare": 1000,
+          "transferAllowance": {
+            "value": 0,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.700486,
+          "originLon": -73.807969,
+          "destLat": 40.721691,
+          "destLon": -73.844521,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.807969,
+                40.700486
+              ],
+              [
+                -73.8168589,
+                40.702566
+              ],
+              [
+                -73.8168589,
+                40.702566
+              ],
+              [
+                -73.831008,
+                40.714441
+              ],
+              [
+                -73.831008,
+                40.714441
+              ],
+              [
+                -73.844521,
+                40.721691
+              ]
+            ]
+          },
+          "originTime": 30030,
+          "destTime": 30540,
+          "originStopId": "east_of_hudson:nyct_subway_G06S",
+          "originStopName": "Sutphin Blvd - Archer Av - JFK Airport",
+          "destStopId": "east_of_hudson:nyct_subway_G08S",
+          "destStopName": "Forest Hills - 71 Av",
+          "cumulativeFare": 1275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": true,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nyct_subway_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "nyct_subway_E",
+            "route_short_name": "E",
+            "route_long_name": "8 Avenue Local",
+            "route_type": 1,
+            "color": "2850AD",
+            "agency_url": "http://web.mta.info/nyct/service/pdf/tecur.pdf"
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.721691,
+          "originLon": -73.844521,
+          "destLat": 40.726523,
+          "destLon": -73.8527189,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.844521,
+                40.721691
+              ],
+              [
+                -73.8527189,
+                40.726523
+              ]
+            ]
+          },
+          "originTime": 30720,
+          "destTime": 30840,
+          "originStopId": "east_of_hudson:nyct_subway_G08S",
+          "originStopName": "Forest Hills - 71 Av",
+          "destStopId": "east_of_hudson:nyct_subway_G09S",
+          "destStopName": "67 Av",
+          "cumulativeFare": 1275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": true,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nyct_subway_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "nyct_subway_M",
+            "route_short_name": "M",
+            "route_long_name": "Queens Blvd Local/6 Av Local",
+            "route_type": 1,
+            "color": "FF6319",
+            "agency_url": "http://web.mta.info/nyct/service/pdf/tmcur.pdf"
+          },
+          "type": "transit"
+        }
+      ]
+    }
+  ],
+  "computeTimeMillis": 248,
+  "backendVersion": {
+    "version": "UNKNOWN",
+    "commit": "UNKNOWN",
+    "describe": "UNKNOWN",
+    "branch": "UNKNOWN",
+    "buildHost": "UNKNOWN",
+    "buildTime": "UNKNOWN"
+  },
+  "generationTime": "2020-06-21T23:17:29.09884"
+}

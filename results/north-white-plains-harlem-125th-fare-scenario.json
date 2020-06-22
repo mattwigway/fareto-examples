@@ -1,1 +1,602 @@
-{"request":{"fromLat":41.051071520438896,"fromLon":-73.7721637503419,"toLat":40.80516900295467,"toLon":-73.93901335502208,"fromTime":57600,"toTime":57660,"walkSpeed":1.3888888,"bikeSpeed":4.1666665,"bikeTrafficStress":4,"carSpeed":20,"streetTime":90,"maxWalkTime":20,"maxBikeTime":20,"maxCarTime":45,"minBikeTime":10,"minCarTime":10,"date":"2019-12-16","limit":0,"accessModes":"WALK","egressModes":"WALK","directModes":"WALK","transitModes":"TRAM,SUBWAY,RAIL,BUS,FERRY,CABLE_CAR,GONDOLA,FUNICULAR","suboptimalMinutes":5,"maxTripDurationMinutes":120,"maxRides":4,"scenario":null,"scenarioId":null,"zoneId":"Z","wheelchair":false,"maxFare":200000,"inRoutingFareCalculator":{"type":"nyc","gtfsFares":null,"toLirrDiscounts":null,"toMetroNorthDiscounts":null,"lirrMetrocardTransferSource":null,"metroNorthMetrocardTransferSource":null,"lirrFareOverrides":null,"metroNorthFareOverrides":[{"fromStopId":"east_of_hudson:mnr_76","toStopId":"east_of_hudson:mnr_4","viaStopId":null,"peakFare":400,"offPeakFare":400}]},"monteCarloDraws":1},"trips":[{"durationSeconds":3835,"departureTime":57655,"fare":675,"legs":[{"originLat":41.0498059,"originLon":-73.773142,"destLat":40.805157,"destLon":-73.939149,"geom":{"type":"LineString","coordinates":[[-73.773142,41.0498059],[-73.7752079,41.032589],[-73.7752079,41.032589],[-73.7964069,41.010333],[-73.7964069,41.010333],[-73.808634,40.989168],[-73.808634,40.989168],[-73.89058,40.8615],[-73.89058,40.8615],[-73.939149,40.805157]]},"originTime":58620,"destTime":60540,"originStopId":"east_of_hudson:mnr_76","originStopName":"North White Plains","destStopId":"east_of_hudson:mnr_4","destStopName":"Harlem-125th St.","cumulativeFare":400,"transferAllowance":{"value":2725,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":null,"metrocardTransferExpiry":64855,"inSubwayPaidArea":false,"metroNorthBoardStop":16653,"metroNorthDirection":1,"metroNorthPeak":false,"metroNorthLine":"HARLEM"},"route":{"agency_id":"mnr_1","agency_name":"Metro-North Railroad","route_id":"mnr_2_offpeak","route_short_name":null,"route_long_name":"Harlem","route_type":2,"color":"0039A6","agency_url":null},"type":"transit"},{"originLat":40.805157,"originLon":-73.939149,"destLat":40.804138,"destLon":-73.9375939,"geom":{"type":"LineString","coordinates":[[-73.939149,40.805157],[-73.9375939,40.804138]]},"originTime":60540,"destTime":60689,"originStopId":"east_of_hudson:mnr_4","originStopName":"Harlem-125th St.","destStopId":"east_of_hudson:nyct_subway_621N","destStopName":"125 St","cumulativeFare":400,"transferAllowance":{"value":0,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":null,"metrocardTransferExpiry":64855,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.804138,"originLon":-73.9375939,"destLat":40.813224,"destLon":-73.929849,"geom":{"type":"LineString","coordinates":[[-73.9375939,40.804138],[-73.929849,40.813224]]},"originTime":60840,"destTime":60990,"originStopId":"east_of_hudson:nyct_subway_621N","originStopName":"125 St","destStopId":"east_of_hudson:nyct_subway_416N","destStopName":"138 St - Grand Concourse","cumulativeFare":675,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_SUBWAY","metrocardTransferExpiry":64855,"inSubwayPaidArea":true,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"nyct_subway_MTA NYCT","agency_name":"MTA New York City Transit","route_id":"nyct_subway_5","route_short_name":"5","route_long_name":"Lexington Avenue Express","route_type":1,"color":"00933C","agency_url":"http://web.mta.info/nyct/service/pdf/t5cur.pdf"},"type":"transit"},{"originLat":40.813224,"originLon":-73.929849,"destLat":40.813224,"destLon":-73.929849,"geom":{"type":"LineString","coordinates":[[-73.929849,40.813224],[-73.929849,40.813224]]},"originTime":60990,"destTime":61029,"originStopId":"east_of_hudson:nyct_subway_416N","originStopName":"138 St - Grand Concourse","destStopId":"east_of_hudson:nyct_subway_416S","destStopName":"138 St - Grand Concourse","cumulativeFare":675,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_SUBWAY","metrocardTransferExpiry":64855,"inSubwayPaidArea":true,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.813224,"originLon":-73.929849,"destLat":40.804138,"destLon":-73.9375939,"geom":{"type":"LineString","coordinates":[[-73.929849,40.813224],[-73.9375939,40.804138]]},"originTime":61110,"destTime":61320,"originStopId":"east_of_hudson:nyct_subway_416S","originStopName":"138 St - Grand Concourse","destStopId":"east_of_hudson:nyct_subway_621S","destStopName":"125 St","cumulativeFare":675,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_SUBWAY","metrocardTransferExpiry":64855,"inSubwayPaidArea":true,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"nyct_subway_MTA NYCT","agency_name":"MTA New York City Transit","route_id":"nyct_subway_5","route_short_name":"5","route_long_name":"Lexington Avenue Express","route_type":1,"color":"00933C","agency_url":"http://web.mta.info/nyct/service/pdf/t5cur.pdf"},"type":"transit"}],"tripIndex":0,"optimal":false},{"durationSeconds":2903,"departureTime":57655,"fare":400,"legs":[{"originLat":41.0498059,"originLon":-73.773142,"destLat":40.805157,"destLon":-73.939149,"geom":{"type":"LineString","coordinates":[[-73.773142,41.0498059],[-73.7752079,41.032589],[-73.7752079,41.032589],[-73.7964069,41.010333],[-73.7964069,41.010333],[-73.808634,40.989168],[-73.808634,40.989168],[-73.89058,40.8615],[-73.89058,40.8615],[-73.939149,40.805157]]},"originTime":58620,"destTime":60540,"originStopId":"east_of_hudson:mnr_76","originStopName":"North White Plains","destStopId":"east_of_hudson:mnr_4","destStopName":"Harlem-125th St.","cumulativeFare":400,"transferAllowance":{"value":2725,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":null,"metrocardTransferExpiry":64855,"inSubwayPaidArea":false,"metroNorthBoardStop":16653,"metroNorthDirection":1,"metroNorthPeak":false,"metroNorthLine":"HARLEM"},"route":{"agency_id":"mnr_1","agency_name":"Metro-North Railroad","route_id":"mnr_2_offpeak","route_short_name":null,"route_long_name":"Harlem","route_type":2,"color":"0039A6","agency_url":null},"type":"transit"}],"tripIndex":1,"optimal":true},{"durationSeconds":2903,"departureTime":57655,"fare":675,"legs":[{"originLat":41.050753,"originLon":-73.7706099,"destLat":41.048315,"destLon":-73.770191,"geom":{"type":"LineString","coordinates":[[-73.7706099,41.050753],[-73.770191,41.048315]]},"originTime":58040,"destTime":58094,"originStopId":"east_of_hudson:westchester_619","originStopName":"N BROADWAY @ GLENN ST","destStopId":"east_of_hudson:westchester_620","destStopName":"N BROADWAY @ WHITE PLAINS CEMETERY","cumulativeFare":275,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_LOCAL_BUS","metrocardTransferExpiry":64855,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"westchester_WCDOT","agency_name":"Bee-Line Bus","route_id":"westchester_17171","route_short_name":"6","route_long_name":"6 - YONKERS- WP -PLEASANTVILLE","route_type":3,"color":"0080C0","agency_url":null},"type":"transit"},{"originLat":41.048315,"originLon":-73.770191,"destLat":41.0498059,"destLon":-73.773142,"geom":{"type":"LineString","coordinates":[[-73.770191,41.048315],[-73.773142,41.0498059]]},"originTime":58094,"destTime":58503,"originStopId":"east_of_hudson:westchester_620","originStopName":"N BROADWAY @ WHITE PLAINS CEMETERY","destStopId":"east_of_hudson:mnr_76","destStopName":"North White Plains","cumulativeFare":275,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_LOCAL_BUS","metrocardTransferExpiry":64855,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":41.0498059,"originLon":-73.773142,"destLat":40.805157,"destLon":-73.939149,"geom":{"type":"LineString","coordinates":[[-73.773142,41.0498059],[-73.7752079,41.032589],[-73.7752079,41.032589],[-73.7964069,41.010333],[-73.7964069,41.010333],[-73.808634,40.989168],[-73.808634,40.989168],[-73.89058,40.8615],[-73.89058,40.8615],[-73.939149,40.805157]]},"originTime":58620,"destTime":60540,"originStopId":"east_of_hudson:mnr_76","originStopName":"North White Plains","destStopId":"east_of_hudson:mnr_4","destStopName":"Harlem-125th St.","cumulativeFare":675,"transferAllowance":{"value":3025,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_LOCAL_BUS","metrocardTransferExpiry":64855,"inSubwayPaidArea":false,"metroNorthBoardStop":16653,"metroNorthDirection":1,"metroNorthPeak":false,"metroNorthLine":"HARLEM"},"route":{"agency_id":"mnr_1","agency_name":"Metro-North Railroad","route_id":"mnr_2_offpeak","route_short_name":null,"route_long_name":"Harlem","route_type":2,"color":"0039A6","agency_url":null},"type":"transit"}],"tripIndex":2,"optimal":false}],"computeTimeMillis":1454,"backendVersion":{"version":"UNKNOWN","commit":"UNKNOWN","describe":"UNKNOWN","branch":"UNKNOWN","buildHost":"UNKNOWN","buildTime":"UNKNOWN"},"generationTime":"2020-06-14T23:24:30.133847"}
+{
+  "request": {
+    "fromLat": 41.051071520438896,
+    "fromLon": -73.7721637503419,
+    "toLat": 40.80516900295467,
+    "toLon": -73.93901335502208,
+    "fromTime": 57600,
+    "toTime": 57660,
+    "walkSpeed": 1.3888888,
+    "bikeSpeed": 4.1666665,
+    "bikeTrafficStress": 4,
+    "carSpeed": 20.0,
+    "streetTime": 90,
+    "maxWalkTime": 20,
+    "maxBikeTime": 20,
+    "maxCarTime": 45,
+    "minBikeTime": 10,
+    "minCarTime": 10,
+    "date": "2019-12-16",
+    "limit": 0,
+    "accessModes": "WALK",
+    "egressModes": "WALK",
+    "directModes": "WALK",
+    "transitModes": "TRAM,SUBWAY,RAIL,BUS,FERRY,CABLE_CAR,GONDOLA,FUNICULAR",
+    "suboptimalMinutes": 5,
+    "maxTripDurationMinutes": 120,
+    "maxRides": 4,
+    "scenario": null,
+    "scenarioId": null,
+    "zoneId": "Z",
+    "wheelchair": false,
+    "maxFare": 200000,
+    "inRoutingFareCalculator": {
+      "type": "nyc",
+      "gtfsFares": null,
+      "toLirrDiscounts": null,
+      "toMetroNorthDiscounts": null,
+      "lirrMetrocardTransferSource": null,
+      "metroNorthMetrocardTransferSource": null,
+      "lirrFareOverrides": null,
+      "metroNorthFareOverrides": [
+        {
+          "fromStopId": "east_of_hudson:mnr_76",
+          "toStopId": "east_of_hudson:mnr_4",
+          "viaStopId": null,
+          "peakFare": 400,
+          "offPeakFare": 400
+        }
+      ]
+    },
+    "monteCarloDraws": 1
+  },
+  "trips": [
+    {
+      "durationSeconds": 3835,
+      "departureTime": 57655,
+      "fare": 675,
+      "legs": [
+        {
+          "originLat": 41.0498059,
+          "originLon": -73.773142,
+          "destLat": 40.805157,
+          "destLon": -73.939149,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.773142,
+                41.0498059
+              ],
+              [
+                -73.7752079,
+                41.032589
+              ],
+              [
+                -73.7752079,
+                41.032589
+              ],
+              [
+                -73.7964069,
+                41.010333
+              ],
+              [
+                -73.7964069,
+                41.010333
+              ],
+              [
+                -73.808634,
+                40.989168
+              ],
+              [
+                -73.808634,
+                40.989168
+              ],
+              [
+                -73.89058,
+                40.8615
+              ],
+              [
+                -73.89058,
+                40.8615
+              ],
+              [
+                -73.939149,
+                40.805157
+              ]
+            ]
+          },
+          "originTime": 58620,
+          "destTime": 60540,
+          "originStopId": "east_of_hudson:mnr_76",
+          "originStopName": "North White Plains",
+          "destStopId": "east_of_hudson:mnr_4",
+          "destStopName": "Harlem-125th St.",
+          "cumulativeFare": 400,
+          "transferAllowance": {
+            "value": 2725,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 64855,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": 16653,
+            "metroNorthDirection": 1,
+            "metroNorthPeak": false,
+            "metroNorthLine": "HARLEM"
+          },
+          "route": {
+            "agency_id": "mnr_1",
+            "agency_name": "Metro-North Railroad",
+            "route_id": "mnr_2_offpeak",
+            "route_short_name": null,
+            "route_long_name": "Harlem",
+            "route_type": 2,
+            "color": "0039A6",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.805157,
+          "originLon": -73.939149,
+          "destLat": 40.804138,
+          "destLon": -73.9375939,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.939149,
+                40.805157
+              ],
+              [
+                -73.9375939,
+                40.804138
+              ]
+            ]
+          },
+          "originTime": 60540,
+          "destTime": 60689,
+          "originStopId": "east_of_hudson:mnr_4",
+          "originStopName": "Harlem-125th St.",
+          "destStopId": "east_of_hudson:nyct_subway_621N",
+          "destStopName": "125 St",
+          "cumulativeFare": 400,
+          "transferAllowance": {
+            "value": 0,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 64855,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.804138,
+          "originLon": -73.9375939,
+          "destLat": 40.813224,
+          "destLon": -73.929849,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.9375939,
+                40.804138
+              ],
+              [
+                -73.929849,
+                40.813224
+              ]
+            ]
+          },
+          "originTime": 60840,
+          "destTime": 60990,
+          "originStopId": "east_of_hudson:nyct_subway_621N",
+          "originStopName": "125 St",
+          "destStopId": "east_of_hudson:nyct_subway_416N",
+          "destStopName": "138 St - Grand Concourse",
+          "cumulativeFare": 675,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 64855,
+            "inSubwayPaidArea": true,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nyct_subway_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "nyct_subway_5",
+            "route_short_name": "5",
+            "route_long_name": "Lexington Avenue Express",
+            "route_type": 1,
+            "color": "00933C",
+            "agency_url": "http://web.mta.info/nyct/service/pdf/t5cur.pdf"
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.813224,
+          "originLon": -73.929849,
+          "destLat": 40.813224,
+          "destLon": -73.929849,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.929849,
+                40.813224
+              ],
+              [
+                -73.929849,
+                40.813224
+              ]
+            ]
+          },
+          "originTime": 60990,
+          "destTime": 61029,
+          "originStopId": "east_of_hudson:nyct_subway_416N",
+          "originStopName": "138 St - Grand Concourse",
+          "destStopId": "east_of_hudson:nyct_subway_416S",
+          "destStopName": "138 St - Grand Concourse",
+          "cumulativeFare": 675,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 64855,
+            "inSubwayPaidArea": true,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.813224,
+          "originLon": -73.929849,
+          "destLat": 40.804138,
+          "destLon": -73.9375939,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.929849,
+                40.813224
+              ],
+              [
+                -73.9375939,
+                40.804138
+              ]
+            ]
+          },
+          "originTime": 61110,
+          "destTime": 61320,
+          "originStopId": "east_of_hudson:nyct_subway_416S",
+          "originStopName": "138 St - Grand Concourse",
+          "destStopId": "east_of_hudson:nyct_subway_621S",
+          "destStopName": "125 St",
+          "cumulativeFare": 675,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 64855,
+            "inSubwayPaidArea": true,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nyct_subway_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "nyct_subway_5",
+            "route_short_name": "5",
+            "route_long_name": "Lexington Avenue Express",
+            "route_type": 1,
+            "color": "00933C",
+            "agency_url": "http://web.mta.info/nyct/service/pdf/t5cur.pdf"
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 2903,
+      "departureTime": 57655,
+      "fare": 400,
+      "legs": [
+        {
+          "originLat": 41.0498059,
+          "originLon": -73.773142,
+          "destLat": 40.805157,
+          "destLon": -73.939149,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.773142,
+                41.0498059
+              ],
+              [
+                -73.7752079,
+                41.032589
+              ],
+              [
+                -73.7752079,
+                41.032589
+              ],
+              [
+                -73.7964069,
+                41.010333
+              ],
+              [
+                -73.7964069,
+                41.010333
+              ],
+              [
+                -73.808634,
+                40.989168
+              ],
+              [
+                -73.808634,
+                40.989168
+              ],
+              [
+                -73.89058,
+                40.8615
+              ],
+              [
+                -73.89058,
+                40.8615
+              ],
+              [
+                -73.939149,
+                40.805157
+              ]
+            ]
+          },
+          "originTime": 58620,
+          "destTime": 60540,
+          "originStopId": "east_of_hudson:mnr_76",
+          "originStopName": "North White Plains",
+          "destStopId": "east_of_hudson:mnr_4",
+          "destStopName": "Harlem-125th St.",
+          "cumulativeFare": 400,
+          "transferAllowance": {
+            "value": 2725,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 64855,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": 16653,
+            "metroNorthDirection": 1,
+            "metroNorthPeak": false,
+            "metroNorthLine": "HARLEM"
+          },
+          "route": {
+            "agency_id": "mnr_1",
+            "agency_name": "Metro-North Railroad",
+            "route_id": "mnr_2_offpeak",
+            "route_short_name": null,
+            "route_long_name": "Harlem",
+            "route_type": 2,
+            "color": "0039A6",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 2903,
+      "departureTime": 57655,
+      "fare": 675,
+      "legs": [
+        {
+          "originLat": 41.050753,
+          "originLon": -73.7706099,
+          "destLat": 41.048315,
+          "destLon": -73.770191,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.7706099,
+                41.050753
+              ],
+              [
+                -73.770191,
+                41.048315
+              ]
+            ]
+          },
+          "originTime": 58040,
+          "destTime": 58094,
+          "originStopId": "east_of_hudson:westchester_619",
+          "originStopName": "N BROADWAY @ GLENN ST",
+          "destStopId": "east_of_hudson:westchester_620",
+          "destStopName": "N BROADWAY @ WHITE PLAINS CEMETERY",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_LOCAL_BUS",
+            "metrocardTransferExpiry": 64855,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "westchester_WCDOT",
+            "agency_name": "Bee-Line Bus",
+            "route_id": "westchester_17171",
+            "route_short_name": "6",
+            "route_long_name": "6 - YONKERS- WP -PLEASANTVILLE",
+            "route_type": 3,
+            "color": "0080C0",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 41.048315,
+          "originLon": -73.770191,
+          "destLat": 41.0498059,
+          "destLon": -73.773142,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.770191,
+                41.048315
+              ],
+              [
+                -73.773142,
+                41.0498059
+              ]
+            ]
+          },
+          "originTime": 58094,
+          "destTime": 58503,
+          "originStopId": "east_of_hudson:westchester_620",
+          "originStopName": "N BROADWAY @ WHITE PLAINS CEMETERY",
+          "destStopId": "east_of_hudson:mnr_76",
+          "destStopName": "North White Plains",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_LOCAL_BUS",
+            "metrocardTransferExpiry": 64855,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 41.0498059,
+          "originLon": -73.773142,
+          "destLat": 40.805157,
+          "destLon": -73.939149,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.773142,
+                41.0498059
+              ],
+              [
+                -73.7752079,
+                41.032589
+              ],
+              [
+                -73.7752079,
+                41.032589
+              ],
+              [
+                -73.7964069,
+                41.010333
+              ],
+              [
+                -73.7964069,
+                41.010333
+              ],
+              [
+                -73.808634,
+                40.989168
+              ],
+              [
+                -73.808634,
+                40.989168
+              ],
+              [
+                -73.89058,
+                40.8615
+              ],
+              [
+                -73.89058,
+                40.8615
+              ],
+              [
+                -73.939149,
+                40.805157
+              ]
+            ]
+          },
+          "originTime": 58620,
+          "destTime": 60540,
+          "originStopId": "east_of_hudson:mnr_76",
+          "originStopName": "North White Plains",
+          "destStopId": "east_of_hudson:mnr_4",
+          "destStopName": "Harlem-125th St.",
+          "cumulativeFare": 675,
+          "transferAllowance": {
+            "value": 3025,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_LOCAL_BUS",
+            "metrocardTransferExpiry": 64855,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": 16653,
+            "metroNorthDirection": 1,
+            "metroNorthPeak": false,
+            "metroNorthLine": "HARLEM"
+          },
+          "route": {
+            "agency_id": "mnr_1",
+            "agency_name": "Metro-North Railroad",
+            "route_id": "mnr_2_offpeak",
+            "route_short_name": null,
+            "route_long_name": "Harlem",
+            "route_type": 2,
+            "color": "0039A6",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    }
+  ],
+  "computeTimeMillis": 641,
+  "backendVersion": {
+    "version": "UNKNOWN",
+    "commit": "UNKNOWN",
+    "describe": "UNKNOWN",
+    "branch": "UNKNOWN",
+    "buildHost": "UNKNOWN",
+    "buildTime": "UNKNOWN"
+  },
+  "generationTime": "2020-06-21T23:17:31.903785"
+}

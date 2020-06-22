@@ -1,1 +1,1157 @@
-{"request":{"fromLat":40.74049401829621,"fromLon":-74.00663058500668,"toLat":40.63219339951101,"toLon":-74.1416026239194,"fromTime":25200,"toTime":25260,"walkSpeed":1.3888888,"bikeSpeed":4.1666665,"bikeTrafficStress":4,"carSpeed":20,"streetTime":90,"maxWalkTime":20,"maxBikeTime":20,"maxCarTime":45,"minBikeTime":10,"minCarTime":10,"date":"2019-12-16","limit":0,"accessModes":"WALK","egressModes":"WALK","directModes":"WALK","transitModes":"TRAM,SUBWAY,RAIL,BUS,FERRY,CABLE_CAR,GONDOLA,FUNICULAR","suboptimalMinutes":5,"maxTripDurationMinutes":120,"maxRides":4,"scenario":null,"scenarioId":null,"zoneId":"Z","wheelchair":false,"maxFare":200000,"inRoutingFareCalculator":{"type":"nyc","gtfsFares":null},"monteCarloDraws":1},"trips":[{"durationSeconds":5575,"departureTime":25255,"fare":550,"legs":[{"originLat":40.737826,"originLon":-74.000201,"destLat":40.702068,"destLon":-74.013664,"geom":{"type":"LineString","coordinates":[[-74.000201,40.737826],[-74.002906,40.733422],[-74.002906,40.733422],[-74.005367,40.728251],[-74.005367,40.728251],[-74.006277,40.722854],[-74.006277,40.722854],[-74.006886,40.719318],[-74.006886,40.719318],[-74.009266,40.715478],[-74.009266,40.715478],[-74.012188,40.711835],[-74.012188,40.711835],[-74.0137829,40.707513],[-74.0137829,40.707513],[-74.013664,40.702068]]},"originTime":25920,"destTime":26670,"originStopId":"east_of_hudson:nyct_subway_132S","originStopName":"14 St","destStopId":"east_of_hudson:nyct_subway_142S","destStopName":"South Ferry","cumulativeFare":275,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_SUBWAY","metrocardTransferExpiry":32455,"inSubwayPaidArea":true,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"nyct_subway_MTA NYCT","agency_name":"MTA New York City Transit","route_id":"nyct_subway_1","route_short_name":"1","route_long_name":"Broadway - 7 Avenue Local","route_type":1,"color":"EE352E","agency_url":"http://web.mta.info/nyct/service/pdf/t1cur.pdf"},"type":"transit"},{"originLat":40.702068,"originLon":-74.013664,"destLat":40.70136,"destLon":-74.012666,"geom":{"type":"LineString","coordinates":[[-74.013664,40.702068],[-74.012666,40.70136]]},"originTime":26670,"destTime":26932,"originStopId":"east_of_hudson:nyct_subway_142S","originStopName":"South Ferry","destStopId":"east_of_hudson:si-ferry_whitehall","destStopName":"Whitehall Ferry Terminal","cumulativeFare":275,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_SUBWAY","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.70136,"originLon":-74.012666,"destLat":40.644169,"destLon":-74.072201,"geom":{"type":"LineString","coordinates":[[-74.012666,40.70136],[-74.072201,40.644169]]},"originTime":27000,"destTime":28500,"originStopId":"east_of_hudson:si-ferry_whitehall","originStopName":"Whitehall Ferry Terminal","destStopId":"east_of_hudson:si-ferry_stgeorge","destStopName":"St. George Ferry Terminal","cumulativeFare":275,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"SUBWAY_TO_SI_FERRY","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"si-ferry_NYC DOT","agency_name":"New York City Department of Transportation","route_id":"si-ferry_SIF","route_short_name":null,"route_long_name":"Staten Island Ferry","route_type":4,"color":"FF8330","agency_url":null},"type":"transit"},{"originLat":40.644169,"originLon":-74.072201,"destLat":40.643445,"destLon":-74.07392,"geom":{"type":"LineString","coordinates":[[-74.072201,40.644169],[-74.07392,40.643445]]},"originTime":28500,"destTime":28636,"originStopId":"east_of_hudson:si-ferry_stgeorge","originStopName":"St. George Ferry Terminal","destStopId":"east_of_hudson:bus-si_202577","destStopName":"ST GEORGE FERRY/S40 & S90","cumulativeFare":275,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"SUBWAY_TO_SI_FERRY","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.643445,"originLon":-74.07392,"destLat":40.638032,"destLon":-74.14478,"geom":{"type":"LineString","coordinates":[[-74.07392,40.643445],[-74.075476,40.64292],[-74.075476,40.64292],[-74.076948,40.6447859],[-74.076948,40.6447859],[-74.07844,40.646355],[-74.07844,40.646355],[-74.080753,40.647438],[-74.080753,40.647438],[-74.084593,40.648358],[-74.084593,40.648358],[-74.087873,40.647418],[-74.087873,40.647418],[-74.089208,40.646592],[-74.089208,40.646592],[-74.092765,40.645589],[-74.092765,40.645589],[-74.096443,40.644821],[-74.096443,40.644821],[-74.098403,40.644715],[-74.098403,40.644715],[-74.101845,40.645184],[-74.101845,40.645184],[-74.104638,40.645406],[-74.104638,40.645406],[-74.107643,40.645327],[-74.107643,40.645327],[-74.1107339,40.644712],[-74.1107339,40.644712],[-74.114183,40.642806],[-74.114183,40.642806],[-74.116263,40.641451],[-74.116263,40.641451],[-74.117952,40.640637],[-74.117952,40.640637],[-74.120589,40.64056],[-74.120589,40.64056],[-74.122248,40.6389219],[-74.122248,40.6389219],[-74.123993,40.637801],[-74.123993,40.637801],[-74.126705,40.637257],[-74.126705,40.637257],[-74.128644,40.637708],[-74.128644,40.637708],[-74.130766,40.640318],[-74.130766,40.640318],[-74.134883,40.640322],[-74.134883,40.640322],[-74.136549,40.640316],[-74.136549,40.640316],[-74.139586,40.639823],[-74.139586,40.639823],[-74.142592,40.639045],[-74.142592,40.639045],[-74.14478,40.638032]]},"originTime":28800,"destTime":30101,"originStopId":"east_of_hudson:bus-si_202577","originStopName":"ST GEORGE FERRY/S40 & S90","destStopId":"east_of_hudson:bus-si_200077","destStopName":"RICHMOND TER/MORNINGSTAR RD","cumulativeFare":275,"transferAllowance":{"value":0,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"bus-si_MTA NYCT","agency_name":"MTA New York City Transit","route_id":"bus-si_S40","route_short_name":"S40","route_long_name":"St. George - Goethals Rd North","route_type":3,"color":"B933AD","agency_url":null},"type":"transit"},{"originLat":40.638032,"originLon":-74.14478,"destLat":40.634388,"destLon":-74.1456939,"geom":{"type":"LineString","coordinates":[[-74.14478,40.638032],[-74.1456939,40.634388]]},"originTime":30101,"destTime":30407,"originStopId":"east_of_hudson:bus-si_200077","originStopName":"RICHMOND TER/MORNINGSTAR RD","destStopId":"east_of_hudson:bus-si_202522","destStopName":"MORNINGSTAR RD/INNIS ST","cumulativeFare":275,"transferAllowance":{"value":0,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.634388,"originLon":-74.1456939,"destLat":40.633424,"destLon":-74.14175,"geom":{"type":"LineString","coordinates":[[-74.1456939,40.634388],[-74.14383,40.6339479],[-74.14383,40.6339479],[-74.14175,40.633424]]},"originTime":30607,"destTime":30660,"originStopId":"east_of_hudson:bus-si_202522","originStopName":"MORNINGSTAR RD/INNIS ST","destStopId":"east_of_hudson:bus-si_200255","destStopName":"INNIS ST/NICHOLAS AV","cumulativeFare":550,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_LOCAL_BUS","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"bus-si_MTA NYCT","agency_name":"MTA New York City Transit","route_id":"bus-si_S96","route_short_name":"S96","route_long_name":"St. George - West Shore Plaza LTD","route_type":3,"color":"006CB7","agency_url":null},"type":"transit"}],"tripIndex":0,"optimal":false},{"durationSeconds":5452,"departureTime":25255,"fare":275,"legs":[{"originLat":40.737826,"originLon":-74.000201,"destLat":40.702068,"destLon":-74.013664,"geom":{"type":"LineString","coordinates":[[-74.000201,40.737826],[-74.002906,40.733422],[-74.002906,40.733422],[-74.005367,40.728251],[-74.005367,40.728251],[-74.006277,40.722854],[-74.006277,40.722854],[-74.006886,40.719318],[-74.006886,40.719318],[-74.009266,40.715478],[-74.009266,40.715478],[-74.012188,40.711835],[-74.012188,40.711835],[-74.0137829,40.707513],[-74.0137829,40.707513],[-74.013664,40.702068]]},"originTime":25920,"destTime":26670,"originStopId":"east_of_hudson:nyct_subway_132S","originStopName":"14 St","destStopId":"east_of_hudson:nyct_subway_142S","destStopName":"South Ferry","cumulativeFare":275,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_SUBWAY","metrocardTransferExpiry":32455,"inSubwayPaidArea":true,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"nyct_subway_MTA NYCT","agency_name":"MTA New York City Transit","route_id":"nyct_subway_1","route_short_name":"1","route_long_name":"Broadway - 7 Avenue Local","route_type":1,"color":"EE352E","agency_url":"http://web.mta.info/nyct/service/pdf/t1cur.pdf"},"type":"transit"},{"originLat":40.702068,"originLon":-74.013664,"destLat":40.70136,"destLon":-74.012666,"geom":{"type":"LineString","coordinates":[[-74.013664,40.702068],[-74.012666,40.70136]]},"originTime":26670,"destTime":26932,"originStopId":"east_of_hudson:nyct_subway_142S","originStopName":"South Ferry","destStopId":"east_of_hudson:si-ferry_whitehall","destStopName":"Whitehall Ferry Terminal","cumulativeFare":275,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"METROCARD_SUBWAY","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.70136,"originLon":-74.012666,"destLat":40.644169,"destLon":-74.072201,"geom":{"type":"LineString","coordinates":[[-74.012666,40.70136],[-74.072201,40.644169]]},"originTime":27000,"destTime":28500,"originStopId":"east_of_hudson:si-ferry_whitehall","originStopName":"Whitehall Ferry Terminal","destStopId":"east_of_hudson:si-ferry_stgeorge","destStopName":"St. George Ferry Terminal","cumulativeFare":275,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"SUBWAY_TO_SI_FERRY","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"si-ferry_NYC DOT","agency_name":"New York City Department of Transportation","route_id":"si-ferry_SIF","route_short_name":null,"route_long_name":"Staten Island Ferry","route_type":4,"color":"FF8330","agency_url":null},"type":"transit"},{"originLat":40.644169,"originLon":-74.072201,"destLat":40.643445,"destLon":-74.07392,"geom":{"type":"LineString","coordinates":[[-74.072201,40.644169],[-74.07392,40.643445]]},"originTime":28500,"destTime":28636,"originStopId":"east_of_hudson:si-ferry_stgeorge","originStopName":"St. George Ferry Terminal","destStopId":"east_of_hudson:bus-si_202577","destStopName":"ST GEORGE FERRY/S40 & S90","cumulativeFare":275,"transferAllowance":{"value":300,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":"SUBWAY_TO_SI_FERRY","metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"type":"transfer"},{"originLat":40.643445,"originLon":-74.07392,"destLat":40.639823,"destLon":-74.139586,"geom":{"type":"LineString","coordinates":[[-74.07392,40.643445],[-74.075476,40.64292],[-74.075476,40.64292],[-74.076948,40.6447859],[-74.076948,40.6447859],[-74.07844,40.646355],[-74.07844,40.646355],[-74.080753,40.647438],[-74.080753,40.647438],[-74.084593,40.648358],[-74.084593,40.648358],[-74.087873,40.647418],[-74.087873,40.647418],[-74.089208,40.646592],[-74.089208,40.646592],[-74.092765,40.645589],[-74.092765,40.645589],[-74.096443,40.644821],[-74.096443,40.644821],[-74.098403,40.644715],[-74.098403,40.644715],[-74.101845,40.645184],[-74.101845,40.645184],[-74.104638,40.645406],[-74.104638,40.645406],[-74.107643,40.645327],[-74.107643,40.645327],[-74.1107339,40.644712],[-74.1107339,40.644712],[-74.114183,40.642806],[-74.114183,40.642806],[-74.116263,40.641451],[-74.116263,40.641451],[-74.117952,40.640637],[-74.117952,40.640637],[-74.120589,40.64056],[-74.120589,40.64056],[-74.122248,40.6389219],[-74.122248,40.6389219],[-74.123993,40.637801],[-74.123993,40.637801],[-74.126705,40.637257],[-74.126705,40.637257],[-74.128644,40.637708],[-74.128644,40.637708],[-74.130766,40.640318],[-74.130766,40.640318],[-74.134883,40.640322],[-74.134883,40.640322],[-74.136549,40.640316],[-74.136549,40.640316],[-74.139586,40.639823]]},"originTime":28800,"destTime":30015,"originStopId":"east_of_hudson:bus-si_202577","originStopName":"ST GEORGE FERRY/S40 & S90","destStopId":"east_of_hudson:bus-si_200075","destStopName":"RICHMOND TER/NICHOLAS AV","cumulativeFare":275,"transferAllowance":{"value":0,"number":2147483647,"expirationTime":2147483647,"lirr":null,"metrocardTransferSource":null,"metrocardTransferExpiry":32455,"inSubwayPaidArea":false,"metroNorthBoardStop":-1,"metroNorthDirection":-1,"metroNorthPeak":false,"metroNorthLine":null},"route":{"agency_id":"bus-si_MTA NYCT","agency_name":"MTA New York City Transit","route_id":"bus-si_S40","route_short_name":"S40","route_long_name":"St. George - Goethals Rd North","route_type":3,"color":"B933AD","agency_url":null},"type":"transit"}],"tripIndex":1,"optimal":true}],"computeTimeMillis":1178}
+{
+  "request": {
+    "fromLat": 40.74049401829621,
+    "fromLon": -74.00663058500668,
+    "toLat": 40.63219339951101,
+    "toLon": -74.1416026239194,
+    "fromTime": 25200,
+    "toTime": 25260,
+    "walkSpeed": 1.3888888,
+    "bikeSpeed": 4.1666665,
+    "bikeTrafficStress": 4,
+    "carSpeed": 20.0,
+    "streetTime": 90,
+    "maxWalkTime": 20,
+    "maxBikeTime": 20,
+    "maxCarTime": 45,
+    "minBikeTime": 10,
+    "minCarTime": 10,
+    "date": "2019-12-16",
+    "limit": 0,
+    "accessModes": "WALK",
+    "egressModes": "WALK",
+    "directModes": "WALK",
+    "transitModes": "TRAM,SUBWAY,RAIL,BUS,FERRY,CABLE_CAR,GONDOLA,FUNICULAR",
+    "suboptimalMinutes": 5,
+    "maxTripDurationMinutes": 120,
+    "maxRides": 4,
+    "scenario": null,
+    "scenarioId": null,
+    "zoneId": "Z",
+    "wheelchair": false,
+    "maxFare": 200000,
+    "inRoutingFareCalculator": {
+      "type": "nyc",
+      "gtfsFares": null,
+      "toLirrDiscounts": null,
+      "toMetroNorthDiscounts": null,
+      "lirrMetrocardTransferSource": null,
+      "metroNorthMetrocardTransferSource": null,
+      "lirrFareOverrides": null,
+      "metroNorthFareOverrides": null
+    },
+    "monteCarloDraws": 1
+  },
+  "trips": [
+    {
+      "durationSeconds": 5575,
+      "departureTime": 25255,
+      "fare": 550,
+      "legs": [
+        {
+          "originLat": 40.737826,
+          "originLon": -74.000201,
+          "destLat": 40.702068,
+          "destLon": -74.013664,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.000201,
+                40.737826
+              ],
+              [
+                -74.002906,
+                40.733422
+              ],
+              [
+                -74.002906,
+                40.733422
+              ],
+              [
+                -74.005367,
+                40.728251
+              ],
+              [
+                -74.005367,
+                40.728251
+              ],
+              [
+                -74.006277,
+                40.722854
+              ],
+              [
+                -74.006277,
+                40.722854
+              ],
+              [
+                -74.006886,
+                40.719318
+              ],
+              [
+                -74.006886,
+                40.719318
+              ],
+              [
+                -74.009266,
+                40.715478
+              ],
+              [
+                -74.009266,
+                40.715478
+              ],
+              [
+                -74.012188,
+                40.711835
+              ],
+              [
+                -74.012188,
+                40.711835
+              ],
+              [
+                -74.0137829,
+                40.707513
+              ],
+              [
+                -74.0137829,
+                40.707513
+              ],
+              [
+                -74.013664,
+                40.702068
+              ]
+            ]
+          },
+          "originTime": 25920,
+          "destTime": 26670,
+          "originStopId": "east_of_hudson:nyct_subway_132S",
+          "originStopName": "14 St",
+          "destStopId": "east_of_hudson:nyct_subway_142S",
+          "destStopName": "South Ferry",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": true,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nyct_subway_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "nyct_subway_1",
+            "route_short_name": "1",
+            "route_long_name": "Broadway - 7 Avenue Local",
+            "route_type": 1,
+            "color": "EE352E",
+            "agency_url": "http://web.mta.info/nyct/service/pdf/t1cur.pdf"
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.702068,
+          "originLon": -74.013664,
+          "destLat": 40.70136,
+          "destLon": -74.012666,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.013664,
+                40.702068
+              ],
+              [
+                -74.012666,
+                40.70136
+              ]
+            ]
+          },
+          "originTime": 26670,
+          "destTime": 26932,
+          "originStopId": "east_of_hudson:nyct_subway_142S",
+          "originStopName": "South Ferry",
+          "destStopId": "east_of_hudson:si-ferry_whitehall",
+          "destStopName": "Whitehall Ferry Terminal",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.70136,
+          "originLon": -74.012666,
+          "destLat": 40.644169,
+          "destLon": -74.072201,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.012666,
+                40.70136
+              ],
+              [
+                -74.072201,
+                40.644169
+              ]
+            ]
+          },
+          "originTime": 27000,
+          "destTime": 28500,
+          "originStopId": "east_of_hudson:si-ferry_whitehall",
+          "originStopName": "Whitehall Ferry Terminal",
+          "destStopId": "east_of_hudson:si-ferry_stgeorge",
+          "destStopName": "St. George Ferry Terminal",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "SUBWAY_TO_SI_FERRY",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "si-ferry_NYC DOT",
+            "agency_name": "New York City Department of Transportation",
+            "route_id": "si-ferry_SIF",
+            "route_short_name": null,
+            "route_long_name": "Staten Island Ferry",
+            "route_type": 4,
+            "color": "FF8330",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.644169,
+          "originLon": -74.072201,
+          "destLat": 40.643445,
+          "destLon": -74.07392,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.072201,
+                40.644169
+              ],
+              [
+                -74.07392,
+                40.643445
+              ]
+            ]
+          },
+          "originTime": 28500,
+          "destTime": 28636,
+          "originStopId": "east_of_hudson:si-ferry_stgeorge",
+          "originStopName": "St. George Ferry Terminal",
+          "destStopId": "east_of_hudson:bus-si_202577",
+          "destStopName": "ST GEORGE FERRY/S40 & S90",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "SUBWAY_TO_SI_FERRY",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.643445,
+          "originLon": -74.07392,
+          "destLat": 40.638032,
+          "destLon": -74.14478,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.07392,
+                40.643445
+              ],
+              [
+                -74.075476,
+                40.64292
+              ],
+              [
+                -74.075476,
+                40.64292
+              ],
+              [
+                -74.076948,
+                40.6447859
+              ],
+              [
+                -74.076948,
+                40.6447859
+              ],
+              [
+                -74.07844,
+                40.646355
+              ],
+              [
+                -74.07844,
+                40.646355
+              ],
+              [
+                -74.080753,
+                40.647438
+              ],
+              [
+                -74.080753,
+                40.647438
+              ],
+              [
+                -74.084593,
+                40.648358
+              ],
+              [
+                -74.084593,
+                40.648358
+              ],
+              [
+                -74.087873,
+                40.647418
+              ],
+              [
+                -74.087873,
+                40.647418
+              ],
+              [
+                -74.089208,
+                40.646592
+              ],
+              [
+                -74.089208,
+                40.646592
+              ],
+              [
+                -74.092765,
+                40.645589
+              ],
+              [
+                -74.092765,
+                40.645589
+              ],
+              [
+                -74.096443,
+                40.644821
+              ],
+              [
+                -74.096443,
+                40.644821
+              ],
+              [
+                -74.098403,
+                40.644715
+              ],
+              [
+                -74.098403,
+                40.644715
+              ],
+              [
+                -74.101845,
+                40.645184
+              ],
+              [
+                -74.101845,
+                40.645184
+              ],
+              [
+                -74.104638,
+                40.645406
+              ],
+              [
+                -74.104638,
+                40.645406
+              ],
+              [
+                -74.107643,
+                40.645327
+              ],
+              [
+                -74.107643,
+                40.645327
+              ],
+              [
+                -74.1107339,
+                40.644712
+              ],
+              [
+                -74.1107339,
+                40.644712
+              ],
+              [
+                -74.114183,
+                40.642806
+              ],
+              [
+                -74.114183,
+                40.642806
+              ],
+              [
+                -74.116263,
+                40.641451
+              ],
+              [
+                -74.116263,
+                40.641451
+              ],
+              [
+                -74.117952,
+                40.640637
+              ],
+              [
+                -74.117952,
+                40.640637
+              ],
+              [
+                -74.120589,
+                40.64056
+              ],
+              [
+                -74.120589,
+                40.64056
+              ],
+              [
+                -74.122248,
+                40.6389219
+              ],
+              [
+                -74.122248,
+                40.6389219
+              ],
+              [
+                -74.123993,
+                40.637801
+              ],
+              [
+                -74.123993,
+                40.637801
+              ],
+              [
+                -74.126705,
+                40.637257
+              ],
+              [
+                -74.126705,
+                40.637257
+              ],
+              [
+                -74.128644,
+                40.637708
+              ],
+              [
+                -74.128644,
+                40.637708
+              ],
+              [
+                -74.130766,
+                40.640318
+              ],
+              [
+                -74.130766,
+                40.640318
+              ],
+              [
+                -74.134883,
+                40.640322
+              ],
+              [
+                -74.134883,
+                40.640322
+              ],
+              [
+                -74.136549,
+                40.640316
+              ],
+              [
+                -74.136549,
+                40.640316
+              ],
+              [
+                -74.139586,
+                40.639823
+              ],
+              [
+                -74.139586,
+                40.639823
+              ],
+              [
+                -74.142592,
+                40.639045
+              ],
+              [
+                -74.142592,
+                40.639045
+              ],
+              [
+                -74.14478,
+                40.638032
+              ]
+            ]
+          },
+          "originTime": 28800,
+          "destTime": 30101,
+          "originStopId": "east_of_hudson:bus-si_202577",
+          "originStopName": "ST GEORGE FERRY/S40 & S90",
+          "destStopId": "east_of_hudson:bus-si_200077",
+          "destStopName": "RICHMOND TER/MORNINGSTAR RD",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 0,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-si_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "bus-si_S40",
+            "route_short_name": "S40",
+            "route_long_name": "St. George - Goethals Rd North",
+            "route_type": 3,
+            "color": "B933AD",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.638032,
+          "originLon": -74.14478,
+          "destLat": 40.634388,
+          "destLon": -74.1456939,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.14478,
+                40.638032
+              ],
+              [
+                -74.1456939,
+                40.634388
+              ]
+            ]
+          },
+          "originTime": 30101,
+          "destTime": 30407,
+          "originStopId": "east_of_hudson:bus-si_200077",
+          "originStopName": "RICHMOND TER/MORNINGSTAR RD",
+          "destStopId": "east_of_hudson:bus-si_202522",
+          "destStopName": "MORNINGSTAR RD/INNIS ST",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 0,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.634388,
+          "originLon": -74.1456939,
+          "destLat": 40.633424,
+          "destLon": -74.14175,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.1456939,
+                40.634388
+              ],
+              [
+                -74.14383,
+                40.6339479
+              ],
+              [
+                -74.14383,
+                40.6339479
+              ],
+              [
+                -74.14175,
+                40.633424
+              ]
+            ]
+          },
+          "originTime": 30607,
+          "destTime": 30660,
+          "originStopId": "east_of_hudson:bus-si_202522",
+          "originStopName": "MORNINGSTAR RD/INNIS ST",
+          "destStopId": "east_of_hudson:bus-si_200255",
+          "destStopName": "INNIS ST/NICHOLAS AV",
+          "cumulativeFare": 550,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_LOCAL_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-si_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "bus-si_S96",
+            "route_short_name": "S96",
+            "route_long_name": "St. George - West Shore Plaza LTD",
+            "route_type": 3,
+            "color": "006CB7",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 5452,
+      "departureTime": 25255,
+      "fare": 275,
+      "legs": [
+        {
+          "originLat": 40.737826,
+          "originLon": -74.000201,
+          "destLat": 40.702068,
+          "destLon": -74.013664,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.000201,
+                40.737826
+              ],
+              [
+                -74.002906,
+                40.733422
+              ],
+              [
+                -74.002906,
+                40.733422
+              ],
+              [
+                -74.005367,
+                40.728251
+              ],
+              [
+                -74.005367,
+                40.728251
+              ],
+              [
+                -74.006277,
+                40.722854
+              ],
+              [
+                -74.006277,
+                40.722854
+              ],
+              [
+                -74.006886,
+                40.719318
+              ],
+              [
+                -74.006886,
+                40.719318
+              ],
+              [
+                -74.009266,
+                40.715478
+              ],
+              [
+                -74.009266,
+                40.715478
+              ],
+              [
+                -74.012188,
+                40.711835
+              ],
+              [
+                -74.012188,
+                40.711835
+              ],
+              [
+                -74.0137829,
+                40.707513
+              ],
+              [
+                -74.0137829,
+                40.707513
+              ],
+              [
+                -74.013664,
+                40.702068
+              ]
+            ]
+          },
+          "originTime": 25920,
+          "destTime": 26670,
+          "originStopId": "east_of_hudson:nyct_subway_132S",
+          "originStopName": "14 St",
+          "destStopId": "east_of_hudson:nyct_subway_142S",
+          "destStopName": "South Ferry",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": true,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nyct_subway_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "nyct_subway_1",
+            "route_short_name": "1",
+            "route_long_name": "Broadway - 7 Avenue Local",
+            "route_type": 1,
+            "color": "EE352E",
+            "agency_url": "http://web.mta.info/nyct/service/pdf/t1cur.pdf"
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.702068,
+          "originLon": -74.013664,
+          "destLat": 40.70136,
+          "destLon": -74.012666,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.013664,
+                40.702068
+              ],
+              [
+                -74.012666,
+                40.70136
+              ]
+            ]
+          },
+          "originTime": 26670,
+          "destTime": 26932,
+          "originStopId": "east_of_hudson:nyct_subway_142S",
+          "originStopName": "South Ferry",
+          "destStopId": "east_of_hudson:si-ferry_whitehall",
+          "destStopName": "Whitehall Ferry Terminal",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.70136,
+          "originLon": -74.012666,
+          "destLat": 40.644169,
+          "destLon": -74.072201,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.012666,
+                40.70136
+              ],
+              [
+                -74.072201,
+                40.644169
+              ]
+            ]
+          },
+          "originTime": 27000,
+          "destTime": 28500,
+          "originStopId": "east_of_hudson:si-ferry_whitehall",
+          "originStopName": "Whitehall Ferry Terminal",
+          "destStopId": "east_of_hudson:si-ferry_stgeorge",
+          "destStopName": "St. George Ferry Terminal",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "SUBWAY_TO_SI_FERRY",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "si-ferry_NYC DOT",
+            "agency_name": "New York City Department of Transportation",
+            "route_id": "si-ferry_SIF",
+            "route_short_name": null,
+            "route_long_name": "Staten Island Ferry",
+            "route_type": 4,
+            "color": "FF8330",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.644169,
+          "originLon": -74.072201,
+          "destLat": 40.643445,
+          "destLon": -74.07392,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.072201,
+                40.644169
+              ],
+              [
+                -74.07392,
+                40.643445
+              ]
+            ]
+          },
+          "originTime": 28500,
+          "destTime": 28636,
+          "originStopId": "east_of_hudson:si-ferry_stgeorge",
+          "originStopName": "St. George Ferry Terminal",
+          "destStopId": "east_of_hudson:bus-si_202577",
+          "destStopName": "ST GEORGE FERRY/S40 & S90",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 300,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "SUBWAY_TO_SI_FERRY",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.643445,
+          "originLon": -74.07392,
+          "destLat": 40.639823,
+          "destLon": -74.139586,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.07392,
+                40.643445
+              ],
+              [
+                -74.075476,
+                40.64292
+              ],
+              [
+                -74.075476,
+                40.64292
+              ],
+              [
+                -74.076948,
+                40.6447859
+              ],
+              [
+                -74.076948,
+                40.6447859
+              ],
+              [
+                -74.07844,
+                40.646355
+              ],
+              [
+                -74.07844,
+                40.646355
+              ],
+              [
+                -74.080753,
+                40.647438
+              ],
+              [
+                -74.080753,
+                40.647438
+              ],
+              [
+                -74.084593,
+                40.648358
+              ],
+              [
+                -74.084593,
+                40.648358
+              ],
+              [
+                -74.087873,
+                40.647418
+              ],
+              [
+                -74.087873,
+                40.647418
+              ],
+              [
+                -74.089208,
+                40.646592
+              ],
+              [
+                -74.089208,
+                40.646592
+              ],
+              [
+                -74.092765,
+                40.645589
+              ],
+              [
+                -74.092765,
+                40.645589
+              ],
+              [
+                -74.096443,
+                40.644821
+              ],
+              [
+                -74.096443,
+                40.644821
+              ],
+              [
+                -74.098403,
+                40.644715
+              ],
+              [
+                -74.098403,
+                40.644715
+              ],
+              [
+                -74.101845,
+                40.645184
+              ],
+              [
+                -74.101845,
+                40.645184
+              ],
+              [
+                -74.104638,
+                40.645406
+              ],
+              [
+                -74.104638,
+                40.645406
+              ],
+              [
+                -74.107643,
+                40.645327
+              ],
+              [
+                -74.107643,
+                40.645327
+              ],
+              [
+                -74.1107339,
+                40.644712
+              ],
+              [
+                -74.1107339,
+                40.644712
+              ],
+              [
+                -74.114183,
+                40.642806
+              ],
+              [
+                -74.114183,
+                40.642806
+              ],
+              [
+                -74.116263,
+                40.641451
+              ],
+              [
+                -74.116263,
+                40.641451
+              ],
+              [
+                -74.117952,
+                40.640637
+              ],
+              [
+                -74.117952,
+                40.640637
+              ],
+              [
+                -74.120589,
+                40.64056
+              ],
+              [
+                -74.120589,
+                40.64056
+              ],
+              [
+                -74.122248,
+                40.6389219
+              ],
+              [
+                -74.122248,
+                40.6389219
+              ],
+              [
+                -74.123993,
+                40.637801
+              ],
+              [
+                -74.123993,
+                40.637801
+              ],
+              [
+                -74.126705,
+                40.637257
+              ],
+              [
+                -74.126705,
+                40.637257
+              ],
+              [
+                -74.128644,
+                40.637708
+              ],
+              [
+                -74.128644,
+                40.637708
+              ],
+              [
+                -74.130766,
+                40.640318
+              ],
+              [
+                -74.130766,
+                40.640318
+              ],
+              [
+                -74.134883,
+                40.640322
+              ],
+              [
+                -74.134883,
+                40.640322
+              ],
+              [
+                -74.136549,
+                40.640316
+              ],
+              [
+                -74.136549,
+                40.640316
+              ],
+              [
+                -74.139586,
+                40.639823
+              ]
+            ]
+          },
+          "originTime": 28800,
+          "destTime": 30015,
+          "originStopId": "east_of_hudson:bus-si_202577",
+          "originStopName": "ST GEORGE FERRY/S40 & S90",
+          "destStopId": "east_of_hudson:bus-si_200075",
+          "destStopName": "RICHMOND TER/NICHOLAS AV",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 0,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-si_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "bus-si_S40",
+            "route_short_name": "S40",
+            "route_long_name": "St. George - Goethals Rd North",
+            "route_type": 3,
+            "color": "B933AD",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    }
+  ],
+  "computeTimeMillis": 1354,
+  "backendVersion": {
+    "version": "UNKNOWN",
+    "commit": "UNKNOWN",
+    "describe": "UNKNOWN",
+    "branch": "UNKNOWN",
+    "buildHost": "UNKNOWN",
+    "buildTime": "UNKNOWN"
+  },
+  "generationTime": "2020-06-21T23:17:17.411669"
+}
