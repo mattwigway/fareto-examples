@@ -186,7 +186,7 @@
           "destStopName": "Hicksville LIRR Station",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -236,7 +236,7 @@
           "destStopName": "Hicksville Sta. / FedEx",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -612,7 +612,7 @@
           "destStopName": "205 St & Hillside",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -662,7 +662,7 @@
           "destStopName": "HILLSIDE AV/205 ST",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -782,7 +782,7 @@
           "destStopName": "FRANCIS LEWIS BL/112 AV",
           "cumulativeFare": 550,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -943,7 +943,7 @@
           "destStopName": "Hicksville LIRR Station",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -993,7 +993,7 @@
           "destStopName": "Hicksville",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1033,7 +1033,7 @@
           "destStopName": "Mineola",
           "cumulativeFare": 600,
           "transferAllowance": {
-            "value": 4350,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": {
@@ -1096,7 +1096,7 @@
           "destStopName": "Mineola Intermodal Center",
           "cumulativeFare": 600,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1568,7 +1568,7 @@
           "destStopName": "Hillside Ave & 197th St",
           "cumulativeFare": 875,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1618,7 +1618,7 @@
           "destStopName": "HILLSIDE AV/195 PL",
           "cumulativeFare": 875,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1762,7 +1762,7 @@
           "destStopName": "FRANCIS LEWIS BL/112 AV",
           "cumulativeFare": 875,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1923,7 +1923,7 @@
           "destStopName": "Hicksville LIRR Station",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1973,7 +1973,7 @@
           "destStopName": "Hicksville",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2013,7 +2013,7 @@
           "destStopName": "Mineola",
           "cumulativeFare": 600,
           "transferAllowance": {
-            "value": 4350,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": {
@@ -2076,7 +2076,7 @@
           "destStopName": "Mineola Intermodal Center",
           "cumulativeFare": 600,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2540,7 +2540,7 @@
           "destStopName": "Hillside Ave & 202nd St",
           "cumulativeFare": 875,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2590,7 +2590,7 @@
           "destStopName": "Hillside Ave & 202nd St",
           "cumulativeFare": 875,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2654,7 +2654,7 @@
           "destStopName": "Jamaica Ave & Francis Lewis Blvd",
           "cumulativeFare": 875,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2674,6 +2674,728 @@
             "route_long_name": "Hempstead - Jamaica",
             "route_type": 3,
             "color": "9C5BA0",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 6752,
+      "departureTime": 25255,
+      "fare": 875,
+      "legs": [
+        {
+          "originLat": 40.773617,
+          "originLon": -73.482688,
+          "destLat": 40.767066,
+          "destLon": -73.5275839,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.482688,
+                40.773617
+              ],
+              [
+                -73.485026,
+                40.7731239
+              ],
+              [
+                -73.485026,
+                40.7731239
+              ],
+              [
+                -73.4867189,
+                40.772795
+              ],
+              [
+                -73.4867189,
+                40.772795
+              ],
+              [
+                -73.489379,
+                40.772211
+              ],
+              [
+                -73.489379,
+                40.772211
+              ],
+              [
+                -73.493243,
+                40.771452
+              ],
+              [
+                -73.493243,
+                40.771452
+              ],
+              [
+                -73.495663,
+                40.7709229
+              ],
+              [
+                -73.495663,
+                40.7709229
+              ],
+              [
+                -73.499169,
+                40.770175
+              ],
+              [
+                -73.499169,
+                40.770175
+              ],
+              [
+                -73.501446,
+                40.769682
+              ],
+              [
+                -73.501446,
+                40.769682
+              ],
+              [
+                -73.508549,
+                40.76914
+              ],
+              [
+                -73.508549,
+                40.76914
+              ],
+              [
+                -73.512834,
+                40.76878
+              ],
+              [
+                -73.512834,
+                40.76878
+              ],
+              [
+                -73.514756,
+                40.768628
+              ],
+              [
+                -73.514756,
+                40.768628
+              ],
+              [
+                -73.517096,
+                40.768403
+              ],
+              [
+                -73.517096,
+                40.768403
+              ],
+              [
+                -73.520426,
+                40.768146
+              ],
+              [
+                -73.520426,
+                40.768146
+              ],
+              [
+                -73.523499,
+                40.767077
+              ],
+              [
+                -73.523499,
+                40.767077
+              ],
+              [
+                -73.5275839,
+                40.767066
+              ]
+            ]
+          },
+          "originTime": 25980,
+          "destTime": 26580,
+          "originStopId": "east_of_hudson:nice_3787",
+          "originStopName": "Old Country Rd + Sylvia La",
+          "destStopId": "east_of_hudson:nice_333",
+          "destStopName": "Hicksville LIRR Station",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_NICE",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nice_LIBUS",
+            "agency_name": "Nassau Inter-County Express",
+            "route_id": "nice_n79",
+            "route_short_name": "n79",
+            "route_long_name": "Hicksville- Walt Whitman",
+            "route_type": 3,
+            "color": "9C5BA0",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.767066,
+          "originLon": -73.5275839,
+          "destLat": 40.7671749,
+          "destLon": -73.5285332,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.5275839,
+                40.767066
+              ],
+              [
+                -73.5285332,
+                40.7671749
+              ]
+            ]
+          },
+          "originTime": 26580,
+          "destTime": 26661,
+          "originStopId": "east_of_hudson:nice_333",
+          "originStopName": "Hicksville LIRR Station",
+          "destStopId": "east_of_hudson:lirr92",
+          "destStopName": "Hicksville",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_NICE",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.7671749,
+          "originLon": -73.5285332,
+          "destLat": 40.7403474,
+          "destLon": -73.6408629,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.5285332,
+                40.7671749
+              ],
+              [
+                -73.6408629,
+                40.7403474
+              ]
+            ]
+          },
+          "originTime": 27120,
+          "destTime": 27720,
+          "originStopId": "east_of_hudson:lirr92",
+          "originStopName": "Hicksville",
+          "destStopId": "east_of_hudson:lirr132",
+          "destStopName": "Mineola",
+          "cumulativeFare": 600,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": {
+              "value": 0,
+              "number": 0,
+              "expirationTime": 0,
+              "cumulativeFare": 325,
+              "boardStop": "LIRR92",
+              "viaStop": null,
+              "alightStop": "LIRR132",
+              "initialDirection": "INBOUND",
+              "peakBeforeDirectionChange": true,
+              "peakAfterDirectionChange": false,
+              "mostRecentTicketPurchaseTime": 27120,
+              "maxTransferAllowance": 4350
+            },
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "default",
+            "agency_name": "default",
+            "route_id": "lirr4_peak",
+            "route_short_name": null,
+            "route_long_name": "Ronkonkoma (peak)",
+            "route_type": 2,
+            "color": "A626AA",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.7403474,
+          "originLon": -73.6408629,
+          "destLat": 40.739985,
+          "destLon": -73.641712,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.6408629,
+                40.7403474
+              ],
+              [
+                -73.641712,
+                40.739985
+              ]
+            ]
+          },
+          "originTime": 27720,
+          "destTime": 27787,
+          "originStopId": "east_of_hudson:lirr132",
+          "originStopName": "Mineola",
+          "destStopId": "east_of_hudson:nice_6039",
+          "destStopName": "Mineola Intermodal Center",
+          "cumulativeFare": 600,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.739985,
+          "originLon": -73.641712,
+          "destLat": 40.713982,
+          "destLon": -73.75406,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.641712,
+                40.739985
+              ],
+              [
+                -73.640292,
+                40.741851
+              ],
+              [
+                -73.640292,
+                40.741851
+              ],
+              [
+                -73.64164,
+                40.744682
+              ],
+              [
+                -73.64164,
+                40.744682
+              ],
+              [
+                -73.642601,
+                40.746364
+              ],
+              [
+                -73.642601,
+                40.746364
+              ],
+              [
+                -73.644138,
+                40.748284
+              ],
+              [
+                -73.644138,
+                40.748284
+              ],
+              [
+                -73.6459579,
+                40.747684
+              ],
+              [
+                -73.6459579,
+                40.747684
+              ],
+              [
+                -73.64791,
+                40.747048
+              ],
+              [
+                -73.64791,
+                40.747048
+              ],
+              [
+                -73.6515749,
+                40.74583
+              ],
+              [
+                -73.6515749,
+                40.74583
+              ],
+              [
+                -73.654313,
+                40.744948
+              ],
+              [
+                -73.654313,
+                40.744948
+              ],
+              [
+                -73.6576439,
+                40.743803
+              ],
+              [
+                -73.6576439,
+                40.743803
+              ],
+              [
+                -73.660721,
+                40.742338
+              ],
+              [
+                -73.660721,
+                40.742338
+              ],
+              [
+                -73.663062,
+                40.74119
+              ],
+              [
+                -73.663062,
+                40.74119
+              ],
+              [
+                -73.666518,
+                40.739446
+              ],
+              [
+                -73.666518,
+                40.739446
+              ],
+              [
+                -73.668715,
+                40.738362
+              ],
+              [
+                -73.668715,
+                40.738362
+              ],
+              [
+                -73.671471,
+                40.7370419
+              ],
+              [
+                -73.671471,
+                40.7370419
+              ],
+              [
+                -73.6748329,
+                40.735432
+              ],
+              [
+                -73.6748329,
+                40.735432
+              ],
+              [
+                -73.676746,
+                40.73459
+              ],
+              [
+                -73.676746,
+                40.73459
+              ],
+              [
+                -73.680234,
+                40.733676
+              ],
+              [
+                -73.680234,
+                40.733676
+              ],
+              [
+                -73.683176,
+                40.7330599
+              ],
+              [
+                -73.683176,
+                40.7330599
+              ],
+              [
+                -73.686726,
+                40.7322879
+              ],
+              [
+                -73.686726,
+                40.7322879
+              ],
+              [
+                -73.690335,
+                40.7314979
+              ],
+              [
+                -73.690335,
+                40.7314979
+              ],
+              [
+                -73.692229,
+                40.7311289
+              ],
+              [
+                -73.692229,
+                40.7311289
+              ],
+              [
+                -73.696005,
+                40.730329
+              ],
+              [
+                -73.696005,
+                40.730329
+              ],
+              [
+                -73.697053,
+                40.730144
+              ],
+              [
+                -73.697053,
+                40.730144
+              ],
+              [
+                -73.697839,
+                40.729987
+              ],
+              [
+                -73.697839,
+                40.729987
+              ],
+              [
+                -73.699876,
+                40.729591
+              ],
+              [
+                -73.699876,
+                40.729591
+              ],
+              [
+                -73.7025199,
+                40.729021
+              ],
+              [
+                -73.7025199,
+                40.729021
+              ],
+              [
+                -73.7052839,
+                40.728423
+              ],
+              [
+                -73.7052839,
+                40.728423
+              ],
+              [
+                -73.707666,
+                40.727944
+              ],
+              [
+                -73.707666,
+                40.727944
+              ],
+              [
+                -73.710513,
+                40.7274169
+              ],
+              [
+                -73.710513,
+                40.7274169
+              ],
+              [
+                -73.714864,
+                40.7268539
+              ],
+              [
+                -73.714864,
+                40.7268539
+              ],
+              [
+                -73.718414,
+                40.726161
+              ],
+              [
+                -73.718414,
+                40.726161
+              ],
+              [
+                -73.720485,
+                40.725621
+              ],
+              [
+                -73.720485,
+                40.725621
+              ],
+              [
+                -73.722211,
+                40.725164
+              ],
+              [
+                -73.722211,
+                40.725164
+              ],
+              [
+                -73.723949,
+                40.724751
+              ],
+              [
+                -73.723949,
+                40.724751
+              ],
+              [
+                -73.725626,
+                40.724213
+              ],
+              [
+                -73.725626,
+                40.724213
+              ],
+              [
+                -73.728277,
+                40.723223
+              ],
+              [
+                -73.728277,
+                40.723223
+              ],
+              [
+                -73.731231,
+                40.7216499
+              ],
+              [
+                -73.731231,
+                40.7216499
+              ],
+              [
+                -73.7324469,
+                40.720446
+              ],
+              [
+                -73.7324469,
+                40.720446
+              ],
+              [
+                -73.73523,
+                40.718544
+              ],
+              [
+                -73.73523,
+                40.718544
+              ],
+              [
+                -73.737025,
+                40.7179159
+              ],
+              [
+                -73.737025,
+                40.7179159
+              ],
+              [
+                -73.738966,
+                40.71751
+              ],
+              [
+                -73.738966,
+                40.71751
+              ],
+              [
+                -73.740859,
+                40.717123
+              ],
+              [
+                -73.740859,
+                40.717123
+              ],
+              [
+                -73.7431089,
+                40.716626
+              ],
+              [
+                -73.7431089,
+                40.716626
+              ],
+              [
+                -73.745752,
+                40.716019
+              ],
+              [
+                -73.745752,
+                40.716019
+              ],
+              [
+                -73.748502,
+                40.71543
+              ],
+              [
+                -73.748502,
+                40.71543
+              ],
+              [
+                -73.750823,
+                40.714834
+              ],
+              [
+                -73.750823,
+                40.714834
+              ],
+              [
+                -73.75406,
+                40.713982
+              ]
+            ]
+          },
+          "originTime": 28740,
+          "destTime": 31080,
+          "originStopId": "east_of_hudson:nice_6039",
+          "originStopName": "Mineola Intermodal Center",
+          "destStopId": "east_of_hudson:nice_578",
+          "destStopName": "Francis Lewis Blvd & Jamaica Ave",
+          "cumulativeFare": 875,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_NICE",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nice_LIBUS",
+            "agency_name": "Nassau Inter-County Express",
+            "route_id": "nice_n24",
+            "route_short_name": "n24",
+            "route_long_name": "Jamaica-Mineola- Roos. Field-EM",
+            "route_type": 3,
+            "color": "008B64",
             "agency_url": null
           },
           "type": "transit"
@@ -2815,7 +3537,7 @@
           "destStopName": "Hicksville LIRR Station",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2865,7 +3587,7 @@
           "destStopName": "Hicksville",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2913,7 +3635,7 @@
           "destStopName": "Jamaica",
           "cumulativeFare": 1275,
           "transferAllowance": {
-            "value": 4350,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": {
@@ -2976,7 +3698,7 @@
           "destStopName": "150 ST/JAMAICA AV",
           "cumulativeFare": 1275,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -3184,7 +3906,7 @@
           "destStopName": "MURDOCK AV/204 ST",
           "cumulativeFare": 1550,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -3211,7 +3933,7 @@
       ]
     }
   ],
-  "computeTimeMillis": 387,
+  "computeTimeMillis": 371,
   "backendVersion": {
     "version": "UNKNOWN",
     "commit": "UNKNOWN",
@@ -3220,5 +3942,5 @@
     "buildHost": "UNKNOWN",
     "buildTime": "UNKNOWN"
   },
-  "generationTime": "2020-06-21T23:17:22.107918"
+  "generationTime": "2020-06-21T23:40:43.52741"
 }

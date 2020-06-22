@@ -82,7 +82,7 @@
           "destStopName": "Hunterspoint Avenue",
           "cumulativeFare": 1400,
           "transferAllowance": {
-            "value": 4350,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": {
@@ -145,7 +145,7 @@
           "destStopName": "Hunters Point Av",
           "cumulativeFare": 1400,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -193,7 +193,7 @@
           "destStopName": "Grand Central - 42 St",
           "cumulativeFare": 1675,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -243,7 +243,7 @@
           "destStopName": "Grand Central - 42 St",
           "cumulativeFare": 1675,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -323,7 +323,7 @@
           "destStopName": "96 St",
           "cumulativeFare": 1675,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -380,7 +380,7 @@
           "destStopName": "Jamaica",
           "cumulativeFare": 1000,
           "transferAllowance": {
-            "value": 4350,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": {
@@ -443,7 +443,7 @@
           "destStopName": "Sutphin Blvd - Archer Av - JFK Airport",
           "cumulativeFare": 1000,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -531,7 +531,7 @@
           "destStopName": "Lexington Av/53 St",
           "cumulativeFare": 1275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -581,7 +581,7 @@
           "destStopName": "51 St",
           "cumulativeFare": 1275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -653,7 +653,7 @@
           "destStopName": "96 St",
           "cumulativeFare": 1275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -680,9 +680,9 @@
       ]
     },
     {
-      "durationSeconds": 6071,
+      "durationSeconds": 5891,
       "departureTime": 25255,
-      "fare": 1550,
+      "fare": 1925,
       "legs": [
         {
           "originLat": 40.7671749,
@@ -710,7 +710,7 @@
           "destStopName": "Jamaica",
           "cumulativeFare": 1000,
           "transferAllowance": {
-            "value": 4350,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": {
@@ -773,7 +773,7 @@
           "destStopName": "Sutphin Blvd - Archer Av - JFK Airport",
           "cumulativeFare": 1000,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -869,7 +869,435 @@
           "destStopName": "5 Av/53 St",
           "cumulativeFare": 1275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": true,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nyct_subway_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "nyct_subway_E",
+            "route_short_name": "E",
+            "route_long_name": "8 Avenue Local",
+            "route_type": 1,
+            "color": "2850AD",
+            "agency_url": "http://web.mta.info/nyct/service/pdf/tecur.pdf"
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.7601669,
+          "originLon": -73.975224,
+          "destLat": 40.7598289,
+          "destLon": -73.974017,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.975224,
+                40.7601669
+              ],
+              [
+                -73.974017,
+                40.7598289
+              ]
+            ]
+          },
+          "originTime": 29280,
+          "destTime": 29375,
+          "originStopId": "east_of_hudson:nyct_subway_F12S",
+          "originStopName": "5 Av/53 St",
+          "destStopId": "east_of_hudson:bus-busco_450105",
+          "destStopName": "MADISON AV/E 53 ST",
+          "cumulativeFare": 1275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.7598289,
+          "originLon": -73.974017,
+          "destLat": 40.7892919,
+          "destLon": -73.952573,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.974017,
+                40.7598289
+              ],
+              [
+                -73.969754,
+                40.765752
+              ],
+              [
+                -73.969754,
+                40.765752
+              ],
+              [
+                -73.96637,
+                40.770392
+              ],
+              [
+                -73.96637,
+                40.770392
+              ],
+              [
+                -73.961481,
+                40.777087
+              ],
+              [
+                -73.961481,
+                40.777087
+              ],
+              [
+                -73.9597859,
+                40.779389
+              ],
+              [
+                -73.9597859,
+                40.779389
+              ],
+              [
+                -73.952573,
+                40.7892919
+              ]
+            ]
+          },
+          "originTime": 29664,
+          "destTime": 30460,
+          "originStopId": "east_of_hudson:bus-busco_450105",
+          "originStopName": "MADISON AV/E 53 ST",
+          "destStopId": "east_of_hudson:bus-busco_450351",
+          "destStopName": "MADISON AV/E 99 ST",
+          "cumulativeFare": 1650,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-busco_MTABC",
+            "agency_name": "MTA Bus Company",
+            "route_id": "bus-busco_BXM3",
+            "route_short_name": "BxM3",
+            "route_long_name": "Yonkers - Midtown",
+            "route_type": 3,
+            "color": "00933C",
+            "agency_url": "http://web.mta.info/busco/schedules/bxm3cur.pdf"
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.7892919,
+          "originLon": -73.952573,
+          "destLat": 40.786986,
+          "destLon": -73.953853,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.952573,
+                40.7892919
+              ],
+              [
+                -73.953853,
+                40.786986
+              ]
+            ]
+          },
+          "originTime": 30460,
+          "destTime": 30678,
+          "originStopId": "east_of_hudson:bus-busco_450351",
+          "originStopName": "MADISON AV/E 99 ST",
+          "destStopId": "east_of_hudson:bus-manhattan_401939",
+          "destStopName": "E 96 ST/MADISON AV",
+          "cumulativeFare": 1650,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.786986,
+          "originLon": -73.953853,
+          "destLat": 40.785852,
+          "destLon": -73.951207,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.953853,
+                40.786986
+              ],
+              [
+                -73.951207,
+                40.785852
+              ]
+            ]
+          },
+          "originTime": 30899,
+          "destTime": 31020,
+          "originStopId": "east_of_hudson:bus-manhattan_401939",
+          "originStopName": "E 96 ST/MADISON AV",
+          "destStopId": "east_of_hudson:bus-manhattan_401941",
+          "destStopName": "E 96 ST/LEXINGTON AV",
+          "cumulativeFare": 1925,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_LOCAL_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-manhattan_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "bus-manhattan_M96",
+            "route_short_name": "M96",
+            "route_long_name": "East Side - West Side",
+            "route_type": 3,
+            "color": "6CBE45",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 6071,
+      "departureTime": 25255,
+      "fare": 1550,
+      "legs": [
+        {
+          "originLat": 40.7671749,
+          "originLon": -73.5285332,
+          "destLat": 40.6996081,
+          "destLon": -73.8085298,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.5285332,
+                40.7671749
+              ],
+              [
+                -73.8085298,
+                40.6996081
+              ]
+            ]
+          },
+          "originTime": 25680,
+          "destTime": 26940,
+          "originStopId": "east_of_hudson:lirr92",
+          "originStopName": "Hicksville",
+          "destStopId": "east_of_hudson:lirr102",
+          "destStopName": "Jamaica",
+          "cumulativeFare": 1000,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": {
+              "value": 0,
+              "number": 0,
+              "expirationTime": 0,
+              "cumulativeFare": 1000,
+              "boardStop": "LIRR92",
+              "viaStop": null,
+              "alightStop": "LIRR102",
+              "initialDirection": "INBOUND",
+              "peakBeforeDirectionChange": true,
+              "peakAfterDirectionChange": false,
+              "mostRecentTicketPurchaseTime": 25680,
+              "maxTransferAllowance": 4350
+            },
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "default",
+            "agency_name": "default",
+            "route_id": "lirr10_peak",
+            "route_short_name": null,
+            "route_long_name": "Port Jefferson (peak)",
+            "route_type": 2,
+            "color": "0039A6",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.6996081,
+          "originLon": -73.8085298,
+          "destLat": 40.700486,
+          "destLon": -73.807969,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.8085298,
+                40.6996081
+              ],
+              [
+                -73.807969,
+                40.700486
+              ]
+            ]
+          },
+          "originTime": 26940,
+          "destTime": 27055,
+          "originStopId": "east_of_hudson:lirr102",
+          "originStopName": "Jamaica",
+          "destStopId": "east_of_hudson:nyct_subway_G06S",
+          "destStopName": "Sutphin Blvd - Archer Av - JFK Airport",
+          "cumulativeFare": 1000,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.700486,
+          "originLon": -73.807969,
+          "destLat": 40.7601669,
+          "destLon": -73.975224,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.807969,
+                40.700486
+              ],
+              [
+                -73.8168589,
+                40.702566
+              ],
+              [
+                -73.8168589,
+                40.702566
+              ],
+              [
+                -73.831008,
+                40.714441
+              ],
+              [
+                -73.831008,
+                40.714441
+              ],
+              [
+                -73.844521,
+                40.721691
+              ],
+              [
+                -73.844521,
+                40.721691
+              ],
+              [
+                -73.891338,
+                40.746644
+              ],
+              [
+                -73.891338,
+                40.746644
+              ],
+              [
+                -73.937243,
+                40.748973
+              ],
+              [
+                -73.937243,
+                40.748973
+              ],
+              [
+                -73.946,
+                40.747846
+              ],
+              [
+                -73.946,
+                40.747846
+              ],
+              [
+                -73.969055,
+                40.757552
+              ],
+              [
+                -73.969055,
+                40.757552
+              ],
+              [
+                -73.975224,
+                40.7601669
+              ]
+            ]
+          },
+          "originTime": 27360,
+          "destTime": 29280,
+          "originStopId": "east_of_hudson:nyct_subway_G06S",
+          "originStopName": "Sutphin Blvd - Archer Av - JFK Airport",
+          "destStopId": "east_of_hudson:nyct_subway_F12S",
+          "destStopName": "5 Av/53 St",
+          "cumulativeFare": 1275,
+          "transferAllowance": {
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -919,7 +1347,7 @@
           "destStopName": "MADISON AV/E 49 ST",
           "cumulativeFare": 1275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -999,7 +1427,7 @@
           "destStopName": "MADISON AV/E 95 ST",
           "cumulativeFare": 1275,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1049,7 +1477,7 @@
           "destStopName": "E 96 ST/MADISON AV",
           "cumulativeFare": 1275,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1089,7 +1517,1187 @@
           "destStopName": "E 96 ST/LEXINGTON AV",
           "cumulativeFare": 1550,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_LOCAL_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-manhattan_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "bus-manhattan_M96",
+            "route_short_name": "M96",
+            "route_long_name": "East Side - West Side",
+            "route_type": 3,
+            "color": "6CBE45",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 6073,
+      "departureTime": 25255,
+      "fare": 2325,
+      "legs": [
+        {
+          "originLat": 40.7671749,
+          "originLon": -73.5285332,
+          "destLat": 40.6996081,
+          "destLon": -73.8085298,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.5285332,
+                40.7671749
+              ],
+              [
+                -73.8085298,
+                40.6996081
+              ]
+            ]
+          },
+          "originTime": 25680,
+          "destTime": 26940,
+          "originStopId": "east_of_hudson:lirr92",
+          "originStopName": "Hicksville",
+          "destStopId": "east_of_hudson:lirr102",
+          "destStopName": "Jamaica",
+          "cumulativeFare": 1000,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": {
+              "value": 0,
+              "number": 0,
+              "expirationTime": 0,
+              "cumulativeFare": 1000,
+              "boardStop": "LIRR92",
+              "viaStop": null,
+              "alightStop": "LIRR102",
+              "initialDirection": "INBOUND",
+              "peakBeforeDirectionChange": true,
+              "peakAfterDirectionChange": false,
+              "mostRecentTicketPurchaseTime": 25680,
+              "maxTransferAllowance": 4350
+            },
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "default",
+            "agency_name": "default",
+            "route_id": "lirr10_peak",
+            "route_short_name": null,
+            "route_long_name": "Port Jefferson (peak)",
+            "route_type": 2,
+            "color": "0039A6",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.6996081,
+          "originLon": -73.8085298,
+          "destLat": 40.700486,
+          "destLon": -73.807969,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.8085298,
+                40.6996081
+              ],
+              [
+                -73.807969,
+                40.700486
+              ]
+            ]
+          },
+          "originTime": 26940,
+          "destTime": 27055,
+          "originStopId": "east_of_hudson:lirr102",
+          "originStopName": "Jamaica",
+          "destStopId": "east_of_hudson:nyct_subway_G06S",
+          "destStopName": "Sutphin Blvd - Archer Av - JFK Airport",
+          "cumulativeFare": 1000,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.700486,
+          "originLon": -73.807969,
+          "destLat": 40.7601669,
+          "destLon": -73.975224,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.807969,
+                40.700486
+              ],
+              [
+                -73.8168589,
+                40.702566
+              ],
+              [
+                -73.8168589,
+                40.702566
+              ],
+              [
+                -73.831008,
+                40.714441
+              ],
+              [
+                -73.831008,
+                40.714441
+              ],
+              [
+                -73.844521,
+                40.721691
+              ],
+              [
+                -73.844521,
+                40.721691
+              ],
+              [
+                -73.891338,
+                40.746644
+              ],
+              [
+                -73.891338,
+                40.746644
+              ],
+              [
+                -73.937243,
+                40.748973
+              ],
+              [
+                -73.937243,
+                40.748973
+              ],
+              [
+                -73.946,
+                40.747846
+              ],
+              [
+                -73.946,
+                40.747846
+              ],
+              [
+                -73.969055,
+                40.757552
+              ],
+              [
+                -73.969055,
+                40.757552
+              ],
+              [
+                -73.975224,
+                40.7601669
+              ]
+            ]
+          },
+          "originTime": 27360,
+          "destTime": 29280,
+          "originStopId": "east_of_hudson:nyct_subway_G06S",
+          "originStopName": "Sutphin Blvd - Archer Av - JFK Airport",
+          "destStopId": "east_of_hudson:nyct_subway_F12S",
+          "destStopName": "5 Av/53 St",
+          "cumulativeFare": 1275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": true,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nyct_subway_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "nyct_subway_E",
+            "route_short_name": "E",
+            "route_long_name": "8 Avenue Local",
+            "route_type": 1,
+            "color": "2850AD",
+            "agency_url": "http://web.mta.info/nyct/service/pdf/tecur.pdf"
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.7601669,
+          "originLon": -73.975224,
+          "destLat": 40.760275,
+          "destLon": -73.973791,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.975224,
+                40.7601669
+              ],
+              [
+                -73.973791,
+                40.760275
+              ]
+            ]
+          },
+          "originTime": 29280,
+          "destTime": 29403,
+          "originStopId": "east_of_hudson:nyct_subway_F12S",
+          "originStopName": "5 Av/53 St",
+          "destStopId": "east_of_hudson:bus-brooklyn_404906",
+          "destStopName": "MADISON AV/E 54 ST",
+          "cumulativeFare": 1275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.760275,
+          "originLon": -73.973791,
+          "destLat": 40.7624799,
+          "destLon": -73.97272,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.973791,
+                40.760275
+              ],
+              [
+                -73.97272,
+                40.7624799
+              ]
+            ]
+          },
+          "originTime": 29508,
+          "destTime": 29580,
+          "originStopId": "east_of_hudson:bus-brooklyn_404906",
+          "originStopName": "MADISON AV/E 54 ST",
+          "destStopId": "east_of_hudson:bus-brooklyn_404907",
+          "destStopName": "E 57 ST/MADISON AV",
+          "cumulativeFare": 1650,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-brooklyn_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "bus-brooklyn_X38",
+            "route_short_name": "X38",
+            "route_long_name": "Sea Gate / Bensonhurst - Midtown Manhattan Express",
+            "route_type": 3,
+            "color": "00933C",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.7624799,
+          "originLon": -73.97272,
+          "destLat": 40.763045,
+          "destLon": -73.971712,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.97272,
+                40.7624799
+              ],
+              [
+                -73.971712,
+                40.763045
+              ]
+            ]
+          },
+          "originTime": 29580,
+          "destTime": 29687,
+          "originStopId": "east_of_hudson:bus-brooklyn_404907",
+          "originStopName": "E 57 ST/MADISON AV",
+          "destStopId": "east_of_hudson:bus-busco_450108",
+          "destStopName": "MADISON AV/E 58 ST",
+          "cumulativeFare": 1650,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.763045,
+          "originLon": -73.971712,
+          "destLat": 40.779424,
+          "destLon": -73.953443,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.971712,
+                40.763045
+              ],
+              [
+                -73.965917,
+                40.771024
+              ],
+              [
+                -73.965917,
+                40.771024
+              ],
+              [
+                -73.953443,
+                40.779424
+              ]
+            ]
+          },
+          "originTime": 29880,
+          "destTime": 30660,
+          "originStopId": "east_of_hudson:bus-busco_450108",
+          "originStopName": "MADISON AV/E 58 ST",
+          "destStopId": "east_of_hudson:bus-busco_450436",
+          "destStopName": "3 AV/E 87 ST",
+          "cumulativeFare": 2325,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_EXPRESS_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-busco_MTABC",
+            "agency_name": "MTA Bus Company",
+            "route_id": "bus-busco_BXM7",
+            "route_short_name": "BxM7",
+            "route_long_name": "Co-Op City - Midtown",
+            "route_type": 3,
+            "color": "00933C",
+            "agency_url": "http://web.mta.info/busco/schedules/bxm7cur.pdf"
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 6224,
+      "departureTime": 25255,
+      "fare": 1950,
+      "legs": [
+        {
+          "originLat": 40.7671749,
+          "originLon": -73.5285332,
+          "destLat": 40.6996081,
+          "destLon": -73.8085298,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.5285332,
+                40.7671749
+              ],
+              [
+                -73.8085298,
+                40.6996081
+              ]
+            ]
+          },
+          "originTime": 25680,
+          "destTime": 26940,
+          "originStopId": "east_of_hudson:lirr92",
+          "originStopName": "Hicksville",
+          "destStopId": "east_of_hudson:lirr102",
+          "destStopName": "Jamaica",
+          "cumulativeFare": 1000,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": {
+              "value": 0,
+              "number": 0,
+              "expirationTime": 0,
+              "cumulativeFare": 1000,
+              "boardStop": "LIRR92",
+              "viaStop": null,
+              "alightStop": "LIRR102",
+              "initialDirection": "INBOUND",
+              "peakBeforeDirectionChange": true,
+              "peakAfterDirectionChange": false,
+              "mostRecentTicketPurchaseTime": 25680,
+              "maxTransferAllowance": 4350
+            },
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "default",
+            "agency_name": "default",
+            "route_id": "lirr10_peak",
+            "route_short_name": null,
+            "route_long_name": "Port Jefferson (peak)",
+            "route_type": 2,
+            "color": "0039A6",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.6996081,
+          "originLon": -73.8085298,
+          "destLat": 40.700486,
+          "destLon": -73.807969,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.8085298,
+                40.6996081
+              ],
+              [
+                -73.807969,
+                40.700486
+              ]
+            ]
+          },
+          "originTime": 26940,
+          "destTime": 27055,
+          "originStopId": "east_of_hudson:lirr102",
+          "originStopName": "Jamaica",
+          "destStopId": "east_of_hudson:nyct_subway_G06S",
+          "destStopName": "Sutphin Blvd - Archer Av - JFK Airport",
+          "cumulativeFare": 1000,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.700486,
+          "originLon": -73.807969,
+          "destLat": 40.7601669,
+          "destLon": -73.975224,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.807969,
+                40.700486
+              ],
+              [
+                -73.8168589,
+                40.702566
+              ],
+              [
+                -73.8168589,
+                40.702566
+              ],
+              [
+                -73.831008,
+                40.714441
+              ],
+              [
+                -73.831008,
+                40.714441
+              ],
+              [
+                -73.844521,
+                40.721691
+              ],
+              [
+                -73.844521,
+                40.721691
+              ],
+              [
+                -73.891338,
+                40.746644
+              ],
+              [
+                -73.891338,
+                40.746644
+              ],
+              [
+                -73.937243,
+                40.748973
+              ],
+              [
+                -73.937243,
+                40.748973
+              ],
+              [
+                -73.946,
+                40.747846
+              ],
+              [
+                -73.946,
+                40.747846
+              ],
+              [
+                -73.969055,
+                40.757552
+              ],
+              [
+                -73.969055,
+                40.757552
+              ],
+              [
+                -73.975224,
+                40.7601669
+              ]
+            ]
+          },
+          "originTime": 27360,
+          "destTime": 29280,
+          "originStopId": "east_of_hudson:nyct_subway_G06S",
+          "originStopName": "Sutphin Blvd - Archer Av - JFK Airport",
+          "destStopId": "east_of_hudson:nyct_subway_F12S",
+          "destStopName": "5 Av/53 St",
+          "cumulativeFare": 1275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": true,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nyct_subway_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "nyct_subway_E",
+            "route_short_name": "E",
+            "route_long_name": "8 Avenue Local",
+            "route_type": 1,
+            "color": "2850AD",
+            "agency_url": "http://web.mta.info/nyct/service/pdf/tecur.pdf"
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.7601669,
+          "originLon": -73.975224,
+          "destLat": 40.759924,
+          "destLon": -73.976306,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.975224,
+                40.7601669
+              ],
+              [
+                -73.976306,
+                40.759924
+              ]
+            ]
+          },
+          "originTime": 29280,
+          "destTime": 29380,
+          "originStopId": "east_of_hudson:nyct_subway_F12S",
+          "originStopName": "5 Av/53 St",
+          "destStopId": "east_of_hudson:bus-manhattan_400514",
+          "destStopName": "5 AV/W 52 ST",
+          "cumulativeFare": 1275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.759924,
+          "originLon": -73.976306,
+          "destLat": 40.756156,
+          "destLon": -73.979047,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.976306,
+                40.759924
+              ],
+              [
+                -73.977029,
+                40.75888
+              ],
+              [
+                -73.977029,
+                40.75888
+              ],
+              [
+                -73.979047,
+                40.756156
+              ]
+            ]
+          },
+          "originTime": 29464,
+          "destTime": 29685,
+          "originStopId": "east_of_hudson:bus-manhattan_400514",
+          "originStopName": "5 AV/W 52 ST",
+          "destStopId": "east_of_hudson:bus-manhattan_400516",
+          "destStopName": "5 AV/W 46 ST",
+          "cumulativeFare": 1275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-manhattan_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "bus-manhattan_M3",
+            "route_short_name": "M3",
+            "route_long_name": "Fort George - East Village",
+            "route_type": 3,
+            "color": "B933AD",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.756156,
+          "originLon": -73.979047,
+          "destLat": 40.755877,
+          "destLon": -73.976941,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.979047,
+                40.756156
+              ],
+              [
+                -73.976941,
+                40.755877
+              ]
+            ]
+          },
+          "originTime": 29685,
+          "destTime": 29863,
+          "originStopId": "east_of_hudson:bus-manhattan_400516",
+          "originStopName": "5 AV/W 46 ST",
+          "destStopId": "east_of_hudson:bus-busco_450100",
+          "destStopName": "MADISON AV/E 47 ST",
+          "cumulativeFare": 1275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.755877,
+          "originLon": -73.976941,
+          "destLat": 40.7892919,
+          "destLon": -73.952573,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.976941,
+                40.755877
+              ],
+              [
+                -73.973714,
+                40.7602909
+              ],
+              [
+                -73.973714,
+                40.7602909
+              ],
+              [
+                -73.969579,
+                40.766013
+              ],
+              [
+                -73.969579,
+                40.766013
+              ],
+              [
+                -73.96637,
+                40.770392
+              ],
+              [
+                -73.96637,
+                40.770392
+              ],
+              [
+                -73.9597859,
+                40.779389
+              ],
+              [
+                -73.9597859,
+                40.779389
+              ],
+              [
+                -73.952573,
+                40.7892919
+              ]
+            ]
+          },
+          "originTime": 30083,
+          "destTime": 31080,
+          "originStopId": "east_of_hudson:bus-busco_450100",
+          "originStopName": "MADISON AV/E 47 ST",
+          "destStopId": "east_of_hudson:bus-busco_450351",
+          "destStopName": "MADISON AV/E 99 ST",
+          "cumulativeFare": 1950,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_EXPRESS_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-busco_MTABC",
+            "agency_name": "MTA Bus Company",
+            "route_id": "bus-busco_BXM11",
+            "route_short_name": "BxM11",
+            "route_long_name": "Wakefield - Midtown",
+            "route_type": 3,
+            "color": "00933C",
+            "agency_url": "http://web.mta.info/busco/schedules/bxm11cur.pdf"
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 5143,
+      "departureTime": 25255,
+      "fare": 1950,
+      "legs": [
+        {
+          "originLat": 40.7671749,
+          "originLon": -73.5285332,
+          "destLat": 40.7505884,
+          "destLon": -73.993584,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.5285332,
+                40.7671749
+              ],
+              [
+                -73.993584,
+                40.7505884
+              ]
+            ]
+          },
+          "originTime": 25560,
+          "destTime": 28080,
+          "originStopId": "east_of_hudson:lirr92",
+          "originStopName": "Hicksville",
+          "destStopId": "east_of_hudson:lirr237",
+          "destStopName": "Penn Station",
+          "cumulativeFare": 1400,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": {
+              "value": 0,
+              "number": 0,
+              "expirationTime": 0,
+              "cumulativeFare": 1400,
+              "boardStop": "LIRR92",
+              "viaStop": null,
+              "alightStop": "LIRR237",
+              "initialDirection": "INBOUND",
+              "peakBeforeDirectionChange": true,
+              "peakAfterDirectionChange": false,
+              "mostRecentTicketPurchaseTime": 25560,
+              "maxTransferAllowance": 4350
+            },
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "default",
+            "agency_name": "default",
+            "route_id": "lirr4_peak",
+            "route_short_name": null,
+            "route_long_name": "Ronkonkoma (peak)",
+            "route_type": 2,
+            "color": "A626AA",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.7505884,
+          "originLon": -73.993584,
+          "destLat": 40.749567,
+          "destLon": -73.98795,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.993584,
+                40.7505884
+              ],
+              [
+                -73.98795,
+                40.749567
+              ]
+            ]
+          },
+          "originTime": 28080,
+          "destTime": 28583,
+          "originStopId": "east_of_hudson:lirr237",
+          "originStopName": "Penn Station",
+          "destStopId": "east_of_hudson:nyct_subway_R17N",
+          "destStopName": "34 St - Herald Sq",
+          "cumulativeFare": 1400,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.749567,
+          "originLon": -73.98795,
+          "destLat": 40.784318,
+          "destLon": -73.947152,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.98795,
+                40.749567
+              ],
+              [
+                -73.986754,
+                40.754672
+              ],
+              [
+                -73.986754,
+                40.754672
+              ],
+              [
+                -73.9806579,
+                40.764664
+              ],
+              [
+                -73.9806579,
+                40.764664
+              ],
+              [
+                -73.966113,
+                40.764629
+              ],
+              [
+                -73.966113,
+                40.764629
+              ],
+              [
+                -73.9584239,
+                40.768799
+              ],
+              [
+                -73.9584239,
+                40.768799
+              ],
+              [
+                -73.951787,
+                40.7778909
+              ],
+              [
+                -73.951787,
+                40.7778909
+              ],
+              [
+                -73.947152,
+                40.784318
+              ]
+            ]
+          },
+          "originTime": 28680,
+          "destTime": 29490,
+          "originStopId": "east_of_hudson:nyct_subway_R17N",
+          "originStopName": "34 St - Herald Sq",
+          "destStopId": "east_of_hudson:nyct_subway_Q05N",
+          "destStopName": "96 St",
+          "cumulativeFare": 1675,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": true,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nyct_subway_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "nyct_subway_Q",
+            "route_short_name": "Q",
+            "route_long_name": "Broadway Express",
+            "route_type": 1,
+            "color": "FCCC0A",
+            "agency_url": "http://web.mta.info/nyct/service/pdf/tqcur.pdf"
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.784318,
+          "originLon": -73.947152,
+          "destLat": 40.784946,
+          "destLon": -73.946367,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.947152,
+                40.784318
+              ],
+              [
+                -73.946367,
+                40.784946
+              ]
+            ]
+          },
+          "originTime": 29490,
+          "destTime": 29578,
+          "originStopId": "east_of_hudson:nyct_subway_Q05N",
+          "originStopName": "96 St",
+          "destStopId": "east_of_hudson:bus-manhattan_403632",
+          "destStopName": "E 97 ST/2 AV",
+          "cumulativeFare": 1675,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.784946,
+          "originLon": -73.946367,
+          "destLat": 40.785357,
+          "destLon": -73.949465,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.946367,
+                40.784946
+              ],
+              [
+                -73.949465,
+                40.785357
+              ]
+            ]
+          },
+          "originTime": 29795,
+          "destTime": 29931,
+          "originStopId": "east_of_hudson:bus-manhattan_403632",
+          "originStopName": "E 97 ST/2 AV",
+          "destStopId": "east_of_hudson:bus-manhattan_401957",
+          "destStopName": "E 96 ST/3 AV",
+          "cumulativeFare": 1675,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-manhattan_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "bus-manhattan_M96",
+            "route_short_name": "M96",
+            "route_long_name": "East Side - West Side",
+            "route_type": 3,
+            "color": "6CBE45",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.785357,
+          "originLon": -73.949465,
+          "destLat": 40.786099,
+          "destLon": -73.951246,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.949465,
+                40.785357
+              ],
+              [
+                -73.951246,
+                40.786099
+              ]
+            ]
+          },
+          "originTime": 30171,
+          "destTime": 30240,
+          "originStopId": "east_of_hudson:bus-manhattan_401957",
+          "originStopName": "E 96 ST/3 AV",
+          "destStopId": "east_of_hudson:bus-manhattan_401958",
+          "destStopName": "E 96 ST/LEXINGTON AV",
+          "cumulativeFare": 1950,
+          "transferAllowance": {
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1116,7 +2724,7 @@
       ]
     }
   ],
-  "computeTimeMillis": 2367,
+  "computeTimeMillis": 1378,
   "backendVersion": {
     "version": "UNKNOWN",
     "commit": "UNKNOWN",
@@ -1125,5 +2733,5 @@
     "buildHost": "UNKNOWN",
     "buildTime": "UNKNOWN"
   },
-  "generationTime": "2020-06-21T23:17:25.382726"
+  "generationTime": "2020-06-21T23:40:45.727476"
 }

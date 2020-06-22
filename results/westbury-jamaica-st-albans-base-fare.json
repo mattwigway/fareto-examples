@@ -282,7 +282,7 @@
           "destStopName": "Springfield Blvd & Hillside",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -332,7 +332,7 @@
           "destStopName": "SPRINGFIELD BL/HILLSIDE AV",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -516,7 +516,7 @@
           "destStopName": "SPRINGFIELD BL/116 RD",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -566,7 +566,7 @@
           "destStopName": "LINDEN BL/217 ST",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -678,7 +678,7 @@
           "destStopName": "LINDEN BL/FARMERS BL",
           "cumulativeFare": 550,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -767,7 +767,7 @@
           "destStopName": "Jamaica",
           "cumulativeFare": 1000,
           "transferAllowance": {
-            "value": 4350,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": {
@@ -830,7 +830,7 @@
           "destStopName": "TEARDROP/LAYOVER",
           "cumulativeFare": 1000,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1006,7 +1006,7 @@
           "destStopName": "LINDEN BL/NEWBURG ST",
           "cumulativeFare": 1275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1095,7 +1095,7 @@
           "destStopName": "Jamaica",
           "cumulativeFare": 1000,
           "transferAllowance": {
-            "value": 4350,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": {
@@ -1158,7 +1158,7 @@
           "destStopName": "St. Albans",
           "cumulativeFare": 1050,
           "transferAllowance": {
-            "value": 4350,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": {
@@ -1221,7 +1221,7 @@
           "destStopName": "LINDEN BL/179 ST",
           "cumulativeFare": 1050,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1261,7 +1261,7 @@
           "destStopName": "LINDEN BL/NEWBURG ST",
           "cumulativeFare": 1325,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1350,7 +1350,7 @@
           "destStopName": "Jamaica",
           "cumulativeFare": 1000,
           "transferAllowance": {
-            "value": 4350,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": {
@@ -1413,7 +1413,7 @@
           "destStopName": "Archer Ave. & 158 St.",
           "cumulativeFare": 1000,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1541,7 +1541,7 @@
           "destStopName": "Merrick Blvd + Baisley Blvd",
           "cumulativeFare": 1275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1591,7 +1591,7 @@
           "destStopName": "Merrick Blvd + Baisley Blvd",
           "cumulativeFare": 1275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1631,7 +1631,7 @@
           "destStopName": "Merrick Blvd Opp Victoria Rd",
           "cumulativeFare": 1275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1720,7 +1720,7 @@
           "destStopName": "Jamaica",
           "cumulativeFare": 1000,
           "transferAllowance": {
-            "value": 4350,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": {
@@ -1783,7 +1783,7 @@
           "destStopName": "Archer Ave. & 158 St.",
           "cumulativeFare": 1000,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1911,7 +1911,7 @@
           "destStopName": "Merrick Blvd + Baisley Blvd",
           "cumulativeFare": 1275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1976,7 +1976,7 @@
           "destStopName": "Mineola",
           "cumulativeFare": 325,
           "transferAllowance": {
-            "value": 4350,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": {
@@ -2039,7 +2039,7 @@
           "destStopName": "Mineola Intermodal Center",
           "cumulativeFare": 325,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2559,7 +2559,7 @@
           "destStopName": "Jamaica Bus Terminal",
           "cumulativeFare": 600,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2609,7 +2609,7 @@
           "destStopName": "Archer Ave + Merrick Blvd",
           "cumulativeFare": 600,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2729,7 +2729,7 @@
           "destStopName": "Merrick Blvd + Baisley Blvd",
           "cumulativeFare": 600,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2794,7 +2794,7 @@
           "destStopName": "Mineola",
           "cumulativeFare": 325,
           "transferAllowance": {
-            "value": 4350,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": {
@@ -2857,7 +2857,7 @@
           "destStopName": "Mineola Intermodal Center",
           "cumulativeFare": 325,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -3377,7 +3377,7 @@
           "destStopName": "Jamaica Bus Terminal",
           "cumulativeFare": 600,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -3427,7 +3427,7 @@
           "destStopName": "ARCHER AV/165 ST",
           "cumulativeFare": 600,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -3467,7 +3467,7 @@
           "destStopName": "MERRICK BL/LIBERTY AV",
           "cumulativeFare": 600,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -3517,7 +3517,7 @@
           "destStopName": "Merrick Blvd Opp 104th Ave",
           "cumulativeFare": 600,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -3629,7 +3629,7 @@
           "destStopName": "Merrick Blvd + Baisley Blvd",
           "cumulativeFare": 875,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -3718,7 +3718,7 @@
           "destStopName": "Jamaica",
           "cumulativeFare": 1000,
           "transferAllowance": {
-            "value": 4350,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": {
@@ -3781,7 +3781,7 @@
           "destStopName": "St. Albans",
           "cumulativeFare": 1050,
           "transferAllowance": {
-            "value": 4350,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": {
@@ -3799,6 +3799,707 @@
               "maxTransferAllowance": 4350
             },
             "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 36955,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "default",
+            "agency_name": "default",
+            "route_id": "lirr1_offpeak",
+            "route_short_name": null,
+            "route_long_name": "Babylon (offpeak)",
+            "route_type": 2,
+            "color": "00985F",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 5723,
+      "departureTime": 29755,
+      "fare": 1675,
+      "legs": [
+        {
+          "originLat": 40.7534538,
+          "originLon": -73.5858661,
+          "destLat": 40.6996081,
+          "destLon": -73.8085298,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.5858661,
+                40.7534538
+              ],
+              [
+                -73.6036524,
+                40.749207
+              ],
+              [
+                -73.6036524,
+                40.749207
+              ],
+              [
+                -73.6408629,
+                40.7403474
+              ],
+              [
+                -73.6408629,
+                40.7403474
+              ],
+              [
+                -73.6625214,
+                40.735169
+              ],
+              [
+                -73.6625214,
+                40.735169
+              ],
+              [
+                -73.6809588,
+                40.730757
+              ],
+              [
+                -73.6809588,
+                40.730757
+              ],
+              [
+                -73.8085298,
+                40.6996081
+              ]
+            ]
+          },
+          "originTime": 30420,
+          "destTime": 31680,
+          "originStopId": "east_of_hudson:lirr213",
+          "originStopName": "Westbury",
+          "destStopId": "east_of_hudson:lirr102",
+          "destStopName": "Jamaica",
+          "cumulativeFare": 1000,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": {
+              "value": 0,
+              "number": 0,
+              "expirationTime": 0,
+              "cumulativeFare": 1000,
+              "boardStop": "LIRR213",
+              "viaStop": null,
+              "alightStop": "LIRR102",
+              "initialDirection": "INBOUND",
+              "peakBeforeDirectionChange": true,
+              "peakAfterDirectionChange": false,
+              "mostRecentTicketPurchaseTime": 30420,
+              "maxTransferAllowance": 4350
+            },
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 36955,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "default",
+            "agency_name": "default",
+            "route_id": "lirr10_peak",
+            "route_short_name": null,
+            "route_long_name": "Port Jefferson (peak)",
+            "route_type": 2,
+            "color": "0039A6",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.6996081,
+          "originLon": -73.8085298,
+          "destLat": 40.700486,
+          "destLon": -73.807969,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.8085298,
+                40.6996081
+              ],
+              [
+                -73.807969,
+                40.700486
+              ]
+            ]
+          },
+          "originTime": 31680,
+          "destTime": 31795,
+          "originStopId": "east_of_hudson:lirr102",
+          "originStopName": "Jamaica",
+          "destStopId": "east_of_hudson:nyct_subway_G06N",
+          "destStopName": "Sutphin Blvd - Archer Av - JFK Airport",
+          "cumulativeFare": 1000,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 36955,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.700486,
+          "originLon": -73.807969,
+          "destLat": 40.7021469,
+          "destLon": -73.801109,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.807969,
+                40.700486
+              ],
+              [
+                -73.801109,
+                40.7021469
+              ]
+            ]
+          },
+          "originTime": 31920,
+          "destTime": 32040,
+          "originStopId": "east_of_hudson:nyct_subway_G06N",
+          "originStopName": "Sutphin Blvd - Archer Av - JFK Airport",
+          "destStopId": "east_of_hudson:nyct_subway_G05N",
+          "destStopName": "Jamaica Center - Parsons/Archer",
+          "cumulativeFare": 1275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 36955,
+            "inSubwayPaidArea": true,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nyct_subway_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "nyct_subway_E",
+            "route_short_name": "E",
+            "route_long_name": "8 Avenue Local",
+            "route_type": 1,
+            "color": "2850AD",
+            "agency_url": "http://web.mta.info/nyct/service/pdf/tecur.pdf"
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.7021469,
+          "originLon": -73.801109,
+          "destLat": 40.6996081,
+          "destLon": -73.8085298,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.801109,
+                40.7021469
+              ],
+              [
+                -73.8085298,
+                40.6996081
+              ]
+            ]
+          },
+          "originTime": 32040,
+          "destTime": 32593,
+          "originStopId": "east_of_hudson:nyct_subway_G05N",
+          "originStopName": "Jamaica Center - Parsons/Archer",
+          "destStopId": "east_of_hudson:lirr102",
+          "destStopName": "Jamaica",
+          "cumulativeFare": 1275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 36955,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.6996081,
+          "originLon": -73.8085298,
+          "destLat": 40.6911834,
+          "destLon": -73.7655093,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.8085298,
+                40.6996081
+              ],
+              [
+                -73.7655093,
+                40.6911834
+              ]
+            ]
+          },
+          "originTime": 34920,
+          "destTime": 35280,
+          "originStopId": "east_of_hudson:lirr102",
+          "originStopName": "Jamaica",
+          "destStopId": "east_of_hudson:lirr184",
+          "destStopName": "St. Albans",
+          "cumulativeFare": 1675,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": {
+              "value": 0,
+              "number": 0,
+              "expirationTime": 0,
+              "cumulativeFare": 400,
+              "boardStop": "LIRR102",
+              "viaStop": null,
+              "alightStop": "LIRR184",
+              "initialDirection": "OUTBOUND",
+              "peakBeforeDirectionChange": false,
+              "peakAfterDirectionChange": false,
+              "mostRecentTicketPurchaseTime": 34920,
+              "maxTransferAllowance": 4350
+            },
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 36955,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "default",
+            "agency_name": "default",
+            "route_id": "lirr1_offpeak",
+            "route_short_name": null,
+            "route_long_name": "Babylon (offpeak)",
+            "route_type": 2,
+            "color": "00985F",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 5723,
+      "departureTime": 29755,
+      "fare": 1850,
+      "legs": [
+        {
+          "originLat": 40.7534538,
+          "originLon": -73.5858661,
+          "destLat": 40.754801,
+          "destLon": -73.3580658,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.5858661,
+                40.7534538
+              ],
+              [
+                -73.5285332,
+                40.7671749
+              ],
+              [
+                -73.5285332,
+                40.7671749
+              ],
+              [
+                -73.4834382,
+                40.7430392
+              ],
+              [
+                -73.4834382,
+                40.7430392
+              ],
+              [
+                -73.4412387,
+                40.735915
+              ],
+              [
+                -73.4412387,
+                40.735915
+              ],
+              [
+                -73.3580658,
+                40.754801
+              ]
+            ]
+          },
+          "originTime": 30000,
+          "destTime": 31140,
+          "originStopId": "east_of_hudson:lirr213",
+          "originStopName": "Westbury",
+          "destStopId": "east_of_hudson:lirr220",
+          "destStopName": "Wyandanch",
+          "cumulativeFare": 325,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": {
+              "value": 0,
+              "number": 0,
+              "expirationTime": 0,
+              "cumulativeFare": 325,
+              "boardStop": "LIRR213",
+              "viaStop": null,
+              "alightStop": "LIRR220",
+              "initialDirection": "OUTBOUND",
+              "peakBeforeDirectionChange": false,
+              "peakAfterDirectionChange": false,
+              "mostRecentTicketPurchaseTime": 30000,
+              "maxTransferAllowance": 4350
+            },
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 36955,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "default",
+            "agency_name": "default",
+            "route_id": "lirr4_offpeak",
+            "route_short_name": null,
+            "route_long_name": "Ronkonkoma (offpeak)",
+            "route_type": 2,
+            "color": "A626AA",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.754801,
+          "originLon": -73.3580658,
+          "destLat": 40.753724,
+          "destLon": -73.357263,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.3580658,
+                40.754801
+              ],
+              [
+                -73.357263,
+                40.753724
+              ]
+            ]
+          },
+          "originTime": 31140,
+          "destTime": 31278,
+          "originStopId": "east_of_hudson:lirr220",
+          "originStopName": "Wyandanch",
+          "destStopId": "east_of_hudson:suffolk_260:1",
+          "destStopName": "Grand Blvd/Doe St",
+          "cumulativeFare": 325,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 36955,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.753724,
+          "originLon": -73.357263,
+          "destLat": 40.754296,
+          "destLon": -73.3598619,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.357263,
+                40.753724
+              ],
+              [
+                -73.3598619,
+                40.754296
+              ]
+            ]
+          },
+          "originTime": 31440,
+          "destTime": 31500,
+          "originStopId": "east_of_hudson:suffolk_260:1",
+          "originStopName": "Grand Blvd/Doe St",
+          "destStopId": "east_of_hudson:suffolk_259:1",
+          "destStopName": "Wyandanch LIRR",
+          "cumulativeFare": 550,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "SUFFOLK",
+            "metrocardTransferExpiry": 36955,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "suffolk_SCT",
+            "agency_name": "Suffolk County Transit",
+            "route_id": "suffolk_S23",
+            "route_short_name": "S23",
+            "route_long_name": "Babylon RR - Walt Whitman Mall",
+            "route_type": 3,
+            "color": "0",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.754296,
+          "originLon": -73.3598619,
+          "destLat": 40.754801,
+          "destLon": -73.3580658,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.3598619,
+                40.754296
+              ],
+              [
+                -73.3580658,
+                40.754801
+              ]
+            ]
+          },
+          "originTime": 31500,
+          "destTime": 31639,
+          "originStopId": "east_of_hudson:suffolk_259:1",
+          "originStopName": "Wyandanch LIRR",
+          "destStopId": "east_of_hudson:lirr220",
+          "destStopName": "Wyandanch",
+          "cumulativeFare": 550,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "SUFFOLK",
+            "metrocardTransferExpiry": 36955,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.754801,
+          "originLon": -73.3580658,
+          "destLat": 40.6996081,
+          "destLon": -73.8085298,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.3580658,
+                40.754801
+              ],
+              [
+                -73.4412387,
+                40.735915
+              ],
+              [
+                -73.4412387,
+                40.735915
+              ],
+              [
+                -73.4834382,
+                40.7430392
+              ],
+              [
+                -73.4834382,
+                40.7430392
+              ],
+              [
+                -73.5285332,
+                40.7671749
+              ],
+              [
+                -73.5285332,
+                40.7671749
+              ],
+              [
+                -73.5858661,
+                40.7534538
+              ],
+              [
+                -73.5858661,
+                40.7534538
+              ],
+              [
+                -73.6408629,
+                40.7403474
+              ],
+              [
+                -73.6408629,
+                40.7403474
+              ],
+              [
+                -73.6625214,
+                40.735169
+              ],
+              [
+                -73.6625214,
+                40.735169
+              ],
+              [
+                -73.6809588,
+                40.730757
+              ],
+              [
+                -73.6809588,
+                40.730757
+              ],
+              [
+                -73.8085298,
+                40.6996081
+              ]
+            ]
+          },
+          "originTime": 31860,
+          "destTime": 34440,
+          "originStopId": "east_of_hudson:lirr220",
+          "originStopName": "Wyandanch",
+          "destStopId": "east_of_hudson:lirr102",
+          "destStopName": "Jamaica",
+          "cumulativeFare": 1775,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": {
+              "value": 0,
+              "number": 0,
+              "expirationTime": 0,
+              "cumulativeFare": 1225,
+              "boardStop": "LIRR220",
+              "viaStop": null,
+              "alightStop": "LIRR102",
+              "initialDirection": "INBOUND",
+              "peakBeforeDirectionChange": true,
+              "peakAfterDirectionChange": false,
+              "mostRecentTicketPurchaseTime": 31860,
+              "maxTransferAllowance": 4350
+            },
+            "metrocardTransferSource": "SUFFOLK",
+            "metrocardTransferExpiry": 36955,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "default",
+            "agency_name": "default",
+            "route_id": "lirr4_peak",
+            "route_short_name": null,
+            "route_long_name": "Ronkonkoma (peak)",
+            "route_type": 2,
+            "color": "A626AA",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.6996081,
+          "originLon": -73.8085298,
+          "destLat": 40.6911834,
+          "destLon": -73.7655093,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.8085298,
+                40.6996081
+              ],
+              [
+                -73.7655093,
+                40.6911834
+              ]
+            ]
+          },
+          "originTime": 34920,
+          "destTime": 35280,
+          "originStopId": "east_of_hudson:lirr102",
+          "originStopName": "Jamaica",
+          "destStopId": "east_of_hudson:lirr184",
+          "destStopName": "St. Albans",
+          "cumulativeFare": 1850,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": {
+              "value": 0,
+              "number": 0,
+              "expirationTime": 0,
+              "cumulativeFare": 1300,
+              "boardStop": "LIRR220",
+              "viaStop": "LIRR102",
+              "alightStop": "LIRR184",
+              "initialDirection": "INBOUND",
+              "peakBeforeDirectionChange": true,
+              "peakAfterDirectionChange": false,
+              "mostRecentTicketPurchaseTime": 31860,
+              "maxTransferAllowance": 4350
+            },
+            "metrocardTransferSource": "SUFFOLK",
             "metrocardTransferExpiry": 36955,
             "inSubwayPaidArea": false,
             "metroNorthBoardStop": -1,
@@ -3859,7 +4560,7 @@
           "destStopName": "Mineola",
           "cumulativeFare": 325,
           "transferAllowance": {
-            "value": 4350,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": {
@@ -3922,7 +4623,7 @@
           "destStopName": "Mineola Intermodal Center",
           "cumulativeFare": 325,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -4418,7 +5119,7 @@
           "destStopName": "179 St Subway",
           "cumulativeFare": 600,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -4468,7 +5169,7 @@
           "destStopName": "LIBERTY AV/177 ST",
           "cumulativeFare": 600,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -4580,7 +5281,7 @@
           "destStopName": "111 AV/177 ST",
           "cumulativeFare": 600,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -4645,7 +5346,7 @@
           "destStopName": "Mineola",
           "cumulativeFare": 325,
           "transferAllowance": {
-            "value": 4350,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": {
@@ -4708,7 +5409,7 @@
           "destStopName": "Mineola Intermodal Center",
           "cumulativeFare": 325,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -4972,7 +5673,7 @@
           "destStopName": "Hillside Ave + 268th St",
           "cumulativeFare": 600,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -5022,7 +5723,7 @@
           "destStopName": "HILLSIDE AV/268 ST",
           "cumulativeFare": 600,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -5134,7 +5835,7 @@
           "destStopName": "HILLSIDE AV/187 ST",
           "cumulativeFare": 975,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -5184,7 +5885,7 @@
           "destStopName": "HILLSIDE AV/187 ST",
           "cumulativeFare": 975,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -5328,7 +6029,7 @@
           "destStopName": "FARMERS BL/LINDEN BL",
           "cumulativeFare": 1250,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -5609,7 +6310,7 @@
           "destStopName": "179 St Subway",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -5659,7 +6360,7 @@
           "destStopName": "LIBERTY AV/177 ST",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -5771,7 +6472,7 @@
           "destStopName": "MURDOCK AV/FARMERS BL",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -5836,7 +6537,7 @@
           "destStopName": "Mineola",
           "cumulativeFare": 325,
           "transferAllowance": {
-            "value": 4350,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": {
@@ -5899,7 +6600,7 @@
           "destStopName": "Mineola Intermodal Center",
           "cumulativeFare": 325,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -6299,7 +7000,7 @@
           "destStopName": "Springfield Blvd & Hillside",
           "cumulativeFare": 600,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -6349,7 +7050,7 @@
           "destStopName": "SPRINGFIELD BL/HILLSIDE AV",
           "cumulativeFare": 600,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -6517,7 +7218,7 @@
           "destStopName": "SPRINGFIELD BL/MURDOCK AV",
           "cumulativeFare": 600,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -6567,7 +7268,7 @@
           "destStopName": "MURDOCK AV/SPRINGFIELD BL",
           "cumulativeFare": 600,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -6687,7 +7388,7 @@
           "destStopName": "MURDOCK AV/FARMERS BL",
           "cumulativeFare": 875,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -6714,7 +7415,7 @@
       ]
     }
   ],
-  "computeTimeMillis": 1637,
+  "computeTimeMillis": 1782,
   "backendVersion": {
     "version": "UNKNOWN",
     "commit": "UNKNOWN",
@@ -6723,5 +7424,5 @@
     "buildHost": "UNKNOWN",
     "buildTime": "UNKNOWN"
   },
-  "generationTime": "2020-06-21T23:17:35.509266"
+  "generationTime": "2020-06-21T23:41:00.179623"
 }

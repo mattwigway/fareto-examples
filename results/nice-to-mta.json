@@ -98,7 +98,7 @@
           "destStopName": "Jamaica",
           "cumulativeFare": 825,
           "transferAllowance": {
-            "value": 4350,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": {
@@ -161,7 +161,7 @@
           "destStopName": "SUTPHIN BL/JAMAICA AV",
           "cumulativeFare": 825,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -281,7 +281,7 @@
           "destStopName": "MAIN ST/KISSENA BL",
           "cumulativeFare": 1100,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -331,7 +331,7 @@
           "destStopName": "MAIN ST/ROOSEVELT AV",
           "cumulativeFare": 1100,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -435,7 +435,7 @@
           "destStopName": "127 ST/20 AV",
           "cumulativeFare": 1100,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -485,7 +485,7 @@
           "destStopName": "20 AV/127 ST",
           "cumulativeFare": 1100,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -549,7 +549,7 @@
           "destStopName": "15 AV/COLLEGE PT BL",
           "cumulativeFare": 1375,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -638,7 +638,7 @@
           "destStopName": "Archer Ave + Parsons Blvd",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -688,7 +688,7 @@
           "destStopName": "PARSONS BL/JAMAICA AV",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1088,7 +1088,7 @@
           "destStopName": "14 AVE/119 ST",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1169,7 +1169,7 @@
           "destStopName": "Jamaica",
           "cumulativeFare": 825,
           "transferAllowance": {
-            "value": 4350,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": {
@@ -1232,7 +1232,7 @@
           "destStopName": "SUTPHIN BL/94 AV",
           "cumulativeFare": 825,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1456,7 +1456,7 @@
           "destStopName": "14 AVE/119 ST",
           "cumulativeFare": 1100,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1545,7 +1545,7 @@
           "destStopName": "Archer Ave + Parsons Blvd",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1595,7 +1595,7 @@
           "destStopName": "PARSONS BL/JAMAICA AV",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1723,7 +1723,7 @@
           "destStopName": "KISSENA BL/SANFORD AV",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1877,7 +1877,7 @@
           "destStopName": "14 AVE/119 ST",
           "cumulativeFare": 550,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1958,7 +1958,7 @@
           "destStopName": "Jamaica",
           "cumulativeFare": 825,
           "transferAllowance": {
-            "value": 4350,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": {
@@ -2021,7 +2021,7 @@
           "destStopName": "SUTPHIN BL/JAMAICA AV",
           "cumulativeFare": 825,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2141,7 +2141,7 @@
           "destStopName": "MAIN ST/KISSENA BL",
           "cumulativeFare": 1100,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2191,7 +2191,7 @@
           "destStopName": "MAIN ST/ROOSEVELT AV",
           "cumulativeFare": 1100,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2295,7 +2295,7 @@
           "destStopName": "14 AVE/119 ST",
           "cumulativeFare": 1100,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2322,7 +2322,7 @@
       ]
     }
   ],
-  "computeTimeMillis": 2698,
+  "computeTimeMillis": 3194,
   "backendVersion": {
     "version": "UNKNOWN",
     "commit": "UNKNOWN",
@@ -2331,5 +2331,5 @@
     "buildHost": "UNKNOWN",
     "buildTime": "UNKNOWN"
   },
-  "generationTime": "2020-06-21T23:17:21.694121"
+  "generationTime": "2020-06-21T23:40:43.129704"
 }

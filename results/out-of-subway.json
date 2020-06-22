@@ -130,7 +130,7 @@
           "destStopName": "Broadway Jct",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -180,7 +180,7 @@
           "destStopName": "Broadway Jct",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -276,7 +276,7 @@
           "destStopName": "Bowery",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -297,6 +297,355 @@
             "route_type": 1,
             "color": "996633",
             "agency_url": "http://web.mta.info/nyct/service/pdf/tjcur.pdf"
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 4332,
+      "departureTime": 30355,
+      "fare": 950,
+      "legs": [
+        {
+          "originLat": 40.685951,
+          "originLon": -73.8257979,
+          "destLat": 40.7101969,
+          "destLon": -74.007691,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.8257979,
+                40.685951
+              ],
+              [
+                -73.832163,
+                40.684331
+              ],
+              [
+                -73.832163,
+                40.684331
+              ],
+              [
+                -73.837683,
+                40.681711
+              ],
+              [
+                -73.837683,
+                40.681711
+              ],
+              [
+                -73.843853,
+                40.6804289
+              ],
+              [
+                -73.843853,
+                40.6804289
+              ],
+              [
+                -73.8514699,
+                40.679843
+              ],
+              [
+                -73.8514699,
+                40.679843
+              ],
+              [
+                -73.858992,
+                40.679371
+              ],
+              [
+                -73.858992,
+                40.679371
+              ],
+              [
+                -73.86505,
+                40.677044
+              ],
+              [
+                -73.86505,
+                40.677044
+              ],
+              [
+                -73.872106,
+                40.675377
+              ],
+              [
+                -73.872106,
+                40.675377
+              ],
+              [
+                -73.905316,
+                40.678334
+              ],
+              [
+                -73.905316,
+                40.678334
+              ],
+              [
+                -73.930729,
+                40.679364
+              ],
+              [
+                -73.930729,
+                40.679364
+              ],
+              [
+                -73.950426,
+                40.680438
+              ],
+              [
+                -73.950426,
+                40.680438
+              ],
+              [
+                -73.985001,
+                40.688484
+              ],
+              [
+                -73.985001,
+                40.688484
+              ],
+              [
+                -73.987342,
+                40.692338
+              ],
+              [
+                -73.987342,
+                40.692338
+              ],
+              [
+                -73.990531,
+                40.699337
+              ],
+              [
+                -73.990531,
+                40.699337
+              ],
+              [
+                -74.007691,
+                40.7101969
+              ]
+            ]
+          },
+          "originTime": 30660,
+          "destTime": 32880,
+          "originStopId": "east_of_hudson:nyct_subway_A65N",
+          "originStopName": "Ozone Park - Lefferts Blvd",
+          "destStopId": "east_of_hudson:nyct_subway_A38N",
+          "destStopName": "Fulton St",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 37555,
+            "inSubwayPaidArea": true,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nyct_subway_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "nyct_subway_A",
+            "route_short_name": "A",
+            "route_long_name": "8 Avenue Express",
+            "route_type": 1,
+            "color": "2850AD",
+            "agency_url": "http://web.mta.info/nyct/service/pdf/tacur.pdf"
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.7101969,
+          "originLon": -74.007691,
+          "destLat": 40.711864,
+          "destLon": -74.005932,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.007691,
+                40.7101969
+              ],
+              [
+                -74.005932,
+                40.711864
+              ]
+            ]
+          },
+          "originTime": 32880,
+          "destTime": 33070,
+          "originStopId": "east_of_hudson:nyct_subway_A38N",
+          "originStopName": "Fulton St",
+          "destStopId": "east_of_hudson:bus-manhattan_402082",
+          "destStopName": "PARK ROW/SPRUCE ST",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 37555,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.711864,
+          "originLon": -74.005932,
+          "destLat": 40.709555,
+          "destLon": -74.001873,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.005932,
+                40.711864
+              ],
+              [
+                -74.004401,
+                40.711388
+              ],
+              [
+                -74.004401,
+                40.711388
+              ],
+              [
+                -74.001873,
+                40.709555
+              ]
+            ]
+          },
+          "originTime": 33240,
+          "destTime": 33447,
+          "originStopId": "east_of_hudson:bus-manhattan_402082",
+          "originStopName": "PARK ROW/SPRUCE ST",
+          "destStopId": "east_of_hudson:bus-manhattan_402085",
+          "destStopName": "FRANKFORT ST/PEARL ST",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 37555,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-manhattan_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "bus-manhattan_M22",
+            "route_short_name": "M22",
+            "route_long_name": "Lower East Side - Battery Park City",
+            "route_type": 3,
+            "color": "00AEEF",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.709555,
+          "originLon": -74.001873,
+          "destLat": 40.7098609,
+          "destLon": -74.00223,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.001873,
+                40.709555
+              ],
+              [
+                -74.00223,
+                40.7098609
+              ]
+            ]
+          },
+          "originTime": 33447,
+          "destTime": 33482,
+          "originStopId": "east_of_hudson:bus-manhattan_402085",
+          "originStopName": "FRANKFORT ST/PEARL ST",
+          "destStopId": "east_of_hudson:bus-busco_981004",
+          "destStopName": "FRANKFORT ST / PEARL ST",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 37555,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.7098609,
+          "originLon": -74.00223,
+          "destLat": 40.708771,
+          "destLon": -74.0027569,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.00223,
+                40.7098609
+              ],
+              [
+                -74.0027569,
+                40.708771
+              ]
+            ]
+          },
+          "originTime": 33575,
+          "destTime": 33660,
+          "originStopId": "east_of_hudson:bus-busco_981004",
+          "originStopName": "FRANKFORT ST / PEARL ST",
+          "destStopId": "east_of_hudson:bus-busco_403293",
+          "destStopName": "PEARL ST / PECK SLIP",
+          "cumulativeFare": 950,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_EXPRESS_BUS",
+            "metrocardTransferExpiry": 37555,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-busco_MTABC",
+            "agency_name": "MTA Bus Company",
+            "route_id": "bus-busco_BM1",
+            "route_short_name": "BM1",
+            "route_long_name": "Mill Basin - Downtown/Midtown",
+            "route_type": 3,
+            "color": "00933C",
+            "agency_url": "http://web.mta.info/busco/schedules/bm001cur.pdf"
           },
           "type": "transit"
         }
@@ -413,7 +762,7 @@
           "destStopName": "Hoyt - Schermerhorn Sts",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -463,7 +812,7 @@
           "destStopName": "DeKalb Av",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -503,7 +852,7 @@
           "destStopName": "Grand St",
           "cumulativeFare": 550,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -524,6 +873,363 @@
             "route_type": 1,
             "color": "FF6319",
             "agency_url": "http://web.mta.info/nyct/service/pdf/tbcur.pdf"
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 4155,
+      "departureTime": 30355,
+      "fare": 1325,
+      "legs": [
+        {
+          "originLat": 40.685951,
+          "originLon": -73.8257979,
+          "destLat": 40.7141109,
+          "destLon": -74.008585,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.8257979,
+                40.685951
+              ],
+              [
+                -73.832163,
+                40.684331
+              ],
+              [
+                -73.832163,
+                40.684331
+              ],
+              [
+                -73.837683,
+                40.681711
+              ],
+              [
+                -73.837683,
+                40.681711
+              ],
+              [
+                -73.843853,
+                40.6804289
+              ],
+              [
+                -73.843853,
+                40.6804289
+              ],
+              [
+                -73.8514699,
+                40.679843
+              ],
+              [
+                -73.8514699,
+                40.679843
+              ],
+              [
+                -73.858992,
+                40.679371
+              ],
+              [
+                -73.858992,
+                40.679371
+              ],
+              [
+                -73.86505,
+                40.677044
+              ],
+              [
+                -73.86505,
+                40.677044
+              ],
+              [
+                -73.872106,
+                40.675377
+              ],
+              [
+                -73.872106,
+                40.675377
+              ],
+              [
+                -73.905316,
+                40.678334
+              ],
+              [
+                -73.905316,
+                40.678334
+              ],
+              [
+                -73.930729,
+                40.679364
+              ],
+              [
+                -73.930729,
+                40.679364
+              ],
+              [
+                -73.950426,
+                40.680438
+              ],
+              [
+                -73.950426,
+                40.680438
+              ],
+              [
+                -73.985001,
+                40.688484
+              ],
+              [
+                -73.985001,
+                40.688484
+              ],
+              [
+                -73.987342,
+                40.692338
+              ],
+              [
+                -73.987342,
+                40.692338
+              ],
+              [
+                -73.990531,
+                40.699337
+              ],
+              [
+                -73.990531,
+                40.699337
+              ],
+              [
+                -74.007691,
+                40.7101969
+              ],
+              [
+                -74.007691,
+                40.7101969
+              ],
+              [
+                -74.008585,
+                40.7141109
+              ]
+            ]
+          },
+          "originTime": 30660,
+          "destTime": 33000,
+          "originStopId": "east_of_hudson:nyct_subway_A65N",
+          "originStopName": "Ozone Park - Lefferts Blvd",
+          "destStopId": "east_of_hudson:nyct_subway_A36N",
+          "destStopName": "Chambers St",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 37555,
+            "inSubwayPaidArea": true,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nyct_subway_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "nyct_subway_A",
+            "route_short_name": "A",
+            "route_long_name": "8 Avenue Express",
+            "route_type": 1,
+            "color": "2850AD",
+            "agency_url": "http://web.mta.info/nyct/service/pdf/tacur.pdf"
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.7141109,
+          "originLon": -74.008585,
+          "destLat": 40.7134239,
+          "destLon": -74.0090089,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.008585,
+                40.7141109
+              ],
+              [
+                -74.0090089,
+                40.7134239
+              ]
+            ]
+          },
+          "originTime": 33000,
+          "destTime": 33064,
+          "originStopId": "east_of_hudson:nyct_subway_A36N",
+          "originStopName": "Chambers St",
+          "destStopId": "east_of_hudson:bus-brooklyn_404890",
+          "destStopName": "CHURCH ST/PARK PL",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 37555,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.7134239,
+          "originLon": -74.0090089,
+          "destLat": 40.715045,
+          "destLon": -74.007712,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.0090089,
+                40.7134239
+              ],
+              [
+                -74.007712,
+                40.715045
+              ]
+            ]
+          },
+          "originTime": 33205,
+          "destTime": 33320,
+          "originStopId": "east_of_hudson:bus-brooklyn_404890",
+          "originStopName": "CHURCH ST/PARK PL",
+          "destStopId": "east_of_hudson:bus-brooklyn_404891",
+          "destStopName": "CHURCH ST/CHAMBERS ST",
+          "cumulativeFare": 650,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 37555,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-brooklyn_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "bus-brooklyn_X28",
+            "route_short_name": "X28",
+            "route_long_name": "Sea Gate / Bensonhurst - Manhattan Express",
+            "route_type": 3,
+            "color": "00933C",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.715045,
+          "originLon": -74.007712,
+          "destLat": 40.715045,
+          "destLon": -74.007712,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.007712,
+                40.715045
+              ],
+              [
+                -74.007712,
+                40.715045
+              ]
+            ]
+          },
+          "originTime": 33320,
+          "destTime": 33344,
+          "originStopId": "east_of_hudson:bus-brooklyn_404891",
+          "originStopName": "CHURCH ST/CHAMBERS ST",
+          "destStopId": "east_of_hudson:bus-si_404891",
+          "destStopName": "CHURCH ST/CHAMBERS ST",
+          "cumulativeFare": 650,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 37555,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.715045,
+          "originLon": -74.007712,
+          "destLat": 40.720728,
+          "destLon": -74.005199,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.007712,
+                40.715045
+              ],
+              [
+                -74.006421,
+                40.716678
+              ],
+              [
+                -74.006421,
+                40.716678
+              ],
+              [
+                -74.005199,
+                40.720728
+              ]
+            ]
+          },
+          "originTime": 33475,
+          "destTime": 33642,
+          "originStopId": "east_of_hudson:bus-si_404891",
+          "originStopName": "CHURCH ST/CHAMBERS ST",
+          "destStopId": "east_of_hudson:bus-si_404883",
+          "destStopName": "AV OF THE AMERICAS/W BROADWAY",
+          "cumulativeFare": 1325,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_EXPRESS_BUS",
+            "metrocardTransferExpiry": 37555,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-si_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "bus-si_SIM1",
+            "route_short_name": "SIM1",
+            "route_long_name": "Staten Island - Lower Manhattan Express",
+            "route_type": 3,
+            "color": "00933C",
+            "agency_url": null
           },
           "type": "transit"
         }
@@ -648,7 +1354,7 @@
           "destStopName": "Jay St - MetroTech",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -706,7 +1412,7 @@
           "destStopName": "East Broadway",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -756,7 +1462,7 @@
           "destStopName": "ESSEX ST/ E BROADWAY",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -796,7 +1502,7 @@
           "destStopName": "E BROADWAY/PIKE ST",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -846,7 +1552,7 @@
           "destStopName": "PIKE ST/DIVISION ST",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -886,7 +1592,7 @@
           "destStopName": "ALLEN ST/GRAND ST",
           "cumulativeFare": 550,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -913,7 +1619,7 @@
       ]
     }
   ],
-  "computeTimeMillis": 2681,
+  "computeTimeMillis": 2442,
   "backendVersion": {
     "version": "UNKNOWN",
     "commit": "UNKNOWN",
@@ -922,5 +1628,5 @@
     "buildHost": "UNKNOWN",
     "buildTime": "UNKNOWN"
   },
-  "generationTime": "2020-06-21T23:17:04.564048"
+  "generationTime": "2020-06-21T23:40:25.471461"
 }

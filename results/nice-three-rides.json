@@ -178,7 +178,7 @@
           "destStopName": "Hicksville LIRR Station",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -580,7 +580,7 @@
           "destStopName": "Front St + Clinton St",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -630,7 +630,7 @@
           "destStopName": "Main St + Front St",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -670,7 +670,7 @@
           "destStopName": "Main St + Fulton Ave",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -720,7 +720,7 @@
           "destStopName": "Fulton St & Terrace Ave",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -960,7 +960,7 @@
           "destStopName": "Hempstead Tpke Opp Sewanee Ave",
           "cumulativeFare": 550,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1121,7 +1121,7 @@
           "destStopName": "Hicksville LIRR Station",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1531,7 +1531,7 @@
           "destStopName": "Hempstead Transit Center",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1581,7 +1581,7 @@
           "destStopName": "Jackson St & Station Plz",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1645,7 +1645,7 @@
           "destStopName": "Hempstead Tpke & Elmont Rd",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1806,7 +1806,7 @@
           "destStopName": "Hicksville LIRR Station",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1856,7 +1856,7 @@
           "destStopName": "Hicksville",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1928,7 +1928,7 @@
           "destStopName": "New Hyde Park",
           "cumulativeFare": 600,
           "transferAllowance": {
-            "value": 4350,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": {
@@ -1991,7 +1991,7 @@
           "destStopName": "New Hyde Park Rd +2nd Ave",
           "cumulativeFare": 600,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2103,7 +2103,7 @@
           "destStopName": "Franklin Ave + Hempstead Tpke",
           "cumulativeFare": 875,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2153,7 +2153,7 @@
           "destStopName": "Hempstead Tpke & New Hyde Park Rd",
           "cumulativeFare": 875,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2201,7 +2201,7 @@
           "destStopName": "Hempstead Tpke & Elmont Rd",
           "cumulativeFare": 875,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2228,7 +2228,7 @@
       ]
     }
   ],
-  "computeTimeMillis": 327,
+  "computeTimeMillis": 277,
   "backendVersion": {
     "version": "UNKNOWN",
     "commit": "UNKNOWN",
@@ -2237,5 +2237,5 @@
     "buildHost": "UNKNOWN",
     "buildTime": "UNKNOWN"
   },
-  "generationTime": "2020-06-21T23:17:18.97039"
+  "generationTime": "2020-06-21T23:40:39.9084"
 }

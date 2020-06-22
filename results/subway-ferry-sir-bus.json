@@ -146,7 +146,7 @@
           "destStopName": "South Ferry",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -196,7 +196,7 @@
           "destStopName": "Whitehall Ferry Terminal",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -236,7 +236,7 @@
           "destStopName": "St. George Ferry Terminal",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -286,7 +286,7 @@
           "destStopName": "St George",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -350,7 +350,7 @@
           "destStopName": "Huguenot",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 275,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -400,7 +400,7 @@
           "destStopName": "AMBOY RD/KINGDOM AV",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 275,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -480,7 +480,7 @@
           "destStopName": "ANNADALE RD/ARDEN AV",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -609,7 +609,7 @@
           "destStopName": "South Ferry",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -659,7 +659,7 @@
           "destStopName": "Whitehall Ferry Terminal",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -699,7 +699,7 @@
           "destStopName": "St. George Ferry Terminal",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -749,7 +749,7 @@
           "destStopName": "St George",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -813,7 +813,7 @@
           "destStopName": "Huguenot",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 275,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -863,7 +863,7 @@
           "destStopName": "HUGUENOT AV/DRUMGOOLE RD E",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 275,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -927,7 +927,7 @@
           "destStopName": "ARDEN AV/WOODROW RD",
           "cumulativeFare": 950,
           "transferAllowance": {
-            "value": 275,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1128,7 +1128,7 @@
           "destStopName": "N GANNON AV/BRADLEY AV",
           "cumulativeFare": 675,
           "transferAllowance": {
-            "value": 275,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1178,7 +1178,7 @@
           "destStopName": "BRADLEY AV/N GANNON AV",
           "cumulativeFare": 675,
           "transferAllowance": {
-            "value": 275,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1362,7 +1362,7 @@
           "destStopName": "MARSH AV/RING RD",
           "cumulativeFare": 675,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1412,7 +1412,7 @@
           "destStopName": "MARSH AV/RING RD",
           "cumulativeFare": 675,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1604,7 +1604,7 @@
           "destStopName": "WOODROW RD/ALMOND ST",
           "cumulativeFare": 950,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1685,7 +1685,7 @@
           "destStopName": "E 23 ST/BROADWAY",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1735,7 +1735,7 @@
           "destStopName": "E 23 ST/BROADWAY",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1919,7 +1919,7 @@
           "destStopName": "N GANNON AV/BRADLEY AV",
           "cumulativeFare": 650,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1969,7 +1969,7 @@
           "destStopName": "BRADLEY AV/N GANNON AV",
           "cumulativeFare": 650,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2153,7 +2153,7 @@
           "destStopName": "MARSH AV/RING RD",
           "cumulativeFare": 925,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2203,7 +2203,7 @@
           "destStopName": "MARSH AV/RING RD",
           "cumulativeFare": 925,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2395,7 +2395,7 @@
           "destStopName": "WOODROW RD/ALMOND ST",
           "cumulativeFare": 925,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2422,7 +2422,7 @@
       ]
     }
   ],
-  "computeTimeMillis": 2961,
+  "computeTimeMillis": 2824,
   "backendVersion": {
     "version": "UNKNOWN",
     "commit": "UNKNOWN",
@@ -2431,5 +2431,5 @@
     "buildHost": "UNKNOWN",
     "buildTime": "UNKNOWN"
   },
-  "generationTime": "2020-06-21T23:17:15.666712"
+  "generationTime": "2020-06-21T23:40:36.800906"
 }

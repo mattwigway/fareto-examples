@@ -154,7 +154,7 @@
           "destStopName": "Jefferson Av",
           "cumulativeFare": 0,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -275,7 +275,7 @@
           "destStopName": "New Dorp",
           "cumulativeFare": 0,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -325,7 +325,7 @@
           "destStopName": "RICHMOND RD/NEW DORP LA",
           "cumulativeFare": 0,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -421,7 +421,7 @@
           "destStopName": "RICHMOND RD/HULL AV",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -446,9 +446,1108 @@
           "type": "transit"
         }
       ]
+    },
+    {
+      "durationSeconds": 5811,
+      "departureTime": 40675,
+      "fare": 550,
+      "legs": [
+        {
+          "originLat": 40.5196309,
+          "originLon": -74.229141,
+          "destLat": 40.6437479,
+          "destLon": -74.073643,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.229141,
+                40.5196309
+              ],
+              [
+                -74.2178469,
+                40.52241
+              ],
+              [
+                -74.2178469,
+                40.52241
+              ],
+              [
+                -74.200064,
+                40.525507
+              ],
+              [
+                -74.200064,
+                40.525507
+              ],
+              [
+                -74.1917939,
+                40.533674
+              ],
+              [
+                -74.1917939,
+                40.533674
+              ],
+              [
+                -74.178217,
+                40.5404599
+              ],
+              [
+                -74.178217,
+                40.5404599
+              ],
+              [
+                -74.16457,
+                40.544601
+              ],
+              [
+                -74.16457,
+                40.544601
+              ],
+              [
+                -74.151399,
+                40.551231
+              ],
+              [
+                -74.151399,
+                40.551231
+              ],
+              [
+                -74.1369069,
+                40.5563999
+              ],
+              [
+                -74.1369069,
+                40.5563999
+              ],
+              [
+                -74.1263199,
+                40.56511
+              ],
+              [
+                -74.1263199,
+                40.56511
+              ],
+              [
+                -74.11721,
+                40.5734799
+              ],
+              [
+                -74.11721,
+                40.5734799
+              ],
+              [
+                -74.109704,
+                40.578965
+              ],
+              [
+                -74.109704,
+                40.578965
+              ],
+              [
+                -74.1033379,
+                40.583591
+              ],
+              [
+                -74.1033379,
+                40.583591
+              ],
+              [
+                -74.09609,
+                40.5888489
+              ],
+              [
+                -74.09609,
+                40.5888489
+              ],
+              [
+                -74.087368,
+                40.596612
+              ],
+              [
+                -74.087368,
+                40.596612
+              ],
+              [
+                -74.084087,
+                40.603117
+              ],
+              [
+                -74.084087,
+                40.603117
+              ],
+              [
+                -74.071402,
+                40.621319
+              ],
+              [
+                -74.071402,
+                40.621319
+              ],
+              [
+                -74.075162,
+                40.627915
+              ],
+              [
+                -74.075162,
+                40.627915
+              ],
+              [
+                -74.0748349,
+                40.636949
+              ],
+              [
+                -74.0748349,
+                40.636949
+              ],
+              [
+                -74.073643,
+                40.6437479
+              ]
+            ]
+          },
+          "originTime": 41760,
+          "destTime": 43980,
+          "originStopId": "east_of_hudson:nyct_subway_S13N",
+          "originStopName": "Richmond Valley",
+          "destStopId": "east_of_hudson:nyct_subway_S31N",
+          "destStopName": "St George",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "STATEN_ISLAND_RWY",
+            "metrocardTransferExpiry": 47875,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nyct_subway_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "nyct_subway_SI",
+            "route_short_name": "SIR",
+            "route_long_name": "Staten Island Railway",
+            "route_type": 2,
+            "color": null,
+            "agency_url": "http://web.mta.info/nyct/service/pdf/sircur.pdf"
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.6437479,
+          "originLon": -74.073643,
+          "destLat": 40.6437479,
+          "destLon": -74.073643,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.073643,
+                40.6437479
+              ],
+              [
+                -74.073643,
+                40.6437479
+              ]
+            ]
+          },
+          "originTime": 43980,
+          "destTime": 44047,
+          "originStopId": "east_of_hudson:nyct_subway_S31N",
+          "originStopName": "St George",
+          "destStopId": "east_of_hudson:nyct_subway_S31S",
+          "destStopName": "St George",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "STATEN_ISLAND_RWY",
+            "metrocardTransferExpiry": 47875,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.6437479,
+          "originLon": -74.073643,
+          "destLat": 40.583591,
+          "destLon": -74.1033379,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.073643,
+                40.6437479
+              ],
+              [
+                -74.0748349,
+                40.636949
+              ],
+              [
+                -74.0748349,
+                40.636949
+              ],
+              [
+                -74.075162,
+                40.627915
+              ],
+              [
+                -74.075162,
+                40.627915
+              ],
+              [
+                -74.071402,
+                40.621319
+              ],
+              [
+                -74.071402,
+                40.621319
+              ],
+              [
+                -74.084087,
+                40.603117
+              ],
+              [
+                -74.084087,
+                40.603117
+              ],
+              [
+                -74.087368,
+                40.596612
+              ],
+              [
+                -74.087368,
+                40.596612
+              ],
+              [
+                -74.09609,
+                40.5888489
+              ],
+              [
+                -74.09609,
+                40.5888489
+              ],
+              [
+                -74.1033379,
+                40.583591
+              ]
+            ]
+          },
+          "originTime": 45360,
+          "destTime": 46320,
+          "originStopId": "east_of_hudson:nyct_subway_S31S",
+          "originStopName": "St George",
+          "destStopId": "east_of_hudson:nyct_subway_S24S",
+          "destStopName": "Jefferson Av",
+          "cumulativeFare": 550,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "STATEN_ISLAND_RWY",
+            "metrocardTransferExpiry": 47875,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nyct_subway_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "nyct_subway_SI",
+            "route_short_name": "SIR",
+            "route_long_name": "Staten Island Railway",
+            "route_type": 2,
+            "color": null,
+            "agency_url": "http://web.mta.info/nyct/service/pdf/sircur.pdf"
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 5811,
+      "departureTime": 40675,
+      "fare": 275,
+      "legs": [
+        {
+          "originLat": 40.5196309,
+          "originLon": -74.229141,
+          "destLat": 40.621319,
+          "destLon": -74.071402,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.229141,
+                40.5196309
+              ],
+              [
+                -74.2178469,
+                40.52241
+              ],
+              [
+                -74.2178469,
+                40.52241
+              ],
+              [
+                -74.200064,
+                40.525507
+              ],
+              [
+                -74.200064,
+                40.525507
+              ],
+              [
+                -74.1917939,
+                40.533674
+              ],
+              [
+                -74.1917939,
+                40.533674
+              ],
+              [
+                -74.178217,
+                40.5404599
+              ],
+              [
+                -74.178217,
+                40.5404599
+              ],
+              [
+                -74.16457,
+                40.544601
+              ],
+              [
+                -74.16457,
+                40.544601
+              ],
+              [
+                -74.151399,
+                40.551231
+              ],
+              [
+                -74.151399,
+                40.551231
+              ],
+              [
+                -74.1369069,
+                40.5563999
+              ],
+              [
+                -74.1369069,
+                40.5563999
+              ],
+              [
+                -74.1263199,
+                40.56511
+              ],
+              [
+                -74.1263199,
+                40.56511
+              ],
+              [
+                -74.11721,
+                40.5734799
+              ],
+              [
+                -74.11721,
+                40.5734799
+              ],
+              [
+                -74.109704,
+                40.578965
+              ],
+              [
+                -74.109704,
+                40.578965
+              ],
+              [
+                -74.1033379,
+                40.583591
+              ],
+              [
+                -74.1033379,
+                40.583591
+              ],
+              [
+                -74.09609,
+                40.5888489
+              ],
+              [
+                -74.09609,
+                40.5888489
+              ],
+              [
+                -74.087368,
+                40.596612
+              ],
+              [
+                -74.087368,
+                40.596612
+              ],
+              [
+                -74.084087,
+                40.603117
+              ],
+              [
+                -74.084087,
+                40.603117
+              ],
+              [
+                -74.071402,
+                40.621319
+              ]
+            ]
+          },
+          "originTime": 41760,
+          "destTime": 43560,
+          "originStopId": "east_of_hudson:nyct_subway_S13N",
+          "originStopName": "Richmond Valley",
+          "destStopId": "east_of_hudson:nyct_subway_S28N",
+          "destStopName": "Clifton",
+          "cumulativeFare": 0,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 47875,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nyct_subway_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "nyct_subway_SI",
+            "route_short_name": "SIR",
+            "route_long_name": "Staten Island Railway",
+            "route_type": 2,
+            "color": null,
+            "agency_url": "http://web.mta.info/nyct/service/pdf/sircur.pdf"
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.621319,
+          "originLon": -74.071402,
+          "destLat": 40.622858,
+          "destLon": -74.072748,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.071402,
+                40.621319
+              ],
+              [
+                -74.072748,
+                40.622858
+              ]
+            ]
+          },
+          "originTime": 43560,
+          "destTime": 43760,
+          "originStopId": "east_of_hudson:nyct_subway_S28N",
+          "originStopName": "Clifton",
+          "destStopId": "east_of_hudson:bus-si_200145",
+          "destStopName": "BAY ST/VANDERBILT AV",
+          "cumulativeFare": 0,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 47875,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.622858,
+          "originLon": -74.072748,
+          "destLat": 40.643576,
+          "destLon": -74.073131,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.072748,
+                40.622858
+              ],
+              [
+                -74.075064,
+                40.625914
+              ],
+              [
+                -74.075064,
+                40.625914
+              ],
+              [
+                -74.075818,
+                40.627083
+              ],
+              [
+                -74.075818,
+                40.627083
+              ],
+              [
+                -74.076382,
+                40.628477
+              ],
+              [
+                -74.076382,
+                40.628477
+              ],
+              [
+                -74.076621,
+                40.629791
+              ],
+              [
+                -74.076621,
+                40.629791
+              ],
+              [
+                -74.075799,
+                40.632084
+              ],
+              [
+                -74.075799,
+                40.632084
+              ],
+              [
+                -74.075137,
+                40.633278
+              ],
+              [
+                -74.075137,
+                40.633278
+              ],
+              [
+                -74.07573,
+                40.6358109
+              ],
+              [
+                -74.07573,
+                40.6358109
+              ],
+              [
+                -74.075956,
+                40.637518
+              ],
+              [
+                -74.075956,
+                40.637518
+              ],
+              [
+                -74.075477,
+                40.6395119
+              ],
+              [
+                -74.075477,
+                40.6395119
+              ],
+              [
+                -74.07533,
+                40.641958
+              ],
+              [
+                -74.07533,
+                40.641958
+              ],
+              [
+                -74.073131,
+                40.643576
+              ]
+            ]
+          },
+          "originTime": 43851,
+          "destTime": 44400,
+          "originStopId": "east_of_hudson:bus-si_200145",
+          "originStopName": "BAY ST/VANDERBILT AV",
+          "destStopId": "east_of_hudson:bus-si_805015",
+          "destStopName": "ST GEORGE FERRY/ST GEORGE FERRY",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_LOCAL_BUS",
+            "metrocardTransferExpiry": 47875,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-si_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "bus-si_S76",
+            "route_short_name": "S76",
+            "route_long_name": "St. George - Oakwood",
+            "route_type": 3,
+            "color": "B933AD",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.643576,
+          "originLon": -74.073131,
+          "destLat": 40.6437479,
+          "destLon": -74.073643,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.073131,
+                40.643576
+              ],
+              [
+                -74.073643,
+                40.6437479
+              ]
+            ]
+          },
+          "originTime": 44400,
+          "destTime": 44492,
+          "originStopId": "east_of_hudson:bus-si_805015",
+          "originStopName": "ST GEORGE FERRY/ST GEORGE FERRY",
+          "destStopId": "east_of_hudson:nyct_subway_S31S",
+          "destStopName": "St George",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_LOCAL_BUS",
+            "metrocardTransferExpiry": 47875,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.6437479,
+          "originLon": -74.073643,
+          "destLat": 40.583591,
+          "destLon": -74.1033379,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.073643,
+                40.6437479
+              ],
+              [
+                -74.0748349,
+                40.636949
+              ],
+              [
+                -74.0748349,
+                40.636949
+              ],
+              [
+                -74.075162,
+                40.627915
+              ],
+              [
+                -74.075162,
+                40.627915
+              ],
+              [
+                -74.071402,
+                40.621319
+              ],
+              [
+                -74.071402,
+                40.621319
+              ],
+              [
+                -74.084087,
+                40.603117
+              ],
+              [
+                -74.084087,
+                40.603117
+              ],
+              [
+                -74.087368,
+                40.596612
+              ],
+              [
+                -74.087368,
+                40.596612
+              ],
+              [
+                -74.09609,
+                40.5888489
+              ],
+              [
+                -74.09609,
+                40.5888489
+              ],
+              [
+                -74.1033379,
+                40.583591
+              ]
+            ]
+          },
+          "originTime": 45360,
+          "destTime": 46320,
+          "originStopId": "east_of_hudson:nyct_subway_S31S",
+          "originStopName": "St George",
+          "destStopId": "east_of_hudson:nyct_subway_S24S",
+          "destStopName": "Jefferson Av",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "LOCAL_BUS_TO_SIR",
+            "metrocardTransferExpiry": 47875,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nyct_subway_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "nyct_subway_SI",
+            "route_short_name": "SIR",
+            "route_long_name": "Staten Island Railway",
+            "route_type": 2,
+            "color": null,
+            "agency_url": "http://web.mta.info/nyct/service/pdf/sircur.pdf"
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 4031,
+      "departureTime": 40675,
+      "fare": 675,
+      "legs": [
+        {
+          "originLat": 40.5196309,
+          "originLon": -74.229141,
+          "destLat": 40.544601,
+          "destLon": -74.16457,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.229141,
+                40.5196309
+              ],
+              [
+                -74.2178469,
+                40.52241
+              ],
+              [
+                -74.2178469,
+                40.52241
+              ],
+              [
+                -74.200064,
+                40.525507
+              ],
+              [
+                -74.200064,
+                40.525507
+              ],
+              [
+                -74.1917939,
+                40.533674
+              ],
+              [
+                -74.1917939,
+                40.533674
+              ],
+              [
+                -74.178217,
+                40.5404599
+              ],
+              [
+                -74.178217,
+                40.5404599
+              ],
+              [
+                -74.16457,
+                40.544601
+              ]
+            ]
+          },
+          "originTime": 41760,
+          "destTime": 42360,
+          "originStopId": "east_of_hudson:nyct_subway_S13N",
+          "originStopName": "Richmond Valley",
+          "destStopId": "east_of_hudson:nyct_subway_S18N",
+          "destStopName": "Eltingville",
+          "cumulativeFare": 0,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 47875,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nyct_subway_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "nyct_subway_SI",
+            "route_short_name": "SIR",
+            "route_long_name": "Staten Island Railway",
+            "route_type": 2,
+            "color": null,
+            "agency_url": "http://web.mta.info/nyct/service/pdf/sircur.pdf"
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.544601,
+          "originLon": -74.16457,
+          "destLat": 40.544066,
+          "destLon": -74.1652,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.16457,
+                40.544601
+              ],
+              [
+                -74.1652,
+                40.544066
+              ]
+            ]
+          },
+          "originTime": 42360,
+          "destTime": 42520,
+          "originStopId": "east_of_hudson:nyct_subway_S18N",
+          "originStopName": "Eltingville",
+          "destStopId": "east_of_hudson:bus-si_200470",
+          "destStopName": "RICHMOND AV/ELTINGVILLE BL",
+          "cumulativeFare": 0,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 47875,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.544066,
+          "originLon": -74.1652,
+          "destLat": 40.581393,
+          "destLon": -74.098058,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.1652,
+                40.544066
+              ],
+              [
+                -74.159389,
+                40.53803
+              ],
+              [
+                -74.159389,
+                40.53803
+              ],
+              [
+                -74.155659,
+                40.535112
+              ],
+              [
+                -74.155659,
+                40.535112
+              ],
+              [
+                -74.149984,
+                40.537571
+              ],
+              [
+                -74.149984,
+                40.537571
+              ],
+              [
+                -74.145566,
+                40.542586
+              ],
+              [
+                -74.145566,
+                40.542586
+              ],
+              [
+                -74.142352,
+                40.5455679
+              ],
+              [
+                -74.142352,
+                40.5455679
+              ],
+              [
+                -74.136899,
+                40.5497469
+              ],
+              [
+                -74.136899,
+                40.5497469
+              ],
+              [
+                -74.132806,
+                40.552493
+              ],
+              [
+                -74.132806,
+                40.552493
+              ],
+              [
+                -74.127636,
+                40.556809
+              ],
+              [
+                -74.127636,
+                40.556809
+              ],
+              [
+                -74.12515,
+                40.5591
+              ],
+              [
+                -74.12515,
+                40.5591
+              ],
+              [
+                -74.119668,
+                40.560575
+              ],
+              [
+                -74.119668,
+                40.560575
+              ],
+              [
+                -74.114835,
+                40.565114
+              ],
+              [
+                -74.114835,
+                40.565114
+              ],
+              [
+                -74.113387,
+                40.566683
+              ],
+              [
+                -74.113387,
+                40.566683
+              ],
+              [
+                -74.109771,
+                40.570271
+              ],
+              [
+                -74.109771,
+                40.570271
+              ],
+              [
+                -74.103316,
+                40.576815
+              ],
+              [
+                -74.103316,
+                40.576815
+              ],
+              [
+                -74.098058,
+                40.581393
+              ]
+            ]
+          },
+          "originTime": 42835,
+          "destTime": 44133,
+          "originStopId": "east_of_hudson:bus-si_200470",
+          "originStopName": "RICHMOND AV/ELTINGVILLE BL",
+          "destStopId": "east_of_hudson:bus-si_201031",
+          "destStopName": "HYLAN BL/JEFFERSON AV",
+          "cumulativeFare": 675,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_EXPRESS_BUS",
+            "metrocardTransferExpiry": 47875,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-si_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "bus-si_SIM1C",
+            "route_short_name": "SIM1C",
+            "route_long_name": "Staten Island - Manhattan Express",
+            "route_type": 3,
+            "color": "00933C",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
     }
   ],
-  "computeTimeMillis": 254,
+  "computeTimeMillis": 255,
   "backendVersion": {
     "version": "UNKNOWN",
     "commit": "UNKNOWN",
@@ -457,5 +1556,5 @@
     "buildHost": "UNKNOWN",
     "buildTime": "UNKNOWN"
   },
-  "generationTime": "2020-06-21T23:17:09.710786"
+  "generationTime": "2020-06-21T23:40:29.768695"
 }

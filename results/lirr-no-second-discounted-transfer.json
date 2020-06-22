@@ -46,6 +46,519 @@
   },
   "trips": [
     {
+      "durationSeconds": 6257,
+      "departureTime": 25255,
+      "fare": 1675,
+      "legs": [
+        {
+          "originLat": 40.72513,
+          "originLon": -73.5231,
+          "destLat": 40.724722,
+          "destLon": -73.544203,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.5231,
+                40.72513
+              ],
+              [
+                -73.525212,
+                40.725012
+              ],
+              [
+                -73.525212,
+                40.725012
+              ],
+              [
+                -73.527981,
+                40.724874
+              ],
+              [
+                -73.527981,
+                40.724874
+              ],
+              [
+                -73.530343,
+                40.724755
+              ],
+              [
+                -73.530343,
+                40.724755
+              ],
+              [
+                -73.5344719,
+                40.7245469
+              ],
+              [
+                -73.5344719,
+                40.7245469
+              ],
+              [
+                -73.540189,
+                40.724475
+              ],
+              [
+                -73.540189,
+                40.724475
+              ],
+              [
+                -73.544203,
+                40.724722
+              ]
+            ]
+          },
+          "originTime": 26580,
+          "destTime": 27000,
+          "originStopId": "east_of_hudson:nice_3505",
+          "originStopName": "Hempstead Tpke at Tri-County Flea M",
+          "destStopId": "east_of_hudson:nice_2893",
+          "destStopName": "Hempstead Tpke + Newbridge Rd",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_NICE",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nice_LIBUS",
+            "agency_name": "Nassau Inter-County Express",
+            "route_id": "nice_n70",
+            "route_short_name": "n70",
+            "route_long_name": "Hempstead- SUNY Farmingdale",
+            "route_type": 3,
+            "color": "199DD3",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.724722,
+          "originLon": -73.544203,
+          "destLat": 40.724733,
+          "destLon": -73.543892,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.544203,
+                40.724722
+              ],
+              [
+                -73.543892,
+                40.724733
+              ]
+            ]
+          },
+          "originTime": 27000,
+          "destTime": 27037,
+          "originStopId": "east_of_hudson:nice_2893",
+          "originStopName": "Hempstead Tpke + Newbridge Rd",
+          "destStopId": "east_of_hudson:nice_2981",
+          "destStopName": "Newbridge Rd + Hempstead Tpke",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_NICE",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.724733,
+          "originLon": -73.543892,
+          "destLat": 40.767201,
+          "destLon": -73.5273579,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.543892,
+                40.724733
+              ],
+              [
+                -73.5425829,
+                40.7264719
+              ],
+              [
+                -73.5425829,
+                40.7264719
+              ],
+              [
+                -73.54119,
+                40.72822
+              ],
+              [
+                -73.54119,
+                40.72822
+              ],
+              [
+                -73.540123,
+                40.730431
+              ],
+              [
+                -73.540123,
+                40.730431
+              ],
+              [
+                -73.539057,
+                40.73274
+              ],
+              [
+                -73.539057,
+                40.73274
+              ],
+              [
+                -73.538934,
+                40.733651
+              ],
+              [
+                -73.538934,
+                40.733651
+              ],
+              [
+                -73.537508,
+                40.7371229
+              ],
+              [
+                -73.537508,
+                40.7371229
+              ],
+              [
+                -73.5366569,
+                40.739511
+              ],
+              [
+                -73.5366569,
+                40.739511
+              ],
+              [
+                -73.536004,
+                40.741282
+              ],
+              [
+                -73.536004,
+                40.741282
+              ],
+              [
+                -73.535329,
+                40.743241
+              ],
+              [
+                -73.535329,
+                40.743241
+              ],
+              [
+                -73.534629,
+                40.74512
+              ],
+              [
+                -73.534629,
+                40.74512
+              ],
+              [
+                -73.533787,
+                40.7472039
+              ],
+              [
+                -73.533787,
+                40.7472039
+              ],
+              [
+                -73.5328849,
+                40.749119
+              ],
+              [
+                -73.5328849,
+                40.749119
+              ],
+              [
+                -73.5313939,
+                40.753413
+              ],
+              [
+                -73.5313939,
+                40.753413
+              ],
+              [
+                -73.530447,
+                40.755757
+              ],
+              [
+                -73.530447,
+                40.755757
+              ],
+              [
+                -73.528997,
+                40.759291
+              ],
+              [
+                -73.528997,
+                40.759291
+              ],
+              [
+                -73.5286359,
+                40.76032
+              ],
+              [
+                -73.5286359,
+                40.76032
+              ],
+              [
+                -73.527992,
+                40.761823
+              ],
+              [
+                -73.527992,
+                40.761823
+              ],
+              [
+                -73.5272229,
+                40.764014
+              ],
+              [
+                -73.5272229,
+                40.764014
+              ],
+              [
+                -73.5273579,
+                40.767201
+              ]
+            ]
+          },
+          "originTime": 27240,
+          "destTime": 28020,
+          "originStopId": "east_of_hudson:nice_2981",
+          "originStopName": "Newbridge Rd + Hempstead Tpke",
+          "destStopId": "east_of_hudson:nice_110",
+          "destStopName": "Hicksville LIRR Station",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_NICE_ONE_TRANSFER",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nice_LIBUS",
+            "agency_name": "Nassau Inter-County Express",
+            "route_id": "nice_n49",
+            "route_short_name": "n49",
+            "route_long_name": "Hempstead- Hicksville",
+            "route_type": 3,
+            "color": "008B64",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.767201,
+          "originLon": -73.5273579,
+          "destLat": 40.7671749,
+          "destLon": -73.5285332,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.5273579,
+                40.767201
+              ],
+              [
+                -73.5285332,
+                40.7671749
+              ]
+            ]
+          },
+          "originTime": 28020,
+          "destTime": 28147,
+          "originStopId": "east_of_hudson:nice_110",
+          "originStopName": "Hicksville LIRR Station",
+          "destStopId": "east_of_hudson:lirr92",
+          "destStopName": "Hicksville",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_NICE_ONE_TRANSFER",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.7671749,
+          "originLon": -73.5285332,
+          "destLat": 40.6996081,
+          "destLon": -73.8085298,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.5285332,
+                40.7671749
+              ],
+              [
+                -73.6408629,
+                40.7403474
+              ],
+              [
+                -73.6408629,
+                40.7403474
+              ],
+              [
+                -73.8085298,
+                40.6996081
+              ]
+            ]
+          },
+          "originTime": 28620,
+          "destTime": 29820,
+          "originStopId": "east_of_hudson:lirr92",
+          "originStopName": "Hicksville",
+          "destStopId": "east_of_hudson:lirr102",
+          "destStopName": "Jamaica",
+          "cumulativeFare": 1275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": {
+              "value": 0,
+              "number": 0,
+              "expirationTime": 0,
+              "cumulativeFare": 1000,
+              "boardStop": "LIRR92",
+              "viaStop": null,
+              "alightStop": "LIRR102",
+              "initialDirection": "INBOUND",
+              "peakBeforeDirectionChange": true,
+              "peakAfterDirectionChange": false,
+              "mostRecentTicketPurchaseTime": 28620,
+              "maxTransferAllowance": 4350
+            },
+            "metrocardTransferSource": "METROCARD_LOCAL_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "default",
+            "agency_name": "default",
+            "route_id": "lirr5_peak",
+            "route_short_name": null,
+            "route_long_name": "Montauk (peak)",
+            "route_type": 2,
+            "color": "006983",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.6996081,
+          "originLon": -73.8085298,
+          "destLat": 40.7195755,
+          "destLon": -73.844814,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.8085298,
+                40.6996081
+              ],
+              [
+                -73.830888,
+                40.7096491
+              ],
+              [
+                -73.830888,
+                40.7096491
+              ],
+              [
+                -73.844814,
+                40.7195755
+              ]
+            ]
+          },
+          "originTime": 29940,
+          "destTime": 30480,
+          "originStopId": "east_of_hudson:lirr102",
+          "originStopName": "Jamaica",
+          "destStopId": "east_of_hudson:lirr55",
+          "destStopName": "Forest Hills",
+          "cumulativeFare": 1675,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": {
+              "value": 0,
+              "number": 0,
+              "expirationTime": 0,
+              "cumulativeFare": 1400,
+              "boardStop": "LIRR92",
+              "viaStop": null,
+              "alightStop": "LIRR55",
+              "initialDirection": "INBOUND",
+              "peakBeforeDirectionChange": true,
+              "peakAfterDirectionChange": false,
+              "mostRecentTicketPurchaseTime": 28620,
+              "maxTransferAllowance": 4350
+            },
+            "metrocardTransferSource": "METROCARD_LOCAL_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "default",
+            "agency_name": "default",
+            "route_id": "lirr7_peak",
+            "route_short_name": null,
+            "route_long_name": "Far Rockaway (peak)",
+            "route_type": 2,
+            "color": "6E3219",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
       "durationSeconds": 6066,
       "departureTime": 25255,
       "fare": 1275,
@@ -188,7 +701,7 @@
           "destStopName": "Hicksville LIRR Station",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -238,7 +751,7 @@
           "destStopName": "Hicksville",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -286,7 +799,7 @@
           "destStopName": "Jamaica",
           "cumulativeFare": 1000,
           "transferAllowance": {
-            "value": 4350,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": {
@@ -349,7 +862,7 @@
           "destStopName": "Sutphin Blvd - Archer Av - JFK Airport",
           "cumulativeFare": 1000,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -405,7 +918,7 @@
           "destStopName": "Forest Hills - 71 Av",
           "cumulativeFare": 1275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -455,7 +968,7 @@
           "destStopName": "67 Av",
           "cumulativeFare": 1275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -482,7 +995,7 @@
       ]
     }
   ],
-  "computeTimeMillis": 248,
+  "computeTimeMillis": 214,
   "backendVersion": {
     "version": "UNKNOWN",
     "commit": "UNKNOWN",
@@ -491,5 +1004,5 @@
     "buildHost": "UNKNOWN",
     "buildTime": "UNKNOWN"
   },
-  "generationTime": "2020-06-21T23:17:29.09884"
+  "generationTime": "2020-06-21T23:40:49.221819"
 }

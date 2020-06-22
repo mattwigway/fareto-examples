@@ -44,6 +44,323 @@
   },
   "trips": [
     {
+      "durationSeconds": 3439,
+      "departureTime": 27175,
+      "fare": 950,
+      "legs": [
+        {
+          "originLat": 40.602009,
+          "originLon": -74.091307,
+          "destLat": 40.7047869,
+          "destLon": -74.015502,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.091307,
+                40.602009
+              ],
+              [
+                -74.090891,
+                40.6058219
+              ],
+              [
+                -74.090891,
+                40.6058219
+              ],
+              [
+                -74.089028,
+                40.607755
+              ],
+              [
+                -74.089028,
+                40.607755
+              ],
+              [
+                -74.076078,
+                40.605338
+              ],
+              [
+                -74.076078,
+                40.605338
+              ],
+              [
+                -74.068996,
+                40.603427
+              ],
+              [
+                -74.068996,
+                40.603427
+              ],
+              [
+                -74.031356,
+                40.610786
+              ],
+              [
+                -74.031356,
+                40.610786
+              ],
+              [
+                -74.018958,
+                40.624909
+              ],
+              [
+                -74.018958,
+                40.624909
+              ],
+              [
+                -74.016664,
+                40.635379
+              ],
+              [
+                -74.016664,
+                40.635379
+              ],
+              [
+                -74.020302,
+                40.637706
+              ],
+              [
+                -74.020302,
+                40.637706
+              ],
+              [
+                -74.021466,
+                40.640448
+              ],
+              [
+                -74.021466,
+                40.640448
+              ],
+              [
+                -74.015869,
+                40.7072609
+              ],
+              [
+                -74.015869,
+                40.7072609
+              ],
+              [
+                -74.015502,
+                40.7047869
+              ]
+            ]
+          },
+          "originTime": 27363,
+          "destTime": 29640,
+          "originStopId": "east_of_hudson:bus-si_201606",
+          "originStopName": "TARGEE ST/ROME AV",
+          "destStopId": "east_of_hudson:bus-si_905194",
+          "destStopName": "BATTERY PL/WASHINGTON ST",
+          "cumulativeFare": 675,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_EXPRESS_BUS",
+            "metrocardTransferExpiry": 34375,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-si_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "bus-si_SIM15",
+            "route_short_name": "SIM15",
+            "route_long_name": "Eltingville - Lower Manhattan Express",
+            "route_type": 3,
+            "color": "00933C",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.7047869,
+          "originLon": -74.015502,
+          "destLat": 40.704817,
+          "destLon": -74.014065,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.015502,
+                40.7047869
+              ],
+              [
+                -74.014065,
+                40.704817
+              ]
+            ]
+          },
+          "originTime": 29640,
+          "destTime": 29755,
+          "originStopId": "east_of_hudson:bus-si_905194",
+          "originStopName": "BATTERY PL/WASHINGTON ST",
+          "destStopId": "east_of_hudson:nyct_subway_420N",
+          "destStopName": "Bowling Green",
+          "cumulativeFare": 675,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_EXPRESS_BUS",
+            "metrocardTransferExpiry": 34375,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.704817,
+          "originLon": -74.014065,
+          "destLat": 40.707557,
+          "destLon": -74.0118619,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.014065,
+                40.704817
+              ],
+              [
+                -74.0118619,
+                40.707557
+              ]
+            ]
+          },
+          "originTime": 29820,
+          "destTime": 29910,
+          "originStopId": "east_of_hudson:nyct_subway_420N",
+          "originStopName": "Bowling Green",
+          "destStopId": "east_of_hudson:nyct_subway_419N",
+          "destStopName": "Wall St",
+          "cumulativeFare": 675,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 34375,
+            "inSubwayPaidArea": true,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nyct_subway_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "nyct_subway_5",
+            "route_short_name": "5",
+            "route_long_name": "Lexington Avenue Express",
+            "route_type": 1,
+            "color": "00933C",
+            "agency_url": "http://web.mta.info/nyct/service/pdf/t5cur.pdf"
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.707557,
+          "originLon": -74.0118619,
+          "destLat": 40.7075539,
+          "destLon": -74.01196,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.0118619,
+                40.707557
+              ],
+              [
+                -74.01196,
+                40.7075539
+              ]
+            ]
+          },
+          "originTime": 29910,
+          "destTime": 29921,
+          "originStopId": "east_of_hudson:nyct_subway_419N",
+          "originStopName": "Wall St",
+          "destStopId": "east_of_hudson:bus-manhattan_400170",
+          "destStopName": "BROADWAY/RECTOR ST",
+          "cumulativeFare": 675,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 34375,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.7075539,
+          "originLon": -74.01196,
+          "destLat": 40.70335,
+          "destLon": -74.014524,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.01196,
+                40.7075539
+              ],
+              [
+                -74.014524,
+                40.70335
+              ]
+            ]
+          },
+          "originTime": 30186,
+          "destTime": 30357,
+          "originStopId": "east_of_hudson:bus-manhattan_400170",
+          "originStopName": "BROADWAY/RECTOR ST",
+          "destStopId": "east_of_hudson:bus-manhattan_403953",
+          "destStopName": "STATE ST/BRIDGE ST",
+          "cumulativeFare": 950,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_LOCAL_BUS",
+            "metrocardTransferExpiry": 34375,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-manhattan_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "bus-manhattan_M55",
+            "route_short_name": "M55",
+            "route_long_name": "W 44 St  - South Ferry",
+            "route_type": 3,
+            "color": "6CBE45",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
       "durationSeconds": 4964,
       "departureTime": 27175,
       "fare": 550,
@@ -250,7 +567,7 @@
           "destStopName": "ST GEORGE FERRY/ST GEORGE FERRY",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -300,7 +617,7 @@
           "destStopName": "St. George Ferry Terminal",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -340,7 +657,7 @@
           "destStopName": "Whitehall Ferry Terminal",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -390,7 +707,7 @@
           "destStopName": "South Ferry",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -430,7 +747,7 @@
           "destStopName": "Rector St",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -480,7 +797,7 @@
           "destStopName": "Wall St",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -520,7 +837,7 @@
           "destStopName": "Bowling Green",
           "cumulativeFare": 550,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -577,7 +894,7 @@
           "destStopName": "TARGEE ST/ROME AV",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -707,7 +1024,7 @@
           "destStopName": "BATTERY PL/WASHINGTON ST",
           "cumulativeFare": 650,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -757,7 +1074,7 @@
           "destStopName": "Bowling Green",
           "cumulativeFare": 650,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -797,7 +1114,7 @@
           "destStopName": "Wall St",
           "cumulativeFare": 925,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -934,7 +1251,7 @@
           "destStopName": "BATTERY PL/WASHINGTON ST",
           "cumulativeFare": 675,
           "transferAllowance": {
-            "value": 275,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -991,7 +1308,7 @@
           "destStopName": "TARGEE ST/ROME AV",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1121,7 +1438,7 @@
           "destStopName": "BATTERY PL/WASHINGTON ST",
           "cumulativeFare": 650,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1354,7 +1671,7 @@
           "destStopName": "ST GEORGE FERRY/ST GEORGE FERRY",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1404,7 +1721,7 @@
           "destStopName": "St. George Ferry Terminal",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1444,7 +1761,7 @@
           "destStopName": "Whitehall Ferry Terminal",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1533,7 +1850,7 @@
           "destStopName": "St George",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1583,7 +1900,7 @@
           "destStopName": "St. George Ferry Terminal",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1623,7 +1940,7 @@
           "destStopName": "Whitehall Ferry Terminal",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1680,7 +1997,7 @@
           "destStopName": "CLOVE RD/GRASMERE STATION",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1730,7 +2047,7 @@
           "destStopName": "Grasmere",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1794,7 +2111,7 @@
           "destStopName": "St George",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 275,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1844,7 +2161,7 @@
           "destStopName": "St. George Ferry Terminal",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 275,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1884,7 +2201,7 @@
           "destStopName": "Whitehall Ferry Terminal",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 275,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1941,7 +2258,7 @@
           "destStopName": "TARGEE ST/ROME AV",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2071,7 +2388,7 @@
           "destStopName": "BATTERY PL/WASHINGTON ST",
           "cumulativeFare": 650,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2121,7 +2438,7 @@
           "destStopName": "STATE ST/BRIDGE ST",
           "cumulativeFare": 650,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2161,7 +2478,7 @@
           "destStopName": "GREENWICH ST/MORRIS ST",
           "cumulativeFare": 925,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2394,7 +2711,7 @@
           "destStopName": "ST GEORGE FERRY/ST GEORGE FERRY",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2444,7 +2761,7 @@
           "destStopName": "St. George Ferry Terminal",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2484,7 +2801,7 @@
           "destStopName": "Whitehall Ferry Terminal",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2534,7 +2851,7 @@
           "destStopName": "STATE ST/WHITEHALL ST",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2574,7 +2891,7 @@
           "destStopName": "STATE ST/BRIDGE ST",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2624,7 +2941,7 @@
           "destStopName": "GREENWICH ST/MORRIS ST",
           "cumulativeFare": 550,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2651,7 +2968,7 @@
       ]
     }
   ],
-  "computeTimeMillis": 1879,
+  "computeTimeMillis": 2044,
   "backendVersion": {
     "version": "UNKNOWN",
     "commit": "UNKNOWN",
@@ -2660,5 +2977,5 @@
     "buildHost": "UNKNOWN",
     "buildTime": "UNKNOWN"
   },
-  "generationTime": "2020-06-21T23:16:58.900474"
+  "generationTime": "2020-06-21T23:40:20.353293"
 }

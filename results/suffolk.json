@@ -298,7 +298,7 @@
           "destStopName": "Moreland Rd/Wireless Blvd",
           "cumulativeFare": 225,
           "transferAllowance": {
-            "value": 225,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -452,7 +452,7 @@
           "destStopName": "Suffolk County Dennison Bldg",
           "cumulativeFare": 250,
           "transferAllowance": {
-            "value": 250,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -630,7 +630,7 @@
           "destStopName": "Jericho Tpk/Eldorado Dr",
           "cumulativeFare": 250,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -847,7 +847,7 @@
           "destStopName": "Walt Whitman Mall (No Pick Ups)",
           "cumulativeFare": 225,
           "transferAllowance": {
-            "value": 225,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1001,7 +1001,7 @@
           "destStopName": "E Jericho Tpk/Elwood Rd",
           "cumulativeFare": 250,
           "transferAllowance": {
-            "value": 250,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1026,9 +1026,760 @@
           "type": "transit"
         }
       ]
+    },
+    {
+      "durationSeconds": 6926,
+      "departureTime": 25255,
+      "fare": 475,
+      "legs": [
+        {
+          "originLat": 40.745318,
+          "originLon": -73.364994,
+          "destLat": 40.814029,
+          "destLon": -73.270225,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.364994,
+                40.745318
+              ],
+              [
+                -73.363405,
+                40.748331
+              ],
+              [
+                -73.363405,
+                40.748331
+              ],
+              [
+                -73.362511,
+                40.7501109
+              ],
+              [
+                -73.362511,
+                40.7501109
+              ],
+              [
+                -73.361028,
+                40.752889
+              ],
+              [
+                -73.361028,
+                40.752889
+              ],
+              [
+                -73.3604299,
+                40.753997
+              ],
+              [
+                -73.3604299,
+                40.753997
+              ],
+              [
+                -73.359398,
+                40.7539729
+              ],
+              [
+                -73.359398,
+                40.7539729
+              ],
+              [
+                -73.352316,
+                40.752725
+              ],
+              [
+                -73.352316,
+                40.752725
+              ],
+              [
+                -73.347521,
+                40.752583
+              ],
+              [
+                -73.347521,
+                40.752583
+              ],
+              [
+                -73.343598,
+                40.753483
+              ],
+              [
+                -73.343598,
+                40.753483
+              ],
+              [
+                -73.3419399,
+                40.753855
+              ],
+              [
+                -73.3419399,
+                40.753855
+              ],
+              [
+                -73.338688,
+                40.754586
+              ],
+              [
+                -73.338688,
+                40.754586
+              ],
+              [
+                -73.335155,
+                40.755393
+              ],
+              [
+                -73.335155,
+                40.755393
+              ],
+              [
+                -73.331252,
+                40.7562799
+              ],
+              [
+                -73.331252,
+                40.7562799
+              ],
+              [
+                -73.326723,
+                40.757314
+              ],
+              [
+                -73.326723,
+                40.757314
+              ],
+              [
+                -73.320139,
+                40.75885
+              ],
+              [
+                -73.320139,
+                40.75885
+              ],
+              [
+                -73.3113489,
+                40.7608229
+              ],
+              [
+                -73.3113489,
+                40.7608229
+              ],
+              [
+                -73.304919,
+                40.762802
+              ],
+              [
+                -73.304919,
+                40.762802
+              ],
+              [
+                -73.3128349,
+                40.7612499
+              ],
+              [
+                -73.3128349,
+                40.7612499
+              ],
+              [
+                -73.310456,
+                40.768558
+              ],
+              [
+                -73.310456,
+                40.768558
+              ],
+              [
+                -73.3104309,
+                40.780617
+              ],
+              [
+                -73.3104309,
+                40.780617
+              ],
+              [
+                -73.287869,
+                40.792936
+              ],
+              [
+                -73.287869,
+                40.792936
+              ],
+              [
+                -73.285309,
+                40.793534
+              ],
+              [
+                -73.285309,
+                40.793534
+              ],
+              [
+                -73.2822329,
+                40.794228
+              ],
+              [
+                -73.2822329,
+                40.794228
+              ],
+              [
+                -73.2754939,
+                40.793306
+              ],
+              [
+                -73.2754939,
+                40.793306
+              ],
+              [
+                -73.272167,
+                40.7943969
+              ],
+              [
+                -73.272167,
+                40.7943969
+              ],
+              [
+                -73.267956,
+                40.7997729
+              ],
+              [
+                -73.267956,
+                40.7997729
+              ],
+              [
+                -73.268826,
+                40.803852
+              ],
+              [
+                -73.268826,
+                40.803852
+              ],
+              [
+                -73.269385,
+                40.806325
+              ],
+              [
+                -73.269385,
+                40.806325
+              ],
+              [
+                -73.270324,
+                40.810235
+              ],
+              [
+                -73.270324,
+                40.810235
+              ],
+              [
+                -73.270225,
+                40.814029
+              ]
+            ]
+          },
+          "originTime": 26280,
+          "destTime": 28380,
+          "originStopId": "east_of_hudson:suffolk_32231",
+          "originStopName": "Straight Path/Levey Blvd",
+          "destStopId": "east_of_hudson:suffolk_372:1",
+          "destStopName": "Moreland Rd/Wireless Blvd",
+          "cumulativeFare": 225,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "SUFFOLK",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "suffolk_SCT",
+            "agency_name": "Suffolk County Transit",
+            "route_id": "suffolk_S33",
+            "route_short_name": "S33",
+            "route_long_name": "Sunrise Mall - Hauppauge",
+            "route_type": 3,
+            "color": "0",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.814029,
+          "originLon": -73.270225,
+          "destLat": 40.822075,
+          "destLon": -73.224328,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.270225,
+                40.814029
+              ],
+              [
+                -73.2669389,
+                40.817506
+              ],
+              [
+                -73.2669389,
+                40.817506
+              ],
+              [
+                -73.264737,
+                40.816645
+              ],
+              [
+                -73.264737,
+                40.816645
+              ],
+              [
+                -73.2596569,
+                40.816544
+              ],
+              [
+                -73.2596569,
+                40.816544
+              ],
+              [
+                -73.256339,
+                40.816491
+              ],
+              [
+                -73.256339,
+                40.816491
+              ],
+              [
+                -73.246731,
+                40.817166
+              ],
+              [
+                -73.246731,
+                40.817166
+              ],
+              [
+                -73.242502,
+                40.816582
+              ],
+              [
+                -73.242502,
+                40.816582
+              ],
+              [
+                -73.237665,
+                40.815931
+              ],
+              [
+                -73.237665,
+                40.815931
+              ],
+              [
+                -73.233734,
+                40.815834
+              ],
+              [
+                -73.233734,
+                40.815834
+              ],
+              [
+                -73.234492,
+                40.824419
+              ],
+              [
+                -73.234492,
+                40.824419
+              ],
+              [
+                -73.234714,
+                40.825869
+              ],
+              [
+                -73.234714,
+                40.825869
+              ],
+              [
+                -73.233878,
+                40.828181
+              ],
+              [
+                -73.233878,
+                40.828181
+              ],
+              [
+                -73.231578,
+                40.827986
+              ],
+              [
+                -73.231578,
+                40.827986
+              ],
+              [
+                -73.229967,
+                40.82595
+              ],
+              [
+                -73.229967,
+                40.82595
+              ],
+              [
+                -73.224328,
+                40.822075
+              ]
+            ]
+          },
+          "originTime": 28620,
+          "destTime": 29220,
+          "originStopId": "east_of_hudson:suffolk_372:1",
+          "originStopName": "Moreland Rd/Wireless Blvd",
+          "destStopId": "east_of_hudson:suffolk_1361:1",
+          "destStopName": "Suffolk County Dennison Bldg",
+          "cumulativeFare": 250,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "SUFFOLK_ONE_TRANSFER",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "suffolk_SCT",
+            "agency_name": "Suffolk County Transit",
+            "route_id": "suffolk_S62",
+            "route_short_name": "S62",
+            "route_long_name": "Hauppauge - Riverhead",
+            "route_type": 3,
+            "color": "0",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.822075,
+          "originLon": -73.224328,
+          "destLat": 40.832167,
+          "destLon": -73.358767,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.224328,
+                40.822075
+              ],
+              [
+                -73.220025,
+                40.821094
+              ],
+              [
+                -73.220025,
+                40.821094
+              ],
+              [
+                -73.229828,
+                40.825996
+              ],
+              [
+                -73.229828,
+                40.825996
+              ],
+              [
+                -73.231418,
+                40.828031
+              ],
+              [
+                -73.231418,
+                40.828031
+              ],
+              [
+                -73.233949,
+                40.828314
+              ],
+              [
+                -73.233949,
+                40.828314
+              ],
+              [
+                -73.236176,
+                40.8256
+              ],
+              [
+                -73.236176,
+                40.8256
+              ],
+              [
+                -73.260971,
+                40.833156
+              ],
+              [
+                -73.260971,
+                40.833156
+              ],
+              [
+                -73.274387,
+                40.837522
+              ],
+              [
+                -73.274387,
+                40.837522
+              ],
+              [
+                -73.27794,
+                40.838675
+              ],
+              [
+                -73.27794,
+                40.838675
+              ],
+              [
+                -73.28464,
+                40.840856
+              ],
+              [
+                -73.28464,
+                40.840856
+              ],
+              [
+                -73.291088,
+                40.841999
+              ],
+              [
+                -73.291088,
+                40.841999
+              ],
+              [
+                -73.2938219,
+                40.843239
+              ],
+              [
+                -73.2938219,
+                40.843239
+              ],
+              [
+                -73.295911,
+                40.843003
+              ],
+              [
+                -73.295911,
+                40.843003
+              ],
+              [
+                -73.301283,
+                40.842258
+              ],
+              [
+                -73.301283,
+                40.842258
+              ],
+              [
+                -73.304839,
+                40.841767
+              ],
+              [
+                -73.304839,
+                40.841767
+              ],
+              [
+                -73.310253,
+                40.8410219
+              ],
+              [
+                -73.310253,
+                40.8410219
+              ],
+              [
+                -73.314346,
+                40.840473
+              ],
+              [
+                -73.314346,
+                40.840473
+              ],
+              [
+                -73.328698,
+                40.838675
+              ],
+              [
+                -73.328698,
+                40.838675
+              ],
+              [
+                -73.332373,
+                40.838031
+              ],
+              [
+                -73.332373,
+                40.838031
+              ],
+              [
+                -73.3439839,
+                40.83194
+              ],
+              [
+                -73.3439839,
+                40.83194
+              ],
+              [
+                -73.351366,
+                40.831516
+              ],
+              [
+                -73.351366,
+                40.831516
+              ],
+              [
+                -73.358767,
+                40.832167
+              ]
+            ]
+          },
+          "originTime": 29400,
+          "destTime": 31080,
+          "originStopId": "east_of_hudson:suffolk_1361:1",
+          "originStopName": "Suffolk County Dennison Bldg",
+          "destStopId": "east_of_hudson:suffolk_1741:1",
+          "destStopName": "E Jericho Tpk/Manor Rd",
+          "cumulativeFare": 250,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "suffolk_SCT",
+            "agency_name": "Suffolk County Transit",
+            "route_id": "suffolk_S54",
+            "route_short_name": "S54",
+            "route_long_name": "Patchogue RR - Walt Whitman Mall",
+            "route_type": 3,
+            "color": "0",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.832167,
+          "originLon": -73.358767,
+          "destLat": 40.8319289,
+          "destLon": -73.3585109,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.358767,
+                40.832167
+              ],
+              [
+                -73.3585109,
+                40.8319289
+              ]
+            ]
+          },
+          "originTime": 31080,
+          "destTime": 31112,
+          "originStopId": "east_of_hudson:suffolk_1741:1",
+          "originStopName": "E Jericho Tpk/Manor Rd",
+          "destStopId": "east_of_hudson:suffolk_1674:1",
+          "destStopName": "E Jericho Tpk/Old Country Rd",
+          "cumulativeFare": 250,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.8319289,
+          "originLon": -73.3585109,
+          "destLat": 40.837567,
+          "destLon": -73.3328329,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.3585109,
+                40.8319289
+              ],
+              [
+                -73.351423,
+                40.831319
+              ],
+              [
+                -73.351423,
+                40.831319
+              ],
+              [
+                -73.3430149,
+                40.832063
+              ],
+              [
+                -73.3430149,
+                40.832063
+              ],
+              [
+                -73.3328329,
+                40.837567
+              ]
+            ]
+          },
+          "originTime": 31200,
+          "destTime": 31500,
+          "originStopId": "east_of_hudson:suffolk_1674:1",
+          "originStopName": "E Jericho Tpk/Old Country Rd",
+          "destStopId": "east_of_hudson:suffolk_1677:1",
+          "destStopName": "E Jericho Tpk/Elwood Rd",
+          "cumulativeFare": 475,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "SUFFOLK",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "suffolk_SCT",
+            "agency_name": "Suffolk County Transit",
+            "route_id": "suffolk_S54",
+            "route_short_name": "S54",
+            "route_long_name": "Patchogue RR - Walt Whitman Mall",
+            "route_type": 3,
+            "color": "0",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
     }
   ],
-  "computeTimeMillis": 569,
+  "computeTimeMillis": 608,
   "backendVersion": {
     "version": "UNKNOWN",
     "commit": "UNKNOWN",
@@ -1037,5 +1788,5 @@
     "buildHost": "UNKNOWN",
     "buildTime": "UNKNOWN"
   },
-  "generationTime": "2020-06-21T23:17:22.710373"
+  "generationTime": "2020-06-21T23:40:44.160412"
 }

@@ -90,7 +90,7 @@
           "destStopName": "SOUTH FERRY/TERMINAL",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -140,7 +140,7 @@
           "destStopName": "Whitehall Ferry Terminal",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -180,7 +180,7 @@
           "destStopName": "St. George Ferry Terminal",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -230,7 +230,7 @@
           "destStopName": "St George",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -294,7 +294,7 @@
           "destStopName": "Huguenot",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 275,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -344,7 +344,7 @@
           "destStopName": "AMBOY RD/KINGDOM AV",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 275,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -424,7 +424,7 @@
           "destStopName": "ANNADALE RD/ARDEN AV",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -497,7 +497,7 @@
           "destStopName": "SOUTH FERRY/TERMINAL",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -547,7 +547,7 @@
           "destStopName": "Whitehall Ferry Terminal",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -587,7 +587,7 @@
           "destStopName": "St. George Ferry Terminal",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -637,7 +637,7 @@
           "destStopName": "St George",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -701,7 +701,7 @@
           "destStopName": "Huguenot",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 275,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -751,7 +751,7 @@
           "destStopName": "HUGUENOT AV/DRUMGOOLE RD E",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 275,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -815,7 +815,7 @@
           "destStopName": "ARDEN AV/WOODROW RD",
           "cumulativeFare": 950,
           "transferAllowance": {
-            "value": 275,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -880,7 +880,7 @@
           "destStopName": "36 St",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -970,7 +970,7 @@
           "destStopName": "86 St",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1020,7 +1020,7 @@
           "destStopName": "4 AV/86 ST",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1196,7 +1196,7 @@
           "destStopName": "ELTINGVILLE/TRANSIT CENTER",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1246,7 +1246,7 @@
           "destStopName": "ELTINGVILLE/TRANSIT CENTER",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1382,7 +1382,7 @@
           "destStopName": "WOODROW RD/ALMOND ST",
           "cumulativeFare": 550,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1409,7 +1409,7 @@
       ]
     }
   ],
-  "computeTimeMillis": 1303,
+  "computeTimeMillis": 2234,
   "backendVersion": {
     "version": "UNKNOWN",
     "commit": "UNKNOWN",
@@ -1418,5 +1418,5 @@
     "buildHost": "UNKNOWN",
     "buildTime": "UNKNOWN"
   },
-  "generationTime": "2020-06-21T23:17:12.640319"
+  "generationTime": "2020-06-21T23:40:33.952324"
 }

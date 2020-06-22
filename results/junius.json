@@ -90,7 +90,7 @@
           "destStopName": "Junius St",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -140,7 +140,7 @@
           "destStopName": "Livonia Av",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -196,7 +196,7 @@
           "destStopName": "Broadway Jct",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -373,7 +373,7 @@
           "destStopName": "JAMAICA AV/HERKIMER ST",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -400,7 +400,7 @@
       ]
     }
   ],
-  "computeTimeMillis": 2034,
+  "computeTimeMillis": 1762,
   "backendVersion": {
     "version": "UNKNOWN",
     "commit": "UNKNOWN",
@@ -409,5 +409,5 @@
     "buildHost": "UNKNOWN",
     "buildTime": "UNKNOWN"
   },
-  "generationTime": "2020-06-21T23:17:06.636313"
+  "generationTime": "2020-06-21T23:40:27.270097"
 }

@@ -140,7 +140,7 @@
           "destStopName": "MARTIN LUTHER KING BLVD @ MAIN ST",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -190,7 +190,7 @@
           "destStopName": "White Plains",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -230,7 +230,7 @@
           "destStopName": "Harlem-125th St.",
           "cumulativeFare": 1275,
           "transferAllowance": {
-            "value": 2725,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -280,7 +280,7 @@
           "destStopName": "125 St",
           "cumulativeFare": 1275,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -368,7 +368,7 @@
           "destStopName": "Wall St",
           "cumulativeFare": 1550,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -395,7 +395,7 @@
       ]
     }
   ],
-  "computeTimeMillis": 258,
+  "computeTimeMillis": 272,
   "backendVersion": {
     "version": "UNKNOWN",
     "commit": "UNKNOWN",
@@ -404,5 +404,5 @@
     "buildHost": "UNKNOWN",
     "buildTime": "UNKNOWN"
   },
-  "generationTime": "2020-06-21T23:17:29.436922"
+  "generationTime": "2020-06-21T23:40:49.570219"
 }

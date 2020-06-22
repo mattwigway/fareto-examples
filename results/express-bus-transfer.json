@@ -130,7 +130,7 @@
           "destStopName": "6 AV/W 35 ST",
           "cumulativeFare": 675,
           "transferAllowance": {
-            "value": 275,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -211,7 +211,7 @@
           "destStopName": "150 ST/14 AV",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -261,7 +261,7 @@
           "destStopName": "CROSS ISLAND PKY/CLINTONVILLE ST",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -357,7 +357,7 @@
           "destStopName": "6 AV/W 35 ST",
           "cumulativeFare": 650,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -438,7 +438,7 @@
           "destStopName": "150 ST/14 AV",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -488,7 +488,7 @@
           "destStopName": "CROSS ISLAND PKY/CLINTONVILLE ST",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -584,7 +584,7 @@
           "destStopName": "6 AV/W 35 ST",
           "cumulativeFare": 650,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -634,7 +634,7 @@
           "destStopName": "AV OF THE AMERICAS/W 34 ST",
           "cumulativeFare": 650,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -690,7 +690,7 @@
           "destStopName": "AV OF THE AMERICAS/W 42 ST",
           "cumulativeFare": 925,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -711,6 +711,169 @@
             "route_type": 3,
             "color": "EE352E",
             "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 4709,
+      "departureTime": 25255,
+      "fare": 675,
+      "legs": [
+        {
+          "originLat": 40.787208,
+          "originLon": -73.810192,
+          "destLat": 40.746026,
+          "destLon": -73.97858,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.810192,
+                40.787208
+              ],
+              [
+                -73.818963,
+                40.7877299
+              ],
+              [
+                -73.818963,
+                40.7877299
+              ],
+              [
+                -73.82459,
+                40.786603
+              ],
+              [
+                -73.82459,
+                40.786603
+              ],
+              [
+                -73.825903,
+                40.781506
+              ],
+              [
+                -73.825903,
+                40.781506
+              ],
+              [
+                -73.833747,
+                40.771582
+              ],
+              [
+                -73.833747,
+                40.771582
+              ],
+              [
+                -73.97858,
+                40.746026
+              ]
+            ]
+          },
+          "originTime": 26550,
+          "destTime": 29615,
+          "originStopId": "east_of_hudson:bus-busco_501198",
+          "originStopName": "CROSS ISLAND PKY/CLINTONVILLE ST",
+          "destStopId": "east_of_hudson:bus-busco_401840",
+          "destStopName": "E 34 ST /3 AV",
+          "cumulativeFare": 675,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_EXPRESS_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-busco_MTABC",
+            "agency_name": "MTA Bus Company",
+            "route_id": "bus-busco_QM2",
+            "route_short_name": "QM2",
+            "route_long_name": "Bay Terrace - Midtown Via 6 Av",
+            "route_type": 3,
+            "color": "00933C",
+            "agency_url": "http://web.mta.info/busco/schedules/qm002cur.pdf"
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.746026,
+          "originLon": -73.97858,
+          "destLat": 40.754836,
+          "destLon": -73.984121,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.97858,
+                40.746026
+              ],
+              [
+                -73.9815589,
+                40.747338
+              ],
+              [
+                -73.9815589,
+                40.747338
+              ],
+              [
+                -73.984667,
+                40.748603
+              ],
+              [
+                -73.984667,
+                40.748603
+              ],
+              [
+                -73.986524,
+                40.751378
+              ],
+              [
+                -73.986524,
+                40.751378
+              ],
+              [
+                -73.984121,
+                40.754836
+              ]
+            ]
+          },
+          "originTime": 29678,
+          "destTime": 29924,
+          "originStopId": "east_of_hudson:bus-busco_401840",
+          "originStopName": "E 34 ST /3 AV",
+          "destStopId": "east_of_hudson:bus-busco_450015",
+          "destStopName": "6 AV/W 42 ST",
+          "cumulativeFare": 675,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-busco_MTABC",
+            "agency_name": "MTA Bus Company",
+            "route_id": "bus-busco_QM6",
+            "route_short_name": "QM6",
+            "route_long_name": "Lake Success - Midtown Via 6 Av",
+            "route_type": 3,
+            "color": "00933C",
+            "agency_url": "http://web.mta.info/busco/schedules/qm001cur.pdf"
           },
           "type": "transit"
         }
@@ -771,7 +934,7 @@
           "destStopName": "150 ST/14 AV",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -821,7 +984,7 @@
           "destStopName": "CROSS ISLAND PKY/CLINTONVILLE ST",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -893,7 +1056,7 @@
           "destStopName": "E 34 ST /3 AV",
           "cumulativeFare": 650,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -967,7 +1130,7 @@
           "destStopName": "6 AV/W 42 ST",
           "cumulativeFare": 1325,
           "transferAllowance": {
-            "value": 275,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -994,7 +1157,7 @@
       ]
     }
   ],
-  "computeTimeMillis": 1011,
+  "computeTimeMillis": 830,
   "backendVersion": {
     "version": "UNKNOWN",
     "commit": "UNKNOWN",
@@ -1003,5 +1166,5 @@
     "buildHost": "UNKNOWN",
     "buildTime": "UNKNOWN"
   },
-  "generationTime": "2020-06-21T23:16:59.980765"
+  "generationTime": "2020-06-21T23:40:21.242691"
 }

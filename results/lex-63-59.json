@@ -106,7 +106,7 @@
           "destStopName": "59 St",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -156,7 +156,7 @@
           "destStopName": "Lexington Av/63 St",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -196,7 +196,7 @@
           "destStopName": "Roosevelt Island",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -217,6 +217,331 @@
             "route_type": 1,
             "color": "FF6319",
             "agency_url": "http://web.mta.info/nyct/service/pdf/tfcur.pdf"
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 3810,
+      "departureTime": 25255,
+      "fare": 950,
+      "legs": [
+        {
+          "originLat": 40.740491,
+          "originLon": -73.986847,
+          "destLat": 40.748328,
+          "destLon": -73.982437,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.986847,
+                40.740491
+              ],
+              [
+                -73.982437,
+                40.748328
+              ]
+            ]
+          },
+          "originTime": 25494,
+          "destTime": 25837,
+          "originStopId": "east_of_hudson:bus-si_404833",
+          "originStopName": "E 23 ST/PARK AV S",
+          "destStopId": "east_of_hudson:bus-si_400354",
+          "destStopName": "MADISON AV/E 34 ST",
+          "cumulativeFare": 675,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_EXPRESS_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-si_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "bus-si_SIM11",
+            "route_short_name": "SIM11",
+            "route_long_name": "New Dorp - Midtown Manhattan Express",
+            "route_type": 3,
+            "color": "00933C",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.748328,
+          "originLon": -73.982437,
+          "destLat": 40.747236,
+          "destLon": -73.981553,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.982437,
+                40.748328
+              ],
+              [
+                -73.981553,
+                40.747236
+              ]
+            ]
+          },
+          "originTime": 25837,
+          "destTime": 25994,
+          "originStopId": "east_of_hudson:bus-si_400354",
+          "originStopName": "MADISON AV/E 34 ST",
+          "destStopId": "east_of_hudson:ferry_68",
+          "destStopName": "East 34th St & Park Ave",
+          "cumulativeFare": 675,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_EXPRESS_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.747236,
+          "originLon": -73.981553,
+          "destLat": 40.743676,
+          "destLon": -73.971676,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.981553,
+                40.747236
+              ],
+              [
+                -73.981465,
+                40.749815
+              ],
+              [
+                -73.981465,
+                40.749815
+              ],
+              [
+                -73.979817,
+                40.752068
+              ],
+              [
+                -73.979817,
+                40.752068
+              ],
+              [
+                -73.978385,
+                40.754007
+              ],
+              [
+                -73.978385,
+                40.754007
+              ],
+              [
+                -73.977428,
+                40.755339
+              ],
+              [
+                -73.977428,
+                40.755339
+              ],
+              [
+                -73.97454,
+                40.755747
+              ],
+              [
+                -73.97454,
+                40.755747
+              ],
+              [
+                -73.9740839,
+                40.75428
+              ],
+              [
+                -73.9740839,
+                40.75428
+              ],
+              [
+                -73.976215,
+                40.751339
+              ],
+              [
+                -73.976215,
+                40.751339
+              ],
+              [
+                -73.978367,
+                40.748381
+              ],
+              [
+                -73.978367,
+                40.748381
+              ],
+              [
+                -73.979393,
+                40.746155
+              ],
+              [
+                -73.979393,
+                40.746155
+              ],
+              [
+                -73.97775,
+                40.745459
+              ],
+              [
+                -73.97775,
+                40.745459
+              ],
+              [
+                -73.971676,
+                40.743676
+              ]
+            ]
+          },
+          "originTime": 26277,
+          "destTime": 27840,
+          "originStopId": "east_of_hudson:ferry_68",
+          "originStopName": "East 34th St & Park Ave",
+          "destStopId": "east_of_hudson:ferry_86",
+          "destStopName": "East 34th Street Ferry Terminal",
+          "cumulativeFare": 675,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_EXPRESS_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "ferry_1",
+            "agency_name": "NYC Ferry",
+            "route_id": "ferry_ERS",
+            "route_short_name": "ERS",
+            "route_long_name": "Midtown Shuttle",
+            "route_type": 3,
+            "color": "00A1E1",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.743676,
+          "originLon": -73.971676,
+          "destLat": 40.743947,
+          "destLon": -73.970706,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.971676,
+                40.743676
+              ],
+              [
+                -73.970706,
+                40.743947
+              ]
+            ]
+          },
+          "originTime": 27840,
+          "destTime": 27944,
+          "originStopId": "east_of_hudson:ferry_86",
+          "originStopName": "East 34th Street Ferry Terminal",
+          "destStopId": "east_of_hudson:ferry_17",
+          "destStopName": "East 34th Street",
+          "cumulativeFare": 675,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_EXPRESS_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.743947,
+          "originLon": -73.970706,
+          "destLat": 40.756854,
+          "destLon": -73.952491,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.970706,
+                40.743947
+              ],
+              [
+                -73.9577259,
+                40.748436
+              ],
+              [
+                -73.9577259,
+                40.748436
+              ],
+              [
+                -73.952491,
+                40.756854
+              ]
+            ]
+          },
+          "originTime": 28020,
+          "destTime": 28800,
+          "originStopId": "east_of_hudson:ferry_17",
+          "originStopName": "East 34th Street",
+          "destStopId": "east_of_hudson:ferry_25",
+          "destStopName": "Roosevelt Island",
+          "cumulativeFare": 950,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_EXPRESS_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "ferry_1",
+            "agency_name": "NYC Ferry",
+            "route_id": "ferry_AS",
+            "route_short_name": "AS",
+            "route_long_name": "Astoria",
+            "route_type": 4,
+            "color": "FF6B00",
+            "agency_url": null
           },
           "type": "transit"
         }
@@ -293,7 +618,7 @@
           "destStopName": "Roosevelt Island",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -343,7 +668,7 @@
           "destStopName": "MAIN ST/F SUBWAY (450 MAIN ST)",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -407,7 +732,7 @@
           "destStopName": "W LOOP RD/N LOOP RD",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -465,7 +790,7 @@
           "destStopName": "WEST RD/F SUBWAY (452 MAIN ST)",
           "cumulativeFare": 550,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -492,7 +817,7 @@
       ]
     }
   ],
-  "computeTimeMillis": 2776,
+  "computeTimeMillis": 2205,
   "backendVersion": {
     "version": "UNKNOWN",
     "commit": "UNKNOWN",
@@ -501,5 +826,5 @@
     "buildHost": "UNKNOWN",
     "buildTime": "UNKNOWN"
   },
-  "generationTime": "2020-06-21T23:17:09.437746"
+  "generationTime": "2020-06-21T23:40:29.49607"
 }

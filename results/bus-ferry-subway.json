@@ -178,7 +178,7 @@
           "destStopName": "ST GEORGE FERRY/ST GEORGE FERRY",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -228,7 +228,7 @@
           "destStopName": "St. George Ferry Terminal",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -268,7 +268,7 @@
           "destStopName": "Whitehall Ferry Terminal",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -318,7 +318,7 @@
           "destStopName": "Bowling Green",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -382,7 +382,7 @@
           "destStopName": "14 St - Union Sq",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -432,7 +432,7 @@
           "destStopName": "E 14 ST/4 AV",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -496,7 +496,7 @@
           "destStopName": "W 14 ST/7 AV",
           "cumulativeFare": 550,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -514,6 +514,315 @@
             "route_id": "bus-manhattan_M14D+",
             "route_short_name": "M14D-SBS",
             "route_long_name": "Lower East Side - Chelsea Piers",
+            "route_type": 3,
+            "color": "6CBE45",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 5937,
+      "departureTime": 25255,
+      "fare": 950,
+      "legs": [
+        {
+          "originLat": 40.625137,
+          "originLon": -74.135801,
+          "destLat": 40.757191,
+          "destLon": -73.989904,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.135801,
+                40.625137
+              ],
+              [
+                -74.141152,
+                40.6246359
+              ],
+              [
+                -74.141152,
+                40.6246359
+              ],
+              [
+                -74.148988,
+                40.6252159
+              ],
+              [
+                -74.148988,
+                40.6252159
+              ],
+              [
+                -74.158231,
+                40.626357
+              ],
+              [
+                -74.158231,
+                40.626357
+              ],
+              [
+                -74.165143,
+                40.627179
+              ],
+              [
+                -74.165143,
+                40.627179
+              ],
+              [
+                -74.174864,
+                40.62647
+              ],
+              [
+                -74.174864,
+                40.62647
+              ],
+              [
+                -74.186743,
+                40.630214
+              ],
+              [
+                -74.186743,
+                40.630214
+              ],
+              [
+                -73.995651,
+                40.756743
+              ],
+              [
+                -73.995651,
+                40.756743
+              ],
+              [
+                -73.989904,
+                40.757191
+              ]
+            ]
+          },
+          "originTime": 26332,
+          "destTime": 30060,
+          "originStopId": "east_of_hudson:bus-si_201560",
+          "originStopName": "FOREST AV/BARRETT  AV",
+          "destStopId": "east_of_hudson:bus-si_403239",
+          "destStopName": "W 42 ST/8 AV",
+          "cumulativeFare": 675,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_EXPRESS_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-si_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "bus-si_SIM30",
+            "route_short_name": "SIM30",
+            "route_long_name": "Sunnyside - Midtown Manhattan Express",
+            "route_type": 3,
+            "color": "00933C",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.757191,
+          "originLon": -73.989904,
+          "destLat": 40.757308,
+          "destLon": -73.989735,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.989904,
+                40.757191
+              ],
+              [
+                -73.989735,
+                40.757308
+              ]
+            ]
+          },
+          "originTime": 30060,
+          "destTime": 30080,
+          "originStopId": "east_of_hudson:bus-si_403239",
+          "originStopName": "W 42 ST/8 AV",
+          "destStopId": "east_of_hudson:nyct_subway_A27S",
+          "destStopName": "42 St - Port Authority Bus Terminal",
+          "cumulativeFare": 675,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_EXPRESS_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.757308,
+          "originLon": -73.989735,
+          "destLat": 40.740893,
+          "destLon": -74.00169,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.989735,
+                40.757308
+              ],
+              [
+                -73.993391,
+                40.752287
+              ],
+              [
+                -73.993391,
+                40.752287
+              ],
+              [
+                -73.998041,
+                40.745906
+              ],
+              [
+                -73.998041,
+                40.745906
+              ],
+              [
+                -74.00169,
+                40.740893
+              ]
+            ]
+          },
+          "originTime": 30210,
+          "destTime": 30510,
+          "originStopId": "east_of_hudson:nyct_subway_A27S",
+          "originStopName": "42 St - Port Authority Bus Terminal",
+          "destStopId": "east_of_hudson:nyct_subway_A31S",
+          "destStopName": "14 St",
+          "cumulativeFare": 675,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": true,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nyct_subway_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "nyct_subway_E",
+            "route_short_name": "E",
+            "route_long_name": "8 Avenue Local",
+            "route_type": 1,
+            "color": "2850AD",
+            "agency_url": "http://web.mta.info/nyct/service/pdf/tecur.pdf"
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.740893,
+          "originLon": -74.00169,
+          "destLat": 40.739511,
+          "destLon": -74.002172,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.00169,
+                40.740893
+              ],
+              [
+                -74.002172,
+                40.739511
+              ]
+            ]
+          },
+          "originTime": 30510,
+          "destTime": 30645,
+          "originStopId": "east_of_hudson:nyct_subway_A31S",
+          "originStopName": "14 St",
+          "destStopId": "east_of_hudson:bus-manhattan_401575",
+          "destStopName": "W 14 ST/8 AV",
+          "cumulativeFare": 675,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.739511,
+          "originLon": -74.002172,
+          "destLat": 40.738287,
+          "destLon": -73.9992709,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.002172,
+                40.739511
+              ],
+              [
+                -73.9992709,
+                40.738287
+              ]
+            ]
+          },
+          "originTime": 30795,
+          "destTime": 30897,
+          "originStopId": "east_of_hudson:bus-manhattan_401575",
+          "originStopName": "W 14 ST/8 AV",
+          "destStopId": "east_of_hudson:bus-manhattan_401294",
+          "destStopName": "W 14 ST/7 AV",
+          "cumulativeFare": 950,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_LOCAL_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-manhattan_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "bus-manhattan_M14A+",
+            "route_short_name": "M14A-SBS",
+            "route_long_name": "Lower East Side - Abingdon Sq",
             "route_type": 3,
             "color": "6CBE45",
             "agency_url": null
@@ -657,7 +966,7 @@
           "destStopName": "ST GEORGE FERRY/ST GEORGE FERRY",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -707,7 +1016,7 @@
           "destStopName": "St. George Ferry Terminal",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -747,7 +1056,7 @@
           "destStopName": "Whitehall Ferry Terminal",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -797,7 +1106,7 @@
           "destStopName": "Wall St",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -861,7 +1170,7 @@
           "destStopName": "14 St",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1022,7 +1331,7 @@
           "destStopName": "ST GEORGE FERRY/ST GEORGE FERRY",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1072,7 +1381,7 @@
           "destStopName": "St. George Ferry Terminal",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1112,7 +1421,7 @@
           "destStopName": "Whitehall Ferry Terminal",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1162,7 +1471,7 @@
           "destStopName": "Whitehall St",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1202,7 +1511,7 @@
           "destStopName": "Rector St",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1252,7 +1561,7 @@
           "destStopName": "Rector St",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1340,7 +1649,7 @@
           "destStopName": "14 St",
           "cumulativeFare": 550,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1361,6 +1670,772 @@
             "route_type": 1,
             "color": "EE352E",
             "agency_url": "http://web.mta.info/nyct/service/pdf/t1cur.pdf"
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 6439,
+      "departureTime": 25255,
+      "fare": 675,
+      "legs": [
+        {
+          "originLat": 40.624336,
+          "originLon": -74.149036,
+          "destLat": 40.7287,
+          "destLon": -74.00254,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.149036,
+                40.624336
+              ],
+              [
+                -74.155275,
+                40.618527
+              ],
+              [
+                -74.155275,
+                40.618527
+              ],
+              [
+                -74.151729,
+                40.617451
+              ],
+              [
+                -74.151729,
+                40.617451
+              ],
+              [
+                -74.148376,
+                40.617109
+              ],
+              [
+                -74.148376,
+                40.617109
+              ],
+              [
+                -74.142053,
+                40.6164909
+              ],
+              [
+                -74.142053,
+                40.6164909
+              ],
+              [
+                -74.138576,
+                40.616036
+              ],
+              [
+                -74.138576,
+                40.616036
+              ],
+              [
+                -74.133478,
+                40.614587
+              ],
+              [
+                -74.133478,
+                40.614587
+              ],
+              [
+                -74.129835,
+                40.612471
+              ],
+              [
+                -74.129835,
+                40.612471
+              ],
+              [
+                -74.12654,
+                40.612738
+              ],
+              [
+                -74.12654,
+                40.612738
+              ],
+              [
+                -74.122229,
+                40.613042
+              ],
+              [
+                -74.122229,
+                40.613042
+              ],
+              [
+                -74.117056,
+                40.612792
+              ],
+              [
+                -74.117056,
+                40.612792
+              ],
+              [
+                -74.117147,
+                40.610655
+              ],
+              [
+                -74.117147,
+                40.610655
+              ],
+              [
+                -74.031356,
+                40.610786
+              ],
+              [
+                -74.031356,
+                40.610786
+              ],
+              [
+                -74.018958,
+                40.624909
+              ],
+              [
+                -74.018958,
+                40.624909
+              ],
+              [
+                -74.016664,
+                40.635379
+              ],
+              [
+                -74.016664,
+                40.635379
+              ],
+              [
+                -74.020302,
+                40.637706
+              ],
+              [
+                -74.020302,
+                40.637706
+              ],
+              [
+                -74.021466,
+                40.640448
+              ],
+              [
+                -74.021466,
+                40.640448
+              ],
+              [
+                -73.9981189,
+                40.663351
+              ],
+              [
+                -73.9981189,
+                40.663351
+              ],
+              [
+                -74.003929,
+                40.679884
+              ],
+              [
+                -74.003929,
+                40.679884
+              ],
+              [
+                -74.011201,
+                40.690928
+              ],
+              [
+                -74.011201,
+                40.690928
+              ],
+              [
+                -74.015841,
+                40.707264
+              ],
+              [
+                -74.015841,
+                40.707264
+              ],
+              [
+                -74.015502,
+                40.7047869
+              ],
+              [
+                -74.015502,
+                40.7047869
+              ],
+              [
+                -74.012714,
+                40.708007
+              ],
+              [
+                -74.012714,
+                40.708007
+              ],
+              [
+                -74.010261,
+                40.711727
+              ],
+              [
+                -74.010261,
+                40.711727
+              ],
+              [
+                -74.007712,
+                40.715045
+              ],
+              [
+                -74.007712,
+                40.715045
+              ],
+              [
+                -74.006421,
+                40.716678
+              ],
+              [
+                -74.006421,
+                40.716678
+              ],
+              [
+                -74.005199,
+                40.720728
+              ],
+              [
+                -74.005199,
+                40.720728
+              ],
+              [
+                -74.00254,
+                40.7287
+              ]
+            ]
+          },
+          "originTime": 26530,
+          "destTime": 30840,
+          "originStopId": "east_of_hudson:bus-si_203693",
+          "originStopName": "RICHMOND AV/MONSEY PL",
+          "destStopId": "east_of_hudson:bus-si_400919",
+          "destStopName": "AV OF THE AMERICAS/W HOUSTON ST",
+          "cumulativeFare": 675,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_EXPRESS_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-si_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "bus-si_SIM34",
+            "route_short_name": "SIM34",
+            "route_long_name": "Mariners Harbor - Lower Manhattan Express",
+            "route_type": 3,
+            "color": "00933C",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 5839,
+      "departureTime": 25255,
+      "fare": 950,
+      "legs": [
+        {
+          "originLat": 40.633424,
+          "originLon": -74.14175,
+          "destLat": 40.6338409,
+          "destLon": -74.125398,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.14175,
+                40.633424
+              ],
+              [
+                -74.140651,
+                40.63498
+              ],
+              [
+                -74.140651,
+                40.63498
+              ],
+              [
+                -74.140185,
+                40.636066
+              ],
+              [
+                -74.140185,
+                40.636066
+              ],
+              [
+                -74.137922,
+                40.635981
+              ],
+              [
+                -74.137922,
+                40.635981
+              ],
+              [
+                -74.135065,
+                40.6359349
+              ],
+              [
+                -74.135065,
+                40.6359349
+              ],
+              [
+                -74.129649,
+                40.633639
+              ],
+              [
+                -74.129649,
+                40.633639
+              ],
+              [
+                -74.125398,
+                40.6338409
+              ]
+            ]
+          },
+          "originTime": 25440,
+          "destTime": 26066,
+          "originStopId": "east_of_hudson:bus-si_200255",
+          "originStopName": "INNIS ST/NICHOLAS AV",
+          "destStopId": "east_of_hudson:bus-si_203032",
+          "destStopName": "CASTLETON AV/CLOVE RD",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_LOCAL_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-si_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "bus-si_S96",
+            "route_short_name": "S96",
+            "route_long_name": "St. George - West Shore Plaza LTD",
+            "route_type": 3,
+            "color": "006CB7",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.6338409,
+          "originLon": -74.125398,
+          "destLat": 40.6339169,
+          "destLon": -74.125845,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.125398,
+                40.6338409
+              ],
+              [
+                -74.125845,
+                40.6339169
+              ]
+            ]
+          },
+          "originTime": 26066,
+          "destTime": 26101,
+          "originStopId": "east_of_hudson:bus-si_203032",
+          "originStopName": "CASTLETON AV/CLOVE RD",
+          "destStopId": "east_of_hudson:bus-si_200314",
+          "destStopName": "CASTLETON AV/CLOVE RD",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_LOCAL_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.6339169,
+          "originLon": -74.125845,
+          "destLat": 40.6132,
+          "destLon": -74.122715,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.125845,
+                40.6339169
+              ],
+              [
+                -74.125012,
+                40.631802
+              ],
+              [
+                -74.125012,
+                40.631802
+              ],
+              [
+                -74.123408,
+                40.629314
+              ],
+              [
+                -74.123408,
+                40.629314
+              ],
+              [
+                -74.125366,
+                40.62833
+              ],
+              [
+                -74.125366,
+                40.62833
+              ],
+              [
+                -74.125208,
+                40.626832
+              ],
+              [
+                -74.125208,
+                40.626832
+              ],
+              [
+                -74.124792,
+                40.623763
+              ],
+              [
+                -74.124792,
+                40.623763
+              ],
+              [
+                -74.124291,
+                40.622009
+              ],
+              [
+                -74.124291,
+                40.622009
+              ],
+              [
+                -74.1237089,
+                40.6206789
+              ],
+              [
+                -74.1237089,
+                40.6206789
+              ],
+              [
+                -74.123512,
+                40.619296
+              ],
+              [
+                -74.123512,
+                40.619296
+              ],
+              [
+                -74.1237319,
+                40.617558
+              ],
+              [
+                -74.1237319,
+                40.617558
+              ],
+              [
+                -74.1234609,
+                40.616077
+              ],
+              [
+                -74.1234609,
+                40.616077
+              ],
+              [
+                -74.122782,
+                40.614653
+              ],
+              [
+                -74.122782,
+                40.614653
+              ],
+              [
+                -74.122715,
+                40.6132
+              ]
+            ]
+          },
+          "originTime": 26280,
+          "destTime": 26880,
+          "originStopId": "east_of_hudson:bus-si_200314",
+          "originStopName": "CASTLETON AV/CLOVE RD",
+          "destStopId": "east_of_hudson:bus-si_201737",
+          "destStopName": "MANOR RD/VICTORY BL",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-si_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "bus-si_S54",
+            "route_short_name": "S54",
+            "route_long_name": "West New Brighton - Eltingville",
+            "route_type": 3,
+            "color": "FAA61A",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.6132,
+          "originLon": -74.122715,
+          "destLat": 40.613042,
+          "destLon": -74.122229,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.122715,
+                40.6132
+              ],
+              [
+                -74.122229,
+                40.613042
+              ]
+            ]
+          },
+          "originTime": 26880,
+          "destTime": 26923,
+          "originStopId": "east_of_hudson:bus-si_201737",
+          "originStopName": "MANOR RD/VICTORY BL",
+          "destStopId": "east_of_hudson:bus-si_200537",
+          "destStopName": "VICTORY BL/MANOR RD",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.613042,
+          "originLon": -74.122229,
+          "destLat": 40.7287,
+          "destLon": -74.00254,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -74.122229,
+                40.613042
+              ],
+              [
+                -74.117056,
+                40.612792
+              ],
+              [
+                -74.117056,
+                40.612792
+              ],
+              [
+                -74.117147,
+                40.610655
+              ],
+              [
+                -74.117147,
+                40.610655
+              ],
+              [
+                -74.031356,
+                40.610786
+              ],
+              [
+                -74.031356,
+                40.610786
+              ],
+              [
+                -74.018958,
+                40.624909
+              ],
+              [
+                -74.018958,
+                40.624909
+              ],
+              [
+                -74.016664,
+                40.635379
+              ],
+              [
+                -74.016664,
+                40.635379
+              ],
+              [
+                -74.020302,
+                40.637706
+              ],
+              [
+                -74.020302,
+                40.637706
+              ],
+              [
+                -74.021466,
+                40.640448
+              ],
+              [
+                -74.021466,
+                40.640448
+              ],
+              [
+                -73.9981189,
+                40.663351
+              ],
+              [
+                -73.9981189,
+                40.663351
+              ],
+              [
+                -74.003929,
+                40.679884
+              ],
+              [
+                -74.003929,
+                40.679884
+              ],
+              [
+                -74.011201,
+                40.690928
+              ],
+              [
+                -74.011201,
+                40.690928
+              ],
+              [
+                -74.015841,
+                40.707264
+              ],
+              [
+                -74.015841,
+                40.707264
+              ],
+              [
+                -74.015502,
+                40.7047869
+              ],
+              [
+                -74.015502,
+                40.7047869
+              ],
+              [
+                -74.012714,
+                40.708007
+              ],
+              [
+                -74.012714,
+                40.708007
+              ],
+              [
+                -74.010261,
+                40.711727
+              ],
+              [
+                -74.010261,
+                40.711727
+              ],
+              [
+                -74.007712,
+                40.715045
+              ],
+              [
+                -74.007712,
+                40.715045
+              ],
+              [
+                -74.006421,
+                40.716678
+              ],
+              [
+                -74.006421,
+                40.716678
+              ],
+              [
+                -74.005199,
+                40.720728
+              ],
+              [
+                -74.005199,
+                40.720728
+              ],
+              [
+                -74.00254,
+                40.7287
+              ]
+            ]
+          },
+          "originTime": 26989,
+          "destTime": 30240,
+          "originStopId": "east_of_hudson:bus-si_200537",
+          "originStopName": "VICTORY BL/MANOR RD",
+          "destStopId": "east_of_hudson:bus-si_400919",
+          "destStopName": "AV OF THE AMERICAS/W HOUSTON ST",
+          "cumulativeFare": 950,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_EXPRESS_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-si_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "bus-si_SIM34",
+            "route_short_name": "SIM34",
+            "route_long_name": "Mariners Harbor - Lower Manhattan Express",
+            "route_type": 3,
+            "color": "00933C",
+            "agency_url": null
           },
           "type": "transit"
         }
@@ -1453,7 +2528,7 @@
           "destStopName": "W 42 ST/8 AV",
           "cumulativeFare": 675,
           "transferAllowance": {
-            "value": 275,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1503,7 +2578,7 @@
           "destStopName": "42 St - Port Authority Bus Terminal",
           "cumulativeFare": 675,
           "transferAllowance": {
-            "value": 275,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1559,7 +2634,7 @@
           "destStopName": "14 St",
           "cumulativeFare": 675,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1744,7 +2819,7 @@
           "destStopName": "SOUTH AV/GOETHALS RD N",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1794,7 +2869,7 @@
           "destStopName": "GOETHALS RD N/SOUTH AV",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1842,7 +2917,7 @@
           "destStopName": "W 42 ST/8 AV",
           "cumulativeFare": 650,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1892,7 +2967,7 @@
           "destStopName": "42 St - Port Authority Bus Terminal",
           "cumulativeFare": 650,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1940,7 +3015,7 @@
           "destStopName": "14 St",
           "cumulativeFare": 925,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1967,7 +3042,7 @@
       ]
     }
   ],
-  "computeTimeMillis": 517,
+  "computeTimeMillis": 512,
   "backendVersion": {
     "version": "UNKNOWN",
     "commit": "UNKNOWN",
@@ -1976,5 +3051,5 @@
     "buildHost": "UNKNOWN",
     "buildTime": "UNKNOWN"
   },
-  "generationTime": "2020-06-21T23:17:17.992066"
+  "generationTime": "2020-06-21T23:40:38.804325"
 }

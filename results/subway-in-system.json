@@ -186,7 +186,7 @@
           "destStopName": "14 St - Union Sq",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -236,7 +236,7 @@
           "destStopName": "14 St - Union Sq",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -292,7 +292,7 @@
           "destStopName": "86 St",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -313,6 +313,427 @@
             "route_type": 1,
             "color": "00933C",
             "agency_url": "http://web.mta.info/nyct/service/pdf/t4cur.pdf"
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 5991,
+      "departureTime": 25255,
+      "fare": 950,
+      "legs": [
+        {
+          "originLat": 40.5993,
+          "originLon": -73.955929,
+          "destLat": 40.754672,
+          "destLon": -73.986754,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.955929,
+                40.5993
+              ],
+              [
+                -73.957734,
+                40.60867
+              ],
+              [
+                -73.957734,
+                40.60867
+              ],
+              [
+                -73.959399,
+                40.617618
+              ],
+              [
+                -73.959399,
+                40.617618
+              ],
+              [
+                -73.960803,
+                40.625039
+              ],
+              [
+                -73.960803,
+                40.625039
+              ],
+              [
+                -73.961639,
+                40.62927
+              ],
+              [
+                -73.961639,
+                40.62927
+              ],
+              [
+                -73.962793,
+                40.635082
+              ],
+              [
+                -73.962793,
+                40.635082
+              ],
+              [
+                -73.963891,
+                40.640927
+              ],
+              [
+                -73.963891,
+                40.640927
+              ],
+              [
+                -73.964492,
+                40.644031
+              ],
+              [
+                -73.964492,
+                40.644031
+              ],
+              [
+                -73.962982,
+                40.650527
+              ],
+              [
+                -73.962982,
+                40.650527
+              ],
+              [
+                -73.961495,
+                40.6552919
+              ],
+              [
+                -73.961495,
+                40.6552919
+              ],
+              [
+                -73.9622459,
+                40.661614
+              ],
+              [
+                -73.9622459,
+                40.661614
+              ],
+              [
+                -73.972367,
+                40.67705
+              ],
+              [
+                -73.972367,
+                40.67705
+              ],
+              [
+                -73.97689,
+                40.6844599
+              ],
+              [
+                -73.97689,
+                40.6844599
+              ],
+              [
+                -73.981824,
+                40.690635
+              ],
+              [
+                -73.981824,
+                40.690635
+              ],
+              [
+                -74.00046,
+                40.718383
+              ],
+              [
+                -74.00046,
+                40.718383
+              ],
+              [
+                -73.990568,
+                40.7357359
+              ],
+              [
+                -73.990568,
+                40.7357359
+              ],
+              [
+                -73.98795,
+                40.749567
+              ],
+              [
+                -73.98795,
+                40.749567
+              ],
+              [
+                -73.986754,
+                40.754672
+              ]
+            ]
+          },
+          "originTime": 25800,
+          "destTime": 28350,
+          "originStopId": "east_of_hudson:nyct_subway_D37N",
+          "originStopName": "Avenue U",
+          "destStopId": "east_of_hudson:nyct_subway_R16N",
+          "destStopName": "Times Sq - 42 St",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": true,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nyct_subway_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "nyct_subway_Q",
+            "route_short_name": "Q",
+            "route_long_name": "Broadway Express",
+            "route_type": 1,
+            "color": "FCCC0A",
+            "agency_url": "http://web.mta.info/nyct/service/pdf/tqcur.pdf"
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.754672,
+          "originLon": -73.986754,
+          "destLat": 40.755271,
+          "destLon": -73.985338,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.986754,
+                40.754672
+              ],
+              [
+                -73.985338,
+                40.755271
+              ]
+            ]
+          },
+          "originTime": 28350,
+          "destTime": 28527,
+          "originStopId": "east_of_hudson:nyct_subway_R16N",
+          "originStopName": "Times Sq - 42 St",
+          "destStopId": "east_of_hudson:bus-manhattan_403241",
+          "destStopName": "W 42 ST/BROADWAY",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_SUBWAY",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.755271,
+          "originLon": -73.985338,
+          "destLat": 40.754535,
+          "destLon": -73.98364,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.985338,
+                40.755271
+              ],
+              [
+                -73.98364,
+                40.754535
+              ]
+            ]
+          },
+          "originTime": 28620,
+          "destTime": 28704,
+          "originStopId": "east_of_hudson:bus-manhattan_403241",
+          "originStopName": "W 42 ST/BROADWAY",
+          "destStopId": "east_of_hudson:bus-manhattan_403242",
+          "destStopName": "W 42 ST/6 AV",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-manhattan_MTA NYCT",
+            "agency_name": "MTA New York City Transit",
+            "route_id": "bus-manhattan_M42",
+            "route_short_name": "M42",
+            "route_long_name": "United Nations - W 42 St Pier",
+            "route_type": 3,
+            "color": "EE352E",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.754535,
+          "originLon": -73.98364,
+          "destLat": 40.75365,
+          "destLon": -73.984867,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.98364,
+                40.754535
+              ],
+              [
+                -73.984867,
+                40.75365
+              ]
+            ]
+          },
+          "originTime": 28704,
+          "destTime": 28847,
+          "originStopId": "east_of_hudson:bus-manhattan_403242",
+          "originStopName": "W 42 ST/6 AV",
+          "destStopId": "east_of_hudson:bus-busco_404040",
+          "destStopName": "6 AV/W 40 ST",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.75365,
+          "originLon": -73.984867,
+          "destLat": 40.779389,
+          "destLon": -73.9597859,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.984867,
+                40.75365
+              ],
+              [
+                -73.982063,
+                40.757502
+              ],
+              [
+                -73.982063,
+                40.757502
+              ],
+              [
+                -73.978892,
+                40.761864
+              ],
+              [
+                -73.978892,
+                40.761864
+              ],
+              [
+                -73.977028,
+                40.766163
+              ],
+              [
+                -73.977028,
+                40.766163
+              ],
+              [
+                -73.981943,
+                40.77147
+              ],
+              [
+                -73.981943,
+                40.77147
+              ],
+              [
+                -73.98142,
+                40.778731
+              ],
+              [
+                -73.98142,
+                40.778731
+              ],
+              [
+                -73.971956,
+                40.782053
+              ],
+              [
+                -73.971956,
+                40.782053
+              ],
+              [
+                -73.961481,
+                40.777087
+              ],
+              [
+                -73.961481,
+                40.777087
+              ],
+              [
+                -73.9597859,
+                40.779389
+              ]
+            ]
+          },
+          "originTime": 29223,
+          "destTime": 30920,
+          "originStopId": "east_of_hudson:bus-busco_404040",
+          "originStopName": "6 AV/W 40 ST",
+          "destStopId": "east_of_hudson:bus-busco_450112",
+          "destStopName": "MADISON AV/E 84 ST",
+          "cumulativeFare": 950,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_EXPRESS_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-busco_MTABC",
+            "agency_name": "MTA Bus Company",
+            "route_id": "bus-busco_BXM2",
+            "route_short_name": "BxM2",
+            "route_long_name": "Riverdale - Midtown Via 7 Ave",
+            "route_type": 3,
+            "color": "00933C",
+            "agency_url": "http://web.mta.info/busco/schedules/bxm2cur.pdf"
           },
           "type": "transit"
         }
@@ -461,7 +882,7 @@
           "destStopName": "14 St - Union Sq",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -511,7 +932,7 @@
           "destStopName": "14 St - Union Sq",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -567,7 +988,7 @@
           "destStopName": "86 St",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -617,7 +1038,7 @@
           "destStopName": "E 86 ST/LEXINGTON  AV",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -657,7 +1078,7 @@
           "destStopName": "E 86 ST/3 AV",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -707,7 +1128,7 @@
           "destStopName": "E 86 ST/3 AV",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -747,7 +1168,7 @@
           "destStopName": "E 86 ST/LEXINGTON AV",
           "cumulativeFare": 550,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -774,7 +1195,7 @@
       ]
     }
   ],
-  "computeTimeMillis": 1832,
+  "computeTimeMillis": 1732,
   "backendVersion": {
     "version": "UNKNOWN",
     "commit": "UNKNOWN",
@@ -783,5 +1204,5 @@
     "buildHost": "UNKNOWN",
     "buildTime": "UNKNOWN"
   },
-  "generationTime": "2020-06-21T23:17:01.844297"
+  "generationTime": "2020-06-21T23:40:23.000308"
 }

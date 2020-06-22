@@ -46,6 +46,411 @@
   },
   "trips": [
     {
+      "durationSeconds": 5836,
+      "departureTime": 25255,
+      "fare": 1825,
+      "legs": [
+        {
+          "originLat": 40.947601,
+          "originLon": -73.875905,
+          "destLat": 40.935592,
+          "destLon": -73.899012,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.875905,
+                40.947601
+              ],
+              [
+                -73.877988,
+                40.946033
+              ],
+              [
+                -73.877988,
+                40.946033
+              ],
+              [
+                -73.880439,
+                40.944834
+              ],
+              [
+                -73.880439,
+                40.944834
+              ],
+              [
+                -73.882295,
+                40.94214
+              ],
+              [
+                -73.882295,
+                40.94214
+              ],
+              [
+                -73.8839579,
+                40.939508
+              ],
+              [
+                -73.8839579,
+                40.939508
+              ],
+              [
+                -73.886463,
+                40.939323
+              ],
+              [
+                -73.886463,
+                40.939323
+              ],
+              [
+                -73.888189,
+                40.939398
+              ],
+              [
+                -73.888189,
+                40.939398
+              ],
+              [
+                -73.892135,
+                40.939554
+              ],
+              [
+                -73.892135,
+                40.939554
+              ],
+              [
+                -73.893828,
+                40.93944
+              ],
+              [
+                -73.893828,
+                40.93944
+              ],
+              [
+                -73.895913,
+                40.939378
+              ],
+              [
+                -73.895913,
+                40.939378
+              ],
+              [
+                -73.897154,
+                40.937408
+              ],
+              [
+                -73.897154,
+                40.937408
+              ],
+              [
+                -73.899012,
+                40.935592
+              ]
+            ]
+          },
+          "originTime": 26100,
+          "destTime": 26666,
+          "originStopId": "east_of_hudson:westchester_1299",
+          "originStopName": "LOCKWOOD AVE @ BURHANS AVE",
+          "destStopId": "east_of_hudson:westchester_118",
+          "destStopName": "WARBURTON AVE @ MANOR HOUSE SQ",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_LOCAL_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "westchester_WCDOT",
+            "agency_name": "Bee-Line Bus",
+            "route_id": "westchester_17191",
+            "route_short_name": "30",
+            "route_long_name": "30 -YONKERS-BRONXVILLE-NEW ROCHELLE",
+            "route_type": 3,
+            "color": "0080C0",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.935592,
+          "originLon": -73.899012,
+          "destLat": 40.935795,
+          "destLon": -73.902668,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.899012,
+                40.935592
+              ],
+              [
+                -73.902668,
+                40.935795
+              ]
+            ]
+          },
+          "originTime": 26666,
+          "destTime": 26907,
+          "originStopId": "east_of_hudson:westchester_118",
+          "originStopName": "WARBURTON AVE @ MANOR HOUSE SQ",
+          "destStopId": "east_of_hudson:mnr_18",
+          "destStopName": "Yonkers",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_LOCAL_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.935795,
+          "originLon": -73.902668,
+          "destLat": 40.805157,
+          "destLon": -73.939149,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.902668,
+                40.935795
+              ],
+              [
+                -73.904612,
+                40.9249719
+              ],
+              [
+                -73.904612,
+                40.9249719
+              ],
+              [
+                -73.914126,
+                40.903981
+              ],
+              [
+                -73.914126,
+                40.903981
+              ],
+              [
+                -73.921455,
+                40.878245
+              ],
+              [
+                -73.921455,
+                40.878245
+              ],
+              [
+                -73.910941,
+                40.874333
+              ],
+              [
+                -73.910941,
+                40.874333
+              ],
+              [
+                -73.9131199,
+                40.862248
+              ],
+              [
+                -73.9131199,
+                40.862248
+              ],
+              [
+                -73.9195829,
+                40.854252
+              ],
+              [
+                -73.9195829,
+                40.854252
+              ],
+              [
+                -73.9299,
+                40.8253
+              ],
+              [
+                -73.9299,
+                40.8253
+              ],
+              [
+                -73.939149,
+                40.805157
+              ]
+            ]
+          },
+          "originTime": 27300,
+          "destTime": 28800,
+          "originStopId": "east_of_hudson:mnr_18",
+          "originStopName": "Yonkers",
+          "destStopId": "east_of_hudson:mnr_4",
+          "destStopName": "Harlem-125th St.",
+          "cumulativeFare": 1150,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": 16616,
+            "metroNorthDirection": 1,
+            "metroNorthPeak": true,
+            "metroNorthLine": "HUDSON"
+          },
+          "route": {
+            "agency_id": "mnr_1",
+            "agency_name": "Metro-North Railroad",
+            "route_id": "mnr_1_peak",
+            "route_short_name": null,
+            "route_long_name": "Hudson",
+            "route_type": 2,
+            "color": "009B3A",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.805157,
+          "originLon": -73.939149,
+          "destLat": 40.804757,
+          "destLon": -73.941344,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.939149,
+                40.805157
+              ],
+              [
+                -73.941344,
+                40.804757
+              ]
+            ]
+          },
+          "originTime": 28800,
+          "destTime": 28996,
+          "originStopId": "east_of_hudson:mnr_4",
+          "originStopName": "Harlem-125th St.",
+          "destStopId": "east_of_hudson:bus-busco_400053",
+          "destStopName": "MADISON AV/E 123 ST",
+          "cumulativeFare": 1150,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.804757,
+          "originLon": -73.941344,
+          "destLat": 40.849554,
+          "destLon": -73.905648,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.941344,
+                40.804757
+              ],
+              [
+                -73.922643,
+                40.826617
+              ],
+              [
+                -73.922643,
+                40.826617
+              ],
+              [
+                -73.91994,
+                40.83132
+              ],
+              [
+                -73.91994,
+                40.83132
+              ],
+              [
+                -73.913692,
+                40.838411
+              ],
+              [
+                -73.913692,
+                40.838411
+              ],
+              [
+                -73.911639,
+                40.843405
+              ],
+              [
+                -73.911639,
+                40.843405
+              ],
+              [
+                -73.905648,
+                40.849554
+              ]
+            ]
+          },
+          "originTime": 29220,
+          "destTime": 30558,
+          "originStopId": "east_of_hudson:bus-busco_400053",
+          "originStopName": "MADISON AV/E 123 ST",
+          "destStopId": "east_of_hudson:bus-busco_104112",
+          "destStopName": "GRAND CONCOURSE/E TREMONT AV",
+          "cumulativeFare": 1825,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_EXPRESS_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-busco_MTABC",
+            "agency_name": "MTA Bus Company",
+            "route_id": "bus-busco_BXM4",
+            "route_short_name": "BxM4",
+            "route_long_name": "Woodlawn - Midtown",
+            "route_type": 3,
+            "color": "00933C",
+            "agency_url": "http://web.mta.info/busco/schedules/bxm4cur.pdf"
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
       "durationSeconds": 6401,
       "departureTime": 25255,
       "fare": 275,
@@ -324,7 +729,7 @@
           "destStopName": "BROADWAY @ MANHATTAN COLLEGE  PKWY",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -374,7 +779,7 @@
           "destStopName": "W 238 ST/BROADWAY",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -542,7 +947,7 @@
           "destStopName": "UNIVERSITY AV/W 179 ST",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -719,7 +1124,7 @@
           "destStopName": "ARMOUR VILLA AVE @ LAKE AVE",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -769,7 +1174,7 @@
           "destStopName": "Tuckahoe",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -825,7 +1230,7 @@
           "destStopName": "Mt Vernon West",
           "cumulativeFare": 300,
           "transferAllowance": {
-            "value": 2725,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -915,7 +1320,7 @@
           "destStopName": "Tremont",
           "cumulativeFare": 300,
           "transferAllowance": {
-            "value": 2725,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1052,7 +1457,7 @@
           "destStopName": "WARBURTON AVE @ MANOR HOUSE SQ",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1102,7 +1507,7 @@
           "destStopName": "Yonkers",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1198,7 +1603,7 @@
           "destStopName": "Harlem-125th St.",
           "cumulativeFare": 1150,
           "transferAllowance": {
-            "value": 2725,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1256,7 +1661,7 @@
           "destStopName": "Tremont",
           "cumulativeFare": 2125,
           "transferAllowance": {
-            "value": 3025,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1277,6 +1682,1146 @@
             "route_type": 2,
             "color": "0039A6",
             "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 6514,
+      "departureTime": 25255,
+      "fare": 950,
+      "legs": [
+        {
+          "originLat": 40.947601,
+          "originLon": -73.875905,
+          "destLat": 40.937408,
+          "destLon": -73.897154,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.875905,
+                40.947601
+              ],
+              [
+                -73.877988,
+                40.946033
+              ],
+              [
+                -73.877988,
+                40.946033
+              ],
+              [
+                -73.880439,
+                40.944834
+              ],
+              [
+                -73.880439,
+                40.944834
+              ],
+              [
+                -73.882295,
+                40.94214
+              ],
+              [
+                -73.882295,
+                40.94214
+              ],
+              [
+                -73.8839579,
+                40.939508
+              ],
+              [
+                -73.8839579,
+                40.939508
+              ],
+              [
+                -73.886463,
+                40.939323
+              ],
+              [
+                -73.886463,
+                40.939323
+              ],
+              [
+                -73.888189,
+                40.939398
+              ],
+              [
+                -73.888189,
+                40.939398
+              ],
+              [
+                -73.892135,
+                40.939554
+              ],
+              [
+                -73.892135,
+                40.939554
+              ],
+              [
+                -73.893828,
+                40.93944
+              ],
+              [
+                -73.893828,
+                40.93944
+              ],
+              [
+                -73.895913,
+                40.939378
+              ],
+              [
+                -73.895913,
+                40.939378
+              ],
+              [
+                -73.897154,
+                40.937408
+              ]
+            ]
+          },
+          "originTime": 26100,
+          "destTime": 26615,
+          "originStopId": "east_of_hudson:westchester_1299",
+          "originStopName": "LOCKWOOD AVE @ BURHANS AVE",
+          "destStopId": "east_of_hudson:westchester_864",
+          "destStopName": "N BROADWAY @ YONKERS ARMORY",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_LOCAL_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "westchester_WCDOT",
+            "agency_name": "Bee-Line Bus",
+            "route_id": "westchester_17191",
+            "route_short_name": "30",
+            "route_long_name": "30 -YONKERS-BRONXVILLE-NEW ROCHELLE",
+            "route_type": 3,
+            "color": "0080C0",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.937408,
+          "originLon": -73.897154,
+          "destLat": 40.937216,
+          "destLon": -73.897141,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.897154,
+                40.937408
+              ],
+              [
+                -73.897141,
+                40.937216
+              ]
+            ]
+          },
+          "originTime": 26615,
+          "destTime": 26638,
+          "originStopId": "east_of_hudson:westchester_864",
+          "originStopName": "N BROADWAY @ YONKERS ARMORY",
+          "destStopId": "east_of_hudson:westchester_811",
+          "destStopName": "N BROADWAY OPP YONKERS ARMORY",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_LOCAL_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.937216,
+          "originLon": -73.897141,
+          "destLat": 40.90239,
+          "destLon": -73.8639989,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.897141,
+                40.937216
+              ],
+              [
+                -73.895906,
+                40.939085
+              ],
+              [
+                -73.895906,
+                40.939085
+              ],
+              [
+                -73.893585,
+                40.939271
+              ],
+              [
+                -73.893585,
+                40.939271
+              ],
+              [
+                -73.8910219,
+                40.93942
+              ],
+              [
+                -73.8910219,
+                40.93942
+              ],
+              [
+                -73.88804,
+                40.93915
+              ],
+              [
+                -73.88804,
+                40.93915
+              ],
+              [
+                -73.884753,
+                40.939063
+              ],
+              [
+                -73.884753,
+                40.939063
+              ],
+              [
+                -73.88322,
+                40.93854
+              ],
+              [
+                -73.88322,
+                40.93854
+              ],
+              [
+                -73.881941,
+                40.9380809
+              ],
+              [
+                -73.881941,
+                40.9380809
+              ],
+              [
+                -73.880936,
+                40.935251
+              ],
+              [
+                -73.880936,
+                40.935251
+              ],
+              [
+                -73.87607,
+                40.9330549
+              ],
+              [
+                -73.87607,
+                40.9330549
+              ],
+              [
+                -73.870329,
+                40.93309
+              ],
+              [
+                -73.870329,
+                40.93309
+              ],
+              [
+                -73.868188,
+                40.934043
+              ],
+              [
+                -73.868188,
+                40.934043
+              ],
+              [
+                -73.866226,
+                40.93522
+              ],
+              [
+                -73.866226,
+                40.93522
+              ],
+              [
+                -73.863327,
+                40.935037
+              ],
+              [
+                -73.863327,
+                40.935037
+              ],
+              [
+                -73.861524,
+                40.935325
+              ],
+              [
+                -73.861524,
+                40.935325
+              ],
+              [
+                -73.858543,
+                40.934527
+              ],
+              [
+                -73.858543,
+                40.934527
+              ],
+              [
+                -73.856893,
+                40.9347659
+              ],
+              [
+                -73.856893,
+                40.9347659
+              ],
+              [
+                -73.855441,
+                40.934607
+              ],
+              [
+                -73.855441,
+                40.934607
+              ],
+              [
+                -73.85203,
+                40.934051
+              ],
+              [
+                -73.85203,
+                40.934051
+              ],
+              [
+                -73.850465,
+                40.933167
+              ],
+              [
+                -73.850465,
+                40.933167
+              ],
+              [
+                -73.848958,
+                40.930717
+              ],
+              [
+                -73.848958,
+                40.930717
+              ],
+              [
+                -73.848565,
+                40.929509
+              ],
+              [
+                -73.848565,
+                40.929509
+              ],
+              [
+                -73.852474,
+                40.92818
+              ],
+              [
+                -73.852474,
+                40.92818
+              ],
+              [
+                -73.85127,
+                40.92496
+              ],
+              [
+                -73.85127,
+                40.92496
+              ],
+              [
+                -73.852289,
+                40.923249
+              ],
+              [
+                -73.852289,
+                40.923249
+              ],
+              [
+                -73.853941,
+                40.920515
+              ],
+              [
+                -73.853941,
+                40.920515
+              ],
+              [
+                -73.854923,
+                40.918782
+              ],
+              [
+                -73.854923,
+                40.918782
+              ],
+              [
+                -73.856263,
+                40.9164169
+              ],
+              [
+                -73.856263,
+                40.9164169
+              ],
+              [
+                -73.857079,
+                40.915006
+              ],
+              [
+                -73.857079,
+                40.915006
+              ],
+              [
+                -73.858402,
+                40.9131969
+              ],
+              [
+                -73.858402,
+                40.9131969
+              ],
+              [
+                -73.861329,
+                40.911062
+              ],
+              [
+                -73.861329,
+                40.911062
+              ],
+              [
+                -73.862668,
+                40.90799
+              ],
+              [
+                -73.862668,
+                40.90799
+              ],
+              [
+                -73.863176,
+                40.9065049
+              ],
+              [
+                -73.863176,
+                40.9065049
+              ],
+              [
+                -73.863811,
+                40.904503
+              ],
+              [
+                -73.863811,
+                40.904503
+              ],
+              [
+                -73.8639989,
+                40.90239
+              ]
+            ]
+          },
+          "originTime": 26956,
+          "destTime": 28899,
+          "originStopId": "east_of_hudson:westchester_811",
+          "originStopName": "N BROADWAY OPP YONKERS ARMORY",
+          "destStopId": "east_of_hudson:westchester_1143",
+          "destStopName": "MCLEAN AVE @ WOODLAWN AVE",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "westchester_WCDOT",
+            "agency_name": "Bee-Line Bus",
+            "route_id": "westchester_17187",
+            "route_short_name": "25",
+            "route_long_name": "25 - THE BRONX-YONKERS",
+            "route_type": 3,
+            "color": "0080C0",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.90239,
+          "originLon": -73.8639989,
+          "destLat": 40.902133,
+          "destLon": -73.86809,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.8639989,
+                40.90239
+              ],
+              [
+                -73.86809,
+                40.902133
+              ]
+            ]
+          },
+          "originTime": 28899,
+          "destTime": 29194,
+          "originStopId": "east_of_hudson:westchester_1143",
+          "originStopName": "MCLEAN AVE @ WOODLAWN AVE",
+          "destStopId": "east_of_hudson:bus-busco_150151",
+          "destStopName": "KATONAH AV/E 242 ST",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.902133,
+          "originLon": -73.86809,
+          "destLat": 40.852725,
+          "destLon": -73.903718,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.86809,
+                40.902133
+              ],
+              [
+                -73.867515,
+                40.8988919
+              ],
+              [
+                -73.867515,
+                40.8988919
+              ],
+              [
+                -73.867163,
+                40.897026
+              ],
+              [
+                -73.867163,
+                40.897026
+              ],
+              [
+                -73.87034,
+                40.896729
+              ],
+              [
+                -73.87034,
+                40.896729
+              ],
+              [
+                -73.8749199,
+                40.895787
+              ],
+              [
+                -73.8749199,
+                40.895787
+              ],
+              [
+                -73.8778969,
+                40.886691
+              ],
+              [
+                -73.8778969,
+                40.886691
+              ],
+              [
+                -73.877837,
+                40.883393
+              ],
+              [
+                -73.877837,
+                40.883393
+              ],
+              [
+                -73.8791069,
+                40.879441
+              ],
+              [
+                -73.8791069,
+                40.879441
+              ],
+              [
+                -73.879804,
+                40.876954
+              ],
+              [
+                -73.879804,
+                40.876954
+              ],
+              [
+                -73.88693,
+                40.87432
+              ],
+              [
+                -73.88693,
+                40.87432
+              ],
+              [
+                -73.888252,
+                40.872085
+              ],
+              [
+                -73.888252,
+                40.872085
+              ],
+              [
+                -73.893171,
+                40.86813
+              ],
+              [
+                -73.893171,
+                40.86813
+              ],
+              [
+                -73.894766,
+                40.866021
+              ],
+              [
+                -73.894766,
+                40.866021
+              ],
+              [
+                -73.897737,
+                40.861909
+              ],
+              [
+                -73.897737,
+                40.861909
+              ],
+              [
+                -73.903718,
+                40.852725
+              ]
+            ]
+          },
+          "originTime": 29400,
+          "destTime": 31117,
+          "originStopId": "east_of_hudson:bus-busco_150151",
+          "originStopName": "KATONAH AV/E 242 ST",
+          "destStopId": "east_of_hudson:bus-busco_100109",
+          "destStopName": "GRAND CONCOURSE/E BURNSIDE AV",
+          "cumulativeFare": 950,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_EXPRESS_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-busco_MTABC",
+            "agency_name": "MTA Bus Company",
+            "route_id": "bus-busco_BXM4",
+            "route_short_name": "BxM4",
+            "route_long_name": "Woodlawn - Midtown",
+            "route_type": 3,
+            "color": "00933C",
+            "agency_url": "http://web.mta.info/busco/schedules/bxm4cur.pdf"
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 5999,
+      "departureTime": 25255,
+      "fare": 975,
+      "legs": [
+        {
+          "originLat": 40.94639,
+          "originLon": -73.8774069,
+          "destLat": 40.9497299,
+          "destLon": -73.8306439,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.8774069,
+                40.94639
+              ],
+              [
+                -73.876616,
+                40.9473599
+              ],
+              [
+                -73.876616,
+                40.9473599
+              ],
+              [
+                -73.8757,
+                40.951457
+              ],
+              [
+                -73.8757,
+                40.951457
+              ],
+              [
+                -73.874521,
+                40.952905
+              ],
+              [
+                -73.874521,
+                40.952905
+              ],
+              [
+                -73.87302,
+                40.954192
+              ],
+              [
+                -73.87302,
+                40.954192
+              ],
+              [
+                -73.8704,
+                40.955783
+              ],
+              [
+                -73.8704,
+                40.955783
+              ],
+              [
+                -73.867846,
+                40.955818
+              ],
+              [
+                -73.867846,
+                40.955818
+              ],
+              [
+                -73.8639,
+                40.9545
+              ],
+              [
+                -73.8639,
+                40.9545
+              ],
+              [
+                -73.8578819,
+                40.953763
+              ],
+              [
+                -73.8578819,
+                40.953763
+              ],
+              [
+                -73.854239,
+                40.952359
+              ],
+              [
+                -73.854239,
+                40.952359
+              ],
+              [
+                -73.85096,
+                40.952585
+              ],
+              [
+                -73.85096,
+                40.952585
+              ],
+              [
+                -73.847864,
+                40.9535349
+              ],
+              [
+                -73.847864,
+                40.9535349
+              ],
+              [
+                -73.844938,
+                40.953608
+              ],
+              [
+                -73.844938,
+                40.953608
+              ],
+              [
+                -73.8426439,
+                40.952818
+              ],
+              [
+                -73.8426439,
+                40.952818
+              ],
+              [
+                -73.8375959,
+                40.950125
+              ],
+              [
+                -73.8375959,
+                40.950125
+              ],
+              [
+                -73.8345959,
+                40.949602
+              ],
+              [
+                -73.8345959,
+                40.949602
+              ],
+              [
+                -73.8306439,
+                40.9497299
+              ]
+            ]
+          },
+          "originTime": 26340,
+          "destTime": 27295,
+          "originStopId": "east_of_hudson:westchester_1015",
+          "originStopName": "SAW MILL RIVER RD @ PALMER RD",
+          "destStopId": "east_of_hudson:westchester_1028",
+          "destStopName": "ARMOUR VILLA AVE @ LAKE AVE",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_LOCAL_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "westchester_WCDOT",
+            "agency_name": "Bee-Line Bus",
+            "route_id": "westchester_17173",
+            "route_short_name": "8",
+            "route_long_name": "8 - MT ST VINCENT-YONKERS-TUCKAHOE",
+            "route_type": 3,
+            "color": "0080C0",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.9497299,
+          "originLon": -73.8306439,
+          "destLat": 40.949393,
+          "destLon": -73.830166,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.8306439,
+                40.9497299
+              ],
+              [
+                -73.830166,
+                40.949393
+              ]
+            ]
+          },
+          "originTime": 27295,
+          "destTime": 27369,
+          "originStopId": "east_of_hudson:westchester_1028",
+          "originStopName": "ARMOUR VILLA AVE @ LAKE AVE",
+          "destStopId": "east_of_hudson:mnr_66",
+          "destStopName": "Tuckahoe",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_LOCAL_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.949393,
+          "originLon": -73.830166,
+          "destLat": 40.912142,
+          "destLon": -73.851129,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.830166,
+                40.949393
+              ],
+              [
+                -73.835208,
+                40.93978
+              ],
+              [
+                -73.835208,
+                40.93978
+              ],
+              [
+                -73.83948,
+                40.92699
+              ],
+              [
+                -73.83948,
+                40.92699
+              ],
+              [
+                -73.851129,
+                40.912142
+              ]
+            ]
+          },
+          "originTime": 27660,
+          "destTime": 28140,
+          "originStopId": "east_of_hudson:mnr_66",
+          "originStopName": "Tuckahoe",
+          "destStopId": "east_of_hudson:mnr_62",
+          "destStopName": "Mt Vernon West",
+          "cumulativeFare": 300,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": 16648,
+            "metroNorthDirection": 1,
+            "metroNorthPeak": true,
+            "metroNorthLine": "HARLEM"
+          },
+          "route": {
+            "agency_id": "mnr_1",
+            "agency_name": "Metro-North Railroad",
+            "route_id": "mnr_2_peak",
+            "route_short_name": null,
+            "route_long_name": "Harlem",
+            "route_type": 2,
+            "color": "0039A6",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.912142,
+          "originLon": -73.851129,
+          "destLat": 40.847301,
+          "destLon": -73.89955,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.851129,
+                40.912142
+              ],
+              [
+                -73.85568,
+                40.9059359
+              ],
+              [
+                -73.85568,
+                40.9059359
+              ],
+              [
+                -73.862916,
+                40.895361
+              ],
+              [
+                -73.862916,
+                40.895361
+              ],
+              [
+                -73.871064,
+                40.878569
+              ],
+              [
+                -73.871064,
+                40.878569
+              ],
+              [
+                -73.8831089,
+                40.866555
+              ],
+              [
+                -73.8831089,
+                40.866555
+              ],
+              [
+                -73.89058,
+                40.8615
+              ],
+              [
+                -73.89058,
+                40.8615
+              ],
+              [
+                -73.89955,
+                40.847301
+              ]
+            ]
+          },
+          "originTime": 28860,
+          "destTime": 29700,
+          "originStopId": "east_of_hudson:mnr_62",
+          "originStopName": "Mt Vernon West",
+          "destStopId": "east_of_hudson:mnr_55",
+          "destStopName": "Tremont",
+          "cumulativeFare": 300,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": 16648,
+            "metroNorthDirection": 1,
+            "metroNorthPeak": true,
+            "metroNorthLine": "HARLEM"
+          },
+          "route": {
+            "agency_id": "mnr_1",
+            "agency_name": "Metro-North Railroad",
+            "route_id": "mnr_2_peak",
+            "route_short_name": null,
+            "route_long_name": "Harlem",
+            "route_type": 2,
+            "color": "0039A6",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.847301,
+          "originLon": -73.89955,
+          "destLat": 40.849554,
+          "destLon": -73.905648,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.89955,
+                40.847301
+              ],
+              [
+                -73.905648,
+                40.849554
+              ]
+            ]
+          },
+          "originTime": 29700,
+          "destTime": 30161,
+          "originStopId": "east_of_hudson:mnr_55",
+          "originStopName": "Tremont",
+          "destStopId": "east_of_hudson:bus-busco_104112",
+          "destStopName": "GRAND CONCOURSE/E TREMONT AV",
+          "cumulativeFare": 300,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.849554,
+          "originLon": -73.905648,
+          "destLat": 40.8521239,
+          "destLon": -73.90358,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.905648,
+                40.849554
+              ],
+              [
+                -73.90358,
+                40.8521239
+              ]
+            ]
+          },
+          "originTime": 30558,
+          "destTime": 30635,
+          "originStopId": "east_of_hudson:bus-busco_104112",
+          "originStopName": "GRAND CONCOURSE/E TREMONT AV",
+          "destStopId": "east_of_hudson:bus-busco_100039",
+          "destStopName": "GRAND CONCOURSE/E BURNSIDE AV",
+          "cumulativeFare": 975,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_EXPRESS_BUS",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "bus-busco_MTABC",
+            "agency_name": "MTA Bus Company",
+            "route_id": "bus-busco_BXM4",
+            "route_short_name": "BxM4",
+            "route_long_name": "Woodlawn - Midtown",
+            "route_type": 3,
+            "color": "00933C",
+            "agency_url": "http://web.mta.info/busco/schedules/bxm4cur.pdf"
           },
           "type": "transit"
         }
@@ -1401,7 +2946,7 @@
           "destStopName": "RIVERDALE AVE @ MAIN ST",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1451,7 +2996,7 @@
           "destStopName": "HUDSON ST @ S BROADWAY",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1699,7 +3244,7 @@
           "destStopName": "BEDFORD PARK BLVD @ JEROME AVE",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1749,7 +3294,7 @@
           "destStopName": "WEBSTER AV/BEDFORD PK BL",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1805,7 +3350,7 @@
           "destStopName": "WEBSTER AV/E TREMONT AV",
           "cumulativeFare": 550,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1942,7 +3487,7 @@
           "destStopName": "WARBURTON AVE @ MANOR HOUSE SQ",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -1992,7 +3537,7 @@
           "destStopName": "Yonkers",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2072,7 +3617,7 @@
           "destStopName": "Morris Heights",
           "cumulativeFare": 300,
           "transferAllowance": {
-            "value": 2725,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2122,7 +3667,7 @@
           "destStopName": "UNIVERSITY AV/W TREMONT AV",
           "cumulativeFare": 300,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2178,7 +3723,7 @@
           "destStopName": "WEBSTER AV/E TREMONT AV",
           "cumulativeFare": 575,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2323,7 +3868,7 @@
           "destStopName": "RIVERDALE AVE @ MAIN ST",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2373,7 +3918,7 @@
           "destStopName": "HUDSON ST @ S BROADWAY",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2613,7 +4158,7 @@
           "destStopName": "JEROME AVE @ 205TH ST",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2663,7 +4208,7 @@
           "destStopName": "Bedford Park Blvd",
           "cumulativeFare": 275,
           "transferAllowance": {
-            "value": 0,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2719,7 +4264,7 @@
           "destStopName": "Tremont Av",
           "cumulativeFare": 550,
           "transferAllowance": {
-            "value": 300,
+            "value": 10000000,
             "number": 2147483647,
             "expirationTime": 2147483647,
             "lirr": null,
@@ -2746,7 +4291,7 @@
       ]
     }
   ],
-  "computeTimeMillis": 601,
+  "computeTimeMillis": 1156,
   "backendVersion": {
     "version": "UNKNOWN",
     "commit": "UNKNOWN",
@@ -2755,5 +4300,5 @@
     "buildHost": "UNKNOWN",
     "buildTime": "UNKNOWN"
   },
-  "generationTime": "2020-06-21T23:17:30.059732"
+  "generationTime": "2020-06-21T23:40:50.743296"
 }
