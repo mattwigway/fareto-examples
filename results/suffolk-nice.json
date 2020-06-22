@@ -1,0 +1,2370 @@
+{
+  "request": {
+    "fromLat": 40.763901280509415,
+    "fromLon": -73.3644393149125,
+    "toLat": 40.72644570460133,
+    "toLon": -73.48957136037441,
+    "fromTime": 25200,
+    "toTime": 25260,
+    "walkSpeed": 1.3888888,
+    "bikeSpeed": 4.1666665,
+    "bikeTrafficStress": 4,
+    "carSpeed": 20.0,
+    "streetTime": 90,
+    "maxWalkTime": 20,
+    "maxBikeTime": 20,
+    "maxCarTime": 45,
+    "minBikeTime": 10,
+    "minCarTime": 10,
+    "date": "2019-12-16",
+    "limit": 0,
+    "accessModes": "WALK",
+    "egressModes": "WALK",
+    "directModes": "WALK",
+    "transitModes": "TRAM,SUBWAY,RAIL,BUS,FERRY,CABLE_CAR,GONDOLA,FUNICULAR",
+    "suboptimalMinutes": 5,
+    "maxTripDurationMinutes": 120,
+    "maxRides": 4,
+    "scenario": null,
+    "scenarioId": null,
+    "zoneId": "Z",
+    "wheelchair": false,
+    "maxFare": 200000,
+    "inRoutingFareCalculator": {
+      "type": "nyc",
+      "gtfsFares": null,
+      "toLirrDiscounts": null,
+      "toMetroNorthDiscounts": null,
+      "lirrMetrocardTransferSource": null,
+      "metroNorthMetrocardTransferSource": null,
+      "lirrFareOverrides": null,
+      "metroNorthFareOverrides": null
+    },
+    "monteCarloDraws": 1
+  },
+  "trips": [
+    {
+      "durationSeconds": 5241,
+      "departureTime": 25255,
+      "fare": 600,
+      "legs": [
+        {
+          "originLat": 40.754801,
+          "originLon": -73.3580658,
+          "destLat": 40.735915,
+          "destLon": -73.4412387,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.3580658,
+                40.754801
+              ],
+              [
+                -73.4412387,
+                40.735915
+              ]
+            ]
+          },
+          "originTime": 28260,
+          "destTime": 28620,
+          "originStopId": "east_of_hudson:lirr220",
+          "originStopName": "Wyandanch",
+          "destStopId": "east_of_hudson:lirr59",
+          "destStopName": "Farmingdale",
+          "cumulativeFare": 325,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": {
+              "value": 0,
+              "number": 0,
+              "expirationTime": 0,
+              "cumulativeFare": 325,
+              "boardStop": "LIRR220",
+              "viaStop": null,
+              "alightStop": "LIRR59",
+              "initialDirection": "INBOUND",
+              "peakBeforeDirectionChange": true,
+              "peakAfterDirectionChange": false,
+              "mostRecentTicketPurchaseTime": 28260,
+              "maxTransferAllowance": 4350
+            },
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "default",
+            "agency_name": "default",
+            "route_id": "lirr4_peak",
+            "route_short_name": null,
+            "route_long_name": "Ronkonkoma (peak)",
+            "route_type": 2,
+            "color": "A626AA",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.735915,
+          "originLon": -73.4412387,
+          "destLat": 40.7335,
+          "destLon": -73.44096,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.4412387,
+                40.735915
+              ],
+              [
+                -73.44096,
+                40.7335
+              ]
+            ]
+          },
+          "originTime": 28620,
+          "destTime": 29009,
+          "originStopId": "east_of_hudson:lirr59",
+          "originStopName": "Farmingdale",
+          "destStopId": "east_of_hudson:nice_3459",
+          "destStopName": "Conklin St + Secatogue Ave",
+          "cumulativeFare": 325,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.7335,
+          "originLon": -73.44096,
+          "destLat": 40.736232,
+          "destLon": -73.430355,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.44096,
+                40.7335
+              ],
+              [
+                -73.435845,
+                40.734423
+              ],
+              [
+                -73.435845,
+                40.734423
+              ],
+              [
+                -73.430355,
+                40.736232
+              ]
+            ]
+          },
+          "originTime": 29460,
+          "destTime": 29580,
+          "originStopId": "east_of_hudson:nice_3459",
+          "originStopName": "Conklin St + Secatogue Ave",
+          "destStopId": "east_of_hudson:nice_3461",
+          "destStopName": "Conklin St + Locust Ave",
+          "cumulativeFare": 600,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_NICE",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nice_LIBUS",
+            "agency_name": "Nassau Inter-County Express",
+            "route_id": "nice_n70",
+            "route_short_name": "n70",
+            "route_long_name": "Hempstead- SUNY Farmingdale",
+            "route_type": 3,
+            "color": "199DD3",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.736232,
+          "originLon": -73.430355,
+          "destLat": 40.736483,
+          "destLon": -73.430142,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.430355,
+                40.736232
+              ],
+              [
+                -73.430142,
+                40.736483
+              ]
+            ]
+          },
+          "originTime": 29580,
+          "destTime": 29611,
+          "originStopId": "east_of_hudson:nice_3461",
+          "originStopName": "Conklin St + Locust Ave",
+          "destStopId": "east_of_hudson:nice_3493",
+          "destStopName": "Conklin St Opp Locust Ave",
+          "cumulativeFare": 600,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_NICE",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.736483,
+          "originLon": -73.430142,
+          "destLat": 40.725435,
+          "destLon": -73.488412,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.430142,
+                40.736483
+              ],
+              [
+                -73.436431,
+                40.734466
+              ],
+              [
+                -73.436431,
+                40.734466
+              ],
+              [
+                -73.441128,
+                40.733634
+              ],
+              [
+                -73.441128,
+                40.733634
+              ],
+              [
+                -73.445922,
+                40.7328989
+              ],
+              [
+                -73.445922,
+                40.7328989
+              ],
+              [
+                -73.456679,
+                40.731273
+              ],
+              [
+                -73.456679,
+                40.731273
+              ],
+              [
+                -73.459516,
+                40.730752
+              ],
+              [
+                -73.459516,
+                40.730752
+              ],
+              [
+                -73.463803,
+                40.729269
+              ],
+              [
+                -73.463803,
+                40.729269
+              ],
+              [
+                -73.467099,
+                40.727986
+              ],
+              [
+                -73.467099,
+                40.727986
+              ],
+              [
+                -73.471864,
+                40.72659
+              ],
+              [
+                -73.471864,
+                40.72659
+              ],
+              [
+                -73.478782,
+                40.725863
+              ],
+              [
+                -73.478782,
+                40.725863
+              ],
+              [
+                -73.480357,
+                40.725829
+              ],
+              [
+                -73.480357,
+                40.725829
+              ],
+              [
+                -73.482732,
+                40.725738
+              ],
+              [
+                -73.482732,
+                40.725738
+              ],
+              [
+                -73.488412,
+                40.725435
+              ]
+            ]
+          },
+          "originTime": 29700,
+          "destTime": 30360,
+          "originStopId": "east_of_hudson:nice_3493",
+          "originStopName": "Conklin St Opp Locust Ave",
+          "destStopId": "east_of_hudson:nice_3449",
+          "destStopName": "Hempstead Tpke + Hicksville Rd",
+          "cumulativeFare": 600,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_NICE_ONE_TRANSFER",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nice_LIBUS",
+            "agency_name": "Nassau Inter-County Express",
+            "route_id": "nice_n70",
+            "route_short_name": "n70",
+            "route_long_name": "Hempstead- SUNY Farmingdale",
+            "route_type": 3,
+            "color": "199DD3",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 4937,
+      "departureTime": 25255,
+      "fare": 275,
+      "legs": [
+        {
+          "originLat": 40.753724,
+          "originLon": -73.357263,
+          "destLat": 40.682083,
+          "destLon": -73.432367,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.357263,
+                40.753724
+              ],
+              [
+                -73.3598619,
+                40.754296
+              ],
+              [
+                -73.3598619,
+                40.754296
+              ],
+              [
+                -73.361078,
+                40.753217
+              ],
+              [
+                -73.361078,
+                40.753217
+              ],
+              [
+                -73.3627,
+                40.75015
+              ],
+              [
+                -73.3627,
+                40.75015
+              ],
+              [
+                -73.3638079,
+                40.748036
+              ],
+              [
+                -73.3638079,
+                40.748036
+              ],
+              [
+                -73.364939,
+                40.745811
+              ],
+              [
+                -73.364939,
+                40.745811
+              ],
+              [
+                -73.367283,
+                40.741453
+              ],
+              [
+                -73.367283,
+                40.741453
+              ],
+              [
+                -73.370292,
+                40.735842
+              ],
+              [
+                -73.370292,
+                40.735842
+              ],
+              [
+                -73.373986,
+                40.728775
+              ],
+              [
+                -73.373986,
+                40.728775
+              ],
+              [
+                -73.377447,
+                40.722375
+              ],
+              [
+                -73.377447,
+                40.722375
+              ],
+              [
+                -73.3801939,
+                40.717275
+              ],
+              [
+                -73.3801939,
+                40.717275
+              ],
+              [
+                -73.3812673,
+                40.7150484
+              ],
+              [
+                -73.3812673,
+                40.7150484
+              ],
+              [
+                -73.382144,
+                40.713642
+              ],
+              [
+                -73.382144,
+                40.713642
+              ],
+              [
+                -73.384394,
+                40.7095
+              ],
+              [
+                -73.384394,
+                40.7095
+              ],
+              [
+                -73.387828,
+                40.703228
+              ],
+              [
+                -73.387828,
+                40.703228
+              ],
+              [
+                -73.389365,
+                40.700517
+              ],
+              [
+                -73.389365,
+                40.700517
+              ],
+              [
+                -73.392028,
+                40.695414
+              ],
+              [
+                -73.392028,
+                40.695414
+              ],
+              [
+                -73.3934249,
+                40.692625
+              ],
+              [
+                -73.3934249,
+                40.692625
+              ],
+              [
+                -73.396204,
+                40.688718
+              ],
+              [
+                -73.396204,
+                40.688718
+              ],
+              [
+                -73.399967,
+                40.685601
+              ],
+              [
+                -73.399967,
+                40.685601
+              ],
+              [
+                -73.401938,
+                40.68475
+              ],
+              [
+                -73.401938,
+                40.68475
+              ],
+              [
+                -73.405274,
+                40.684351
+              ],
+              [
+                -73.405274,
+                40.684351
+              ],
+              [
+                -73.408775,
+                40.683935
+              ],
+              [
+                -73.408775,
+                40.683935
+              ],
+              [
+                -73.4112789,
+                40.683662
+              ],
+              [
+                -73.4112789,
+                40.683662
+              ],
+              [
+                -73.4152359,
+                40.684303
+              ],
+              [
+                -73.4152359,
+                40.684303
+              ],
+              [
+                -73.4180439,
+                40.683694
+              ],
+              [
+                -73.4180439,
+                40.683694
+              ],
+              [
+                -73.417158,
+                40.681899
+              ],
+              [
+                -73.417158,
+                40.681899
+              ],
+              [
+                -73.417187,
+                40.680374
+              ],
+              [
+                -73.417187,
+                40.680374
+              ],
+              [
+                -73.418268,
+                40.679303
+              ],
+              [
+                -73.418268,
+                40.679303
+              ],
+              [
+                -73.4201039,
+                40.680408
+              ],
+              [
+                -73.4201039,
+                40.680408
+              ],
+              [
+                -73.4202959,
+                40.679347
+              ],
+              [
+                -73.4202959,
+                40.679347
+              ],
+              [
+                -73.423866,
+                40.679113
+              ],
+              [
+                -73.423866,
+                40.679113
+              ],
+              [
+                -73.4258699,
+                40.68447
+              ],
+              [
+                -73.4258699,
+                40.68447
+              ],
+              [
+                -73.432367,
+                40.682083
+              ]
+            ]
+          },
+          "originTime": 26640,
+          "destTime": 28200,
+          "originStopId": "east_of_hudson:suffolk_260:1",
+          "originStopName": "Grand Blvd/Doe St",
+          "destStopId": "east_of_hudson:suffolk_1042:1",
+          "destStopName": "Sunrise Mall",
+          "cumulativeFare": 225,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "SUFFOLK",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "suffolk_SCT",
+            "agency_name": "Suffolk County Transit",
+            "route_id": "suffolk_S33",
+            "route_short_name": "S33",
+            "route_long_name": "Sunrise Mall - Hauppauge",
+            "route_type": 3,
+            "color": "0",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.682083,
+          "originLon": -73.432367,
+          "destLat": 40.6821039,
+          "destLon": -73.432405,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.432367,
+                40.682083
+              ],
+              [
+                -73.432405,
+                40.6821039
+              ]
+            ]
+          },
+          "originTime": 28200,
+          "destTime": 28225,
+          "originStopId": "east_of_hudson:suffolk_1042:1",
+          "originStopName": "Sunrise Mall",
+          "destStopId": "east_of_hudson:nice_261",
+          "destStopName": "SUNRISE MALL TERMINAL",
+          "cumulativeFare": 225,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "SUFFOLK",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.6821039,
+          "originLon": -73.432405,
+          "destLat": 40.725542,
+          "destLon": -73.488508,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.432405,
+                40.6821039
+              ],
+              [
+                -73.439476,
+                40.6785939
+              ],
+              [
+                -73.439476,
+                40.6785939
+              ],
+              [
+                -73.448133,
+                40.6780659
+              ],
+              [
+                -73.448133,
+                40.6780659
+              ],
+              [
+                -73.456397,
+                40.6775669
+              ],
+              [
+                -73.456397,
+                40.6775669
+              ],
+              [
+                -73.460092,
+                40.67722
+              ],
+              [
+                -73.460092,
+                40.67722
+              ],
+              [
+                -73.471691,
+                40.6761599
+              ],
+              [
+                -73.471691,
+                40.6761599
+              ],
+              [
+                -73.470712,
+                40.677558
+              ],
+              [
+                -73.470712,
+                40.677558
+              ],
+              [
+                -73.474283,
+                40.678078
+              ],
+              [
+                -73.474283,
+                40.678078
+              ],
+              [
+                -73.474268,
+                40.68064
+              ],
+              [
+                -73.474268,
+                40.68064
+              ],
+              [
+                -73.475049,
+                40.682878
+              ],
+              [
+                -73.475049,
+                40.682878
+              ],
+              [
+                -73.4761209,
+                40.685552
+              ],
+              [
+                -73.4761209,
+                40.685552
+              ],
+              [
+                -73.47697,
+                40.688896
+              ],
+              [
+                -73.47697,
+                40.688896
+              ],
+              [
+                -73.4780189,
+                40.691677
+              ],
+              [
+                -73.4780189,
+                40.691677
+              ],
+              [
+                -73.479659,
+                40.69384
+              ],
+              [
+                -73.479659,
+                40.69384
+              ],
+              [
+                -73.48053,
+                40.695282
+              ],
+              [
+                -73.48053,
+                40.695282
+              ],
+              [
+                -73.4812479,
+                40.698583
+              ],
+              [
+                -73.4812479,
+                40.698583
+              ],
+              [
+                -73.481854,
+                40.70125
+              ],
+              [
+                -73.481854,
+                40.70125
+              ],
+              [
+                -73.482649,
+                40.705014
+              ],
+              [
+                -73.482649,
+                40.705014
+              ],
+              [
+                -73.482783,
+                40.708326
+              ],
+              [
+                -73.482783,
+                40.708326
+              ],
+              [
+                -73.482535,
+                40.710202
+              ],
+              [
+                -73.482535,
+                40.710202
+              ],
+              [
+                -73.482523,
+                40.713122
+              ],
+              [
+                -73.482523,
+                40.713122
+              ],
+              [
+                -73.482935,
+                40.7153969
+              ],
+              [
+                -73.482935,
+                40.7153969
+              ],
+              [
+                -73.483485,
+                40.717002
+              ],
+              [
+                -73.483485,
+                40.717002
+              ],
+              [
+                -73.4837709,
+                40.718394
+              ],
+              [
+                -73.4837709,
+                40.718394
+              ],
+              [
+                -73.484887,
+                40.72063
+              ],
+              [
+                -73.484887,
+                40.72063
+              ],
+              [
+                -73.486731,
+                40.7228179
+              ],
+              [
+                -73.486731,
+                40.7228179
+              ],
+              [
+                -73.488508,
+                40.725542
+              ]
+            ]
+          },
+          "originTime": 28860,
+          "destTime": 30060,
+          "originStopId": "east_of_hudson:nice_261",
+          "originStopName": "SUNRISE MALL TERMINAL",
+          "destStopId": "east_of_hudson:nice_386",
+          "destStopName": "HICKSVILLE RD + HEMPSTEAD TPKE",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nice_LIBUS",
+            "agency_name": "Nassau Inter-County Express",
+            "route_id": "nice_n80",
+            "route_short_name": "n80",
+            "route_long_name": "Hicksville-Sun Mall",
+            "route_type": 3,
+            "color": "199DD3",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 4937,
+      "departureTime": 25255,
+      "fare": 550,
+      "legs": [
+        {
+          "originLat": 40.753724,
+          "originLon": -73.357263,
+          "destLat": 40.682083,
+          "destLon": -73.432367,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.357263,
+                40.753724
+              ],
+              [
+                -73.3598619,
+                40.754296
+              ],
+              [
+                -73.3598619,
+                40.754296
+              ],
+              [
+                -73.361078,
+                40.753217
+              ],
+              [
+                -73.361078,
+                40.753217
+              ],
+              [
+                -73.3627,
+                40.75015
+              ],
+              [
+                -73.3627,
+                40.75015
+              ],
+              [
+                -73.3638079,
+                40.748036
+              ],
+              [
+                -73.3638079,
+                40.748036
+              ],
+              [
+                -73.364939,
+                40.745811
+              ],
+              [
+                -73.364939,
+                40.745811
+              ],
+              [
+                -73.367283,
+                40.741453
+              ],
+              [
+                -73.367283,
+                40.741453
+              ],
+              [
+                -73.370292,
+                40.735842
+              ],
+              [
+                -73.370292,
+                40.735842
+              ],
+              [
+                -73.373986,
+                40.728775
+              ],
+              [
+                -73.373986,
+                40.728775
+              ],
+              [
+                -73.377447,
+                40.722375
+              ],
+              [
+                -73.377447,
+                40.722375
+              ],
+              [
+                -73.3801939,
+                40.717275
+              ],
+              [
+                -73.3801939,
+                40.717275
+              ],
+              [
+                -73.3812673,
+                40.7150484
+              ],
+              [
+                -73.3812673,
+                40.7150484
+              ],
+              [
+                -73.382144,
+                40.713642
+              ],
+              [
+                -73.382144,
+                40.713642
+              ],
+              [
+                -73.384394,
+                40.7095
+              ],
+              [
+                -73.384394,
+                40.7095
+              ],
+              [
+                -73.387828,
+                40.703228
+              ],
+              [
+                -73.387828,
+                40.703228
+              ],
+              [
+                -73.389365,
+                40.700517
+              ],
+              [
+                -73.389365,
+                40.700517
+              ],
+              [
+                -73.392028,
+                40.695414
+              ],
+              [
+                -73.392028,
+                40.695414
+              ],
+              [
+                -73.3934249,
+                40.692625
+              ],
+              [
+                -73.3934249,
+                40.692625
+              ],
+              [
+                -73.396204,
+                40.688718
+              ],
+              [
+                -73.396204,
+                40.688718
+              ],
+              [
+                -73.399967,
+                40.685601
+              ],
+              [
+                -73.399967,
+                40.685601
+              ],
+              [
+                -73.401938,
+                40.68475
+              ],
+              [
+                -73.401938,
+                40.68475
+              ],
+              [
+                -73.405274,
+                40.684351
+              ],
+              [
+                -73.405274,
+                40.684351
+              ],
+              [
+                -73.408775,
+                40.683935
+              ],
+              [
+                -73.408775,
+                40.683935
+              ],
+              [
+                -73.4112789,
+                40.683662
+              ],
+              [
+                -73.4112789,
+                40.683662
+              ],
+              [
+                -73.4152359,
+                40.684303
+              ],
+              [
+                -73.4152359,
+                40.684303
+              ],
+              [
+                -73.4180439,
+                40.683694
+              ],
+              [
+                -73.4180439,
+                40.683694
+              ],
+              [
+                -73.417158,
+                40.681899
+              ],
+              [
+                -73.417158,
+                40.681899
+              ],
+              [
+                -73.417187,
+                40.680374
+              ],
+              [
+                -73.417187,
+                40.680374
+              ],
+              [
+                -73.418268,
+                40.679303
+              ],
+              [
+                -73.418268,
+                40.679303
+              ],
+              [
+                -73.4201039,
+                40.680408
+              ],
+              [
+                -73.4201039,
+                40.680408
+              ],
+              [
+                -73.4202959,
+                40.679347
+              ],
+              [
+                -73.4202959,
+                40.679347
+              ],
+              [
+                -73.423866,
+                40.679113
+              ],
+              [
+                -73.423866,
+                40.679113
+              ],
+              [
+                -73.4258699,
+                40.68447
+              ],
+              [
+                -73.4258699,
+                40.68447
+              ],
+              [
+                -73.432367,
+                40.682083
+              ]
+            ]
+          },
+          "originTime": 26640,
+          "destTime": 28200,
+          "originStopId": "east_of_hudson:suffolk_260:1",
+          "originStopName": "Grand Blvd/Doe St",
+          "destStopId": "east_of_hudson:suffolk_1042:1",
+          "destStopName": "Sunrise Mall",
+          "cumulativeFare": 225,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "SUFFOLK",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "suffolk_SCT",
+            "agency_name": "Suffolk County Transit",
+            "route_id": "suffolk_S33",
+            "route_short_name": "S33",
+            "route_long_name": "Sunrise Mall - Hauppauge",
+            "route_type": 3,
+            "color": "0",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.682083,
+          "originLon": -73.432367,
+          "destLat": 40.682004,
+          "destLon": -73.432455,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.432367,
+                40.682083
+              ],
+              [
+                -73.432455,
+                40.682004
+              ]
+            ]
+          },
+          "originTime": 28200,
+          "destTime": 28221,
+          "originStopId": "east_of_hudson:suffolk_1042:1",
+          "originStopName": "Sunrise Mall",
+          "destStopId": "east_of_hudson:nice_38",
+          "destStopName": "SUNRISE MALL @ Massapequa Pk",
+          "cumulativeFare": 225,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "SUFFOLK",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.682004,
+          "originLon": -73.432455,
+          "destLat": 40.6780659,
+          "destLon": -73.448133,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.432455,
+                40.682004
+              ],
+              [
+                -73.448133,
+                40.6780659
+              ]
+            ]
+          },
+          "originTime": 28680,
+          "destTime": 28860,
+          "originStopId": "east_of_hudson:nice_38",
+          "originStopName": "SUNRISE MALL @ Massapequa Pk",
+          "destStopId": "east_of_hudson:nice_3166",
+          "destStopName": "Sunrise Hwy + Broadway",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nice_LIBUS",
+            "agency_name": "Nassau Inter-County Express",
+            "route_id": "nice_n54",
+            "route_short_name": "n54",
+            "route_long_name": "Hempstead-Amityville/Sun Mall",
+            "route_type": 3,
+            "color": "9C5BA0",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.6780659,
+          "originLon": -73.448133,
+          "destLat": 40.725542,
+          "destLon": -73.488508,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.448133,
+                40.6780659
+              ],
+              [
+                -73.456397,
+                40.6775669
+              ],
+              [
+                -73.456397,
+                40.6775669
+              ],
+              [
+                -73.460092,
+                40.67722
+              ],
+              [
+                -73.460092,
+                40.67722
+              ],
+              [
+                -73.471691,
+                40.6761599
+              ],
+              [
+                -73.471691,
+                40.6761599
+              ],
+              [
+                -73.470712,
+                40.677558
+              ],
+              [
+                -73.470712,
+                40.677558
+              ],
+              [
+                -73.474283,
+                40.678078
+              ],
+              [
+                -73.474283,
+                40.678078
+              ],
+              [
+                -73.474268,
+                40.68064
+              ],
+              [
+                -73.474268,
+                40.68064
+              ],
+              [
+                -73.475049,
+                40.682878
+              ],
+              [
+                -73.475049,
+                40.682878
+              ],
+              [
+                -73.4761209,
+                40.685552
+              ],
+              [
+                -73.4761209,
+                40.685552
+              ],
+              [
+                -73.47697,
+                40.688896
+              ],
+              [
+                -73.47697,
+                40.688896
+              ],
+              [
+                -73.4780189,
+                40.691677
+              ],
+              [
+                -73.4780189,
+                40.691677
+              ],
+              [
+                -73.479659,
+                40.69384
+              ],
+              [
+                -73.479659,
+                40.69384
+              ],
+              [
+                -73.48053,
+                40.695282
+              ],
+              [
+                -73.48053,
+                40.695282
+              ],
+              [
+                -73.4812479,
+                40.698583
+              ],
+              [
+                -73.4812479,
+                40.698583
+              ],
+              [
+                -73.481854,
+                40.70125
+              ],
+              [
+                -73.481854,
+                40.70125
+              ],
+              [
+                -73.482649,
+                40.705014
+              ],
+              [
+                -73.482649,
+                40.705014
+              ],
+              [
+                -73.482783,
+                40.708326
+              ],
+              [
+                -73.482783,
+                40.708326
+              ],
+              [
+                -73.482535,
+                40.710202
+              ],
+              [
+                -73.482535,
+                40.710202
+              ],
+              [
+                -73.482523,
+                40.713122
+              ],
+              [
+                -73.482523,
+                40.713122
+              ],
+              [
+                -73.482935,
+                40.7153969
+              ],
+              [
+                -73.482935,
+                40.7153969
+              ],
+              [
+                -73.483485,
+                40.717002
+              ],
+              [
+                -73.483485,
+                40.717002
+              ],
+              [
+                -73.4837709,
+                40.718394
+              ],
+              [
+                -73.4837709,
+                40.718394
+              ],
+              [
+                -73.484887,
+                40.72063
+              ],
+              [
+                -73.484887,
+                40.72063
+              ],
+              [
+                -73.486731,
+                40.7228179
+              ],
+              [
+                -73.486731,
+                40.7228179
+              ],
+              [
+                -73.488508,
+                40.725542
+              ]
+            ]
+          },
+          "originTime": 29100,
+          "destTime": 30060,
+          "originStopId": "east_of_hudson:nice_3166",
+          "originStopName": "Sunrise Hwy + Broadway",
+          "destStopId": "east_of_hudson:nice_386",
+          "destStopName": "HICKSVILLE RD + HEMPSTEAD TPKE",
+          "cumulativeFare": 550,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_NICE",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nice_LIBUS",
+            "agency_name": "Nassau Inter-County Express",
+            "route_id": "nice_n80",
+            "route_short_name": "n80",
+            "route_long_name": "Hicksville-Sun Mall",
+            "route_type": 3,
+            "color": "199DD3",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 5421,
+      "departureTime": 25255,
+      "fare": 550,
+      "legs": [
+        {
+          "originLat": 40.753724,
+          "originLon": -73.357263,
+          "destLat": 40.682083,
+          "destLon": -73.432367,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.357263,
+                40.753724
+              ],
+              [
+                -73.3598619,
+                40.754296
+              ],
+              [
+                -73.3598619,
+                40.754296
+              ],
+              [
+                -73.361078,
+                40.753217
+              ],
+              [
+                -73.361078,
+                40.753217
+              ],
+              [
+                -73.3627,
+                40.75015
+              ],
+              [
+                -73.3627,
+                40.75015
+              ],
+              [
+                -73.3638079,
+                40.748036
+              ],
+              [
+                -73.3638079,
+                40.748036
+              ],
+              [
+                -73.364939,
+                40.745811
+              ],
+              [
+                -73.364939,
+                40.745811
+              ],
+              [
+                -73.367283,
+                40.741453
+              ],
+              [
+                -73.367283,
+                40.741453
+              ],
+              [
+                -73.370292,
+                40.735842
+              ],
+              [
+                -73.370292,
+                40.735842
+              ],
+              [
+                -73.373986,
+                40.728775
+              ],
+              [
+                -73.373986,
+                40.728775
+              ],
+              [
+                -73.377447,
+                40.722375
+              ],
+              [
+                -73.377447,
+                40.722375
+              ],
+              [
+                -73.3801939,
+                40.717275
+              ],
+              [
+                -73.3801939,
+                40.717275
+              ],
+              [
+                -73.3812673,
+                40.7150484
+              ],
+              [
+                -73.3812673,
+                40.7150484
+              ],
+              [
+                -73.382144,
+                40.713642
+              ],
+              [
+                -73.382144,
+                40.713642
+              ],
+              [
+                -73.384394,
+                40.7095
+              ],
+              [
+                -73.384394,
+                40.7095
+              ],
+              [
+                -73.387828,
+                40.703228
+              ],
+              [
+                -73.387828,
+                40.703228
+              ],
+              [
+                -73.389365,
+                40.700517
+              ],
+              [
+                -73.389365,
+                40.700517
+              ],
+              [
+                -73.392028,
+                40.695414
+              ],
+              [
+                -73.392028,
+                40.695414
+              ],
+              [
+                -73.3934249,
+                40.692625
+              ],
+              [
+                -73.3934249,
+                40.692625
+              ],
+              [
+                -73.396204,
+                40.688718
+              ],
+              [
+                -73.396204,
+                40.688718
+              ],
+              [
+                -73.399967,
+                40.685601
+              ],
+              [
+                -73.399967,
+                40.685601
+              ],
+              [
+                -73.401938,
+                40.68475
+              ],
+              [
+                -73.401938,
+                40.68475
+              ],
+              [
+                -73.405274,
+                40.684351
+              ],
+              [
+                -73.405274,
+                40.684351
+              ],
+              [
+                -73.408775,
+                40.683935
+              ],
+              [
+                -73.408775,
+                40.683935
+              ],
+              [
+                -73.4112789,
+                40.683662
+              ],
+              [
+                -73.4112789,
+                40.683662
+              ],
+              [
+                -73.4152359,
+                40.684303
+              ],
+              [
+                -73.4152359,
+                40.684303
+              ],
+              [
+                -73.4180439,
+                40.683694
+              ],
+              [
+                -73.4180439,
+                40.683694
+              ],
+              [
+                -73.417158,
+                40.681899
+              ],
+              [
+                -73.417158,
+                40.681899
+              ],
+              [
+                -73.417187,
+                40.680374
+              ],
+              [
+                -73.417187,
+                40.680374
+              ],
+              [
+                -73.418268,
+                40.679303
+              ],
+              [
+                -73.418268,
+                40.679303
+              ],
+              [
+                -73.4201039,
+                40.680408
+              ],
+              [
+                -73.4201039,
+                40.680408
+              ],
+              [
+                -73.4202959,
+                40.679347
+              ],
+              [
+                -73.4202959,
+                40.679347
+              ],
+              [
+                -73.423866,
+                40.679113
+              ],
+              [
+                -73.423866,
+                40.679113
+              ],
+              [
+                -73.4258699,
+                40.68447
+              ],
+              [
+                -73.4258699,
+                40.68447
+              ],
+              [
+                -73.432367,
+                40.682083
+              ]
+            ]
+          },
+          "originTime": 26640,
+          "destTime": 28200,
+          "originStopId": "east_of_hudson:suffolk_260:1",
+          "originStopName": "Grand Blvd/Doe St",
+          "destStopId": "east_of_hudson:suffolk_1042:1",
+          "destStopName": "Sunrise Mall",
+          "cumulativeFare": 225,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "SUFFOLK",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "suffolk_SCT",
+            "agency_name": "Suffolk County Transit",
+            "route_id": "suffolk_S33",
+            "route_short_name": "S33",
+            "route_long_name": "Sunrise Mall - Hauppauge",
+            "route_type": 3,
+            "color": "0",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.682083,
+          "originLon": -73.432367,
+          "destLat": 40.682004,
+          "destLon": -73.432455,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.432367,
+                40.682083
+              ],
+              [
+                -73.432455,
+                40.682004
+              ]
+            ]
+          },
+          "originTime": 28200,
+          "destTime": 28221,
+          "originStopId": "east_of_hudson:suffolk_1042:1",
+          "originStopName": "Sunrise Mall",
+          "destStopId": "east_of_hudson:nice_38",
+          "destStopName": "SUNRISE MALL @ Massapequa Pk",
+          "cumulativeFare": 225,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "SUFFOLK",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.682004,
+          "originLon": -73.432455,
+          "destLat": 40.6780659,
+          "destLon": -73.448133,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.432455,
+                40.682004
+              ],
+              [
+                -73.448133,
+                40.6780659
+              ]
+            ]
+          },
+          "originTime": 28680,
+          "destTime": 28860,
+          "originStopId": "east_of_hudson:nice_38",
+          "originStopName": "SUNRISE MALL @ Massapequa Pk",
+          "destStopId": "east_of_hudson:nice_3166",
+          "destStopName": "Sunrise Hwy + Broadway",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nice_LIBUS",
+            "agency_name": "Nassau Inter-County Express",
+            "route_id": "nice_n54",
+            "route_short_name": "n54",
+            "route_long_name": "Hempstead-Amityville/Sun Mall",
+            "route_type": 3,
+            "color": "9C5BA0",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.6780659,
+          "originLon": -73.448133,
+          "destLat": 40.725542,
+          "destLon": -73.488508,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.448133,
+                40.6780659
+              ],
+              [
+                -73.456397,
+                40.6775669
+              ],
+              [
+                -73.456397,
+                40.6775669
+              ],
+              [
+                -73.460092,
+                40.67722
+              ],
+              [
+                -73.460092,
+                40.67722
+              ],
+              [
+                -73.471691,
+                40.6761599
+              ],
+              [
+                -73.471691,
+                40.6761599
+              ],
+              [
+                -73.470712,
+                40.677558
+              ],
+              [
+                -73.470712,
+                40.677558
+              ],
+              [
+                -73.474283,
+                40.678078
+              ],
+              [
+                -73.474283,
+                40.678078
+              ],
+              [
+                -73.474268,
+                40.68064
+              ],
+              [
+                -73.474268,
+                40.68064
+              ],
+              [
+                -73.475049,
+                40.682878
+              ],
+              [
+                -73.475049,
+                40.682878
+              ],
+              [
+                -73.4761209,
+                40.685552
+              ],
+              [
+                -73.4761209,
+                40.685552
+              ],
+              [
+                -73.47697,
+                40.688896
+              ],
+              [
+                -73.47697,
+                40.688896
+              ],
+              [
+                -73.4780189,
+                40.691677
+              ],
+              [
+                -73.4780189,
+                40.691677
+              ],
+              [
+                -73.479659,
+                40.69384
+              ],
+              [
+                -73.479659,
+                40.69384
+              ],
+              [
+                -73.48053,
+                40.695282
+              ],
+              [
+                -73.48053,
+                40.695282
+              ],
+              [
+                -73.4812479,
+                40.698583
+              ],
+              [
+                -73.4812479,
+                40.698583
+              ],
+              [
+                -73.481854,
+                40.70125
+              ],
+              [
+                -73.481854,
+                40.70125
+              ],
+              [
+                -73.482649,
+                40.705014
+              ],
+              [
+                -73.482649,
+                40.705014
+              ],
+              [
+                -73.482783,
+                40.708326
+              ],
+              [
+                -73.482783,
+                40.708326
+              ],
+              [
+                -73.482535,
+                40.710202
+              ],
+              [
+                -73.482535,
+                40.710202
+              ],
+              [
+                -73.482523,
+                40.713122
+              ],
+              [
+                -73.482523,
+                40.713122
+              ],
+              [
+                -73.482935,
+                40.7153969
+              ],
+              [
+                -73.482935,
+                40.7153969
+              ],
+              [
+                -73.483485,
+                40.717002
+              ],
+              [
+                -73.483485,
+                40.717002
+              ],
+              [
+                -73.4837709,
+                40.718394
+              ],
+              [
+                -73.4837709,
+                40.718394
+              ],
+              [
+                -73.484887,
+                40.72063
+              ],
+              [
+                -73.484887,
+                40.72063
+              ],
+              [
+                -73.486731,
+                40.7228179
+              ],
+              [
+                -73.486731,
+                40.7228179
+              ],
+              [
+                -73.488508,
+                40.725542
+              ]
+            ]
+          },
+          "originTime": 29100,
+          "destTime": 30060,
+          "originStopId": "east_of_hudson:nice_3166",
+          "originStopName": "Sunrise Hwy + Broadway",
+          "destStopId": "east_of_hudson:nice_386",
+          "destStopName": "HICKSVILLE RD + HEMPSTEAD TPKE",
+          "cumulativeFare": 550,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_NICE",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nice_LIBUS",
+            "agency_name": "Nassau Inter-County Express",
+            "route_id": "nice_n80",
+            "route_short_name": "n80",
+            "route_long_name": "Hicksville-Sun Mall",
+            "route_type": 3,
+            "color": "199DD3",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.725542,
+          "originLon": -73.488508,
+          "destLat": 40.725435,
+          "destLon": -73.488412,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.488508,
+                40.725542
+              ],
+              [
+                -73.488412,
+                40.725435
+              ]
+            ]
+          },
+          "originTime": 30060,
+          "destTime": 30096,
+          "originStopId": "east_of_hudson:nice_386",
+          "originStopName": "HICKSVILLE RD + HEMPSTEAD TPKE",
+          "destStopId": "east_of_hudson:nice_3449",
+          "destStopName": "Hempstead Tpke + Hicksville Rd",
+          "cumulativeFare": 550,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_NICE",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.725435,
+          "originLon": -73.488412,
+          "destLat": 40.725738,
+          "destLon": -73.4924489,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.488412,
+                40.725435
+              ],
+              [
+                -73.4924489,
+                40.725738
+              ]
+            ]
+          },
+          "originTime": 30360,
+          "destTime": 30420,
+          "originStopId": "east_of_hudson:nice_3449",
+          "originStopName": "Hempstead Tpke + Hicksville Rd",
+          "destStopId": "east_of_hudson:nice_3501",
+          "destStopName": "Hempstead Tpke + Berger Ave",
+          "cumulativeFare": 550,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_NICE_ONE_TRANSFER",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nice_LIBUS",
+            "agency_name": "Nassau Inter-County Express",
+            "route_id": "nice_n70",
+            "route_short_name": "n70",
+            "route_long_name": "Hempstead- SUNY Farmingdale",
+            "route_type": 3,
+            "color": "199DD3",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    }
+  ],
+  "computeTimeMillis": 312,
+  "backendVersion": {
+    "version": "UNKNOWN",
+    "commit": "UNKNOWN",
+    "describe": "UNKNOWN",
+    "branch": "UNKNOWN",
+    "buildHost": "UNKNOWN",
+    "buildTime": "UNKNOWN"
+  },
+  "generationTime": "2020-06-21T15:25:19.209963"
+}

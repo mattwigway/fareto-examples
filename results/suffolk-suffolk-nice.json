@@ -1,0 +1,1027 @@
+{
+  "request": {
+    "fromLat": 40.75870037793089,
+    "fromLon": -73.40932583025594,
+    "toLat": 40.69964162617717,
+    "toLon": -73.4449643385493,
+    "fromTime": 25200,
+    "toTime": 25260,
+    "walkSpeed": 1.3888888,
+    "bikeSpeed": 4.1666665,
+    "bikeTrafficStress": 4,
+    "carSpeed": 20.0,
+    "streetTime": 90,
+    "maxWalkTime": 20,
+    "maxBikeTime": 20,
+    "maxCarTime": 45,
+    "minBikeTime": 10,
+    "minCarTime": 10,
+    "date": "2019-12-16",
+    "limit": 0,
+    "accessModes": "WALK",
+    "egressModes": "WALK",
+    "directModes": "WALK",
+    "transitModes": "TRAM,SUBWAY,RAIL,BUS,FERRY,CABLE_CAR,GONDOLA,FUNICULAR",
+    "suboptimalMinutes": 5,
+    "maxTripDurationMinutes": 120,
+    "maxRides": 4,
+    "scenario": null,
+    "scenarioId": null,
+    "zoneId": "Z",
+    "wheelchair": false,
+    "maxFare": 200000,
+    "inRoutingFareCalculator": {
+      "type": "nyc",
+      "gtfsFares": null,
+      "toLirrDiscounts": null,
+      "toMetroNorthDiscounts": null,
+      "lirrMetrocardTransferSource": null,
+      "metroNorthMetrocardTransferSource": null,
+      "lirrFareOverrides": null,
+      "metroNorthFareOverrides": null
+    },
+    "monteCarloDraws": 1
+  },
+  "trips": [
+    {
+      "durationSeconds": 6900,
+      "departureTime": 25255,
+      "fare": 550,
+      "legs": [
+        {
+          "originLat": 40.763547,
+          "originLon": -73.403818,
+          "destLat": 40.7557789,
+          "destLon": -73.427379,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.403818,
+                40.763547
+              ],
+              [
+                -73.403648,
+                40.757328
+              ],
+              [
+                -73.403648,
+                40.757328
+              ],
+              [
+                -73.4106939,
+                40.756786
+              ],
+              [
+                -73.4106939,
+                40.756786
+              ],
+              [
+                -73.4139359,
+                40.754803
+              ],
+              [
+                -73.4139359,
+                40.754803
+              ],
+              [
+                -73.4204439,
+                40.754394
+              ],
+              [
+                -73.4204439,
+                40.754394
+              ],
+              [
+                -73.427379,
+                40.7557789
+              ]
+            ]
+          },
+          "originTime": 26880,
+          "destTime": 27300,
+          "originStopId": "east_of_hudson:suffolk_311:1",
+          "originStopName": "Newsday",
+          "destStopId": "east_of_hudson:suffolk_251:1",
+          "destStopName": "Farmingdale State College",
+          "cumulativeFare": 225,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "SUFFOLK",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "suffolk_SCT",
+            "agency_name": "Suffolk County Transit",
+            "route_id": "suffolk_2B",
+            "route_short_name": "2B",
+            "route_long_name": "SUNY Farmingdale - Bay Shore",
+            "route_type": 3,
+            "color": "0",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.7557789,
+          "originLon": -73.427379,
+          "destLat": 40.755915,
+          "destLon": -73.42743,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.427379,
+                40.7557789
+              ],
+              [
+                -73.42743,
+                40.755915
+              ]
+            ]
+          },
+          "originTime": 27300,
+          "destTime": 27313,
+          "originStopId": "east_of_hudson:suffolk_251:1",
+          "originStopName": "Farmingdale State College",
+          "destStopId": "east_of_hudson:nice_368",
+          "destStopName": "State University at Farmingdale",
+          "cumulativeFare": 225,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "SUFFOLK",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.755915,
+          "originLon": -73.42743,
+          "destLat": 40.725738,
+          "destLon": -73.482732,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.42743,
+                40.755915
+              ],
+              [
+                -73.42215,
+                40.754195
+              ],
+              [
+                -73.42215,
+                40.754195
+              ],
+              [
+                -73.422155,
+                40.7498469
+              ],
+              [
+                -73.422155,
+                40.7498469
+              ],
+              [
+                -73.422563,
+                40.746827
+              ],
+              [
+                -73.422563,
+                40.746827
+              ],
+              [
+                -73.423034,
+                40.742628
+              ],
+              [
+                -73.423034,
+                40.742628
+              ],
+              [
+                -73.423302,
+                40.739975
+              ],
+              [
+                -73.423302,
+                40.739975
+              ],
+              [
+                -73.423447,
+                40.738582
+              ],
+              [
+                -73.423447,
+                40.738582
+              ],
+              [
+                -73.427819,
+                40.737189
+              ],
+              [
+                -73.427819,
+                40.737189
+              ],
+              [
+                -73.430142,
+                40.736483
+              ],
+              [
+                -73.430142,
+                40.736483
+              ],
+              [
+                -73.436431,
+                40.734466
+              ],
+              [
+                -73.436431,
+                40.734466
+              ],
+              [
+                -73.441128,
+                40.733634
+              ],
+              [
+                -73.441128,
+                40.733634
+              ],
+              [
+                -73.445922,
+                40.7328989
+              ],
+              [
+                -73.445922,
+                40.7328989
+              ],
+              [
+                -73.456679,
+                40.731273
+              ],
+              [
+                -73.456679,
+                40.731273
+              ],
+              [
+                -73.459516,
+                40.730752
+              ],
+              [
+                -73.459516,
+                40.730752
+              ],
+              [
+                -73.463803,
+                40.729269
+              ],
+              [
+                -73.463803,
+                40.729269
+              ],
+              [
+                -73.467099,
+                40.727986
+              ],
+              [
+                -73.467099,
+                40.727986
+              ],
+              [
+                -73.471864,
+                40.72659
+              ],
+              [
+                -73.471864,
+                40.72659
+              ],
+              [
+                -73.478782,
+                40.725863
+              ],
+              [
+                -73.478782,
+                40.725863
+              ],
+              [
+                -73.480357,
+                40.725829
+              ],
+              [
+                -73.480357,
+                40.725829
+              ],
+              [
+                -73.482732,
+                40.725738
+              ]
+            ]
+          },
+          "originTime": 29340,
+          "destTime": 30300,
+          "originStopId": "east_of_hudson:nice_368",
+          "originStopName": "State University at Farmingdale",
+          "destStopId": "east_of_hudson:nice_364",
+          "destStopName": "STEWART AVE + HEMPSTEAD TPKE",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nice_LIBUS",
+            "agency_name": "Nassau Inter-County Express",
+            "route_id": "nice_n70",
+            "route_short_name": "n70",
+            "route_long_name": "Hempstead- SUNY Farmingdale",
+            "route_type": 3,
+            "color": "199DD3",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.725738,
+          "originLon": -73.482732,
+          "destLat": 40.725444,
+          "destLon": -73.482539,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.482732,
+                40.725738
+              ],
+              [
+                -73.482539,
+                40.725444
+              ]
+            ]
+          },
+          "originTime": 30300,
+          "destTime": 30335,
+          "originStopId": "east_of_hudson:nice_364",
+          "originStopName": "STEWART AVE + HEMPSTEAD TPKE",
+          "destStopId": "east_of_hudson:nice_6048",
+          "destStopName": "HEMPSTEAD TPK & STEWART AVE",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.725444,
+          "originLon": -73.482539,
+          "destLat": 40.698032,
+          "destLon": -73.4330339,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.482539,
+                40.725444
+              ],
+              [
+                -73.480367,
+                40.725543
+              ],
+              [
+                -73.480367,
+                40.725543
+              ],
+              [
+                -73.47872,
+                40.725586
+              ],
+              [
+                -73.47872,
+                40.725586
+              ],
+              [
+                -73.471778,
+                40.726323
+              ],
+              [
+                -73.471778,
+                40.726323
+              ],
+              [
+                -73.467431,
+                40.727645
+              ],
+              [
+                -73.467431,
+                40.727645
+              ],
+              [
+                -73.463706,
+                40.729126
+              ],
+              [
+                -73.463706,
+                40.729126
+              ],
+              [
+                -73.459264,
+                40.730619
+              ],
+              [
+                -73.459264,
+                40.730619
+              ],
+              [
+                -73.453781,
+                40.730205
+              ],
+              [
+                -73.453781,
+                40.730205
+              ],
+              [
+                -73.449329,
+                40.7287419
+              ],
+              [
+                -73.449329,
+                40.7287419
+              ],
+              [
+                -73.4444,
+                40.727343
+              ],
+              [
+                -73.4444,
+                40.727343
+              ],
+              [
+                -73.442877,
+                40.724831
+              ],
+              [
+                -73.442877,
+                40.724831
+              ],
+              [
+                -73.442272,
+                40.723682
+              ],
+              [
+                -73.442272,
+                40.723682
+              ],
+              [
+                -73.441073,
+                40.721365
+              ],
+              [
+                -73.441073,
+                40.721365
+              ],
+              [
+                -73.439376,
+                40.7195599
+              ],
+              [
+                -73.439376,
+                40.7195599
+              ],
+              [
+                -73.438307,
+                40.718609
+              ],
+              [
+                -73.438307,
+                40.718609
+              ],
+              [
+                -73.436722,
+                40.7173469
+              ],
+              [
+                -73.436722,
+                40.7173469
+              ],
+              [
+                -73.434169,
+                40.714403
+              ],
+              [
+                -73.434169,
+                40.714403
+              ],
+              [
+                -73.434073,
+                40.712662
+              ],
+              [
+                -73.434073,
+                40.712662
+              ],
+              [
+                -73.433905,
+                40.710868
+              ],
+              [
+                -73.433905,
+                40.710868
+              ],
+              [
+                -73.433673,
+                40.708645
+              ],
+              [
+                -73.433673,
+                40.708645
+              ],
+              [
+                -73.4331,
+                40.70204
+              ],
+              [
+                -73.4331,
+                40.70204
+              ],
+              [
+                -73.432987,
+                40.6997099
+              ],
+              [
+                -73.432987,
+                40.6997099
+              ],
+              [
+                -73.4330339,
+                40.698032
+              ]
+            ]
+          },
+          "originTime": 30420,
+          "destTime": 31320,
+          "originStopId": "east_of_hudson:nice_6048",
+          "originStopName": "HEMPSTEAD TPK & STEWART AVE",
+          "destStopId": "east_of_hudson:nice_3540",
+          "destStopName": "Carmans Rd + Pompano La",
+          "cumulativeFare": 550,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "METROCARD_NICE",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nice_LIBUS",
+            "agency_name": "Nassau Inter-County Express",
+            "route_id": "nice_n71",
+            "route_short_name": "n71",
+            "route_long_name": "Hempstead- Sunrise Mall",
+            "route_type": 3,
+            "color": "9C5BA0",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 6900,
+      "departureTime": 25255,
+      "fare": 275,
+      "legs": [
+        {
+          "originLat": 40.763547,
+          "originLon": -73.403818,
+          "destLat": 40.754394,
+          "destLon": -73.4204439,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.403818,
+                40.763547
+              ],
+              [
+                -73.403648,
+                40.757328
+              ],
+              [
+                -73.403648,
+                40.757328
+              ],
+              [
+                -73.4106939,
+                40.756786
+              ],
+              [
+                -73.4106939,
+                40.756786
+              ],
+              [
+                -73.4139359,
+                40.754803
+              ],
+              [
+                -73.4139359,
+                40.754803
+              ],
+              [
+                -73.4204439,
+                40.754394
+              ]
+            ]
+          },
+          "originTime": 26880,
+          "destTime": 27180,
+          "originStopId": "east_of_hudson:suffolk_311:1",
+          "originStopName": "Newsday",
+          "destStopId": "east_of_hudson:suffolk_252:1",
+          "destStopName": "Smith St/NYS 110",
+          "cumulativeFare": 225,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "SUFFOLK",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "suffolk_SCT",
+            "agency_name": "Suffolk County Transit",
+            "route_id": "suffolk_2B",
+            "route_short_name": "2B",
+            "route_long_name": "SUNY Farmingdale - Bay Shore",
+            "route_type": 3,
+            "color": "0",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.754394,
+          "originLon": -73.4204439,
+          "destLat": 40.758383,
+          "destLon": -73.422397,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.4204439,
+                40.754394
+              ],
+              [
+                -73.422397,
+                40.758383
+              ]
+            ]
+          },
+          "originTime": 27180,
+          "destTime": 27638,
+          "originStopId": "east_of_hudson:suffolk_252:1",
+          "originStopName": "Smith St/NYS 110",
+          "destStopId": "east_of_hudson:suffolk_2725:1",
+          "destStopName": "NYS 110/Ruland Rd",
+          "cumulativeFare": 225,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "SUFFOLK",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.758383,
+          "originLon": -73.422397,
+          "destLat": 40.712317,
+          "destLon": -73.428758,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.422397,
+                40.758383
+              ],
+              [
+                -73.427379,
+                40.7557789
+              ],
+              [
+                -73.427379,
+                40.7557789
+              ],
+              [
+                -73.422411,
+                40.753572
+              ],
+              [
+                -73.422411,
+                40.753572
+              ],
+              [
+                -73.422678,
+                40.746625
+              ],
+              [
+                -73.422678,
+                40.746625
+              ],
+              [
+                -73.423008,
+                40.7441419
+              ],
+              [
+                -73.423008,
+                40.7441419
+              ],
+              [
+                -73.4232559,
+                40.740208
+              ],
+              [
+                -73.4232559,
+                40.740208
+              ],
+              [
+                -73.4234529,
+                40.738019
+              ],
+              [
+                -73.4234529,
+                40.738019
+              ],
+              [
+                -73.423856,
+                40.731614
+              ],
+              [
+                -73.423856,
+                40.731614
+              ],
+              [
+                -73.424142,
+                40.727708
+              ],
+              [
+                -73.424142,
+                40.727708
+              ],
+              [
+                -73.4242299,
+                40.726577
+              ],
+              [
+                -73.4242299,
+                40.726577
+              ],
+              [
+                -73.4264309,
+                40.718358
+              ],
+              [
+                -73.4264309,
+                40.718358
+              ],
+              [
+                -73.4271969,
+                40.715903
+              ],
+              [
+                -73.4271969,
+                40.715903
+              ],
+              [
+                -73.428758,
+                40.712317
+              ]
+            ]
+          },
+          "originTime": 28440,
+          "destTime": 29220,
+          "originStopId": "east_of_hudson:suffolk_2725:1",
+          "originStopName": "NYS 110/Ruland Rd",
+          "destStopId": "east_of_hudson:suffolk_2728:1",
+          "destStopName": "NYS 110/Main St",
+          "cumulativeFare": 250,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "SUFFOLK_ONE_TRANSFER",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "suffolk_SCT",
+            "agency_name": "Suffolk County Transit",
+            "route_id": "suffolk_S1",
+            "route_short_name": "S1",
+            "route_long_name": "Amityville RR - Halesite",
+            "route_type": 3,
+            "color": "0",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 40.712317,
+          "originLon": -73.428758,
+          "destLat": 40.714403,
+          "destLon": -73.434169,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.428758,
+                40.712317
+              ],
+              [
+                -73.434169,
+                40.714403
+              ]
+            ]
+          },
+          "originTime": 29220,
+          "destTime": 29757,
+          "originStopId": "east_of_hudson:suffolk_2728:1",
+          "originStopName": "NYS 110/Main St",
+          "destStopId": "east_of_hudson:nice_3534",
+          "destStopName": "Carmans Rd + Terrace View Rd",
+          "cumulativeFare": 250,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": "SUFFOLK_ONE_TRANSFER",
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 40.714403,
+          "originLon": -73.434169,
+          "destLat": 40.698032,
+          "destLon": -73.4330339,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -73.434169,
+                40.714403
+              ],
+              [
+                -73.434073,
+                40.712662
+              ],
+              [
+                -73.434073,
+                40.712662
+              ],
+              [
+                -73.433905,
+                40.710868
+              ],
+              [
+                -73.433905,
+                40.710868
+              ],
+              [
+                -73.433673,
+                40.708645
+              ],
+              [
+                -73.433673,
+                40.708645
+              ],
+              [
+                -73.4331,
+                40.70204
+              ],
+              [
+                -73.4331,
+                40.70204
+              ],
+              [
+                -73.432987,
+                40.6997099
+              ],
+              [
+                -73.432987,
+                40.6997099
+              ],
+              [
+                -73.4330339,
+                40.698032
+              ]
+            ]
+          },
+          "originTime": 31080,
+          "destTime": 31320,
+          "originStopId": "east_of_hudson:nice_3534",
+          "originStopName": "Carmans Rd + Terrace View Rd",
+          "destStopId": "east_of_hudson:nice_3540",
+          "destStopName": "Carmans Rd + Pompano La",
+          "cumulativeFare": 275,
+          "transferAllowance": {
+            "value": 10000000,
+            "number": 2147483647,
+            "expirationTime": 2147483647,
+            "lirr": null,
+            "metrocardTransferSource": null,
+            "metrocardTransferExpiry": 32455,
+            "inSubwayPaidArea": false,
+            "metroNorthBoardStop": -1,
+            "metroNorthDirection": -1,
+            "metroNorthPeak": false,
+            "metroNorthLine": null
+          },
+          "route": {
+            "agency_id": "nice_LIBUS",
+            "agency_name": "Nassau Inter-County Express",
+            "route_id": "nice_n71",
+            "route_short_name": "n71",
+            "route_long_name": "Hempstead- Sunrise Mall",
+            "route_type": 3,
+            "color": "9C5BA0",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    }
+  ],
+  "computeTimeMillis": 113,
+  "backendVersion": {
+    "version": "UNKNOWN",
+    "commit": "UNKNOWN",
+    "describe": "UNKNOWN",
+    "branch": "UNKNOWN",
+    "buildHost": "UNKNOWN",
+    "buildTime": "UNKNOWN"
+  },
+  "generationTime": "2020-06-21T15:24:57.144444"
+}
