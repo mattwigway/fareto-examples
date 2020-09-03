@@ -1,1 +1,252 @@
-{"request":{"fromLat":42.33818151826912,"fromLon":-71.13853498593224,"toLat":42.37084696617643,"toLon":-71.07742306151724,"fromTime":54600,"toTime":54660,"walkSpeed":1.3888888,"bikeSpeed":4.1666665,"bikeTrafficStress":4,"carSpeed":20,"streetTime":90,"maxWalkTime":20,"maxBikeTime":20,"maxCarTime":45,"minBikeTime":10,"minCarTime":10,"date":"2018-07-18","limit":0,"accessModes":"WALK","egressModes":"WALK","directModes":"WALK","transitModes":"TRAM","suboptimalMinutes":5,"maxTripDurationMinutes":120,"maxRides":4,"scenario":null,"scenarioId":null,"zoneId":"Z","wheelchair":false,"maxFare":200000,"inRoutingFareCalculator":{"type":"boston","gtfsFares":null},"monteCarloDraws":1},"trips":[{"durationSeconds":3307,"departureTime":54655,"fare":225,"legs":[{"originLat":42.335646,"originLon":-71.1402109,"destLat":42.349871,"destLon":-71.0780489,"geom":{"type":"LineString","coordinates":[[-71.1402109,42.335646],[-71.126518,42.331246],[-71.126518,42.331246],[-71.116739,42.332615],[-71.116739,42.332615],[-71.109856,42.341731],[-71.109856,42.341731],[-71.104392,42.3452719],[-71.104392,42.3452719],[-71.095169,42.348949],[-71.095169,42.348949],[-71.087903,42.347888],[-71.087903,42.347888],[-71.0780489,42.349871]]},"originTime":55080,"destTime":56220,"originStopId":"baseline:70176","originStopName":"Beaconsfield","destStopId":"baseline:70154","destStopName":"Copley","cumulativeFare":225,"transferAllowance":{"value":225,"number":2147483647,"expirationTime":61855,"transferRuleGroup":"SUBWAY","behindGates":true,"type":"BostonTransferAllowance"},"route":{"agency_id":"1","agency_name":"MBTA","route_id":"Green-D","route_short_name":"D","route_long_name":"Green Line D","route_type":0,"color":"00843D","agency_url":null},"type":"transit"},{"originLat":42.349871,"originLon":-71.0780489,"destLat":42.3711409,"destLon":-71.077298,"geom":{"type":"LineString","coordinates":[[-71.0780489,42.349871],[-71.070893,42.351902],[-71.070893,42.351902],[-71.0646819,42.352531],[-71.0646819,42.352531],[-71.0624242,42.3563945],[-71.0624242,42.3563945],[-71.059215,42.359705],[-71.059215,42.359705],[-71.05829,42.363021],[-71.05829,42.363021],[-71.06129,42.365577],[-71.06129,42.365577],[-71.068093,42.366933],[-71.068093,42.366933],[-71.077298,42.3711409]]},"originTime":56700,"destTime":57840,"originStopId":"baseline:70154","originStopName":"Copley","destStopId":"baseline:70209","destStopName":"Lechmere","cumulativeFare":225,"transferAllowance":{"value":225,"number":2147483647,"expirationTime":61855,"transferRuleGroup":"SUBWAY","behindGates":true,"type":"BostonTransferAllowance"},"route":{"agency_id":"1","agency_name":"MBTA","route_id":"Green-E","route_short_name":"E","route_long_name":"Green Line E","route_type":0,"color":"00843D","agency_url":null},"type":"transit"}],"tripIndex":0,"optimal":true}],"computeTimeMillis":11,"backendVersion":{"version":"UNKNOWN","commit":"UNKNOWN","describe":"UNKNOWN","branch":"UNKNOWN","buildHost":"UNKNOWN","buildTime":"UNKNOWN"},"generationTime":"2020-09-02T17:47:53.70098"}
+{
+  "request": {
+    "fromLat": 42.33818151826912,
+    "fromLon": -71.13853498593224,
+    "toLat": 42.37084696617643,
+    "toLon": -71.07742306151724,
+    "fromTime": 54600,
+    "toTime": 54660,
+    "walkSpeed": 1.3888888,
+    "bikeSpeed": 4.1666665,
+    "bikeTrafficStress": 4,
+    "carSpeed": 20.0,
+    "streetTime": 90,
+    "maxWalkTime": 20,
+    "maxBikeTime": 20,
+    "maxCarTime": 45,
+    "minBikeTime": 10,
+    "minCarTime": 10,
+    "date": "2018-07-18",
+    "limit": 0,
+    "accessModes": "WALK",
+    "egressModes": "WALK",
+    "directModes": "WALK",
+    "transitModes": "TRAM",
+    "suboptimalMinutes": 5,
+    "maxTripDurationMinutes": 120,
+    "maxRides": 4,
+    "scenario": null,
+    "scenarioId": null,
+    "zoneId": "Z",
+    "wheelchair": false,
+    "maxFare": 200000,
+    "inRoutingFareCalculator": {
+      "type": "boston",
+      "gtfsFares": null
+    },
+    "monteCarloDraws": 1
+  },
+  "trips": [
+    {
+      "durationSeconds": 3307,
+      "departureTime": 54655,
+      "fare": 225,
+      "legs": [
+        {
+          "originLat": 42.335646,
+          "originLon": -71.1402109,
+          "destLat": 42.349871,
+          "destLon": -71.0780489,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -71.1402109,
+                42.335646
+              ],
+              [
+                -71.126518,
+                42.331246
+              ],
+              [
+                -71.126518,
+                42.331246
+              ],
+              [
+                -71.116739,
+                42.332615
+              ],
+              [
+                -71.116739,
+                42.332615
+              ],
+              [
+                -71.109856,
+                42.341731
+              ],
+              [
+                -71.109856,
+                42.341731
+              ],
+              [
+                -71.104392,
+                42.3452719
+              ],
+              [
+                -71.104392,
+                42.3452719
+              ],
+              [
+                -71.095169,
+                42.348949
+              ],
+              [
+                -71.095169,
+                42.348949
+              ],
+              [
+                -71.087903,
+                42.347888
+              ],
+              [
+                -71.087903,
+                42.347888
+              ],
+              [
+                -71.0780489,
+                42.349871
+              ]
+            ]
+          },
+          "originTime": 55080,
+          "destTime": 56220,
+          "originStopId": "baseline:70176",
+          "originStopName": "Beaconsfield",
+          "destStopId": "baseline:70154",
+          "destStopName": "Copley",
+          "cumulativeFare": 225,
+          "transferAllowance": {
+            "value": 225,
+            "number": 2147483647,
+            "expirationTime": 61855,
+            "transferRuleGroup": "SUBWAY",
+            "behindGates": true,
+            "type": "BostonTransferAllowance"
+          },
+          "route": {
+            "agency_id": "1",
+            "agency_name": "MBTA",
+            "route_id": "Green-D",
+            "route_short_name": "D",
+            "route_long_name": "Green Line D",
+            "route_type": 0,
+            "color": "00843D",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 42.349871,
+          "originLon": -71.0780489,
+          "destLat": 42.3711409,
+          "destLon": -71.077298,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -71.0780489,
+                42.349871
+              ],
+              [
+                -71.070893,
+                42.351902
+              ],
+              [
+                -71.070893,
+                42.351902
+              ],
+              [
+                -71.0646819,
+                42.352531
+              ],
+              [
+                -71.0646819,
+                42.352531
+              ],
+              [
+                -71.0624242,
+                42.3563945
+              ],
+              [
+                -71.0624242,
+                42.3563945
+              ],
+              [
+                -71.059215,
+                42.359705
+              ],
+              [
+                -71.059215,
+                42.359705
+              ],
+              [
+                -71.05829,
+                42.363021
+              ],
+              [
+                -71.05829,
+                42.363021
+              ],
+              [
+                -71.06129,
+                42.365577
+              ],
+              [
+                -71.06129,
+                42.365577
+              ],
+              [
+                -71.068093,
+                42.366933
+              ],
+              [
+                -71.068093,
+                42.366933
+              ],
+              [
+                -71.077298,
+                42.3711409
+              ]
+            ]
+          },
+          "originTime": 56700,
+          "destTime": 57840,
+          "originStopId": "baseline:70154",
+          "originStopName": "Copley",
+          "destStopId": "baseline:70209",
+          "destStopName": "Lechmere",
+          "cumulativeFare": 225,
+          "transferAllowance": {
+            "value": 225,
+            "number": 2147483647,
+            "expirationTime": 61855,
+            "transferRuleGroup": "SUBWAY",
+            "behindGates": true,
+            "type": "BostonTransferAllowance"
+          },
+          "route": {
+            "agency_id": "1",
+            "agency_name": "MBTA",
+            "route_id": "Green-E",
+            "route_short_name": "E",
+            "route_long_name": "Green Line E",
+            "route_type": 0,
+            "color": "00843D",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    }
+  ],
+  "computeTimeMillis": 18,
+  "backendVersion": {
+    "version": "UNKNOWN",
+    "commit": "UNKNOWN",
+    "describe": "UNKNOWN",
+    "branch": "UNKNOWN",
+    "buildHost": "UNKNOWN",
+    "buildTime": "UNKNOWN"
+  },
+  "generationTime": "2020-09-03T10:03:31.514735"
+}
