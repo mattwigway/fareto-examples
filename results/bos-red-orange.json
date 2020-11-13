@@ -121,6 +121,7 @@
             "expirationTime": 32455,
             "transferRuleGroup": "SUBWAY",
             "behindGates": true,
+            "enteredSubwayForFree": false,
             "type": "BostonTransferAllowance"
           },
           "route": {
@@ -166,6 +167,7 @@
             "expirationTime": 32455,
             "transferRuleGroup": "SUBWAY",
             "behindGates": true,
+            "enteredSubwayForFree": false,
             "type": "BostonTransferAllowance"
           },
           "type": "transfer"
@@ -257,6 +259,7 @@
             "expirationTime": 32455,
             "transferRuleGroup": "SUBWAY",
             "behindGates": true,
+            "enteredSubwayForFree": false,
             "type": "BostonTransferAllowance"
           },
           "route": {
@@ -333,6 +336,7 @@
             "expirationTime": 32455,
             "transferRuleGroup": "LOCAL_BUS",
             "behindGates": false,
+            "enteredSubwayForFree": false,
             "type": "BostonTransferAllowance"
           },
           "route": {
@@ -378,6 +382,7 @@
             "expirationTime": 32455,
             "transferRuleGroup": "LOCAL_BUS",
             "behindGates": false,
+            "enteredSubwayForFree": false,
             "type": "BostonTransferAllowance"
           },
           "type": "transfer"
@@ -453,6 +458,7 @@
             "expirationTime": 32455,
             "transferRuleGroup": "LOCAL_BUS_TO_SUBWAY",
             "behindGates": true,
+            "enteredSubwayForFree": false,
             "type": "BostonTransferAllowance"
           },
           "route": {
@@ -498,6 +504,7 @@
             "expirationTime": 32455,
             "transferRuleGroup": "LOCAL_BUS_TO_SUBWAY",
             "behindGates": true,
+            "enteredSubwayForFree": false,
             "type": "BostonTransferAllowance"
           },
           "type": "transfer"
@@ -589,6 +596,7 @@
             "expirationTime": 32455,
             "transferRuleGroup": "LOCAL_BUS_TO_SUBWAY",
             "behindGates": true,
+            "enteredSubwayForFree": false,
             "type": "BostonTransferAllowance"
           },
           "route": {
@@ -689,6 +697,7 @@
             "expirationTime": 32455,
             "transferRuleGroup": "LOCAL_BUS",
             "behindGates": false,
+            "enteredSubwayForFree": false,
             "type": "BostonTransferAllowance"
           },
           "route": {
@@ -734,6 +743,7 @@
             "expirationTime": 32455,
             "transferRuleGroup": "LOCAL_BUS",
             "behindGates": false,
+            "enteredSubwayForFree": false,
             "type": "BostonTransferAllowance"
           },
           "type": "transfer"
@@ -953,6 +963,7 @@
             "expirationTime": 0,
             "transferRuleGroup": "NONE",
             "behindGates": false,
+            "enteredSubwayForFree": false,
             "type": "BostonTransferAllowance"
           },
           "route": {
@@ -998,6 +1009,7 @@
             "expirationTime": 0,
             "transferRuleGroup": "NONE",
             "behindGates": false,
+            "enteredSubwayForFree": false,
             "type": "BostonTransferAllowance"
           },
           "type": "transfer"
@@ -1065,6 +1077,7 @@
             "expirationTime": 32455,
             "transferRuleGroup": "LOCAL_BUS",
             "behindGates": false,
+            "enteredSubwayForFree": false,
             "type": "BostonTransferAllowance"
           },
           "route": {
@@ -1082,14 +1095,11 @@
       ]
     }
   ],
-  "computeTimeMillis": 877,
+  "computeTimeMillis": 400,
   "backendVersion": {
     "version": "UNKNOWN",
     "commit": "UNKNOWN",
-    "describe": "UNKNOWN",
-    "branch": "UNKNOWN",
-    "buildHost": "UNKNOWN",
-    "buildTime": "UNKNOWN"
+    "branch": "UNKNOWN"
   },
-  "generationTime": "2020-09-03T10:03:32.432987"
+  "generationTime": "2020-11-13T13:55:24.829389"
 }

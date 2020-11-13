@@ -121,6 +121,7 @@
             "expirationTime": 61855,
             "transferRuleGroup": "SUBWAY",
             "behindGates": true,
+            "enteredSubwayForFree": false,
             "type": "BostonTransferAllowance"
           },
           "route": {
@@ -222,6 +223,7 @@
             "expirationTime": 61855,
             "transferRuleGroup": "SUBWAY",
             "behindGates": true,
+            "enteredSubwayForFree": false,
             "type": "BostonTransferAllowance"
           },
           "route": {
@@ -239,14 +241,11 @@
       ]
     }
   ],
-  "computeTimeMillis": 18,
+  "computeTimeMillis": 7,
   "backendVersion": {
     "version": "UNKNOWN",
     "commit": "UNKNOWN",
-    "describe": "UNKNOWN",
-    "branch": "UNKNOWN",
-    "buildHost": "UNKNOWN",
-    "buildTime": "UNKNOWN"
+    "branch": "UNKNOWN"
   },
-  "generationTime": "2020-09-03T10:03:31.514735"
+  "generationTime": "2020-11-13T13:55:24.336519"
 }

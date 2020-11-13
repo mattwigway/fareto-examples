@@ -305,6 +305,7 @@
             "expirationTime": 32455,
             "transferRuleGroup": "LOCAL_BUS",
             "behindGates": false,
+            "enteredSubwayForFree": false,
             "type": "BostonTransferAllowance"
           },
           "route": {
@@ -397,6 +398,7 @@
             "expirationTime": 32455,
             "transferRuleGroup": "SUBWAY",
             "behindGates": true,
+            "enteredSubwayForFree": false,
             "type": "BostonTransferAllowance"
           },
           "route": {
@@ -529,6 +531,7 @@
             "expirationTime": 32455,
             "transferRuleGroup": "LOCAL_BUS",
             "behindGates": false,
+            "enteredSubwayForFree": false,
             "type": "BostonTransferAllowance"
           },
           "route": {
@@ -574,6 +577,7 @@
             "expirationTime": 32455,
             "transferRuleGroup": "LOCAL_BUS",
             "behindGates": false,
+            "enteredSubwayForFree": false,
             "type": "BostonTransferAllowance"
           },
           "type": "transfer"
@@ -633,6 +637,7 @@
             "expirationTime": 32455,
             "transferRuleGroup": "LOCAL_BUS_TO_SUBWAY",
             "behindGates": true,
+            "enteredSubwayForFree": false,
             "type": "BostonTransferAllowance"
           },
           "route": {
@@ -680,8 +685,8 @@
               ]
             ]
           },
-          "originTime": 26326,
-          "destTime": 27046,
+          "originTime": 26494,
+          "destTime": 27214,
           "originStopId": "baseline:Logan-Subway",
           "originStopName": "Airport Subway Station",
           "destStopId": "baseline:Logan-A",
@@ -693,6 +698,7 @@
             "expirationTime": 0,
             "transferRuleGroup": "NONE",
             "behindGates": false,
+            "enteredSubwayForFree": false,
             "type": "BostonTransferAllowance"
           },
           "route": {
@@ -725,8 +731,8 @@
               ]
             ]
           },
-          "originTime": 27046,
-          "destTime": 27124,
+          "originTime": 27214,
+          "destTime": 27292,
           "originStopId": "baseline:Logan-A",
           "originStopName": "Logan Airport Terminal A",
           "destStopId": "baseline:17091",
@@ -738,6 +744,7 @@
             "expirationTime": 0,
             "transferRuleGroup": "NONE",
             "behindGates": false,
+            "enteredSubwayForFree": false,
             "type": "BostonTransferAllowance"
           },
           "type": "transfer"
@@ -745,8 +752,8 @@
         {
           "originLat": 42.364612,
           "originLon": -71.0208619,
-          "destLat": 42.35245,
-          "destLon": -71.04685,
+          "destLat": 42.352271,
+          "destLon": -71.055242,
           "geom": {
             "type": "LineString",
             "coordinates": [
@@ -813,15 +820,23 @@
               [
                 -71.04685,
                 42.35245
+              ],
+              [
+                -71.04685,
+                42.35245
+              ],
+              [
+                -71.055242,
+                42.352271
               ]
             ]
           },
           "originTime": 27480,
-          "destTime": 28740,
+          "destTime": 28860,
           "originStopId": "baseline:17091",
           "originStopName": "Terminal A",
-          "destStopId": "baseline:74616",
-          "destStopName": "Courthouse",
+          "destStopId": "baseline:74617",
+          "destStopName": "South Station",
           "cumulativeFare": 0,
           "transferAllowance": {
             "value": 225,
@@ -829,6 +844,7 @@
             "expirationTime": 32455,
             "transferRuleGroup": "SL_FREE",
             "behindGates": true,
+            "enteredSubwayForFree": true,
             "type": "BostonTransferAllowance"
           },
           "route": {
@@ -844,29 +860,29 @@
           "type": "transit"
         },
         {
-          "originLat": 42.35245,
-          "originLon": -71.04685,
-          "destLat": 42.35245,
-          "destLon": -71.04685,
+          "originLat": 42.352271,
+          "originLon": -71.055242,
+          "destLat": 42.352271,
+          "destLon": -71.055242,
           "geom": {
             "type": "LineString",
             "coordinates": [
               [
-                -71.04685,
-                42.35245
+                -71.055242,
+                42.352271
               ],
               [
-                -71.04685,
-                42.35245
+                -71.055242,
+                42.352271
               ]
             ]
           },
-          "originTime": 28740,
-          "destTime": 28772,
-          "originStopId": "baseline:74616",
-          "originStopName": "Courthouse",
-          "destStopId": "baseline:74612",
-          "destStopName": "Courthouse",
+          "originTime": 28860,
+          "destTime": 28904,
+          "originStopId": "baseline:74617",
+          "originStopName": "South Station",
+          "destStopId": "baseline:70080",
+          "destStopName": "South Station",
           "cumulativeFare": 0,
           "transferAllowance": {
             "value": 225,
@@ -874,50 +890,35 @@
             "expirationTime": 32455,
             "transferRuleGroup": "SL_FREE",
             "behindGates": true,
+            "enteredSubwayForFree": true,
             "type": "BostonTransferAllowance"
           },
           "type": "transfer"
         },
         {
-          "originLat": 42.35245,
-          "originLon": -71.04685,
-          "destLat": 42.374693,
-          "destLon": -71.029333,
+          "originLat": 42.352271,
+          "originLon": -71.055242,
+          "destLat": 42.3555179,
+          "destLon": -71.060225,
           "geom": {
             "type": "LineString",
             "coordinates": [
               [
-                -71.04685,
-                42.35245
+                -71.055242,
+                42.352271
               ],
               [
-                -71.0424599,
-                42.34863
-              ],
-              [
-                -71.0424599,
-                42.34863
-              ],
-              [
-                -71.038814,
-                42.347056
-              ],
-              [
-                -71.038814,
-                42.347056
-              ],
-              [
-                -71.029333,
-                42.374693
+                -71.060225,
+                42.3555179
               ]
             ]
           },
           "originTime": 28980,
-          "destTime": 29700,
-          "originStopId": "baseline:74612",
-          "originStopName": "Courthouse",
-          "destStopId": "baseline:7096",
-          "destStopName": "Airport",
+          "destTime": 29100,
+          "originStopId": "baseline:70080",
+          "originStopName": "South Station",
+          "destStopId": "baseline:70078",
+          "destStopName": "Downtown Crossing",
           "cumulativeFare": 0,
           "transferAllowance": {
             "value": 225,
@@ -925,44 +926,45 @@
             "expirationTime": 32455,
             "transferRuleGroup": "SL_FREE",
             "behindGates": true,
+            "enteredSubwayForFree": true,
             "type": "BostonTransferAllowance"
           },
           "route": {
             "agency_id": "1",
             "agency_name": "MBTA",
-            "route_id": "743",
-            "route_short_name": "SL3",
-            "route_long_name": "Silver Line SL3",
-            "route_type": 3,
-            "color": "7C878E",
+            "route_id": "Red",
+            "route_short_name": null,
+            "route_long_name": "Red Line",
+            "route_type": 1,
+            "color": "DA291C",
             "agency_url": null
           },
           "type": "transit"
         },
         {
-          "originLat": 42.374693,
-          "originLon": -71.029333,
-          "destLat": 42.374262,
-          "destLon": -71.030395,
+          "originLat": 42.3555179,
+          "originLon": -71.060225,
+          "destLat": 42.3555179,
+          "destLon": -71.060225,
           "geom": {
             "type": "LineString",
             "coordinates": [
               [
-                -71.029333,
-                42.374693
+                -71.060225,
+                42.3555179
               ],
               [
-                -71.030395,
-                42.374262
+                -71.060225,
+                42.3555179
               ]
             ]
           },
-          "originTime": 29700,
-          "destTime": 29851,
-          "originStopId": "baseline:7096",
-          "originStopName": "Airport",
-          "destStopId": "baseline:70048",
-          "destStopName": "Airport",
+          "originTime": 29100,
+          "destTime": 29140,
+          "originStopId": "baseline:70078",
+          "originStopName": "Downtown Crossing",
+          "destStopId": "baseline:70021",
+          "destStopName": "Downtown Crossing",
           "cumulativeFare": 0,
           "transferAllowance": {
             "value": 225,
@@ -970,18 +972,125 @@
             "expirationTime": 32455,
             "transferRuleGroup": "SL_FREE",
             "behindGates": true,
+            "enteredSubwayForFree": true,
             "type": "BostonTransferAllowance"
           },
           "type": "transfer"
         },
         {
-          "originLat": 42.374262,
-          "originLon": -71.030395,
+          "originLat": 42.3555179,
+          "originLon": -71.060225,
+          "destLat": 42.358978,
+          "destLon": -71.057598,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -71.060225,
+                42.3555179
+              ],
+              [
+                -71.057598,
+                42.358978
+              ]
+            ]
+          },
+          "originTime": 29460,
+          "destTime": 29520,
+          "originStopId": "baseline:70021",
+          "originStopName": "Downtown Crossing",
+          "destStopId": "baseline:70023",
+          "destStopName": "State Street",
+          "cumulativeFare": 0,
+          "transferAllowance": {
+            "value": 225,
+            "number": 2147483647,
+            "expirationTime": 32455,
+            "transferRuleGroup": "SL_FREE",
+            "behindGates": true,
+            "enteredSubwayForFree": true,
+            "type": "BostonTransferAllowance"
+          },
+          "route": {
+            "agency_id": "1",
+            "agency_name": "MBTA",
+            "route_id": "Orange",
+            "route_short_name": null,
+            "route_long_name": "Orange Line",
+            "route_type": 1,
+            "color": "ED8B00",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 42.358978,
+          "originLon": -71.057598,
+          "destLat": 42.358978,
+          "destLon": -71.057598,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -71.057598,
+                42.358978
+              ],
+              [
+                -71.057598,
+                42.358978
+              ]
+            ]
+          },
+          "originTime": 29520,
+          "destTime": 29568,
+          "originStopId": "baseline:70023",
+          "originStopName": "State Street",
+          "destStopId": "baseline:70042",
+          "destStopName": "State Street",
+          "cumulativeFare": 0,
+          "transferAllowance": {
+            "value": 225,
+            "number": 2147483647,
+            "expirationTime": 32455,
+            "transferRuleGroup": "SL_FREE",
+            "behindGates": true,
+            "enteredSubwayForFree": true,
+            "type": "BostonTransferAllowance"
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 42.358978,
+          "originLon": -71.057598,
           "destLat": 42.415135,
           "destLon": -70.9912069,
           "geom": {
             "type": "LineString",
             "coordinates": [
+              [
+                -71.057598,
+                42.358978
+              ],
+              [
+                -71.051652,
+                42.359784
+              ],
+              [
+                -71.051652,
+                42.359784
+              ],
+              [
+                -71.0395295,
+                42.3691185
+              ],
+              [
+                -71.0395295,
+                42.3691185
+              ],
+              [
+                -71.030395,
+                42.374262
+              ],
               [
                 -71.030395,
                 42.374262
@@ -1032,10 +1141,10 @@
               ]
             ]
           },
-          "originTime": 30120,
+          "originTime": 29700,
           "destTime": 30840,
-          "originStopId": "baseline:70048",
-          "originStopName": "Airport",
+          "originStopId": "baseline:70042",
+          "originStopName": "State Street",
           "destStopId": "baseline:70060",
           "destStopName": "Wonderland",
           "cumulativeFare": 0,
@@ -1045,6 +1154,7 @@
             "expirationTime": 32455,
             "transferRuleGroup": "SL_FREE",
             "behindGates": true,
+            "enteredSubwayForFree": true,
             "type": "BostonTransferAllowance"
           },
           "route": {
@@ -1062,14 +1172,11 @@
       ]
     }
   ],
-  "computeTimeMillis": 2231,
+  "computeTimeMillis": 971,
   "backendVersion": {
     "version": "UNKNOWN",
     "commit": "UNKNOWN",
-    "describe": "UNKNOWN",
-    "branch": "UNKNOWN",
-    "buildHost": "UNKNOWN",
-    "buildTime": "UNKNOWN"
+    "branch": "UNKNOWN"
   },
-  "generationTime": "2020-09-03T10:03:30.580744"
+  "generationTime": "2020-11-13T13:55:23.539892"
 }

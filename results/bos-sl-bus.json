@@ -1,1 +1,1233 @@
-{"request":{"fromLat":42.34839526143366,"fromLon":-71.03742607339585,"toLat":42.34408158944636,"toLon":-71.07313184952748,"fromTime":25200,"toTime":25260,"walkSpeed":1.3888888,"bikeSpeed":4.1666665,"bikeTrafficStress":4,"carSpeed":20,"streetTime":90,"maxWalkTime":20,"maxBikeTime":20,"maxCarTime":45,"minBikeTime":10,"minCarTime":10,"date":"2018-07-18","limit":0,"accessModes":"WALK","egressModes":"WALK","directModes":"WALK","transitModes":"TRAM,SUBWAY,RAIL,BUS,FERRY,CABLE_CAR,GONDOLA,FUNICULAR","suboptimalMinutes":5,"maxTripDurationMinutes":120,"maxRides":4,"scenario":null,"scenarioId":null,"zoneId":"Z","wheelchair":false,"maxFare":200000,"inRoutingFareCalculator":{"type":"boston","gtfsFares":null},"monteCarloDraws":1},"trips":[{"durationSeconds":2014,"departureTime":25255,"fare":225,"legs":[{"originLat":42.346538,"originLon":-71.034878,"destLat":42.352271,"destLon":-71.055242,"geom":{"type":"LineString","coordinates":[[-71.034878,42.346538],[-71.0388459,42.347188],[-71.0388459,42.347188],[-71.0424599,42.34863],[-71.0424599,42.34863],[-71.04685,42.35245],[-71.04685,42.35245],[-71.055242,42.352271]]},"originTime":25740,"destTime":26160,"originStopId":"baseline:31256","originStopName":"Northern Ave opp Harbor St","destStopId":"baseline:74617","destStopName":"South Station","cumulativeFare":225,"transferAllowance":{"value":225,"number":2147483647,"expirationTime":32455,"transferRuleGroup":"SUBWAY","behindGates":true,"type":"BostonTransferAllowance"},"route":{"agency_id":"1","agency_name":"MBTA","route_id":"742","route_short_name":"SL2","route_long_name":"Silver Line SL2","route_type":3,"color":"7C878E","agency_url":null},"type":"transit"},{"originLat":42.352271,"originLon":-71.055242,"destLat":42.355692,"destLon":-71.062911,"geom":{"type":"LineString","coordinates":[[-71.055242,42.352271],[-71.062911,42.355692]]},"originTime":26160,"destTime":26770,"originStopId":"baseline:74617","originStopName":"South Station","destStopId":"baseline:10000","destStopName":"Tremont St opp Temple Pl","cumulativeFare":225,"transferAllowance":{"value":225,"number":2147483647,"expirationTime":32455,"transferRuleGroup":"SUBWAY","behindGates":false,"type":"BostonTransferAllowance"},"type":"transfer"},{"originLat":42.355692,"originLon":-71.062911,"destLat":42.3436729,"destLon":-71.072264,"geom":{"type":"LineString","coordinates":[[-71.062911,42.355692],[-71.064353,42.3532469],[-71.064353,42.3532469],[-71.065439,42.349606],[-71.065439,42.349606],[-71.066481,42.348777],[-71.066481,42.348777],[-71.069114,42.346699],[-71.069114,42.346699],[-71.0698,42.3454659],[-71.0698,42.3454659],[-71.072264,42.3436729]]},"originTime":26880,"destTime":27180,"originStopId":"baseline:10000","originStopName":"Tremont St opp Temple Pl","destStopId":"baseline:1246","destStopName":"Tremont St @ Union Pk","cumulativeFare":225,"transferAllowance":{"value":0,"number":0,"expirationTime":0,"transferRuleGroup":"NONE","behindGates":false,"type":"BostonTransferAllowance"},"route":{"agency_id":"1","agency_name":"MBTA","route_id":"43","route_short_name":"43","route_long_name":null,"route_type":3,"color":"FFC72C","agency_url":null},"type":"transit"}],"tripIndex":0,"optimal":true},{"durationSeconds":2697,"departureTime":25255,"fare":170,"legs":[{"originLat":42.345781,"originLon":-71.04118,"destLat":42.351549,"destLon":-71.052959,"geom":{"type":"LineString","coordinates":[[-71.04118,42.345781],[-71.0441249,42.347405],[-71.0441249,42.347405],[-71.050865,42.350545],[-71.050865,42.350545],[-71.052959,42.351549]]},"originTime":25920,"destTime":26100,"originStopId":"baseline:212","originStopName":"Summer St @ D St","destStopId":"baseline:892","destStopName":"Summer St @ Dorchester Ave","cumulativeFare":170,"transferAllowance":{"value":170,"number":1,"expirationTime":32455,"transferRuleGroup":"LOCAL_BUS","behindGates":false,"type":"BostonTransferAllowance"},"route":{"agency_id":"1","agency_name":"MBTA","route_id":"7","route_short_name":"7","route_long_name":null,"route_type":3,"color":"FFC72C","agency_url":null},"type":"transit"},{"originLat":42.351549,"originLon":-71.052959,"destLat":42.355385,"destLon":-71.062211,"geom":{"type":"LineString","coordinates":[[-71.052959,42.351549],[-71.062211,42.355385]]},"originTime":26100,"destTime":26801,"originStopId":"baseline:892","originStopName":"Summer St @ Dorchester Ave","destStopId":"baseline:49001","destStopName":"Temple Pl @ Washington St","cumulativeFare":170,"transferAllowance":{"value":170,"number":1,"expirationTime":32455,"transferRuleGroup":"LOCAL_BUS","behindGates":false,"type":"BostonTransferAllowance"},"type":"transfer"},{"originLat":42.355385,"originLon":-71.062211,"destLat":42.340497,"destLon":-71.071317,"geom":{"type":"LineString","coordinates":[[-71.062211,42.355385],[-71.064353,42.3532469],[-71.064353,42.3532469],[-71.063818,42.349686],[-71.063818,42.349686],[-71.064695,42.346457],[-71.064695,42.346457],[-71.066075,42.343809],[-71.066075,42.343809],[-71.071317,42.340497]]},"originTime":26880,"destTime":27540,"originStopId":"baseline:49001","originStopName":"Temple Pl @ Washington St","destStopId":"baseline:5100","destStopName":"Washington St @ Union Pk","cumulativeFare":170,"transferAllowance":{"value":0,"number":0,"expirationTime":0,"transferRuleGroup":"NONE","behindGates":false,"type":"BostonTransferAllowance"},"route":{"agency_id":"1","agency_name":"MBTA","route_id":"749","route_short_name":"SL5","route_long_name":"Silver Line SL5","route_type":3,"color":"7C878E","agency_url":null},"type":"transit"}],"tripIndex":1,"optimal":true},{"durationSeconds":2284,"departureTime":25255,"fare":225,"legs":[{"originLat":42.345781,"originLon":-71.04118,"destLat":42.351549,"destLon":-71.052959,"geom":{"type":"LineString","coordinates":[[-71.04118,42.345781],[-71.0441249,42.347405],[-71.0441249,42.347405],[-71.050865,42.350545],[-71.050865,42.350545],[-71.052959,42.351549]]},"originTime":25920,"destTime":26100,"originStopId":"baseline:212","originStopName":"Summer St @ D St","destStopId":"baseline:892","destStopName":"Summer St @ Dorchester Ave","cumulativeFare":170,"transferAllowance":{"value":170,"number":1,"expirationTime":32455,"transferRuleGroup":"LOCAL_BUS","behindGates":false,"type":"BostonTransferAllowance"},"route":{"agency_id":"1","agency_name":"MBTA","route_id":"7","route_short_name":"7","route_long_name":null,"route_type":3,"color":"FFC72C","agency_url":null},"type":"transit"},{"originLat":42.351549,"originLon":-71.052959,"destLat":42.3555179,"destLon":-71.060225,"geom":{"type":"LineString","coordinates":[[-71.052959,42.351549],[-71.060225,42.3555179]]},"originTime":26100,"destTime":26685,"originStopId":"baseline:892","originStopName":"Summer St @ Dorchester Ave","destStopId":"baseline:70020","destStopName":"Downtown Crossing","cumulativeFare":170,"transferAllowance":{"value":170,"number":1,"expirationTime":32455,"transferRuleGroup":"LOCAL_BUS","behindGates":false,"type":"BostonTransferAllowance"},"type":"transfer"},{"originLat":42.3555179,"originLon":-71.060225,"destLat":42.34735,"destLon":-71.075727,"geom":{"type":"LineString","coordinates":[[-71.060225,42.3555179],[-71.062752,42.3525469],[-71.062752,42.3525469],[-71.063917,42.349662],[-71.063917,42.349662],[-71.075727,42.34735]]},"originTime":26820,"destTime":27120,"originStopId":"baseline:70020","originStopName":"Downtown Crossing","destStopId":"baseline:70014","destStopName":"Back Bay","cumulativeFare":225,"transferAllowance":{"value":225,"number":2147483647,"expirationTime":32455,"transferRuleGroup":"LOCAL_BUS_TO_SUBWAY","behindGates":true,"type":"BostonTransferAllowance"},"route":{"agency_id":"1","agency_name":"MBTA","route_id":"Orange","route_short_name":null,"route_long_name":"Orange Line","route_type":1,"color":"ED8B00","agency_url":null},"type":"transit"}],"tripIndex":2,"optimal":false},{"durationSeconds":2284,"departureTime":25255,"fare":225,"legs":[{"originLat":42.346538,"originLon":-71.034878,"destLat":42.352271,"destLon":-71.055242,"geom":{"type":"LineString","coordinates":[[-71.034878,42.346538],[-71.0388459,42.347188],[-71.0388459,42.347188],[-71.0424599,42.34863],[-71.0424599,42.34863],[-71.04685,42.35245],[-71.04685,42.35245],[-71.055242,42.352271]]},"originTime":25740,"destTime":26160,"originStopId":"baseline:31256","originStopName":"Northern Ave opp Harbor St","destStopId":"baseline:74617","destStopName":"South Station","cumulativeFare":225,"transferAllowance":{"value":225,"number":2147483647,"expirationTime":32455,"transferRuleGroup":"SUBWAY","behindGates":true,"type":"BostonTransferAllowance"},"route":{"agency_id":"1","agency_name":"MBTA","route_id":"742","route_short_name":"SL2","route_long_name":"Silver Line SL2","route_type":3,"color":"7C878E","agency_url":null},"type":"transit"},{"originLat":42.352271,"originLon":-71.055242,"destLat":42.352271,"destLon":-71.055242,"geom":{"type":"LineString","coordinates":[[-71.055242,42.352271],[-71.055242,42.352271]]},"originTime":26160,"destTime":26204,"originStopId":"baseline:74617","originStopName":"South Station","destStopId":"baseline:70080","destStopName":"South Station","cumulativeFare":225,"transferAllowance":{"value":225,"number":2147483647,"expirationTime":32455,"transferRuleGroup":"SUBWAY","behindGates":true,"type":"BostonTransferAllowance"},"type":"transfer"},{"originLat":42.352271,"originLon":-71.055242,"destLat":42.3555179,"destLon":-71.060225,"geom":{"type":"LineString","coordinates":[[-71.055242,42.352271],[-71.060225,42.3555179]]},"originTime":26280,"destTime":26400,"originStopId":"baseline:70080","originStopName":"South Station","destStopId":"baseline:70078","destStopName":"Downtown Crossing","cumulativeFare":225,"transferAllowance":{"value":225,"number":2147483647,"expirationTime":32455,"transferRuleGroup":"SUBWAY","behindGates":true,"type":"BostonTransferAllowance"},"route":{"agency_id":"1","agency_name":"MBTA","route_id":"Red","route_short_name":null,"route_long_name":"Red Line","route_type":1,"color":"DA291C","agency_url":null},"type":"transit"},{"originLat":42.3555179,"originLon":-71.060225,"destLat":42.3555179,"destLon":-71.060225,"geom":{"type":"LineString","coordinates":[[-71.060225,42.3555179],[-71.060225,42.3555179]]},"originTime":26400,"destTime":26440,"originStopId":"baseline:70078","originStopName":"Downtown Crossing","destStopId":"baseline:70020","destStopName":"Downtown Crossing","cumulativeFare":225,"transferAllowance":{"value":225,"number":2147483647,"expirationTime":32455,"transferRuleGroup":"SUBWAY","behindGates":true,"type":"BostonTransferAllowance"},"type":"transfer"},{"originLat":42.3555179,"originLon":-71.060225,"destLat":42.34735,"destLon":-71.075727,"geom":{"type":"LineString","coordinates":[[-71.060225,42.3555179],[-71.062752,42.3525469],[-71.062752,42.3525469],[-71.063917,42.349662],[-71.063917,42.349662],[-71.075727,42.34735]]},"originTime":26820,"destTime":27120,"originStopId":"baseline:70020","originStopName":"Downtown Crossing","destStopId":"baseline:70014","destStopName":"Back Bay","cumulativeFare":225,"transferAllowance":{"value":225,"number":2147483647,"expirationTime":32455,"transferRuleGroup":"SUBWAY","behindGates":true,"type":"BostonTransferAllowance"},"route":{"agency_id":"1","agency_name":"MBTA","route_id":"Orange","route_short_name":null,"route_long_name":"Orange Line","route_type":1,"color":"ED8B00","agency_url":null},"type":"transit"}],"tripIndex":3,"optimal":false},{"durationSeconds":3222,"departureTime":25255,"fare":170,"legs":[{"originLat":42.348062,"originLon":-71.050338,"destLat":42.342664,"destLon":-71.056949,"geom":{"type":"LineString","coordinates":[[-71.050338,42.348062],[-71.051618,42.34644],[-71.051618,42.34644],[-71.055038,42.343047],[-71.055038,42.343047],[-71.056949,42.342664]]},"originTime":27060,"destTime":27300,"originStopId":"baseline:11219","originStopName":"A St @ Necco St","destStopId":"baseline:151","destStopName":"W Broadway @ Broadway Station","cumulativeFare":170,"transferAllowance":{"value":170,"number":1,"expirationTime":32455,"transferRuleGroup":"LOCAL_BUS","behindGates":false,"type":"BostonTransferAllowance"},"route":{"agency_id":"1","agency_name":"MBTA","route_id":"11","route_short_name":"11","route_long_name":null,"route_type":3,"color":"FFC72C","agency_url":null},"type":"transit"}],"tripIndex":4,"optimal":false},{"durationSeconds":1864,"departureTime":25255,"fare":450,"legs":[{"originLat":42.346538,"originLon":-71.034878,"destLat":42.352271,"destLon":-71.055242,"geom":{"type":"LineString","coordinates":[[-71.034878,42.346538],[-71.0388459,42.347188],[-71.0388459,42.347188],[-71.0424599,42.34863],[-71.0424599,42.34863],[-71.04685,42.35245],[-71.04685,42.35245],[-71.055242,42.352271]]},"originTime":25740,"destTime":26160,"originStopId":"baseline:31256","originStopName":"Northern Ave opp Harbor St","destStopId":"baseline:74617","destStopName":"South Station","cumulativeFare":225,"transferAllowance":{"value":225,"number":2147483647,"expirationTime":32455,"transferRuleGroup":"SUBWAY","behindGates":true,"type":"BostonTransferAllowance"},"route":{"agency_id":"1","agency_name":"MBTA","route_id":"742","route_short_name":"SL2","route_long_name":"Silver Line SL2","route_type":3,"color":"7C878E","agency_url":null},"type":"transit"},{"originLat":42.352271,"originLon":-71.055242,"destLat":42.351763,"destLon":-71.0547966,"geom":{"type":"LineString","coordinates":[[-71.055242,42.352271],[-71.0547966,42.351763]]},"originTime":26160,"destTime":26249,"originStopId":"baseline:74617","originStopName":"South Station","destStopId":"baseline:South Station","destStopName":"South Station","cumulativeFare":225,"transferAllowance":{"value":225,"number":2147483647,"expirationTime":32455,"transferRuleGroup":"SUBWAY","behindGates":true,"type":"BostonTransferAllowance"},"type":"transfer"},{"originLat":42.351763,"originLon":-71.0547966,"destLat":42.34735,"destLon":-71.075727,"geom":{"type":"LineString","coordinates":[[-71.0547966,42.351763],[-71.075727,42.34735]]},"originTime":26400,"destTime":26700,"originStopId":"baseline:South Station","originStopName":"South Station","destStopId":"baseline:Back Bay","destStopName":"Back Bay","cumulativeFare":450,"transferAllowance":{"value":225,"number":2147483647,"expirationTime":32455,"transferRuleGroup":"SUBWAY","behindGates":false,"type":"BostonTransferAllowance"},"route":{"agency_id":"1","agency_name":"MBTA","route_id":"CR-Worcester","route_short_name":null,"route_long_name":"Framingham/Worcester Line","route_type":2,"color":"80276C","agency_url":null},"type":"transit"}],"tripIndex":5,"optimal":true},{"durationSeconds":1864,"departureTime":25255,"fare":395,"legs":[{"originLat":42.345781,"originLon":-71.04118,"destLat":42.351549,"destLon":-71.052959,"geom":{"type":"LineString","coordinates":[[-71.04118,42.345781],[-71.0441249,42.347405],[-71.0441249,42.347405],[-71.050865,42.350545],[-71.050865,42.350545],[-71.052959,42.351549]]},"originTime":25920,"destTime":26100,"originStopId":"baseline:212","originStopName":"Summer St @ D St","destStopId":"baseline:892","destStopName":"Summer St @ Dorchester Ave","cumulativeFare":170,"transferAllowance":{"value":170,"number":1,"expirationTime":32455,"transferRuleGroup":"LOCAL_BUS","behindGates":false,"type":"BostonTransferAllowance"},"route":{"agency_id":"1","agency_name":"MBTA","route_id":"7","route_short_name":"7","route_long_name":null,"route_type":3,"color":"FFC72C","agency_url":null},"type":"transit"},{"originLat":42.351549,"originLon":-71.052959,"destLat":42.351763,"destLon":-71.0547966,"geom":{"type":"LineString","coordinates":[[-71.052959,42.351549],[-71.0547966,42.351763]]},"originTime":26100,"destTime":26284,"originStopId":"baseline:892","originStopName":"Summer St @ Dorchester Ave","destStopId":"baseline:South Station","destStopName":"South Station","cumulativeFare":170,"transferAllowance":{"value":170,"number":1,"expirationTime":32455,"transferRuleGroup":"LOCAL_BUS","behindGates":false,"type":"BostonTransferAllowance"},"type":"transfer"},{"originLat":42.351763,"originLon":-71.0547966,"destLat":42.34735,"destLon":-71.075727,"geom":{"type":"LineString","coordinates":[[-71.0547966,42.351763],[-71.075727,42.34735]]},"originTime":26400,"destTime":26700,"originStopId":"baseline:South Station","originStopName":"South Station","destStopId":"baseline:Back Bay","destStopName":"Back Bay","cumulativeFare":395,"transferAllowance":{"value":170,"number":1,"expirationTime":32455,"transferRuleGroup":"LOCAL_BUS","behindGates":false,"type":"BostonTransferAllowance"},"route":{"agency_id":"1","agency_name":"MBTA","route_id":"CR-Worcester","route_short_name":null,"route_long_name":"Framingham/Worcester Line","route_type":2,"color":"80276C","agency_url":null},"type":"transit"}],"tripIndex":6,"optimal":true}],"computeTimeMillis":441,"backendVersion":{"version":"UNKNOWN","commit":"UNKNOWN","branch":"UNKNOWN"},"generationTime":"2020-09-03T13:53:16.630966"}
+{
+  "request": {
+    "fromLat": 42.34839526143366,
+    "fromLon": -71.03742607339585,
+    "toLat": 42.34408158944636,
+    "toLon": -71.07313184952748,
+    "fromTime": 25200,
+    "toTime": 25260,
+    "walkSpeed": 1.3888888,
+    "bikeSpeed": 4.1666665,
+    "bikeTrafficStress": 4,
+    "carSpeed": 20.0,
+    "streetTime": 90,
+    "maxWalkTime": 20,
+    "maxBikeTime": 20,
+    "maxCarTime": 45,
+    "minBikeTime": 10,
+    "minCarTime": 10,
+    "date": "2018-07-18",
+    "limit": 0,
+    "accessModes": "WALK",
+    "egressModes": "WALK",
+    "directModes": "WALK",
+    "transitModes": "TRAM,SUBWAY,RAIL,BUS,FERRY,CABLE_CAR,GONDOLA,FUNICULAR",
+    "suboptimalMinutes": 5,
+    "maxTripDurationMinutes": 120,
+    "maxRides": 4,
+    "scenario": null,
+    "scenarioId": null,
+    "zoneId": "Z",
+    "wheelchair": false,
+    "maxFare": 200000,
+    "inRoutingFareCalculator": {
+      "type": "boston",
+      "gtfsFares": null
+    },
+    "monteCarloDraws": 1
+  },
+  "trips": [
+    {
+      "durationSeconds": 2014,
+      "departureTime": 25255,
+      "fare": 225,
+      "legs": [
+        {
+          "originLat": 42.346538,
+          "originLon": -71.034878,
+          "destLat": 42.352271,
+          "destLon": -71.055242,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -71.034878,
+                42.346538
+              ],
+              [
+                -71.0388459,
+                42.347188
+              ],
+              [
+                -71.0388459,
+                42.347188
+              ],
+              [
+                -71.0424599,
+                42.34863
+              ],
+              [
+                -71.0424599,
+                42.34863
+              ],
+              [
+                -71.04685,
+                42.35245
+              ],
+              [
+                -71.04685,
+                42.35245
+              ],
+              [
+                -71.055242,
+                42.352271
+              ]
+            ]
+          },
+          "originTime": 25740,
+          "destTime": 26160,
+          "originStopId": "baseline:31256",
+          "originStopName": "Northern Ave opp Harbor St",
+          "destStopId": "baseline:74617",
+          "destStopName": "South Station",
+          "cumulativeFare": 225,
+          "transferAllowance": {
+            "value": 225,
+            "number": 2147483647,
+            "expirationTime": 32455,
+            "transferRuleGroup": "SUBWAY",
+            "behindGates": true,
+            "enteredSubwayForFree": false,
+            "type": "BostonTransferAllowance"
+          },
+          "route": {
+            "agency_id": "1",
+            "agency_name": "MBTA",
+            "route_id": "742",
+            "route_short_name": "SL2",
+            "route_long_name": "Silver Line SL2",
+            "route_type": 3,
+            "color": "7C878E",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 42.352271,
+          "originLon": -71.055242,
+          "destLat": 42.355692,
+          "destLon": -71.062911,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -71.055242,
+                42.352271
+              ],
+              [
+                -71.062911,
+                42.355692
+              ]
+            ]
+          },
+          "originTime": 26160,
+          "destTime": 26770,
+          "originStopId": "baseline:74617",
+          "originStopName": "South Station",
+          "destStopId": "baseline:10000",
+          "destStopName": "Tremont St opp Temple Pl",
+          "cumulativeFare": 225,
+          "transferAllowance": {
+            "value": 225,
+            "number": 2147483647,
+            "expirationTime": 32455,
+            "transferRuleGroup": "SUBWAY",
+            "behindGates": false,
+            "enteredSubwayForFree": false,
+            "type": "BostonTransferAllowance"
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 42.355692,
+          "originLon": -71.062911,
+          "destLat": 42.3436729,
+          "destLon": -71.072264,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -71.062911,
+                42.355692
+              ],
+              [
+                -71.064353,
+                42.3532469
+              ],
+              [
+                -71.064353,
+                42.3532469
+              ],
+              [
+                -71.065439,
+                42.349606
+              ],
+              [
+                -71.065439,
+                42.349606
+              ],
+              [
+                -71.066481,
+                42.348777
+              ],
+              [
+                -71.066481,
+                42.348777
+              ],
+              [
+                -71.069114,
+                42.346699
+              ],
+              [
+                -71.069114,
+                42.346699
+              ],
+              [
+                -71.0698,
+                42.3454659
+              ],
+              [
+                -71.0698,
+                42.3454659
+              ],
+              [
+                -71.072264,
+                42.3436729
+              ]
+            ]
+          },
+          "originTime": 26880,
+          "destTime": 27180,
+          "originStopId": "baseline:10000",
+          "originStopName": "Tremont St opp Temple Pl",
+          "destStopId": "baseline:1246",
+          "destStopName": "Tremont St @ Union Pk",
+          "cumulativeFare": 225,
+          "transferAllowance": {
+            "value": 0,
+            "number": 0,
+            "expirationTime": 0,
+            "transferRuleGroup": "NONE",
+            "behindGates": false,
+            "enteredSubwayForFree": false,
+            "type": "BostonTransferAllowance"
+          },
+          "route": {
+            "agency_id": "1",
+            "agency_name": "MBTA",
+            "route_id": "43",
+            "route_short_name": "43",
+            "route_long_name": null,
+            "route_type": 3,
+            "color": "FFC72C",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 2697,
+      "departureTime": 25255,
+      "fare": 170,
+      "legs": [
+        {
+          "originLat": 42.345781,
+          "originLon": -71.04118,
+          "destLat": 42.351549,
+          "destLon": -71.052959,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -71.04118,
+                42.345781
+              ],
+              [
+                -71.0441249,
+                42.347405
+              ],
+              [
+                -71.0441249,
+                42.347405
+              ],
+              [
+                -71.050865,
+                42.350545
+              ],
+              [
+                -71.050865,
+                42.350545
+              ],
+              [
+                -71.052959,
+                42.351549
+              ]
+            ]
+          },
+          "originTime": 25920,
+          "destTime": 26100,
+          "originStopId": "baseline:212",
+          "originStopName": "Summer St @ D St",
+          "destStopId": "baseline:892",
+          "destStopName": "Summer St @ Dorchester Ave",
+          "cumulativeFare": 170,
+          "transferAllowance": {
+            "value": 170,
+            "number": 1,
+            "expirationTime": 32455,
+            "transferRuleGroup": "LOCAL_BUS",
+            "behindGates": false,
+            "enteredSubwayForFree": false,
+            "type": "BostonTransferAllowance"
+          },
+          "route": {
+            "agency_id": "1",
+            "agency_name": "MBTA",
+            "route_id": "7",
+            "route_short_name": "7",
+            "route_long_name": null,
+            "route_type": 3,
+            "color": "FFC72C",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 42.351549,
+          "originLon": -71.052959,
+          "destLat": 42.355385,
+          "destLon": -71.062211,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -71.052959,
+                42.351549
+              ],
+              [
+                -71.062211,
+                42.355385
+              ]
+            ]
+          },
+          "originTime": 26100,
+          "destTime": 26801,
+          "originStopId": "baseline:892",
+          "originStopName": "Summer St @ Dorchester Ave",
+          "destStopId": "baseline:49001",
+          "destStopName": "Temple Pl @ Washington St",
+          "cumulativeFare": 170,
+          "transferAllowance": {
+            "value": 170,
+            "number": 1,
+            "expirationTime": 32455,
+            "transferRuleGroup": "LOCAL_BUS",
+            "behindGates": false,
+            "enteredSubwayForFree": false,
+            "type": "BostonTransferAllowance"
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 42.355385,
+          "originLon": -71.062211,
+          "destLat": 42.340497,
+          "destLon": -71.071317,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -71.062211,
+                42.355385
+              ],
+              [
+                -71.064353,
+                42.3532469
+              ],
+              [
+                -71.064353,
+                42.3532469
+              ],
+              [
+                -71.063818,
+                42.349686
+              ],
+              [
+                -71.063818,
+                42.349686
+              ],
+              [
+                -71.064695,
+                42.346457
+              ],
+              [
+                -71.064695,
+                42.346457
+              ],
+              [
+                -71.066075,
+                42.343809
+              ],
+              [
+                -71.066075,
+                42.343809
+              ],
+              [
+                -71.071317,
+                42.340497
+              ]
+            ]
+          },
+          "originTime": 26880,
+          "destTime": 27540,
+          "originStopId": "baseline:49001",
+          "originStopName": "Temple Pl @ Washington St",
+          "destStopId": "baseline:5100",
+          "destStopName": "Washington St @ Union Pk",
+          "cumulativeFare": 170,
+          "transferAllowance": {
+            "value": 0,
+            "number": 0,
+            "expirationTime": 0,
+            "transferRuleGroup": "NONE",
+            "behindGates": false,
+            "enteredSubwayForFree": false,
+            "type": "BostonTransferAllowance"
+          },
+          "route": {
+            "agency_id": "1",
+            "agency_name": "MBTA",
+            "route_id": "749",
+            "route_short_name": "SL5",
+            "route_long_name": "Silver Line SL5",
+            "route_type": 3,
+            "color": "7C878E",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 2284,
+      "departureTime": 25255,
+      "fare": 225,
+      "legs": [
+        {
+          "originLat": 42.345781,
+          "originLon": -71.04118,
+          "destLat": 42.351549,
+          "destLon": -71.052959,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -71.04118,
+                42.345781
+              ],
+              [
+                -71.0441249,
+                42.347405
+              ],
+              [
+                -71.0441249,
+                42.347405
+              ],
+              [
+                -71.050865,
+                42.350545
+              ],
+              [
+                -71.050865,
+                42.350545
+              ],
+              [
+                -71.052959,
+                42.351549
+              ]
+            ]
+          },
+          "originTime": 25920,
+          "destTime": 26100,
+          "originStopId": "baseline:212",
+          "originStopName": "Summer St @ D St",
+          "destStopId": "baseline:892",
+          "destStopName": "Summer St @ Dorchester Ave",
+          "cumulativeFare": 170,
+          "transferAllowance": {
+            "value": 170,
+            "number": 1,
+            "expirationTime": 32455,
+            "transferRuleGroup": "LOCAL_BUS",
+            "behindGates": false,
+            "enteredSubwayForFree": false,
+            "type": "BostonTransferAllowance"
+          },
+          "route": {
+            "agency_id": "1",
+            "agency_name": "MBTA",
+            "route_id": "7",
+            "route_short_name": "7",
+            "route_long_name": null,
+            "route_type": 3,
+            "color": "FFC72C",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 42.351549,
+          "originLon": -71.052959,
+          "destLat": 42.3555179,
+          "destLon": -71.060225,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -71.052959,
+                42.351549
+              ],
+              [
+                -71.060225,
+                42.3555179
+              ]
+            ]
+          },
+          "originTime": 26100,
+          "destTime": 26685,
+          "originStopId": "baseline:892",
+          "originStopName": "Summer St @ Dorchester Ave",
+          "destStopId": "baseline:70020",
+          "destStopName": "Downtown Crossing",
+          "cumulativeFare": 170,
+          "transferAllowance": {
+            "value": 170,
+            "number": 1,
+            "expirationTime": 32455,
+            "transferRuleGroup": "LOCAL_BUS",
+            "behindGates": false,
+            "enteredSubwayForFree": false,
+            "type": "BostonTransferAllowance"
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 42.3555179,
+          "originLon": -71.060225,
+          "destLat": 42.34735,
+          "destLon": -71.075727,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -71.060225,
+                42.3555179
+              ],
+              [
+                -71.062752,
+                42.3525469
+              ],
+              [
+                -71.062752,
+                42.3525469
+              ],
+              [
+                -71.063917,
+                42.349662
+              ],
+              [
+                -71.063917,
+                42.349662
+              ],
+              [
+                -71.075727,
+                42.34735
+              ]
+            ]
+          },
+          "originTime": 26820,
+          "destTime": 27120,
+          "originStopId": "baseline:70020",
+          "originStopName": "Downtown Crossing",
+          "destStopId": "baseline:70014",
+          "destStopName": "Back Bay",
+          "cumulativeFare": 225,
+          "transferAllowance": {
+            "value": 225,
+            "number": 2147483647,
+            "expirationTime": 32455,
+            "transferRuleGroup": "LOCAL_BUS_TO_SUBWAY",
+            "behindGates": true,
+            "enteredSubwayForFree": false,
+            "type": "BostonTransferAllowance"
+          },
+          "route": {
+            "agency_id": "1",
+            "agency_name": "MBTA",
+            "route_id": "Orange",
+            "route_short_name": null,
+            "route_long_name": "Orange Line",
+            "route_type": 1,
+            "color": "ED8B00",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 2284,
+      "departureTime": 25255,
+      "fare": 225,
+      "legs": [
+        {
+          "originLat": 42.346538,
+          "originLon": -71.034878,
+          "destLat": 42.352271,
+          "destLon": -71.055242,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -71.034878,
+                42.346538
+              ],
+              [
+                -71.0388459,
+                42.347188
+              ],
+              [
+                -71.0388459,
+                42.347188
+              ],
+              [
+                -71.0424599,
+                42.34863
+              ],
+              [
+                -71.0424599,
+                42.34863
+              ],
+              [
+                -71.04685,
+                42.35245
+              ],
+              [
+                -71.04685,
+                42.35245
+              ],
+              [
+                -71.055242,
+                42.352271
+              ]
+            ]
+          },
+          "originTime": 25740,
+          "destTime": 26160,
+          "originStopId": "baseline:31256",
+          "originStopName": "Northern Ave opp Harbor St",
+          "destStopId": "baseline:74617",
+          "destStopName": "South Station",
+          "cumulativeFare": 225,
+          "transferAllowance": {
+            "value": 225,
+            "number": 2147483647,
+            "expirationTime": 32455,
+            "transferRuleGroup": "SUBWAY",
+            "behindGates": true,
+            "enteredSubwayForFree": false,
+            "type": "BostonTransferAllowance"
+          },
+          "route": {
+            "agency_id": "1",
+            "agency_name": "MBTA",
+            "route_id": "742",
+            "route_short_name": "SL2",
+            "route_long_name": "Silver Line SL2",
+            "route_type": 3,
+            "color": "7C878E",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 42.352271,
+          "originLon": -71.055242,
+          "destLat": 42.352271,
+          "destLon": -71.055242,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -71.055242,
+                42.352271
+              ],
+              [
+                -71.055242,
+                42.352271
+              ]
+            ]
+          },
+          "originTime": 26160,
+          "destTime": 26204,
+          "originStopId": "baseline:74617",
+          "originStopName": "South Station",
+          "destStopId": "baseline:70080",
+          "destStopName": "South Station",
+          "cumulativeFare": 225,
+          "transferAllowance": {
+            "value": 225,
+            "number": 2147483647,
+            "expirationTime": 32455,
+            "transferRuleGroup": "SUBWAY",
+            "behindGates": true,
+            "enteredSubwayForFree": false,
+            "type": "BostonTransferAllowance"
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 42.352271,
+          "originLon": -71.055242,
+          "destLat": 42.3555179,
+          "destLon": -71.060225,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -71.055242,
+                42.352271
+              ],
+              [
+                -71.060225,
+                42.3555179
+              ]
+            ]
+          },
+          "originTime": 26280,
+          "destTime": 26400,
+          "originStopId": "baseline:70080",
+          "originStopName": "South Station",
+          "destStopId": "baseline:70078",
+          "destStopName": "Downtown Crossing",
+          "cumulativeFare": 225,
+          "transferAllowance": {
+            "value": 225,
+            "number": 2147483647,
+            "expirationTime": 32455,
+            "transferRuleGroup": "SUBWAY",
+            "behindGates": true,
+            "enteredSubwayForFree": false,
+            "type": "BostonTransferAllowance"
+          },
+          "route": {
+            "agency_id": "1",
+            "agency_name": "MBTA",
+            "route_id": "Red",
+            "route_short_name": null,
+            "route_long_name": "Red Line",
+            "route_type": 1,
+            "color": "DA291C",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 42.3555179,
+          "originLon": -71.060225,
+          "destLat": 42.3555179,
+          "destLon": -71.060225,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -71.060225,
+                42.3555179
+              ],
+              [
+                -71.060225,
+                42.3555179
+              ]
+            ]
+          },
+          "originTime": 26400,
+          "destTime": 26440,
+          "originStopId": "baseline:70078",
+          "originStopName": "Downtown Crossing",
+          "destStopId": "baseline:70020",
+          "destStopName": "Downtown Crossing",
+          "cumulativeFare": 225,
+          "transferAllowance": {
+            "value": 225,
+            "number": 2147483647,
+            "expirationTime": 32455,
+            "transferRuleGroup": "SUBWAY",
+            "behindGates": true,
+            "enteredSubwayForFree": false,
+            "type": "BostonTransferAllowance"
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 42.3555179,
+          "originLon": -71.060225,
+          "destLat": 42.34735,
+          "destLon": -71.075727,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -71.060225,
+                42.3555179
+              ],
+              [
+                -71.062752,
+                42.3525469
+              ],
+              [
+                -71.062752,
+                42.3525469
+              ],
+              [
+                -71.063917,
+                42.349662
+              ],
+              [
+                -71.063917,
+                42.349662
+              ],
+              [
+                -71.075727,
+                42.34735
+              ]
+            ]
+          },
+          "originTime": 26820,
+          "destTime": 27120,
+          "originStopId": "baseline:70020",
+          "originStopName": "Downtown Crossing",
+          "destStopId": "baseline:70014",
+          "destStopName": "Back Bay",
+          "cumulativeFare": 225,
+          "transferAllowance": {
+            "value": 225,
+            "number": 2147483647,
+            "expirationTime": 32455,
+            "transferRuleGroup": "SUBWAY",
+            "behindGates": true,
+            "enteredSubwayForFree": false,
+            "type": "BostonTransferAllowance"
+          },
+          "route": {
+            "agency_id": "1",
+            "agency_name": "MBTA",
+            "route_id": "Orange",
+            "route_short_name": null,
+            "route_long_name": "Orange Line",
+            "route_type": 1,
+            "color": "ED8B00",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 3222,
+      "departureTime": 25255,
+      "fare": 170,
+      "legs": [
+        {
+          "originLat": 42.348062,
+          "originLon": -71.050338,
+          "destLat": 42.342664,
+          "destLon": -71.056949,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -71.050338,
+                42.348062
+              ],
+              [
+                -71.051618,
+                42.34644
+              ],
+              [
+                -71.051618,
+                42.34644
+              ],
+              [
+                -71.055038,
+                42.343047
+              ],
+              [
+                -71.055038,
+                42.343047
+              ],
+              [
+                -71.056949,
+                42.342664
+              ]
+            ]
+          },
+          "originTime": 27060,
+          "destTime": 27300,
+          "originStopId": "baseline:11219",
+          "originStopName": "A St @ Necco St",
+          "destStopId": "baseline:151",
+          "destStopName": "W Broadway @ Broadway Station",
+          "cumulativeFare": 170,
+          "transferAllowance": {
+            "value": 170,
+            "number": 1,
+            "expirationTime": 32455,
+            "transferRuleGroup": "LOCAL_BUS",
+            "behindGates": false,
+            "enteredSubwayForFree": false,
+            "type": "BostonTransferAllowance"
+          },
+          "route": {
+            "agency_id": "1",
+            "agency_name": "MBTA",
+            "route_id": "11",
+            "route_short_name": "11",
+            "route_long_name": null,
+            "route_type": 3,
+            "color": "FFC72C",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 1864,
+      "departureTime": 25255,
+      "fare": 450,
+      "legs": [
+        {
+          "originLat": 42.346538,
+          "originLon": -71.034878,
+          "destLat": 42.352271,
+          "destLon": -71.055242,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -71.034878,
+                42.346538
+              ],
+              [
+                -71.0388459,
+                42.347188
+              ],
+              [
+                -71.0388459,
+                42.347188
+              ],
+              [
+                -71.0424599,
+                42.34863
+              ],
+              [
+                -71.0424599,
+                42.34863
+              ],
+              [
+                -71.04685,
+                42.35245
+              ],
+              [
+                -71.04685,
+                42.35245
+              ],
+              [
+                -71.055242,
+                42.352271
+              ]
+            ]
+          },
+          "originTime": 25740,
+          "destTime": 26160,
+          "originStopId": "baseline:31256",
+          "originStopName": "Northern Ave opp Harbor St",
+          "destStopId": "baseline:74617",
+          "destStopName": "South Station",
+          "cumulativeFare": 225,
+          "transferAllowance": {
+            "value": 225,
+            "number": 2147483647,
+            "expirationTime": 32455,
+            "transferRuleGroup": "SUBWAY",
+            "behindGates": true,
+            "enteredSubwayForFree": false,
+            "type": "BostonTransferAllowance"
+          },
+          "route": {
+            "agency_id": "1",
+            "agency_name": "MBTA",
+            "route_id": "742",
+            "route_short_name": "SL2",
+            "route_long_name": "Silver Line SL2",
+            "route_type": 3,
+            "color": "7C878E",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 42.352271,
+          "originLon": -71.055242,
+          "destLat": 42.351763,
+          "destLon": -71.0547966,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -71.055242,
+                42.352271
+              ],
+              [
+                -71.0547966,
+                42.351763
+              ]
+            ]
+          },
+          "originTime": 26160,
+          "destTime": 26249,
+          "originStopId": "baseline:74617",
+          "originStopName": "South Station",
+          "destStopId": "baseline:South Station",
+          "destStopName": "South Station",
+          "cumulativeFare": 225,
+          "transferAllowance": {
+            "value": 225,
+            "number": 2147483647,
+            "expirationTime": 32455,
+            "transferRuleGroup": "SUBWAY",
+            "behindGates": true,
+            "enteredSubwayForFree": false,
+            "type": "BostonTransferAllowance"
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 42.351763,
+          "originLon": -71.0547966,
+          "destLat": 42.34735,
+          "destLon": -71.075727,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -71.0547966,
+                42.351763
+              ],
+              [
+                -71.075727,
+                42.34735
+              ]
+            ]
+          },
+          "originTime": 26400,
+          "destTime": 26700,
+          "originStopId": "baseline:South Station",
+          "originStopName": "South Station",
+          "destStopId": "baseline:Back Bay",
+          "destStopName": "Back Bay",
+          "cumulativeFare": 450,
+          "transferAllowance": {
+            "value": 225,
+            "number": 2147483647,
+            "expirationTime": 32455,
+            "transferRuleGroup": "SUBWAY",
+            "behindGates": false,
+            "enteredSubwayForFree": false,
+            "type": "BostonTransferAllowance"
+          },
+          "route": {
+            "agency_id": "1",
+            "agency_name": "MBTA",
+            "route_id": "CR-Worcester",
+            "route_short_name": null,
+            "route_long_name": "Framingham/Worcester Line",
+            "route_type": 2,
+            "color": "80276C",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    },
+    {
+      "durationSeconds": 1864,
+      "departureTime": 25255,
+      "fare": 395,
+      "legs": [
+        {
+          "originLat": 42.345781,
+          "originLon": -71.04118,
+          "destLat": 42.351549,
+          "destLon": -71.052959,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -71.04118,
+                42.345781
+              ],
+              [
+                -71.0441249,
+                42.347405
+              ],
+              [
+                -71.0441249,
+                42.347405
+              ],
+              [
+                -71.050865,
+                42.350545
+              ],
+              [
+                -71.050865,
+                42.350545
+              ],
+              [
+                -71.052959,
+                42.351549
+              ]
+            ]
+          },
+          "originTime": 25920,
+          "destTime": 26100,
+          "originStopId": "baseline:212",
+          "originStopName": "Summer St @ D St",
+          "destStopId": "baseline:892",
+          "destStopName": "Summer St @ Dorchester Ave",
+          "cumulativeFare": 170,
+          "transferAllowance": {
+            "value": 170,
+            "number": 1,
+            "expirationTime": 32455,
+            "transferRuleGroup": "LOCAL_BUS",
+            "behindGates": false,
+            "enteredSubwayForFree": false,
+            "type": "BostonTransferAllowance"
+          },
+          "route": {
+            "agency_id": "1",
+            "agency_name": "MBTA",
+            "route_id": "7",
+            "route_short_name": "7",
+            "route_long_name": null,
+            "route_type": 3,
+            "color": "FFC72C",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 42.351549,
+          "originLon": -71.052959,
+          "destLat": 42.351763,
+          "destLon": -71.0547966,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -71.052959,
+                42.351549
+              ],
+              [
+                -71.0547966,
+                42.351763
+              ]
+            ]
+          },
+          "originTime": 26100,
+          "destTime": 26284,
+          "originStopId": "baseline:892",
+          "originStopName": "Summer St @ Dorchester Ave",
+          "destStopId": "baseline:South Station",
+          "destStopName": "South Station",
+          "cumulativeFare": 170,
+          "transferAllowance": {
+            "value": 170,
+            "number": 1,
+            "expirationTime": 32455,
+            "transferRuleGroup": "LOCAL_BUS",
+            "behindGates": false,
+            "enteredSubwayForFree": false,
+            "type": "BostonTransferAllowance"
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 42.351763,
+          "originLon": -71.0547966,
+          "destLat": 42.34735,
+          "destLon": -71.075727,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -71.0547966,
+                42.351763
+              ],
+              [
+                -71.075727,
+                42.34735
+              ]
+            ]
+          },
+          "originTime": 26400,
+          "destTime": 26700,
+          "originStopId": "baseline:South Station",
+          "originStopName": "South Station",
+          "destStopId": "baseline:Back Bay",
+          "destStopName": "Back Bay",
+          "cumulativeFare": 395,
+          "transferAllowance": {
+            "value": 170,
+            "number": 1,
+            "expirationTime": 32455,
+            "transferRuleGroup": "LOCAL_BUS",
+            "behindGates": false,
+            "enteredSubwayForFree": false,
+            "type": "BostonTransferAllowance"
+          },
+          "route": {
+            "agency_id": "1",
+            "agency_name": "MBTA",
+            "route_id": "CR-Worcester",
+            "route_short_name": null,
+            "route_long_name": "Framingham/Worcester Line",
+            "route_type": 2,
+            "color": "80276C",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    }
+  ],
+  "computeTimeMillis": 340,
+  "backendVersion": {
+    "version": "UNKNOWN",
+    "commit": "UNKNOWN",
+    "branch": "UNKNOWN"
+  },
+  "generationTime": "2020-11-13T13:55:26.3355"
+}

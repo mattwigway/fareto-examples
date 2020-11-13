@@ -113,6 +113,7 @@
             "expirationTime": 61855,
             "transferRuleGroup": "LOCAL_BUS",
             "behindGates": false,
+            "enteredSubwayForFree": false,
             "type": "BostonTransferAllowance"
           },
           "route": {
@@ -181,6 +182,7 @@
             "expirationTime": 61855,
             "transferRuleGroup": "SUBWAY",
             "behindGates": true,
+            "enteredSubwayForFree": false,
             "type": "BostonTransferAllowance"
           },
           "route": {
@@ -226,6 +228,7 @@
             "expirationTime": 61855,
             "transferRuleGroup": "SUBWAY",
             "behindGates": true,
+            "enteredSubwayForFree": false,
             "type": "BostonTransferAllowance"
           },
           "type": "transfer"
@@ -269,6 +272,7 @@
             "expirationTime": 61855,
             "transferRuleGroup": "SUBWAY",
             "behindGates": true,
+            "enteredSubwayForFree": false,
             "type": "BostonTransferAllowance"
           },
           "route": {
@@ -441,6 +445,7 @@
             "expirationTime": 61855,
             "transferRuleGroup": "LOCAL_BUS",
             "behindGates": false,
+            "enteredSubwayForFree": false,
             "type": "BostonTransferAllowance"
           },
           "route": {
@@ -486,6 +491,7 @@
             "expirationTime": 61855,
             "transferRuleGroup": "LOCAL_BUS",
             "behindGates": false,
+            "enteredSubwayForFree": false,
             "type": "BostonTransferAllowance"
           },
           "type": "transfer"
@@ -521,6 +527,7 @@
             "expirationTime": 61855,
             "transferRuleGroup": "LOCAL_BUS_TO_SUBWAY",
             "behindGates": true,
+            "enteredSubwayForFree": false,
             "type": "BostonTransferAllowance"
           },
           "route": {
@@ -538,14 +545,11 @@
       ]
     }
   ],
-  "computeTimeMillis": 783,
+  "computeTimeMillis": 317,
   "backendVersion": {
     "version": "UNKNOWN",
     "commit": "UNKNOWN",
-    "describe": "UNKNOWN",
-    "branch": "UNKNOWN",
-    "buildHost": "UNKNOWN",
-    "buildTime": "UNKNOWN"
+    "branch": "UNKNOWN"
   },
-  "generationTime": "2020-09-03T10:03:33.260678"
+  "generationTime": "2020-11-13T13:55:26.679341"
 }
