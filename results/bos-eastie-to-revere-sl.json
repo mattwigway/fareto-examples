@@ -46,7 +46,7 @@
           "originLat": 42.372502,
           "originLon": -71.0389579,
           "destLat": 42.418574,
-          "destLon": -70.9927199,
+          "destLon": -70.99272,
           "geom": {
             "type": "LineString",
             "coordinates": [
@@ -1123,7 +1123,7 @@
           "originLat": 42.374262,
           "originLon": -71.030395,
           "destLat": 42.415135,
-          "destLon": -70.9912069,
+          "destLon": -70.991207,
           "geom": {
             "type": "LineString",
             "coordinates": [
@@ -1761,7 +1761,7 @@
       "fare": 225,
       "legs": [
         {
-          "originLat": 42.377644,
+          "originLat": 42.3776439,
           "originLon": -71.03133,
           "destLat": 42.386982,
           "destLon": -71.00499,
@@ -2662,7 +2662,7 @@
           "originLat": 42.386933,
           "originLon": -71.004769,
           "destLat": 42.415135,
-          "destLon": -70.9912069,
+          "destLon": -70.991207,
           "geom": {
             "type": "LineString",
             "coordinates": [
@@ -3019,7 +3019,7 @@
       ]
     },
     {
-      "durationSeconds": 5865,
+      "durationSeconds": 6105,
       "departureTime": 25255,
       "fare": 0,
       "legs": [
@@ -3049,8 +3049,8 @@
               ]
             ]
           },
-          "originTime": 26044,
-          "destTime": 26764,
+          "originTime": 26456,
+          "destTime": 27176,
           "originStopId": "baseline:Logan-Subway",
           "originStopName": "Airport Subway Station",
           "destStopId": "baseline:Logan-A",
@@ -3095,8 +3095,8 @@
               ]
             ]
           },
-          "originTime": 26764,
-          "destTime": 26842,
+          "originTime": 27176,
+          "destTime": 27254,
           "originStopId": "baseline:Logan-A",
           "originStopName": "Logan Airport Terminal A",
           "destStopId": "baseline:17091",
@@ -4315,8 +4315,8 @@
               ]
             ]
           },
-          "originTime": 27000,
-          "destTime": 28380,
+          "originTime": 27480,
+          "destTime": 28860,
           "originStopId": "baseline:17091",
           "originStopName": "Terminal A",
           "destStopId": "baseline:74617",
@@ -4361,8 +4361,8 @@
               ]
             ]
           },
-          "originTime": 28380,
-          "destTime": 28424,
+          "originTime": 28860,
+          "destTime": 28904,
           "originStopId": "baseline:74617",
           "originStopName": "South Station",
           "destStopId": "baseline:70080",
@@ -4382,14 +4382,14 @@
         {
           "originLat": 42.352271,
           "originLon": -71.055242,
-          "destLat": 42.3563945,
-          "destLon": -71.0624242,
+          "destLat": 42.3555179,
+          "destLon": -71.060225,
           "geom": {
             "type": "LineString",
             "coordinates": [
               [
-                -71.05517722061322,
-                42.35256353963741
+                -71.05517707745264,
+                42.35256348171748
               ],
               [
                 -71.055297,
@@ -4418,43 +4418,15 @@
               [
                 -71.060286,
                 42.355319
-              ],
-              [
-                -71.060286,
-                42.355319
-              ],
-              [
-                -71.060512,
-                42.355431
-              ],
-              [
-                -71.060512,
-                42.355431
-              ],
-              [
-                -71.062151,
-                42.356244
-              ],
-              [
-                -71.062151,
-                42.356244
-              ],
-              [
-                -71.062425,
-                42.35638
-              ],
-              [
-                -71.06242782699285,
-                42.35638142517821
               ]
             ]
           },
-          "originTime": 28620,
-          "destTime": 28860,
+          "originTime": 28980,
+          "destTime": 29100,
           "originStopId": "baseline:70080",
           "originStopName": "South Station",
-          "destStopId": "baseline:70076",
-          "destStopName": "Park Street",
+          "destStopId": "baseline:70078",
+          "destStopName": "Downtown Crossing",
           "cumulativeFare": 0,
           "transferAllowance": {
             "value": 225,
@@ -4478,29 +4450,29 @@
           "type": "transit"
         },
         {
-          "originLat": 42.3563945,
-          "originLon": -71.0624242,
-          "destLat": 42.3563945,
-          "destLon": -71.0624242,
+          "originLat": 42.3555179,
+          "originLon": -71.060225,
+          "destLat": 42.3555179,
+          "destLon": -71.060225,
           "geom": {
             "type": "LineString",
             "coordinates": [
               [
-                -71.0624242,
-                42.3563945
+                -71.060225,
+                42.3555179
               ],
               [
-                -71.0624242,
-                42.3563945
+                -71.060225,
+                42.3555179
               ]
             ]
           },
-          "originTime": 28860,
-          "destTime": 28874,
-          "originStopId": "baseline:70076",
-          "originStopName": "Park Street",
-          "destStopId": "baseline:70200",
-          "destStopName": "Park Street",
+          "originTime": 29100,
+          "destTime": 29140,
+          "originStopId": "baseline:70078",
+          "originStopName": "Downtown Crossing",
+          "destStopId": "baseline:70021",
+          "destStopName": "Downtown Crossing",
           "cumulativeFare": 0,
           "transferAllowance": {
             "value": 225,
@@ -4514,93 +4486,65 @@
           "type": "transfer"
         },
         {
-          "originLat": 42.3563945,
-          "originLon": -71.0624242,
-          "destLat": 42.359705,
-          "destLon": -71.059215,
+          "originLat": 42.3555179,
+          "originLon": -71.060225,
+          "destLat": 42.358978,
+          "destLon": -71.057598,
           "geom": {
             "type": "LineString",
             "coordinates": [
               [
-                -71.06234136346245,
-                42.356214484994894
+                -71.0602735104774,
+                42.355618079323825
               ],
               [
-                -71.062336,
-                42.356219
+                -71.059847,
+                42.355996
               ],
               [
-                -71.062194,
-                42.356333
+                -71.059266,
+                42.356503
               ],
               [
-                -71.062194,
-                42.356333
+                -71.058665,
+                42.356942
               ],
               [
-                -71.061887,
-                42.356581
+                -71.057795,
+                42.357914
               ],
               [
-                -71.06176,
-                42.356693
+                -71.057719,
+                42.358026
               ],
               [
-                -71.061665,
-                42.356805
+                -71.057709,
+                42.35811
               ],
               [
-                -71.061489,
-                42.356984
+                -71.05771,
+                42.358872
               ],
               [
-                -71.061218,
-                42.357219
+                -71.057708,
+                42.358977
               ],
               [
-                -71.060584,
-                42.357811
+                -71.057708,
+                42.358977
               ],
               [
-                -71.060329,
-                42.35808
-              ],
-              [
-                -71.059616,
-                42.359069
-              ],
-              [
-                -71.059508,
-                42.359208
-              ],
-              [
-                -71.059357,
-                42.359379
-              ],
-              [
-                -71.059357,
-                42.359379
-              ],
-              [
-                -71.059307,
-                42.359435
-              ],
-              [
-                -71.05922,
-                42.359534
-              ],
-              [
-                -71.05915564333176,
-                42.359601629041194
+                -71.0577079591207,
+                42.358980409815125
               ]
             ]
           },
-          "originTime": 29100,
-          "destTime": 29220,
-          "originStopId": "baseline:70200",
-          "originStopName": "Park Street",
-          "destStopId": "baseline:70201",
-          "destStopName": "Government Center",
+          "originTime": 29460,
+          "destTime": 29520,
+          "originStopId": "baseline:70021",
+          "originStopName": "Downtown Crossing",
+          "destStopId": "baseline:70023",
+          "destStopName": "State Street",
           "cumulativeFare": 0,
           "transferAllowance": {
             "value": 225,
@@ -4614,39 +4558,39 @@
           "route": {
             "agency_id": "1",
             "agency_name": "MBTA",
-            "route_id": "Green-C",
-            "route_short_name": "C",
-            "route_long_name": "Green Line C",
-            "route_type": 0,
-            "color": "00843D",
+            "route_id": "Orange",
+            "route_short_name": null,
+            "route_long_name": "Orange Line",
+            "route_type": 1,
+            "color": "ED8B00",
             "agency_url": null
           },
           "type": "transit"
         },
         {
-          "originLat": 42.359705,
-          "originLon": -71.059215,
-          "destLat": 42.359705,
-          "destLon": -71.059215,
+          "originLat": 42.358978,
+          "originLon": -71.057598,
+          "destLat": 42.358978,
+          "destLon": -71.057598,
           "geom": {
             "type": "LineString",
             "coordinates": [
               [
-                -71.059215,
-                42.359705
+                -71.057598,
+                42.358978
               ],
               [
-                -71.059215,
-                42.359705
+                -71.057598,
+                42.358978
               ]
             ]
           },
-          "originTime": 29220,
-          "destTime": 29303,
-          "originStopId": "baseline:70201",
-          "originStopName": "Government Center",
-          "destStopId": "baseline:70040",
-          "destStopName": "Government Center",
+          "originTime": 29520,
+          "destTime": 29568,
+          "originStopId": "baseline:70023",
+          "originStopName": "State Street",
+          "destStopId": "baseline:70042",
+          "destStopName": "State Street",
           "cumulativeFare": 0,
           "transferAllowance": {
             "value": 225,
@@ -4660,49 +4604,13 @@
           "type": "transfer"
         },
         {
-          "originLat": 42.359705,
-          "originLon": -71.059215,
+          "originLat": 42.358978,
+          "originLon": -71.057598,
           "destLat": 42.415135,
-          "destLon": -70.9912069,
+          "destLon": -70.991207,
           "geom": {
             "type": "LineString",
             "coordinates": [
-              [
-                -71.05935492503393,
-                42.35918932031989
-              ],
-              [
-                -71.059308,
-                42.359166
-              ],
-              [
-                -71.059163,
-                42.359116
-              ],
-              [
-                -71.058943,
-                42.359072
-              ],
-              [
-                -71.058776,
-                42.359033
-              ],
-              [
-                -71.058213,
-                42.358945
-              ],
-              [
-                -71.057709,
-                42.358891
-              ],
-              [
-                -71.057667,
-                42.358891
-              ],
-              [
-                -71.0575990128648,
-                42.358889573696466
-              ],
               [
                 -71.0575990128648,
                 42.358889573696466
@@ -5485,10 +5393,10 @@
               ]
             ]
           },
-          "originTime": 29400,
-          "destTime": 30600,
-          "originStopId": "baseline:70040",
-          "originStopName": "Government Center",
+          "originTime": 29700,
+          "destTime": 30840,
+          "originStopId": "baseline:70042",
+          "originStopName": "State Street",
           "destStopId": "baseline:70060",
           "destStopName": "Wonderland",
           "cumulativeFare": 0,
@@ -5516,11 +5424,11 @@
       ]
     }
   ],
-  "computeTimeMillis": 1234,
+  "computeTimeMillis": 709,
   "backendVersion": {
     "version": "UNKNOWN",
     "commit": "UNKNOWN",
     "branch": "UNKNOWN"
   },
-  "generationTime": "2020-11-17T15:16:06.135669"
+  "generationTime": "2020-11-24T16:42:03.956762"
 }

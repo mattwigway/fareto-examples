@@ -43,7 +43,7 @@
       "fare": 225,
       "legs": [
         {
-          "originLat": 42.335646,
+          "originLat": 42.3356459,
           "originLon": -71.1402109,
           "destLat": 42.349871,
           "destLon": -71.0780489,
@@ -739,7 +739,7 @@
         {
           "originLat": 42.349871,
           "originLon": -71.0780489,
-          "destLat": 42.3711409,
+          "destLat": 42.371141,
           "destLon": -71.077298,
           "geom": {
             "type": "LineString",
@@ -1305,11 +1305,11 @@
       ]
     }
   ],
-  "computeTimeMillis": 9,
+  "computeTimeMillis": 5,
   "backendVersion": {
     "version": "UNKNOWN",
     "commit": "UNKNOWN",
     "branch": "UNKNOWN"
   },
-  "generationTime": "2020-11-17T15:16:09.522518"
+  "generationTime": "2020-11-24T16:42:06.560385"
 }

@@ -1177,7 +1177,7 @@
         {
           "originLat": 42.436807,
           "originLon": -71.070338,
-          "destLat": 42.4546659,
+          "destLat": 42.454666,
           "destLon": -71.065465,
           "geom": {
             "type": "LineString",
@@ -1487,11 +1487,11 @@
       ]
     }
   ],
-  "computeTimeMillis": 620,
+  "computeTimeMillis": 335,
   "backendVersion": {
     "version": "UNKNOWN",
     "commit": "UNKNOWN",
     "branch": "UNKNOWN"
   },
-  "generationTime": "2020-11-17T15:16:11.444962"
+  "generationTime": "2020-11-24T16:42:09.900759"
 }

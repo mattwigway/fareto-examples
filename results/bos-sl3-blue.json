@@ -45,7 +45,7 @@
         {
           "originLat": 42.395578,
           "originLon": -71.032915,
-          "destLat": 42.3630969,
+          "destLat": 42.363097,
           "destLon": -71.058166,
           "geom": {
             "type": "LineString",
@@ -591,7 +591,7 @@
           "originLat": 42.395328,
           "originLon": -71.033291,
           "destLat": 42.374518,
-          "destLon": -71.0295319,
+          "destLon": -71.029532,
           "geom": {
             "type": "LineString",
             "coordinates": [
@@ -947,14 +947,14 @@
         },
         {
           "originLat": 42.374518,
-          "originLon": -71.0295319,
+          "originLon": -71.029532,
           "destLat": 42.374262,
           "destLon": -71.030395,
           "geom": {
             "type": "LineString",
             "coordinates": [
               [
-                -71.0295319,
+                -71.029532,
                 42.374518
               ],
               [
@@ -1171,9 +1171,9 @@
       "fare": 225,
       "legs": [
         {
-          "originLat": 42.3960609,
+          "originLat": 42.396061,
           "originLon": -71.028454,
-          "destLat": 42.369139,
+          "destLat": 42.3691389,
           "destLon": -71.039615,
           "geom": {
             "type": "LineString",
@@ -1717,7 +1717,7 @@
           "type": "transit"
         },
         {
-          "originLat": 42.369139,
+          "originLat": 42.3691389,
           "originLon": -71.039615,
           "destLat": 42.3691185,
           "destLon": -71.0395295,
@@ -1726,7 +1726,7 @@
             "coordinates": [
               [
                 -71.039615,
-                42.369139
+                42.3691389
               ],
               [
                 -71.0395295,
@@ -1837,11 +1837,11 @@
       ]
     }
   ],
-  "computeTimeMillis": 704,
+  "computeTimeMillis": 263,
   "backendVersion": {
     "version": "UNKNOWN",
     "commit": "UNKNOWN",
     "branch": "UNKNOWN"
   },
-  "generationTime": "2020-11-17T15:16:15.550926"
+  "generationTime": "2020-11-24T16:42:12.057018"
 }

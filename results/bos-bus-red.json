@@ -1733,7 +1733,7 @@
       "legs": [
         {
           "originLat": 42.454749,
-          "originLon": -71.07873,
+          "originLon": -71.0787299,
           "destLat": 42.427777,
           "destLon": -71.074151,
           "geom": {
@@ -2428,7 +2428,7 @@
         {
           "originLat": 42.427777,
           "originLon": -71.074151,
-          "destLat": 42.426565,
+          "destLat": 42.4265649,
           "destLon": -71.074107,
           "geom": {
             "type": "LineString",
@@ -2439,7 +2439,7 @@
               ],
               [
                 -71.074107,
-                42.426565
+                42.4265649
               ]
             ]
           },
@@ -2462,7 +2462,7 @@
           "type": "transfer"
         },
         {
-          "originLat": 42.426565,
+          "originLat": 42.4265649,
           "originLon": -71.074107,
           "destLat": 42.402581,
           "destLon": -71.076089,
@@ -4406,11 +4406,11 @@
       ]
     }
   ],
-  "computeTimeMillis": 596,
+  "computeTimeMillis": 138,
   "backendVersion": {
     "version": "UNKNOWN",
     "commit": "UNKNOWN",
     "branch": "UNKNOWN"
   },
-  "generationTime": "2020-11-17T15:16:02.086899"
+  "generationTime": "2020-11-24T16:42:00.766632"
 }

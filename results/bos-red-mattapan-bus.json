@@ -912,7 +912,7 @@
           "originLat": 42.3032929,
           "originLon": -71.08537,
           "destLat": 42.26876,
-          "destLon": -71.093955,
+          "destLon": -71.0939549,
           "geom": {
             "type": "LineString",
             "coordinates": [
@@ -1384,14 +1384,14 @@
         },
         {
           "originLat": 42.26876,
-          "originLon": -71.093955,
+          "originLon": -71.0939549,
           "destLat": 42.267715,
           "destLon": -71.092067,
           "geom": {
             "type": "LineString",
             "coordinates": [
               [
-                -71.093955,
+                -71.0939549,
                 42.26876
               ],
               [
@@ -3328,11 +3328,11 @@
       ]
     }
   ],
-  "computeTimeMillis": 636,
+  "computeTimeMillis": 375,
   "backendVersion": {
     "version": "UNKNOWN",
     "commit": "UNKNOWN",
     "branch": "UNKNOWN"
   },
-  "generationTime": "2020-11-17T15:16:10.795043"
+  "generationTime": "2020-11-24T16:42:09.503366"
 }

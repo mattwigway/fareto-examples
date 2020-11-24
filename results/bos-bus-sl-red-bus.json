@@ -43,7 +43,7 @@
       "fare": 170,
       "legs": [
         {
-          "originLat": 42.3872299,
+          "originLat": 42.38723,
           "originLon": -71.004229,
           "destLat": 42.365634,
           "destLon": -71.02887,
@@ -2130,7 +2130,7 @@
           "originLat": 42.352271,
           "originLon": -71.055242,
           "destLat": 42.362434,
-          "destLon": -71.085591,
+          "destLon": -71.0855909,
           "geom": {
             "type": "LineString",
             "coordinates": [
@@ -2382,19 +2382,19 @@
         },
         {
           "originLat": 42.362434,
-          "originLon": -71.085591,
-          "destLat": 42.3624979,
+          "originLon": -71.0855909,
+          "destLat": 42.362498,
           "destLon": -71.085841,
           "geom": {
             "type": "LineString",
             "coordinates": [
               [
-                -71.085591,
+                -71.0855909,
                 42.362434
               ],
               [
                 -71.085841,
-                42.3624979
+                42.362498
               ]
             ]
           },
@@ -2417,9 +2417,9 @@
           "type": "transfer"
         },
         {
-          "originLat": 42.3624979,
+          "originLat": 42.362498,
           "originLon": -71.085841,
-          "destLat": 42.3802729,
+          "destLat": 42.380273,
           "destLon": -71.096622,
           "geom": {
             "type": "LineString",
@@ -2780,7 +2780,7 @@
         {
           "originLat": 42.390854,
           "originLon": -71.008241,
-          "destLat": 42.3872299,
+          "destLat": 42.38723,
           "destLon": -71.004229,
           "geom": {
             "type": "LineString",
@@ -3452,7 +3452,7 @@
           "type": "transit"
         },
         {
-          "originLat": 42.3872299,
+          "originLat": 42.38723,
           "originLon": -71.004229,
           "destLat": 42.386971,
           "destLon": -71.004803,
@@ -3461,7 +3461,7 @@
             "coordinates": [
               [
                 -71.004229,
-                42.3872299
+                42.38723
               ],
               [
                 -71.004803,
@@ -4060,7 +4060,7 @@
         {
           "originLat": 42.359705,
           "originLon": -71.059215,
-          "destLat": 42.3711409,
+          "destLat": 42.371141,
           "destLon": -71.077298,
           "geom": {
             "type": "LineString",
@@ -4392,7 +4392,7 @@
           "type": "transit"
         },
         {
-          "originLat": 42.3711409,
+          "originLat": 42.371141,
           "originLon": -71.077298,
           "destLat": 42.3710189,
           "destLon": -71.077039,
@@ -4401,7 +4401,7 @@
             "coordinates": [
               [
                 -71.077298,
-                42.3711409
+                42.371141
               ],
               [
                 -71.077039,
@@ -4430,7 +4430,7 @@
         {
           "originLat": 42.3710189,
           "originLon": -71.077039,
-          "destLat": 42.3802729,
+          "destLat": 42.380273,
           "destLon": -71.096622,
           "geom": {
             "type": "LineString",
@@ -4848,11 +4848,11 @@
       ]
     }
   ],
-  "computeTimeMillis": 532,
+  "computeTimeMillis": 271,
   "backendVersion": {
     "version": "UNKNOWN",
     "commit": "UNKNOWN",
     "branch": "UNKNOWN"
   },
-  "generationTime": "2020-11-17T15:16:02.969328"
+  "generationTime": "2020-11-24T16:42:01.197744"
 }

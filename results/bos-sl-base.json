@@ -210,7 +210,7 @@
         {
           "originLat": 42.352271,
           "originLon": -71.055242,
-          "destLat": 42.3450799,
+          "destLat": 42.34508,
           "destLon": -71.031986,
           "geom": {
             "type": "LineString",
@@ -515,7 +515,7 @@
         {
           "originLat": 42.352253,
           "originLon": -71.054774,
-          "destLat": 42.3468359,
+          "destLat": 42.346836,
           "destLon": -71.043514,
           "geom": {
             "type": "LineString",
@@ -623,19 +623,19 @@
           "type": "transit"
         },
         {
-          "originLat": 42.3468359,
+          "originLat": 42.346836,
           "originLon": -71.043514,
           "destLat": 42.34863,
-          "destLon": -71.0424599,
+          "destLon": -71.04246,
           "geom": {
             "type": "LineString",
             "coordinates": [
               [
                 -71.043514,
-                42.3468359
+                42.346836
               ],
               [
-                -71.0424599,
+                -71.04246,
                 42.34863
               ]
             ]
@@ -660,8 +660,8 @@
         },
         {
           "originLat": 42.34863,
-          "originLon": -71.0424599,
-          "destLat": 42.3450799,
+          "originLon": -71.04246,
+          "destLat": 42.34508,
           "destLon": -71.031986,
           "geom": {
             "type": "LineString",
@@ -823,11 +823,11 @@
       ]
     }
   ],
-  "computeTimeMillis": 1023,
+  "computeTimeMillis": 612,
   "backendVersion": {
     "version": "UNKNOWN",
     "commit": "UNKNOWN",
     "branch": "UNKNOWN"
   },
-  "generationTime": "2020-11-17T15:16:13.703246"
+  "generationTime": "2020-11-24T16:42:11.396296"
 }

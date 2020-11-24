@@ -45,7 +45,7 @@
         {
           "originLat": 42.427617,
           "originLon": -71.134423,
-          "destLat": 42.3841289,
+          "destLat": 42.384129,
           "destLon": -71.076515,
           "geom": {
             "type": "LineString",
@@ -1301,10 +1301,10 @@
           "type": "transit"
         },
         {
-          "originLat": 42.3841289,
+          "originLat": 42.384129,
           "originLon": -71.076515,
           "destLat": 42.4311999,
-          "destLon": -71.0287439,
+          "destLon": -71.028744,
           "geom": {
             "type": "LineString",
             "coordinates": [
@@ -3050,7 +3050,7 @@
         {
           "originLat": 42.416525,
           "originLon": -71.110406,
-          "destLat": 42.426489,
+          "destLat": 42.4264889,
           "destLon": -71.081182,
           "geom": {
             "type": "LineString",
@@ -3220,12 +3220,12 @@
                 42.418175
               ],
               [
-                -71.10649859857958,
-                42.41818091323152
+                -71.10649859857956,
+                42.41818091323187
               ],
               [
-                -71.10649859857958,
-                42.41818091323152
+                -71.10649859857956,
+                42.41818091323187
               ],
               [
                 -71.106473,
@@ -3698,7 +3698,7 @@
           "type": "transit"
         },
         {
-          "originLat": 42.426489,
+          "originLat": 42.4264889,
           "originLon": -71.081182,
           "destLat": 42.426463,
           "destLon": -71.08099,
@@ -3707,7 +3707,7 @@
             "coordinates": [
               [
                 -71.081182,
-                42.426489
+                42.4264889
               ],
               [
                 -71.08099,
@@ -4558,11 +4558,11 @@
       ]
     }
   ],
-  "computeTimeMillis": 477,
+  "computeTimeMillis": 210,
   "backendVersion": {
     "version": "UNKNOWN",
     "commit": "UNKNOWN",
     "branch": "UNKNOWN"
   },
-  "generationTime": "2020-11-17T15:16:08.952927"
+  "generationTime": "2020-11-24T16:42:05.599202"
 }

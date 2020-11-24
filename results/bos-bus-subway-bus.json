@@ -1277,7 +1277,7 @@
         {
           "originLat": 42.436807,
           "originLon": -71.070338,
-          "destLat": 42.4546659,
+          "destLat": 42.454666,
           "destLon": -71.065465,
           "geom": {
             "type": "LineString",
@@ -1618,8 +1618,8 @@
         {
           "originLat": 42.311271,
           "originLon": -71.070413,
-          "destLat": 42.3004789,
-          "destLon": -71.1136339,
+          "destLat": 42.300479,
+          "destLon": -71.113634,
           "geom": {
             "type": "LineString",
             "coordinates": [
@@ -2382,16 +2382,16 @@
           "type": "transit"
         },
         {
-          "originLat": 42.3004789,
-          "originLon": -71.1136339,
+          "originLat": 42.300479,
+          "originLon": -71.113634,
           "destLat": 42.300523,
           "destLon": -71.113686,
           "geom": {
             "type": "LineString",
             "coordinates": [
               [
-                -71.1136339,
-                42.3004789
+                -71.113634,
+                42.300479
               ],
               [
                 -71.113686,
@@ -2421,7 +2421,7 @@
           "originLat": 42.300523,
           "originLon": -71.113686,
           "destLat": 42.426682,
-          "destLon": -71.074317,
+          "destLon": -71.0743169,
           "geom": {
             "type": "LineString",
             "coordinates": [
@@ -3709,19 +3709,19 @@
         },
         {
           "originLat": 42.426682,
-          "originLon": -71.074317,
-          "destLat": 42.4267289,
+          "originLon": -71.0743169,
+          "destLat": 42.426729,
           "destLon": -71.074659,
           "geom": {
             "type": "LineString",
             "coordinates": [
               [
-                -71.074317,
+                -71.0743169,
                 42.426682
               ],
               [
                 -71.074659,
-                42.4267289
+                42.426729
               ]
             ]
           },
@@ -3744,7 +3744,7 @@
           "type": "transfer"
         },
         {
-          "originLat": 42.4267289,
+          "originLat": 42.426729,
           "originLon": -71.074659,
           "destLat": 42.4537,
           "destLon": -71.07485,
@@ -4360,11 +4360,11 @@
       ]
     }
   ],
-  "computeTimeMillis": 331,
+  "computeTimeMillis": 291,
   "backendVersion": {
     "version": "UNKNOWN",
     "commit": "UNKNOWN",
     "branch": "UNKNOWN"
   },
-  "generationTime": "2020-11-17T15:16:03.988877"
+  "generationTime": "2020-11-24T16:42:01.926572"
 }

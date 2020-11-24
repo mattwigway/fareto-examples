@@ -46,7 +46,7 @@
           "originLat": 42.432182,
           "originLon": -71.025284,
           "destLat": 42.41626,
-          "destLon": -71.047339,
+          "destLon": -71.0473389,
           "geom": {
             "type": "LineString",
             "coordinates": [
@@ -562,18 +562,18 @@
         },
         {
           "originLat": 42.41626,
-          "originLon": -71.047339,
+          "originLon": -71.0473389,
           "destLat": 42.4124989,
-          "destLon": -71.0456069,
+          "destLon": -71.045607,
           "geom": {
             "type": "LineString",
             "coordinates": [
               [
-                -71.047339,
+                -71.0473389,
                 42.41626
               ],
               [
-                -71.0456069,
+                -71.045607,
                 42.4124989
               ]
             ]
@@ -598,7 +598,7 @@
         },
         {
           "originLat": 42.4124989,
-          "originLon": -71.0456069,
+          "originLon": -71.045607,
           "destLat": 42.402581,
           "destLon": -71.076089,
           "geom": {
@@ -1852,7 +1852,7 @@
         {
           "originLat": 42.432182,
           "originLon": -71.025284,
-          "destLat": 42.3841289,
+          "destLat": 42.384129,
           "destLon": -71.076515,
           "geom": {
             "type": "LineString",
@@ -3156,7 +3156,7 @@
           "type": "transit"
         },
         {
-          "originLat": 42.3841289,
+          "originLat": 42.384129,
           "originLon": -71.076515,
           "destLat": 42.384127,
           "destLon": -71.076323,
@@ -3165,7 +3165,7 @@
             "coordinates": [
               [
                 -71.076515,
-                42.3841289
+                42.384129
               ],
               [
                 -71.076323,
@@ -3444,20 +3444,20 @@
                 42.380929
               ],
               [
-                -71.066665,
-                42.380893
-              ],
-              [
-                -71.066665,
-                42.380893
-              ],
-              [
                 -71.06665270012093,
                 42.38090683736396
               ],
               [
                 -71.06665270012093,
                 42.38090683736396
+              ],
+              [
+                -71.066665,
+                42.380893
+              ],
+              [
+                -71.066665,
+                42.380893
               ],
               [
                 -71.066633,
@@ -4084,7 +4084,7 @@
         {
           "originLat": 42.353262,
           "originLon": -71.059643,
-          "destLat": 42.3468359,
+          "destLat": 42.346836,
           "destLon": -71.043514,
           "geom": {
             "type": "LineString",
@@ -4267,8 +4267,8 @@
       "fare": 225,
       "legs": [
         {
-          "originLat": 42.436415,
-          "originLon": -71.037855,
+          "originLat": 42.4364149,
+          "originLon": -71.0378549,
           "destLat": 42.425461,
           "destLon": -71.070337,
           "geom": {
@@ -4788,7 +4788,7 @@
           "originLat": 42.425461,
           "originLon": -71.070337,
           "destLat": 42.426694,
-          "destLon": -71.074379,
+          "destLon": -71.0743789,
           "geom": {
             "type": "LineString",
             "coordinates": [
@@ -4797,7 +4797,7 @@
                 42.425461
               ],
               [
-                -71.074379,
+                -71.0743789,
                 42.426694
               ]
             ]
@@ -4822,7 +4822,7 @@
         },
         {
           "originLat": 42.426694,
-          "originLon": -71.074379,
+          "originLon": -71.0743789,
           "destLat": 42.3555179,
           "destLon": -71.060225,
           "geom": {
@@ -5548,7 +5548,7 @@
           "originLat": 42.352271,
           "originLon": -71.055242,
           "destLat": 42.34863,
-          "destLon": -71.0424599,
+          "destLon": -71.04246,
           "geom": {
             "type": "LineString",
             "coordinates": [
@@ -5727,7 +5727,7 @@
       "legs": [
         {
           "originLat": 42.437292,
-          "originLon": -71.0206599,
+          "originLon": -71.02066,
           "destLat": 42.413385,
           "destLon": -70.99205,
           "geom": {
@@ -6682,8 +6682,8 @@
         {
           "originLat": 42.413385,
           "originLon": -70.99205,
-          "destLat": 42.413515,
-          "destLon": -70.9917349,
+          "destLat": 42.4135149,
+          "destLon": -70.991735,
           "geom": {
             "type": "LineString",
             "coordinates": [
@@ -6692,8 +6692,8 @@
                 42.413385
               ],
               [
-                -70.9917349,
-                42.413515
+                -70.991735,
+                42.4135149
               ]
             ]
           },
@@ -6716,8 +6716,8 @@
           "type": "transfer"
         },
         {
-          "originLat": 42.413515,
-          "originLon": -70.9917349,
+          "originLat": 42.4135149,
+          "originLon": -70.991735,
           "destLat": 42.374262,
           "destLon": -71.030395,
           "geom": {
@@ -7353,7 +7353,7 @@
           "originLat": 42.374262,
           "originLon": -71.030395,
           "destLat": 42.374518,
-          "destLon": -71.0295319,
+          "destLon": -71.029532,
           "geom": {
             "type": "LineString",
             "coordinates": [
@@ -7362,7 +7362,7 @@
                 42.374262
               ],
               [
-                -71.0295319,
+                -71.029532,
                 42.374518
               ]
             ]
@@ -7387,9 +7387,9 @@
         },
         {
           "originLat": 42.374518,
-          "originLon": -71.0295319,
+          "originLon": -71.029532,
           "destLat": 42.348769,
-          "destLon": -71.0423359,
+          "destLon": -71.042336,
           "geom": {
             "type": "LineString",
             "coordinates": [
@@ -7922,11 +7922,11 @@
       ]
     }
   ],
-  "computeTimeMillis": 535,
+  "computeTimeMillis": 250,
   "backendVersion": {
     "version": "UNKNOWN",
     "commit": "UNKNOWN",
     "branch": "UNKNOWN"
   },
-  "generationTime": "2020-11-17T15:16:06.705825"
+  "generationTime": "2020-11-24T16:42:04.276534"
 }

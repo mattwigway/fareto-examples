@@ -1,1 +1,307 @@
-{"request":{"fromLat":42.304483445351885,"fromLon":-70.91218257902766,"toLat":42.35974896174728,"toLon":-71.02712757591377,"fromTime":27600,"toTime":27660,"walkSpeed":1.3888888,"bikeSpeed":4.1666665,"bikeTrafficStress":4,"carSpeed":20,"streetTime":90,"maxWalkTime":20,"maxBikeTime":20,"maxCarTime":45,"minBikeTime":10,"minCarTime":10,"date":"2018-07-18","limit":0,"accessModes":"WALK","egressModes":"WALK","directModes":"WALK","transitModes":"FERRY","suboptimalMinutes":5,"maxTripDurationMinutes":120,"maxRides":4,"scenario":null,"scenarioId":null,"zoneId":"Z","wheelchair":false,"maxFare":200000,"inRoutingFareCalculator":{"type":"boston","gtfsFares":null},"monteCarloDraws":1},"trips":[{"durationSeconds":6264,"departureTime":27655,"fare":1850,"legs":[{"originLat":42.303251,"originLon":-70.920215,"destLat":42.3600179,"destLon":-71.050247,"geom":{"type":"LineString","coordinates":[[-70.9197737,42.302912],[-70.9197953,42.3025628],[-70.9201922,42.3022451],[-70.9209431,42.3019913],[-70.9222844,42.3018485],[-70.9240866,42.3020074],[-70.9258034,42.3026737],[-70.9285929,42.3033402],[-70.9518528,42.3045461],[-70.9612938,42.3048318],[-70.9668304,42.3051178],[-70.972667,42.3059431],[-70.9747266,42.3063239],[-70.9766151,42.3067364],[-70.9784174,42.3074034],[-70.9823656,42.3111166],[-70.9855413,42.3146392],[-70.98979,42.3194943],[-70.9936094,42.324825],[-70.998373,42.3317733],[-71.0039091,42.3391966],[-71.0091448,42.3437644],[-71.0125351,42.3457944],[-71.0202706,42.3493547],[-71.0286176,42.353335],[-71.034615,42.3570772],[-71.0386866,42.3586648],[-71.0433698,42.3595706],[-71.0481039,42.3599432],[-71.0487181,42.3598917],[-71.0500216,42.3596915],[-71.05024011601577,42.359683284073974]]},"originTime":29100,"destTime":30480,"originStopId":"baseline:Boat-Hull","originStopName":"Hull","destStopId":"baseline:Boat-Long","destStopName":"Boston (Long Wharf)","cumulativeFare":925,"transferAllowance":{"value":0,"number":0,"expirationTime":0,"transferRuleGroup":"NONE","behindGates":false,"enteredSubwayForFree":false,"type":"BostonTransferAllowance"},"route":{"agency_id":"1","agency_name":"MBTA","route_id":"Boat-F1","route_short_name":null,"route_long_name":"Hingham/Hull Ferry","route_type":4,"color":"008EAA","agency_url":null},"type":"transit"},{"originLat":42.3600179,"originLon":-71.050247,"destLat":42.359789,"destLon":-71.02734,"geom":{"type":"LineString","coordinates":[[-71.05024012843829,42.3596832836069],[-71.0500216,42.3596915],[-71.0487181,42.3598917],[-71.0481039,42.3599432],[-71.0363317,42.3595706],[-71.0328501,42.3594576],[-71.0295805,42.3594913],[-71.0285425,42.3596063],[-71.028167,42.3597034],[-71.0278907,42.3597846],[-71.0277003,42.3598064],[-71.0275984,42.3598104]]},"originTime":33000,"destTime":33900,"originStopId":"baseline:Boat-Long","originStopName":"Boston (Long Wharf)","destStopId":"baseline:Boat-Logan","destStopName":"Logan Airport","cumulativeFare":1850,"transferAllowance":{"value":0,"number":0,"expirationTime":0,"transferRuleGroup":"NONE","behindGates":false,"enteredSubwayForFree":false,"type":"BostonTransferAllowance"},"route":{"agency_id":"1","agency_name":"MBTA","route_id":"Boat-F1","route_short_name":null,"route_long_name":"Hingham/Hull Ferry","route_type":4,"color":"008EAA","agency_url":null},"type":"transit"}],"tripIndex":0,"optimal":true}],"computeTimeMillis":3,"backendVersion":{"version":"UNKNOWN","commit":"UNKNOWN","branch":"UNKNOWN"},"generationTime":"2020-11-19T20:34:34.546017"}
+{
+  "request": {
+    "fromLat": 42.304483445351885,
+    "fromLon": -70.91218257902766,
+    "toLat": 42.35974896174728,
+    "toLon": -71.02712757591377,
+    "fromTime": 27600,
+    "toTime": 27660,
+    "walkSpeed": 1.3888888,
+    "bikeSpeed": 4.1666665,
+    "bikeTrafficStress": 4,
+    "carSpeed": 20.0,
+    "streetTime": 90,
+    "maxWalkTime": 20,
+    "maxBikeTime": 20,
+    "maxCarTime": 45,
+    "minBikeTime": 10,
+    "minCarTime": 10,
+    "date": "2018-07-18",
+    "limit": 0,
+    "accessModes": "WALK",
+    "egressModes": "WALK",
+    "directModes": "WALK",
+    "transitModes": "FERRY",
+    "suboptimalMinutes": 5,
+    "maxTripDurationMinutes": 120,
+    "maxRides": 4,
+    "scenario": null,
+    "scenarioId": null,
+    "zoneId": "Z",
+    "wheelchair": false,
+    "maxFare": 200000,
+    "inRoutingFareCalculator": {
+      "type": "boston",
+      "gtfsFares": null
+    },
+    "monteCarloDraws": 1
+  },
+  "trips": [
+    {
+      "durationSeconds": 6264,
+      "departureTime": 27655,
+      "fare": 1850,
+      "legs": [
+        {
+          "originLat": 42.303251,
+          "originLon": -70.920215,
+          "destLat": 42.3600179,
+          "destLon": -71.050247,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -70.9197737,
+                42.302912
+              ],
+              [
+                -70.9197953,
+                42.3025628
+              ],
+              [
+                -70.9201922,
+                42.3022451
+              ],
+              [
+                -70.9209431,
+                42.3019913
+              ],
+              [
+                -70.9222844,
+                42.3018485
+              ],
+              [
+                -70.9240866,
+                42.3020074
+              ],
+              [
+                -70.9258034,
+                42.3026737
+              ],
+              [
+                -70.9285929,
+                42.3033402
+              ],
+              [
+                -70.9518528,
+                42.3045461
+              ],
+              [
+                -70.9612938,
+                42.3048318
+              ],
+              [
+                -70.9668304,
+                42.3051178
+              ],
+              [
+                -70.972667,
+                42.3059431
+              ],
+              [
+                -70.9747266,
+                42.3063239
+              ],
+              [
+                -70.9766151,
+                42.3067364
+              ],
+              [
+                -70.9784174,
+                42.3074034
+              ],
+              [
+                -70.9823656,
+                42.3111166
+              ],
+              [
+                -70.9855413,
+                42.3146392
+              ],
+              [
+                -70.98979,
+                42.3194943
+              ],
+              [
+                -70.9936094,
+                42.324825
+              ],
+              [
+                -70.998373,
+                42.3317733
+              ],
+              [
+                -71.0039091,
+                42.3391966
+              ],
+              [
+                -71.0091448,
+                42.3437644
+              ],
+              [
+                -71.0125351,
+                42.3457944
+              ],
+              [
+                -71.0202706,
+                42.3493547
+              ],
+              [
+                -71.0286176,
+                42.353335
+              ],
+              [
+                -71.034615,
+                42.3570772
+              ],
+              [
+                -71.0386866,
+                42.3586648
+              ],
+              [
+                -71.0433698,
+                42.3595706
+              ],
+              [
+                -71.0481039,
+                42.3599432
+              ],
+              [
+                -71.0487181,
+                42.3598917
+              ],
+              [
+                -71.0500216,
+                42.3596915
+              ],
+              [
+                -71.05024011601577,
+                42.359683284073974
+              ]
+            ]
+          },
+          "originTime": 29100,
+          "destTime": 30480,
+          "originStopId": "baseline:Boat-Hull",
+          "originStopName": "Hull",
+          "destStopId": "baseline:Boat-Long",
+          "destStopName": "Boston (Long Wharf)",
+          "cumulativeFare": 925,
+          "transferAllowance": {
+            "value": 0,
+            "number": 0,
+            "expirationTime": 0,
+            "transferRuleGroup": "NONE",
+            "behindGates": false,
+            "enteredSubwayForFree": false,
+            "type": "BostonTransferAllowance"
+          },
+          "route": {
+            "agency_id": "1",
+            "agency_name": "MBTA",
+            "route_id": "Boat-F1",
+            "route_short_name": null,
+            "route_long_name": "Hingham/Hull Ferry",
+            "route_type": 4,
+            "color": "008EAA",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 42.3600179,
+          "originLon": -71.050247,
+          "destLat": 42.359789,
+          "destLon": -71.02734,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -71.05024012843829,
+                42.3596832836069
+              ],
+              [
+                -71.0500216,
+                42.3596915
+              ],
+              [
+                -71.0487181,
+                42.3598917
+              ],
+              [
+                -71.0481039,
+                42.3599432
+              ],
+              [
+                -71.0363317,
+                42.3595706
+              ],
+              [
+                -71.0328501,
+                42.3594576
+              ],
+              [
+                -71.0295805,
+                42.3594913
+              ],
+              [
+                -71.0285425,
+                42.3596063
+              ],
+              [
+                -71.028167,
+                42.3597034
+              ],
+              [
+                -71.0278907,
+                42.3597846
+              ],
+              [
+                -71.0277003,
+                42.3598064
+              ],
+              [
+                -71.0275984,
+                42.3598104
+              ]
+            ]
+          },
+          "originTime": 33000,
+          "destTime": 33900,
+          "originStopId": "baseline:Boat-Long",
+          "originStopName": "Boston (Long Wharf)",
+          "destStopId": "baseline:Boat-Logan",
+          "destStopName": "Logan Airport",
+          "cumulativeFare": 1850,
+          "transferAllowance": {
+            "value": 0,
+            "number": 0,
+            "expirationTime": 0,
+            "transferRuleGroup": "NONE",
+            "behindGates": false,
+            "enteredSubwayForFree": false,
+            "type": "BostonTransferAllowance"
+          },
+          "route": {
+            "agency_id": "1",
+            "agency_name": "MBTA",
+            "route_id": "Boat-F1",
+            "route_short_name": null,
+            "route_long_name": "Hingham/Hull Ferry",
+            "route_type": 4,
+            "color": "008EAA",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    }
+  ],
+  "computeTimeMillis": 0,
+  "backendVersion": {
+    "version": "UNKNOWN",
+    "commit": "UNKNOWN",
+    "branch": "UNKNOWN"
+  },
+  "generationTime": "2020-11-24T16:42:06.673489"
+}

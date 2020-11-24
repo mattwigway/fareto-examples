@@ -38,7 +38,7 @@
   },
   "trips": [
     {
-      "durationSeconds": 3334,
+      "durationSeconds": 3276,
       "departureTime": 25255,
       "fare": 225,
       "legs": [
@@ -1410,6 +1410,96 @@
             "route_long_name": "Silver Line SL1",
             "route_type": 3,
             "color": "7C878E",
+            "agency_url": null
+          },
+          "type": "transit"
+        },
+        {
+          "originLat": 42.364612,
+          "originLon": -71.0208619,
+          "destLat": 42.365164,
+          "destLon": -71.021895,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -71.0208619,
+                42.364612
+              ],
+              [
+                -71.021895,
+                42.365164
+              ]
+            ]
+          },
+          "originTime": 27960,
+          "destTime": 28038,
+          "originStopId": "baseline:17091",
+          "originStopName": "Terminal A",
+          "destStopId": "baseline:Logan-A",
+          "destStopName": "Logan Airport Terminal A",
+          "cumulativeFare": 225,
+          "transferAllowance": {
+            "value": 225,
+            "number": 2147483647,
+            "expirationTime": 32455,
+            "transferRuleGroup": "SUBWAY",
+            "behindGates": false,
+            "enteredSubwayForFree": false,
+            "type": "BostonTransferAllowance"
+          },
+          "type": "transfer"
+        },
+        {
+          "originLat": 42.365164,
+          "originLon": -71.021895,
+          "destLat": 42.366678,
+          "destLon": -71.0174,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -71.021895,
+                42.365164
+              ],
+              [
+                -71.018648,
+                42.361302
+              ],
+              [
+                -71.018648,
+                42.361302
+              ],
+              [
+                -71.0174,
+                42.366678
+              ]
+            ]
+          },
+          "originTime": 28135,
+          "destTime": 28375,
+          "originStopId": "baseline:Logan-A",
+          "originStopName": "Logan Airport Terminal A",
+          "destStopId": "baseline:Logan-C",
+          "destStopName": "Logan Airport Terminal C",
+          "cumulativeFare": 225,
+          "transferAllowance": {
+            "value": 225,
+            "number": 2147483647,
+            "expirationTime": 32455,
+            "transferRuleGroup": "SUBWAY",
+            "behindGates": false,
+            "enteredSubwayForFree": false,
+            "type": "BostonTransferAllowance"
+          },
+          "route": {
+            "agency_id": "2",
+            "agency_name": "Massport",
+            "route_id": "Logan-66",
+            "route_short_name": "Shuttle",
+            "route_long_name": "Massport Subway / Ferry Terminal Shuttle (66)",
+            "route_type": 3,
+            "color": null,
             "agency_url": null
           },
           "type": "transit"
@@ -3070,11 +3160,11 @@
       ]
     }
   ],
-  "computeTimeMillis": 564,
+  "computeTimeMillis": 342,
   "backendVersion": {
     "version": "UNKNOWN",
     "commit": "UNKNOWN",
     "branch": "UNKNOWN"
   },
-  "generationTime": "2020-11-17T15:16:12.644392"
+  "generationTime": "2020-11-24T16:42:10.721616"
 }

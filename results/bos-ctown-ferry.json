@@ -1,1 +1,181 @@
-{"request":{"fromLat":42.35955869412193,"fromLon":-71.04995348441692,"toLat":42.37312974073377,"toLon":-71.0537353420731,"fromTime":58800,"toTime":58860,"walkSpeed":1.3888888,"bikeSpeed":4.1666665,"bikeTrafficStress":4,"carSpeed":20,"streetTime":90,"maxWalkTime":20,"maxBikeTime":20,"maxCarTime":45,"minBikeTime":10,"minCarTime":10,"date":"2018-07-18","limit":0,"accessModes":"WALK","egressModes":"WALK","directModes":"WALK","transitModes":"FERRY","suboptimalMinutes":5,"maxTripDurationMinutes":120,"maxRides":4,"scenario":null,"scenarioId":null,"zoneId":"Z","wheelchair":false,"maxFare":200000,"inRoutingFareCalculator":{"type":"boston","gtfsFares":null},"monteCarloDraws":1},"trips":[{"durationSeconds":1184,"departureTime":58855,"fare":350,"legs":[{"originLat":42.3600179,"originLon":-71.050247,"destLat":42.373334,"destLon":-71.05416,"geom":{"type":"LineString","coordinates":[[-71.05024012843829,42.3596832836069],[-71.0500216,42.3596915],[-71.0487181,42.3598917],[-71.0481039,42.3599432],[-71.0471785,42.3600106],[-71.0469103,42.3601136],[-71.0467494,42.360296],[-71.0466528,42.3604783],[-71.0461271,42.3623889],[-71.0460091,42.3632054],[-71.0459554,42.3639902],[-71.0459769,42.3644896],[-71.0460734,42.3651238],[-71.0462236,42.3656708],[-71.0464275,42.3661702],[-71.0466957,42.3666617],[-71.047039,42.3670739],[-71.0473716,42.3674147],[-71.0479617,42.3679696],[-71.050837,42.3708311],[-71.0520494,42.3721548],[-71.0527039,42.372892]]},"originTime":59400,"destTime":60000,"originStopId":"baseline:Boat-Long","originStopName":"Boston (Long Wharf)","destStopId":"baseline:Boat-Charlestown","destStopName":"Charlestown","cumulativeFare":350,"transferAllowance":{"value":0,"number":0,"expirationTime":0,"transferRuleGroup":"NONE","behindGates":false,"enteredSubwayForFree":false,"type":"BostonTransferAllowance"},"route":{"agency_id":"1","agency_name":"MBTA","route_id":"Boat-F4","route_short_name":null,"route_long_name":"Charlestown Ferry","route_type":4,"color":"008EAA","agency_url":null},"type":"transit"}]}],"computeTimeMillis":5,"backendVersion":{"version":"UNKNOWN","commit":"UNKNOWN","branch":"UNKNOWN"},"generationTime":"2020-11-19T21:09:32.116696"}
+{
+  "request": {
+    "fromLat": 42.35955869412193,
+    "fromLon": -71.04995348441692,
+    "toLat": 42.37312974073377,
+    "toLon": -71.0537353420731,
+    "fromTime": 58800,
+    "toTime": 58860,
+    "walkSpeed": 1.3888888,
+    "bikeSpeed": 4.1666665,
+    "bikeTrafficStress": 4,
+    "carSpeed": 20.0,
+    "streetTime": 90,
+    "maxWalkTime": 20,
+    "maxBikeTime": 20,
+    "maxCarTime": 45,
+    "minBikeTime": 10,
+    "minCarTime": 10,
+    "date": "2018-07-18",
+    "limit": 0,
+    "accessModes": "WALK",
+    "egressModes": "WALK",
+    "directModes": "WALK",
+    "transitModes": "FERRY",
+    "suboptimalMinutes": 5,
+    "maxTripDurationMinutes": 120,
+    "maxRides": 4,
+    "scenario": null,
+    "scenarioId": null,
+    "zoneId": "Z",
+    "wheelchair": false,
+    "maxFare": 200000,
+    "inRoutingFareCalculator": {
+      "type": "boston",
+      "gtfsFares": null
+    },
+    "monteCarloDraws": 1
+  },
+  "trips": [
+    {
+      "durationSeconds": 1184,
+      "departureTime": 58855,
+      "fare": 350,
+      "legs": [
+        {
+          "originLat": 42.3600179,
+          "originLon": -71.050247,
+          "destLat": 42.373334,
+          "destLon": -71.05416,
+          "geom": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -71.05024012843829,
+                42.3596832836069
+              ],
+              [
+                -71.0500216,
+                42.3596915
+              ],
+              [
+                -71.0487181,
+                42.3598917
+              ],
+              [
+                -71.0481039,
+                42.3599432
+              ],
+              [
+                -71.0471785,
+                42.3600106
+              ],
+              [
+                -71.0469103,
+                42.3601136
+              ],
+              [
+                -71.0467494,
+                42.360296
+              ],
+              [
+                -71.0466528,
+                42.3604783
+              ],
+              [
+                -71.0461271,
+                42.3623889
+              ],
+              [
+                -71.0460091,
+                42.3632054
+              ],
+              [
+                -71.0459554,
+                42.3639902
+              ],
+              [
+                -71.0459769,
+                42.3644896
+              ],
+              [
+                -71.0460734,
+                42.3651238
+              ],
+              [
+                -71.0462236,
+                42.3656708
+              ],
+              [
+                -71.0464275,
+                42.3661702
+              ],
+              [
+                -71.0466957,
+                42.3666617
+              ],
+              [
+                -71.047039,
+                42.3670739
+              ],
+              [
+                -71.0473716,
+                42.3674147
+              ],
+              [
+                -71.0479617,
+                42.3679696
+              ],
+              [
+                -71.050837,
+                42.3708311
+              ],
+              [
+                -71.0520494,
+                42.3721548
+              ],
+              [
+                -71.0527039,
+                42.372892
+              ]
+            ]
+          },
+          "originTime": 59400,
+          "destTime": 60000,
+          "originStopId": "baseline:Boat-Long",
+          "originStopName": "Boston (Long Wharf)",
+          "destStopId": "baseline:Boat-Charlestown",
+          "destStopName": "Charlestown",
+          "cumulativeFare": 350,
+          "transferAllowance": {
+            "value": 0,
+            "number": 0,
+            "expirationTime": 0,
+            "transferRuleGroup": "NONE",
+            "behindGates": false,
+            "enteredSubwayForFree": false,
+            "type": "BostonTransferAllowance"
+          },
+          "route": {
+            "agency_id": "1",
+            "agency_name": "MBTA",
+            "route_id": "Boat-F4",
+            "route_short_name": null,
+            "route_long_name": "Charlestown Ferry",
+            "route_type": 4,
+            "color": "008EAA",
+            "agency_url": null
+          },
+          "type": "transit"
+        }
+      ]
+    }
+  ],
+  "computeTimeMillis": 0,
+  "backendVersion": {
+    "version": "UNKNOWN",
+    "commit": "UNKNOWN",
+    "branch": "UNKNOWN"
+  },
+  "generationTime": "2020-11-24T16:42:02.753928"
+}
