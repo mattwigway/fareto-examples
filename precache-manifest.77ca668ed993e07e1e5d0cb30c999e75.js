@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d0e17fde4e94c153394ce3c4b462f6a1",
+    "revision": "19983afaddbb99a2d08e30dbea60dc26",
     "url": "/fareto-examples/index.html"
   },
   {
-    "revision": "039b0f2257fdeae78933",
+    "revision": "d799962a74b8a9c4d34f",
     "url": "/fareto-examples/static/css/main.1e9ef4df.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fareto-examples/static/js/2.6868ec25.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "039b0f2257fdeae78933",
-    "url": "/fareto-examples/static/js/main.8ef9ca60.chunk.js"
+    "revision": "d799962a74b8a9c4d34f",
+    "url": "/fareto-examples/static/js/main.e0d74c1d.chunk.js"
   },
   {
     "revision": "3750fa18557d1c6ced62",

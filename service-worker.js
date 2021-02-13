@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/fareto-examples/precache-manifest.d44addebaa724b4327dcb3aab2a4d020.js"
+  "/fareto-examples/precache-manifest.77ca668ed993e07e1e5d0cb30c999e75.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/fareto-examples/static/css/main.1e9ef4df.chunk.css",
-    "main.js": "/fareto-examples/static/js/main.8ef9ca60.chunk.js",
-    "main.js.map": "/fareto-examples/static/js/main.8ef9ca60.chunk.js.map",
+    "main.js": "/fareto-examples/static/js/main.e0d74c1d.chunk.js",
+    "main.js.map": "/fareto-examples/static/js/main.e0d74c1d.chunk.js.map",
     "runtime-main.js": "/fareto-examples/static/js/runtime-main.ed99c799.js",
     "runtime-main.js.map": "/fareto-examples/static/js/runtime-main.ed99c799.js.map",
     "static/js/2.6868ec25.chunk.js": "/fareto-examples/static/js/2.6868ec25.chunk.js",
     "static/js/2.6868ec25.chunk.js.map": "/fareto-examples/static/js/2.6868ec25.chunk.js.map",
     "index.html": "/fareto-examples/index.html",
-    "precache-manifest.d44addebaa724b4327dcb3aab2a4d020.js": "/fareto-examples/precache-manifest.d44addebaa724b4327dcb3aab2a4d020.js",
+    "precache-manifest.77ca668ed993e07e1e5d0cb30c999e75.js": "/fareto-examples/precache-manifest.77ca668ed993e07e1e5d0cb30c999e75.js",
     "service-worker.js": "/fareto-examples/service-worker.js",
     "static/css/main.1e9ef4df.chunk.css.map": "/fareto-examples/static/css/main.1e9ef4df.chunk.css.map",
     "static/js/2.6868ec25.chunk.js.LICENSE.txt": "/fareto-examples/static/js/2.6868ec25.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.ed99c799.js",
     "static/js/2.6868ec25.chunk.js",
     "static/css/main.1e9ef4df.chunk.css",
-    "static/js/main.8ef9ca60.chunk.js"
+    "static/js/main.e0d74c1d.chunk.js"
   ]
 }
