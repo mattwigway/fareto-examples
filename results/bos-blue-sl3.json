@@ -4278,8 +4278,8 @@
               ]
             ]
           },
-          "originTime": 28886,
-          "destTime": 29606,
+          "originTime": 28944,
+          "destTime": 29664,
           "originStopId": "baseline:Logan-Subway",
           "originStopName": "Airport Subway Station",
           "destStopId": "baseline:Logan-E",
@@ -4324,8 +4324,8 @@
               ]
             ]
           },
-          "originTime": 29606,
-          "destTime": 29669,
+          "originTime": 29664,
+          "destTime": 29727,
           "originStopId": "baseline:Logan-E",
           "originStopName": "Logan Airport Terminal E",
           "destStopId": "baseline:17095",
@@ -6281,10 +6281,10 @@
           "destStopName": "Seaport Blvd @ Seaport Hotel",
           "cumulativeFare": 400,
           "transferAllowance": {
-            "value": 225,
+            "value": 400,
             "number": 1,
             "expirationTime": 32455,
-            "transferRuleGroup": "EXPRESS_BUS",
+            "transferRuleGroup": "INNER_EXPRESS_BUS",
             "behindGates": false,
             "enteredSubwayForFree": false,
             "type": "BostonTransferAllowance"
@@ -6304,11 +6304,11 @@
       ]
     }
   ],
-  "computeTimeMillis": 373,
+  "computeTimeMillis": 3663,
   "backendVersion": {
-    "version": "UNKNOWN",
-    "commit": "UNKNOWN",
-    "branch": "UNKNOWN"
+    "version": "v6.0.0-68-ga461b01.dirty",
+    "commit": "a461b01f5faced5ba4dede34450ce698a10d099b",
+    "branch": "matt/boston-fare-corrections"
   },
-  "generationTime": "2020-11-24T16:42:00.402535"
+  "generationTime": "2021-08-17T17:51:28.126321"
 }

@@ -960,10 +960,10 @@
           "destStopName": "Stuart St @ Dartmouth St",
           "cumulativeFare": 400,
           "transferAllowance": {
-            "value": 225,
+            "value": 400,
             "number": 1,
             "expirationTime": 35155,
-            "transferRuleGroup": "EXPRESS_BUS",
+            "transferRuleGroup": "INNER_EXPRESS_BUS",
             "behindGates": false,
             "enteredSubwayForFree": false,
             "type": "BostonTransferAllowance"
@@ -1006,10 +1006,10 @@
           "destStopName": "Back Bay",
           "cumulativeFare": 400,
           "transferAllowance": {
-            "value": 225,
+            "value": 400,
             "number": 1,
             "expirationTime": 35155,
-            "transferRuleGroup": "EXPRESS_BUS",
+            "transferRuleGroup": "INNER_EXPRESS_BUS",
             "behindGates": false,
             "enteredSubwayForFree": false,
             "type": "BostonTransferAllowance"
@@ -2710,10 +2710,10 @@
           "destStopName": "Stoughton",
           "cumulativeFare": 1225,
           "transferAllowance": {
-            "value": 225,
+            "value": 400,
             "number": 1,
             "expirationTime": 35155,
-            "transferRuleGroup": "EXPRESS_BUS",
+            "transferRuleGroup": "INNER_EXPRESS_BUS",
             "behindGates": false,
             "enteredSubwayForFree": false,
             "type": "BostonTransferAllowance"
@@ -2733,11 +2733,11 @@
       ]
     }
   ],
-  "computeTimeMillis": 228,
+  "computeTimeMillis": 1604,
   "backendVersion": {
-    "version": "UNKNOWN",
-    "commit": "UNKNOWN",
-    "branch": "UNKNOWN"
+    "version": "v6.0.0-68-ga461b01.dirty",
+    "commit": "a461b01f5faced5ba4dede34450ce698a10d099b",
+    "branch": "matt/boston-fare-corrections"
   },
-  "generationTime": "2020-11-24T16:42:13.834181"
+  "generationTime": "2021-08-17T17:56:14.893695"
 }

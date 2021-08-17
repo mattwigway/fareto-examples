@@ -1724,10 +1724,10 @@
           "destStopName": "Haymarket",
           "cumulativeFare": 400,
           "transferAllowance": {
-            "value": 225,
+            "value": 400,
             "number": 1,
             "expirationTime": 32455,
-            "transferRuleGroup": "EXPRESS_BUS",
+            "transferRuleGroup": "INNER_EXPRESS_BUS",
             "behindGates": false,
             "enteredSubwayForFree": false,
             "type": "BostonTransferAllowance"
@@ -10109,11 +10109,11 @@
       ]
     }
   ],
-  "computeTimeMillis": 270,
+  "computeTimeMillis": 3094,
   "backendVersion": {
-    "version": "UNKNOWN",
-    "commit": "UNKNOWN",
-    "branch": "UNKNOWN"
+    "version": "v6.0.0-68-ga461b01.dirty",
+    "commit": "a461b01f5faced5ba4dede34450ce698a10d099b",
+    "branch": "matt/boston-fare-corrections"
   },
-  "generationTime": "2020-11-24T16:41:58.887374"
+  "generationTime": "2021-08-17T17:51:16.364322"
 }

@@ -38,7 +38,7 @@
   },
   "trips": [
     {
-      "durationSeconds": 1346,
+      "durationSeconds": 1295,
       "departureTime": 58855,
       "fare": 0,
       "legs": [
@@ -68,8 +68,8 @@
               ]
             ]
           },
-          "originTime": 59310,
-          "destTime": 59790,
+          "originTime": 59259,
+          "destTime": 59739,
           "originStopId": "baseline:Logan-A",
           "originStopName": "Logan Airport Terminal A",
           "destStopId": "baseline:Logan-Subway",
@@ -99,11 +99,11 @@
       ]
     }
   ],
-  "computeTimeMillis": 204,
+  "computeTimeMillis": 1285,
   "backendVersion": {
-    "version": "UNKNOWN",
-    "commit": "UNKNOWN",
-    "branch": "UNKNOWN"
+    "version": "v6.0.0-68-ga461b01.dirty",
+    "commit": "a461b01f5faced5ba4dede34450ce698a10d099b",
+    "branch": "matt/boston-fare-corrections"
   },
-  "generationTime": "2020-11-24T16:42:08.599909"
+  "generationTime": "2021-08-17T17:53:48.483151"
 }

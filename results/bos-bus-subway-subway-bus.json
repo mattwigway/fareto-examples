@@ -8610,10 +8610,10 @@
           "destStopName": "Wesley St @ Lynn St",
           "cumulativeFare": 625,
           "transferAllowance": {
-            "value": 225,
+            "value": 400,
             "number": 1,
             "expirationTime": 32455,
-            "transferRuleGroup": "EXPRESS_BUS",
+            "transferRuleGroup": "INNER_EXPRESS_BUS",
             "behindGates": false,
             "enteredSubwayForFree": false,
             "type": "BostonTransferAllowance"
@@ -9583,10 +9583,10 @@
           "destStopName": "Lincoln St @ Beach St",
           "cumulativeFare": 400,
           "transferAllowance": {
-            "value": 225,
+            "value": 400,
             "number": 1,
             "expirationTime": 32455,
-            "transferRuleGroup": "EXPRESS_BUS",
+            "transferRuleGroup": "INNER_EXPRESS_BUS",
             "behindGates": false,
             "enteredSubwayForFree": false,
             "type": "BostonTransferAllowance"
@@ -9629,10 +9629,10 @@
           "destStopName": "Chinatown",
           "cumulativeFare": 400,
           "transferAllowance": {
-            "value": 225,
+            "value": 400,
             "number": 1,
             "expirationTime": 32455,
-            "transferRuleGroup": "EXPRESS_BUS",
+            "transferRuleGroup": "INNER_EXPRESS_BUS",
             "behindGates": false,
             "enteredSubwayForFree": false,
             "type": "BostonTransferAllowance"
@@ -11002,11 +11002,11 @@
       ]
     }
   ],
-  "computeTimeMillis": 266,
+  "computeTimeMillis": 3141,
   "backendVersion": {
-    "version": "UNKNOWN",
-    "commit": "UNKNOWN",
-    "branch": "UNKNOWN"
+    "version": "v6.0.0-68-ga461b01.dirty",
+    "commit": "a461b01f5faced5ba4dede34450ce698a10d099b",
+    "branch": "matt/boston-fare-corrections"
   },
-  "generationTime": "2020-11-24T16:42:02.213486"
+  "generationTime": "2021-08-17T17:51:46.76233"
 }

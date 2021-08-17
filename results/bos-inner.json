@@ -992,10 +992,10 @@
           "destStopName": "Saint James Ave @ Dartmouth St",
           "cumulativeFare": 400,
           "transferAllowance": {
-            "value": 225,
+            "value": 400,
             "number": 1,
             "expirationTime": 69955,
-            "transferRuleGroup": "EXPRESS_BUS",
+            "transferRuleGroup": "INNER_EXPRESS_BUS",
             "behindGates": false,
             "enteredSubwayForFree": false,
             "type": "BostonTransferAllowance"
@@ -4207,11 +4207,11 @@
       ]
     }
   ],
-  "computeTimeMillis": 300,
+  "computeTimeMillis": 2224,
   "backendVersion": {
-    "version": "UNKNOWN",
-    "commit": "UNKNOWN",
-    "branch": "UNKNOWN"
+    "version": "v6.0.0-68-ga461b01.dirty",
+    "commit": "a461b01f5faced5ba4dede34450ce698a10d099b",
+    "branch": "matt/boston-fare-corrections"
   },
-  "generationTime": "2020-11-24T16:42:06.991674"
+  "generationTime": "2021-08-17T17:53:39.432296"
 }

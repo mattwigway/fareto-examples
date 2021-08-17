@@ -293,8 +293,8 @@
               ]
             ]
           },
-          "originTime": 26883,
-          "destTime": 27843,
+          "originTime": 26570,
+          "destTime": 27530,
           "originStopId": "baseline:Logan-Dock",
           "originStopName": "Logan Aiport Ferry Terminal",
           "destStopId": "baseline:Logan-Subway",
@@ -339,8 +339,8 @@
               ]
             ]
           },
-          "originTime": 27843,
-          "destTime": 28081,
+          "originTime": 27530,
+          "destTime": 27768,
           "originStopId": "baseline:Logan-Subway",
           "originStopName": "Airport Subway Station",
           "destStopId": "baseline:70047",
@@ -511,8 +511,8 @@
               ]
             ]
           },
-          "originTime": 28260,
-          "destTime": 28500,
+          "originTime": 28020,
+          "destTime": 28260,
           "originStopId": "baseline:70047",
           "originStopName": "Airport",
           "destStopId": "baseline:70043",
@@ -557,8 +557,8 @@
               ]
             ]
           },
-          "originTime": 28500,
-          "destTime": 28609,
+          "originTime": 28260,
+          "destTime": 28369,
           "originStopId": "baseline:70043",
           "originStopName": "Aquarium",
           "destStopId": "baseline:Boat-Long",
@@ -2407,11 +2407,11 @@
       ]
     }
   ],
-  "computeTimeMillis": 157,
+  "computeTimeMillis": 1189,
   "backendVersion": {
-    "version": "UNKNOWN",
-    "commit": "UNKNOWN",
-    "branch": "UNKNOWN"
+    "version": "v6.0.0-68-ga461b01.dirty",
+    "commit": "a461b01f5faced5ba4dede34450ce698a10d099b",
+    "branch": "matt/boston-fare-corrections"
   },
-  "generationTime": "2020-11-24T16:42:08.337461"
+  "generationTime": "2021-08-17T17:53:47.17831"
 }
